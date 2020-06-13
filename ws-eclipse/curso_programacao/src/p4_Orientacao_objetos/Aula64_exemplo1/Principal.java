@@ -1,13 +1,14 @@
-package p4_Orientacao_objetos.Aula63_exemplo1;
+package p4_Orientacao_objetos.Aula64_exemplo1;
 
 import java.util.Locale;
 import java.util.Scanner;
 
+import p4_Orientacao_objetos.Aula64_exemplo1.Triangle;
+
 public class Principal {
 
 	public static void main(String[] args) {
-		
-		double pX, pY, areaX, areaY;
+
 		Triangle x = new Triangle();
 		Triangle y = new Triangle();
 		
@@ -24,11 +25,8 @@ public class Principal {
 		y.b = sc.nextDouble();
 		y.c = sc.nextDouble();
 		
-		pX = (x.a + x.b + x.c) / 2;
-		areaX = Math.sqrt(pX * (pX-x.a) * (pX-x.b) * (pX-x.c));
-		
-		pY = (y.a + y.b + y.c) / 2;
-		areaY = Math.sqrt(pY * (pY-y.a) * (pY-y.b) * (pY-y.c));
+		double areaX = x.area();
+		double areaY = y.area();
 		
 		System.out.printf("A área do trinângulo X é %.4f\n", areaX);
 		System.out.printf("A área do trinângulo Y é %.4f\n", areaY);

@@ -1,4 +1,4 @@
-package p4_Orientacao_objetos.Aula63_exemplo1.entities;
+package p4_Orientacao_objetos.Aula63_exemplo1;
 
 public class Triangle {
 	public double a;
