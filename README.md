@@ -844,3 +844,13 @@ do {
 	* Funções podem ou não retornar uma saída
 * Em orientação a objeto, funções em classes recebem o nome de "**métodos**"
 
+## Seção 8: Introdução à Programação Orientada a Objetos
+
+### 60. Visão geral do capítulo
+
+### 61. Material de apoio do capítulo
+
+[Classes, atributos, métodos e membros estáticos](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%2061%20-%20Classes%2C%20atributos%2C%20m%C3%A9todos%20e%20membros%20est%C3%A1ticos.pdf)
+
+### 62. Resolvendo um problema sem orientação a objetos
+
