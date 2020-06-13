@@ -23,6 +23,8 @@ public class Aula59_exemplo1 {
 		
 		mostraResultado(maior);
 		
+		sc.close();
+		
 	}
 	
 	public static int retornaMaior(int num1, int num2, int num3) {

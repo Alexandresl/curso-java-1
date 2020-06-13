@@ -852,3 +852,7 @@ do {
 
 [Classes, atributos, métodos e membros estáticos](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%2061%20-%20Classes%2C%20atributos%2C%20m%C3%A9todos%20e%20membros%20est%C3%A1ticos.pdf)
 
+### 62. Resolvendo um problema sem orientação a objetos
+
+
+
