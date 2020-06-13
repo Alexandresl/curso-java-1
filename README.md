@@ -855,3 +855,21 @@ do {
 ### 62. Resolvendo um problema sem orientação a objetos
 
 ### 63. Criando uma classe com três atributos para representar melhor o trinângulo
+
+#### Classe - É a definição do tipo
+
+* É um tipo estruturado que pode conter (membros)
+	* Atributos (dados / campos)
+	* Métodos (funções / operações)
+* A classe também pode prover muitos outros recursos, tais como:
+	* Construtores
+	* Sobrecarga
+	* Encapsulamento
+	* Herança
+	* Polimorfismo
+* Exemplos:
+	* Entidades: Produtos, Cliente, Triângulo
+	* Serviços: ProdutoService, ClienteService, EmailService, StorageService
+	* Controladores: ProdutoController, ClienteController
+	* Utilitários: Calculadora, Compactador
+	* Outros (views, repositórios, gerenciadores, etc.)
