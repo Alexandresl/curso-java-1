@@ -890,3 +890,6 @@ do {
 	* **equals** - compara se o objeto é igual a outro
 	* **hashCode** - retorna um código hash do objeto
 	* **toString** - converte o objeto para string
+
+### 67. Finalizando o programa
+
