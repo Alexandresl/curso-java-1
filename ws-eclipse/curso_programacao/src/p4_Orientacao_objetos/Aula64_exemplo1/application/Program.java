@@ -1,14 +1,13 @@
-package p4_Orientacao_objetos.Aula64_exemplo1;
+package p4_Orientacao_objetos.Aula64_exemplo1.application;
 
 import java.util.Locale;
 import java.util.Scanner;
+import p4_Orientacao_objetos.Aula64_exemplo1.entities.Triangle;
 
-import p4_Orientacao_objetos.Aula64_exemplo1.Triangle;
-
-public class Principal {
+public class Program {
 
 	public static void main(String[] args) {
-
+		
 		Triangle x = new Triangle();
 		Triangle y = new Triangle();
 		
@@ -24,6 +23,7 @@ public class Principal {
 		y.a = sc.nextDouble();
 		y.b = sc.nextDouble();
 		y.c = sc.nextDouble();
+		
 		
 		double areaX = x.area();
 		double areaY = y.area();

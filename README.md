@@ -879,3 +879,7 @@ do {
 	* Quais são os benefícios de se calcular a área de um triângulo por meio de um **método** dentro da **classe** Triangle?
 		* **Reaproveitamento de código**: nós eliminamos o código repetido (cálculo das áreas dos triângulos x e y) no programa principal.
 		* **Delegação de responsabilidades**: quem deve ser responsável por saber como calcular a área de um triângulo é o próprio triângulo. A lógica do cálculo da área não deve estar em outro lugar.
+
+	### 65. Começando a resolver um segundo problema exemplo
+
+	
