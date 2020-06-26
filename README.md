@@ -853,3 +853,43 @@ do {
 [Classes, atributos, métodos e membros estáticos](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%2061%20-%20Classes%2C%20atributos%2C%20m%C3%A9todos%20e%20membros%20est%C3%A1ticos.pdf)
 
 ### 62. Resolvendo um problema sem orientação a objetos
+
+### 63. Criando uma classe com três atributos para representar melhor o trinângulo
+
+#### Classe - É a definição do tipo
+
+* É um tipo estruturado que pode conter (membros)
+	* Atributos (dados / campos)
+	* Métodos (funções / operações)
+* A classe também pode prover muitos outros recursos, tais como:
+	* Construtores
+	* Sobrecarga
+	* Encapsulamento
+	* Herança
+	* Polimorfismo
+* Exemplos:
+	* Entidades: Produtos, Cliente, Triângulo
+	* Serviços: ProdutoService, ClienteService, EmailService, StorageService
+	* Controladores: ProdutoController, ClienteController
+	* Utilitários: Calculadora, Compactador
+	* Outros (views, repositórios, gerenciadores, etc.)
+
+### 64. Criando um método para obtermos os benefícios de reaproveitamento e delegação
+
+	* Quais são os benefícios de se calcular a área de um triângulo por meio de um **método** dentro da **classe** Triangle?
+		* **Reaproveitamento de código**: nós eliminamos o código repetido (cálculo das áreas dos triângulos x e y) no programa principal.
+		* **Delegação de responsabilidades**: quem deve ser responsável por saber como calcular a área de um triângulo é o próprio triângulo. A lógica do cálculo da área não deve estar em outro lugar.
+
+### 65. Começando a resolver um segundo problema exemplo
+
+### 66. Object e toString
+
+* Toda a classe em Java é uma subclasse de Object
+* Object possui os seguintes métodos:
+	* **getClass** - retorna o tipo do objeto
+	* **equals** - compara se o objeto é igual a outro
+	* **hashCode** - retorna um código hash do objeto
+	* **toString** - converte o objeto para string
+
+### 67. Finalizando o programa
+
