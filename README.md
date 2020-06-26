@@ -882,3 +882,14 @@ do {
 
 ### 65. Começando a resolver um segundo problema exemplo
 
+### 66. Object e toString
+
+* Toda a classe em Java é uma subclasse de Object
+* Object possui os seguintes métodos:
+	* **getClass** - retorna o tipo do objeto
+	* **equals** - compara se o objeto é igual a outro
+	* **hashCode** - retorna um código hash do objeto
+	* **toString** - converte o objeto para string
+
+### 67. Finalizando o programa
+
