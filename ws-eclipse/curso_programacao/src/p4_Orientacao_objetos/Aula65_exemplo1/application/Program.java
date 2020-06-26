@@ -20,35 +20,17 @@ public class Program {
 		System.out.print("Quantity in stock: ");
 		prod.quantity = sc.nextInt();
 		
-		System.out.printf(
-				"\nProduct data: %s, $ %.2f, %d units, Total: $ %.2f", 
-				prod.name, 
-				prod.price, 
-				prod.quantity, 
-				prod.totalValueInStock()
-				);
+		System.out.print(prod);
 		
 		System.out.print("\n\nEnter the number of products to be added in stock: ");
 		prod.addProducts(sc.nextInt());
 		
-		System.out.printf(
-				"\nProduct data: %s, $ %.2f, %d units, Total: $ %.2f", 
-				prod.name, 
-				prod.price, 
-				prod.quantity, 
-				prod.totalValueInStock()
-				);
+		System.out.print(prod);
 		
 		System.out.print("\n\nEnter the number of products to be removed from stock: ");
 		prod.removeProducts(sc.nextInt());
 		
-		System.out.printf(
-				"\nProduct data: %s, $ %.2f, %d units, Total: $ %.2f", 
-				prod.name, 
-				prod.price, 
-				prod.quantity, 
-				prod.totalValueInStock()
-				);
+		System.out.print(prod);
 		
 		sc.close();
 	}

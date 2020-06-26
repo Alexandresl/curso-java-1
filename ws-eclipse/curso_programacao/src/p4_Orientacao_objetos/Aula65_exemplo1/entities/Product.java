@@ -18,6 +18,15 @@ public class Product {
 		return this.quantity -= quantity;
 	}
 	
-	
+	public String toString() {
+		return "\nProduct data: " + 
+					name + 
+					", $ " + 
+					String.format("%.2f", price) + 
+					", " + 
+					quantity + 
+					" units, Total: $ " + 
+					String.format("%.2f", totalValueInStock());			
+	}
 	
 }
