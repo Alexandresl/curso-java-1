@@ -1,8 +1,7 @@
-package p4_Orientacao_objetos.Aula63_exemplo1;
+package p4_Orientacao_objetos.Aula63_exemplo1.application;
 
 import java.util.Locale;
 import java.util.Scanner;
-
 import p4_Orientacao_objetos.Aula63_exemplo1.entities.Triangle;
 
 public class Principal {
