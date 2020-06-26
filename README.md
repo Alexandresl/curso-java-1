@@ -893,3 +893,5 @@ do {
 
 ### 67. Finalizando o programa
 
+### 68. Exercícios de fixação
+
