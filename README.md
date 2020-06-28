@@ -904,3 +904,6 @@ do {
 	* Classes utilitárias
 	* Declaração de constantes
 * Uma classe que possui somente membros estáticos, pode ser uma classe estática também. Esta classe não poderá ser instanciada.
+
+### 70. Membros estáticos - Parte 2
+
