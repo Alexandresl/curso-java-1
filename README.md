@@ -895,3 +895,12 @@ do {
 
 ### 68. Exercícios de fixação
 
+### 69. Membros estáticos - Parte 1
+
+* Também chamados membros de classe
+	* Em oposição a membros de instância
+* São membros que fazem sentido independentemente de objetos. Não precisam de objeto para serem chamados. São chamados a partir do próprio nome da classe.
+* Aplicaçõpes comuns:
+	* Classes utilitárias
+	* Declaração de constantes
+* Uma classe que possui somente membros estáticos, pode ser uma classe estática também. Esta classe não poderá ser instanciada.
