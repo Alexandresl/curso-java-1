@@ -913,5 +913,7 @@ do {
 
 ### 72. Visão geral do capítulo
 
+### 73. Material de apoio do capítulo
 
+[Construtores, this, sobrecarga e encapsulamento](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%2073%20-%20Construtores%2C%20palavra%20this%2C%20sobrecarga%20e%20encapsulamento.pdf)
 
