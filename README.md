@@ -909,3 +909,9 @@ do {
 
 ### 71. Exercício de fixação
 
+## Seção 9: Construtores, palavra this, sobrecarga, encapsulamento
+
+### 72. Visão geral do capítulo
+
+
+
