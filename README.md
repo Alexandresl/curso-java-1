@@ -907,3 +907,5 @@ do {
 
 ### 70. Membros estáticos - Parte 2
 
+### 71. Exercício de fixação
+
