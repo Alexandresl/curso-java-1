@@ -926,3 +926,4 @@ do {
 * Se um construtor customizado não for especificado, a classe disponibiliza o construtor padrão:
 	* *Product p = new Product();*
 * É possível especificar mais de um construtor na mesma classe (*sobrecarga*)
+
