@@ -917,3 +917,12 @@ do {
 
 [Construtores, this, sobrecarga e encapsulamento](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%2073%20-%20Construtores%2C%20palavra%20this%2C%20sobrecarga%20e%20encapsulamento.pdf)
 
+### 74. Construtores
+
+* É uma operação especial da classe, que executa no momento da instanciação do objeto
+* Usos comuns:
+	* Iniciar valores dos atributos
+	* Permitir ou obrigar que o objeto receba dados / dependências no momento de sua instanciação (injeção de dependência)
+* Se um construtor customizado não for especificado, a classe disponibiliza o construtor padrão:
+	* *Product p = new Product();*
+* É possível especificar mais de um construtor na mesma classe (*sobrecarga*)
