@@ -927,3 +927,10 @@ do {
 	* *Product p = new Product();*
 * É possível especificar mais de um construtor na mesma classe (*sobrecarga*)
 
+### 75. Palavra this
+
+* É uma referência para o próprio objeto.
+* Usos comuns:
+	* Diferenciar atributos de vasriáveis locais.
+	* Passar o próprio objeto como argumento na chamada de um método ou construtor.
+
