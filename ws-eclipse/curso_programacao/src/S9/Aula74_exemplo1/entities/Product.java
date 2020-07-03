@@ -1,4 +1,4 @@
-package S9.Aula74_exemplo1.entity;
+package S9.Aula74_exemplo1.entities;
 
 public class Product {
 	public String name;

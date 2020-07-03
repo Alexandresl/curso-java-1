@@ -1,8 +1,9 @@
-package s8.Aula69_exemplo1_v3.application;
+package s8.Aula70_exemplo1_v3.application;
 
 import java.util.Locale;
 import java.util.Scanner;
-import s8.Aula69_exemplo1_v3.util.Calculator;
+
+import s8.Aula70_exemplo1_v3.util.Calculator;
 
 /**
  * Fazer um programa para ler um valor numérico qualquer, e daí

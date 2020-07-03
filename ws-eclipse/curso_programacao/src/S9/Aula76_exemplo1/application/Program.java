@@ -1,14 +1,14 @@
-package S9.Aula74_exemplo1.application;
+package S9.Aula76_exemplo1.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import S9.Aula74_exemplo1.entities.Product;
+import S9.Aula76_exemplo1.entities.Product;
 
 public class Program {
 
 	public static void main(String[] args) {
-		
+
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
@@ -17,10 +17,9 @@ public class Program {
 		String name = sc.next();
 		System.out.print("Price: ");
 		double price = sc.nextDouble();
-		System.out.print("Quantity in stock: ");
-		int quantity = sc.nextInt();
 		
-		Product prod = new Product(name, price, quantity);
+		
+		Product prod = new Product(name, price);
 		
 		System.out.print("\nProducty data: " + prod);
 		

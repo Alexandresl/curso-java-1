@@ -1,4 +1,4 @@
-package s8.Aula69_exemplo1_v3.util;
+package s8.Aula70_exemplo1_v3.util;
 
 public class Calculator {
 	
