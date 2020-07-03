@@ -934,3 +934,7 @@ do {
 	* Diferenciar atributos de vasriáveis locais.
 	* Passar o próprio objeto como argumento na chamada de um método ou construtor.
 
+### 76. Sobrecarga
+
+* É um recurso que uma classe possui de oferecer mais de uma operação com o mesmo nome, porém com diferentes listas de parâmetros.
+* É possível também incluir um construtor padrão.
