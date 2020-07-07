@@ -938,3 +938,8 @@ do {
 
 * É um recurso que uma classe possui de oferecer mais de uma operação com o mesmo nome, porém com diferentes listas de parâmetros.
 * É possível também incluir um construtor padrão.
+
+### 74. Encapsulamento
+
+* É um princípio que consiste em esconder detalhes de implementação de uma classe, expondo apenas operações seguras e que mantenham os objetos em um estado consistencia.
+* Regra de outro: o objeto deve sempre estar em um estado consistente, e a própria classe deve garantir isso.
