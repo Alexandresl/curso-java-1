@@ -939,14 +939,15 @@ do {
 * É um recurso que uma classe possui de oferecer mais de uma operação com o mesmo nome, porém com diferentes listas de parâmetros.
 * É possível também incluir um construtor padrão.
 
-### 74. Encapsulamento
+### 77. Encapsulamento
 
 * É um princípio que consiste em esconder detalhes de implementação de uma classe, expondo apenas operações seguras e que mantenham os objetos em um estado consistente.
 * Regra de outro: o objeto deve sempre estar em um estado consistente, e a própria classe deve garantir isso.
 * Um objeto **NÃO** deve expor nenhum atributo (modificador de acesso private).
 * Os atributos devem ser acessados por meio de métodos *get* e *set*.
 
-### 75. Gerando automaticamente construtores, getters e setters com Eclipse
+### 78. Gerando automaticamente construtores, getters e setters com Eclipse
 
 * Botão direito -> Source -> Generate Constructor using Fields
 * Botão direito -> Source -> Generate Getters and Setters
+
