@@ -946,3 +946,7 @@ do {
 * Um objeto **NÃO** deve expor nenhum atributo (modificador de acesso private).
 * Os atributos devem ser acessados por meio de métodos *get* e *set*.
 
+### 75. Gerando automaticamente construtores, getters e setters com Eclipse
+
+* Botão direito -> Source -> Generate Constructor using Fields
+* Botão direito -> Source -> Generate Getters and Setters
