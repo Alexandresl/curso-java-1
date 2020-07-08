@@ -6,16 +6,15 @@ public class Conta {
 	private String nomeTitular;
 	private double saldo;
 	
-	public Conta(int numeroConta, String nomeTitular, double saldo) {
+	public Conta(int numeroConta, String nomeTitular, double depositoInicial) {
 		this.numeroConta = numeroConta;
 		this.nomeTitular = nomeTitular;
-		this.saldo = saldo;
+		deposito(depositoInicial);
 	}
 
 	public Conta(int numeroConta, String nomeTitular) {
 		this.numeroConta = numeroConta;
 		this.nomeTitular = nomeTitular;
-		this.saldo = 0.00;
 	}
 	
 	public String getNomeTitular() {
@@ -31,11 +30,16 @@ public class Conta {
 	}
 	
 	public void saque(double valor) {
-		this.saldo -= (valor + 5.00);
+		this.saldo -= valor + 5.00;
 	}
 	
 	public String toString() {
-		return "Account " + numeroConta + ", Holder: " + nomeTitular + ", Balance: $ " + String.format("%.2f", saldo);
+		return "Account " 
+					+ numeroConta 
+					+ ", Holder: " 
+					+ nomeTitular 
+					+ ", Balance: $ " 
+					+ String.format("%.2f", saldo);
 	}
 	
 }

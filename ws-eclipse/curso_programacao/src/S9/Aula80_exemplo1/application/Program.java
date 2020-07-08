@@ -59,19 +59,19 @@ public class Program {
 			conta = new Conta(number, hold);
 		}
 		
-		System.out.println("Account data:");
+		System.out.println("\nAccount data:");
 		System.out.println(conta.toString());
 		
-		System.out.print("Enter a deposit value: ");
+		System.out.print("\nEnter a deposit value: ");
 		conta.deposito(sc.nextDouble());
 		
-		System.out.print("Updated account data:");
+		System.out.println("Updated account data:");
 		System.out.println(conta.toString());
 		
-		System.out.print("Enter a withdraw value: ");
+		System.out.print("\nEnter a withdraw value: ");
 		conta.saque(sc.nextDouble());
 		
-		System.out.print("Updated account data:");
+		System.out.println("Updated account data:");
 		System.out.println(conta.toString());
 		
 		sc.close();
