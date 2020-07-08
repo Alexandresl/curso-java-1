@@ -960,3 +960,6 @@ do {
 
 ### 80. Exercício de fixação
 
+### 81. Correção do exercício de fixação - Parte 1
+
+### 82. Correção do exercício de fixação - Parte 2
