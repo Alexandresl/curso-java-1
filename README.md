@@ -963,3 +963,11 @@ do {
 ### 81. Correção do exercício de fixação - Parte 1
 
 ### 82. Correção do exercício de fixação - Parte 2
+
+## Seção 10: Comportamento de memória, array, listas
+
+### 83. Visão geral do capítulo
+
+### 84. Material de apoio do capítulo
+
+[Comportamento de memória, arrays, listas](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%2084%20-%20Comportamento%20de%20mem%C3%B3ria%2C%20arrays%2C%20listas.pdf)
