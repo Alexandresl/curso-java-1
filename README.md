@@ -971,3 +971,49 @@ do {
 ### 84. Material de apoio do capítulo
 
 [Comportamento de memória, arrays, listas](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%2084%20-%20Comportamento%20de%20mem%C3%B3ria%2C%20arrays%2C%20listas.pdf)
+
+### 85. Tipos referência vc. tipo valor
+
+* **Classes são tipos referência**
+* Variáveis cujo tipo são classes (que são alocadas na memória de tipo Stack) não devem ser entendidas como caixas, mas sim ponteiros para caixas
+* As "caixas", onde estarão os valores relatívo aos atributos do objeto, são armazenados na memória do tipo heap
+* Tipos referência aceitam o valor "*null*", que indica que a variável aponta para ninguém
+
+* **Tipos primitivos são tipos valor**
+* Em Java, tipos primitivos são tipos valor. Tipos valor são **caixas** e não ponteiros.
+* Os tipos primitivos são armazenadas na memória Stack e irão quardar o valor da variável e não o endereço de memória onde está este valor
+* Os tipos primitivos são: *boolean*, *char*, *byte*, *short*, *int*, *long*, *float* e *double*
+
+
+* **Tipos primitivos e inicialização**
+* Ao declararmos uma variável de tipo primitivo somos obrigados a atribuirmos um valor antes de, por exemplo, imprimirmos na tela.
+
+* **Valores padrão**
+* Quando alocamos (new) qualquer tipo estruturado (classe ou array), são atribuídos valores padrão aos seus elementos (atributos)
+	* números: *0*
+	* boolean: *false*
+	* char: *caractere código 0*
+	* objeto: *null*
+
+* **Tipos referência vs. tipos valor**
+
+---------------------------------------------------------------------------------------------------------------------------------
+|	CLASSE 							| 	TIPO PRIMITIVO 						|
+---------------------------------------------------------------------------------------------------------------------------------
+| 	Vantagem: usufrui de todos recursos OO 			| 	Vantagens: é mais simples e performático		|
+---------------------------------------------------------------------------------------------------------------------------------
+| 	Variáveis são ponteiros 				| 	Variáveis são caixas 					|
+---------------------------------------------------------------------------------------------------------------------------------
+| 	Objetos precisam ser instanciadas usando new, ou 	|	Não instancia. Uma vez declarados, estão prontos 	|
+| 	apontar para um objeto já existente			|	para uso.						|
+---------------------------------------------------------------------------------------------------------------------------------
+|	Aceita o valor null					|	Não aceita o valor null					|
+---------------------------------------------------------------------------------------------------------------------------------
+|	y = x; 							|	y = x;							|
+|	"y passa apontar para onde x aponta" 			| 	"y recebe uma cópia de x"				|
+---------------------------------------------------------------------------------------------------------------------------------
+| 	Objetos instanciados no heap 				| 	"Objetos" instanciados no stack 			|
+---------------------------------------------------------------------------------------------------------------------------------
+|	Objetos não utilizados são desalocados em um		|	"Objetos" são desalocados imediatamente quando		|
+|	momento próximo pelo garbage collector			|	seu escopo de execução é finalizado			|
+---------------------------------------------------------------------------------------------------------------------------------
