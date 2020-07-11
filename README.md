@@ -963,3 +963,7 @@ do {
 ### 81. Correção do exercício de fixação - Parte 1
 
 ### 82. Correção do exercício de fixação - Parte 2
+
+## Seção 10: Comportamento de memória, array, listas
+
+### 83. Visão geral do capítulo
