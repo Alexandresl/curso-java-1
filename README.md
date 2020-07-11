@@ -1012,9 +1012,10 @@ do {
 |	y = x; 							|	y = x;							|
 |	"y passa apontar para onde x aponta" 			| 	"y recebe uma cópia de x"				|
 ---------------------------------------------------------------------------------------------------------------------------------
-| 	Objetos instanciados no heap 				| 	"Objetos" instanciados no stack 			|
+| 	Objetos instanciados no heap 				| 	"Objetos ou variável" instanciados no stack 			|
 ---------------------------------------------------------------------------------------------------------------------------------
-|	Objetos não utilizados são desalocados em um		|	"Objetos" são desalocados imediatamente quando		|
+|	Objetos não utilizados são desalocados em um		|	"Objetos ou variável" são desalocados imediatamente quando	|
 |	momento próximo pelo garbage collector			|	seu escopo de execução é finalizado			|
 ---------------------------------------------------------------------------------------------------------------------------------
 ```
+
