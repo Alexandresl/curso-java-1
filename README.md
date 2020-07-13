@@ -1019,3 +1019,8 @@ do {
 ---------------------------------------------------------------------------------------------------------------------------------
 ```
 
+### 86. Declaração de memória - garbage collector e escopo local
+
+* **Garbage Collector** - É um processo que automatiza o gerenciamento de memória de um programa em execução.
+* O **Garbage Collector** monitora os objetos alocados dinamicamente pelo programa (no heap), desalocando aqueles que não estão mais sendo utilizados.
+* O Java implementa também a **desalocação por escopo**, ou seja, as variáveis que são declaradas dentro de um escopo mais restrito serão desalocadas após o término da execução deste bloco de código.
