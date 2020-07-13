@@ -1024,3 +1024,25 @@ do {
 * **Garbage Collector** - É um processo que automatiza o gerenciamento de memória de um programa em execução.
 * O **Garbage Collector** monitora os objetos alocados dinamicamente pelo programa (no heap), desalocando aqueles que não estão mais sendo utilizados.
 * O Java implementa também a **desalocação por escopo**, ou seja, as variáveis que são declaradas dentro de um escopo mais restrito serão desalocadas após o término da execução deste bloco de código.
+
+### 87. Vetores - Parte 1
+
+* Checklist
+	* Revisão do conceito de vetor
+	* Declaração e instanciação
+	* Manipulação de vetor de elementos tipo valor (tipo primitivo)
+	* Manipulação de vetor de elementos tipo referência (classe)
+	* Acesso aos elementos
+	* Propriedade length
+
+* **Vetores**
+* Em programação, "vetor" é o nome dado a arranjos unidimensionais
+* Arranjo (array) é uma estrutura de dados:
+	* Homogênea (dados do mesmo tipo)
+	* Ordenada (elementos acessados por meio de posições)
+	* Alocada de uma vez só, em um bloco contíguo de memória
+* Vantagens:
+	* Acesso imediato aos elementos pela sua posição
+* Desvantagens:
+	* Tamanho fixo
+	* Dificuldade para se realizar inserções e deleções
