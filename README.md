@@ -1046,3 +1046,6 @@ do {
 * Desvantagens:
 	* Tamanho fixo
 	* Dificuldade para se realizar inserções e deleções
+
+### 88. Vetores - Parte 2
+
