@@ -1089,3 +1089,29 @@ for (tipo apelido : coleção) {
 	<comando 2>
 }
 ```
+
+### 92. Listas - Parte 1
+
+* Checklist
+	* Conceito de lista
+	* Tipo **List** - Declaração, instanciação
+	* Demonstração
+* Referência: [https://docs.oracle.com/en/java/javase/14/docs/api/java.desktop/java/awt/List.html](https://docs.oracle.com/en/java/javase/14/docs/api/java.desktop/java/awt/List.html)
+* Assuntos Pendentes
+	* interface
+	* generics
+	* predicados (lambda)
+
+* **Listas**
+* Lista é uma estrutura de dados:
+	* Homogênea (dados do mesmo tipo)
+	* Ordenada (elementos acessados por meio de posições)
+	* Inicia vazia, e seus elementos são alocados sob demanda
+	* Cada elemento ocupa um "nó" (ou nodo) da lista
+* Tipo (interface): List
+* Classes que implementam: ArrayList, LinkedList, etc.
+* Vantagens:
+	* Tamanho variável
+	* Facilidade para se realizar inserções e deleções
+* Desvantagens:
+	* Acesso sequencial aos elementos (Algumas implementações resolvem este problema)
