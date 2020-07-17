@@ -1078,3 +1078,14 @@ do {
 |	char		|	Character	|
 -------------------------------------------------
 ```
+
+### 91. Laço for each
+
+* **Laço "for each""** - Sintaxe opcional e simplificada para percorrer  coleções
+* Sintaxe:
+```java
+for (tipo apelido : coleção) {
+	<comando 1>
+	<comando 2>
+}
+```
