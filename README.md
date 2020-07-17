@@ -1115,3 +1115,17 @@ for (tipo apelido : coleção) {
 	* Facilidade para se realizar inserções e deleções
 * Desvantagens:
 	* Acesso sequencial aos elementos (Algumas implementações resolvem este problema)
+
+### 93. Listas - Parte 2
+
+* **Demonstração:**
+* Tamanho da lista: *size()*
+* Inserir elemento na lista: *add(obj)*, *add(int, obj)*
+* Remover elementos da lista: *remove(obj)*, *remove(int)*, *removeIf(Predicate)*
+* Encontrar posição de elemento: *indexOf(obj)*, *lastIndexOf(obj)*
+* Filtrar lista com base em predicado: *List<Integer> result = list.stream().filter(x -> x > 4).findFirst().orElse(null)*
+
+* Assuntos Pendentes
+	* interface
+	* generics
+	* predicados (lambda)
