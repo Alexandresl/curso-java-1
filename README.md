@@ -1049,3 +1049,32 @@ do {
 
 ### 88. Vetores - Parte 2
 
+### 89. Exercício de fixação
+
+### 90. Boxing, unboxing e wrapper classes
+
+* **Boxing** - É o processo de conversão de um objeto tipo valor para um objeto tipo referência compatível
+* **Unboxing** - É o processo de conversão de um objeto tipo referência para um objeto tipo valor compatível
+* **Wrapper classes** - São classes equivalentes aos tipos primitivos. É comumente utilizado em campos de entidade em sistemas de informação, pois tipos referência (classes) aceitam null e usufruem dos recursos OO.
+
+```
+-------------------------------------------------
+|	TIPO PRIMITIVO 	|	WRAPPER CLASSES	|
+-------------------------------------------------
+| 	byte		|	Byte		|
+-------------------------------------------------
+|	short		|	Short		|
+-------------------------------------------------
+|	int		|	Integer		|
+-------------------------------------------------
+|	long		|	Long		|
+-------------------------------------------------
+|	float		|	Float		|
+-------------------------------------------------
+|	double		|	Double		|
+-------------------------------------------------
+|	boolean		|	Boolean		|
+-------------------------------------------------
+|	char		|	Character	|
+-------------------------------------------------
+```
