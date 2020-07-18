@@ -1131,3 +1131,8 @@ for (tipo apelido : coleção) {
 	* predicados (lambda)
 
 ### 94. Exercício proposto
+
+### 95. Correção em vídeo do exercício proposto
+
+[https://youtu.be/Xj-osdBe3TE](https://youtu.be/Xj-osdBe3TE)
+
