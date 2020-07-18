@@ -1129,3 +1129,5 @@ for (tipo apelido : coleção) {
 	* interface
 	* generics
 	* predicados (lambda)
+
+### 94. Exercício proposto

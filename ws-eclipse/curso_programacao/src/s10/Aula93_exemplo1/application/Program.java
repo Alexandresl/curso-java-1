@@ -24,6 +24,7 @@ public class Program {
 		for (String x : list) {
 			System.out.println(x);
 		}
+		
 		System.out.println("");
 		System.out.println("-[Removeu itens]");
 		
