@@ -1136,3 +1136,25 @@ for (tipo apelido : coleção) {
 
 [https://youtu.be/Xj-osdBe3TE](https://youtu.be/Xj-osdBe3TE)
 
+### 96. Matrizes
+
+* **Checklist**
+	* Revisão do conceito de matriz
+	* Declaração e instanciação
+	* Acesso aos elementos / Como percorrer uma matriz
+	* Propriedade *length*
+
+* Em programação, "*matriz*" é o nome dado a arranjos bidimensionais (*vetor de vetores*)
+* Arranjo (*array*) é uma estrutura de dados:
+	* Homogênea (dados do mesmo tipo)
+	* Ordenada (elementos acessados por meio de posições)
+	* Alocada de uma vez só, em um bloco contíguo de memória
+
+* Vantagens:
+	* Acesso imediato aos elementos pela sua posição
+* Desvantagens:
+	* Tamanho fixo
+	* Dificuldade para se realizar innserções e deleções
+
+97. Exercício resolvido
+
