@@ -1156,5 +1156,7 @@ for (tipo apelido : coleção) {
 	* Tamanho fixo
 	* Dificuldade para se realizar innserções e deleções
 
-97. Exercício resolvido
+### 97. Exercício resolvido
+
+### 98. Exercício proposto
 
