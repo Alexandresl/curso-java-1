@@ -1246,3 +1246,6 @@ System.out.println("Month: " + month);
 	* Maior serviço do mundo de hospedagem de projetos de código aberto.
 	* Modelo de cobrança: gratuíto para projetos de código aberto, pago para projetos privados.
 	* Alternativas: BitBucket, GitLav, etc.
+
+### 105. Instalação do Git no Windows
+
