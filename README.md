@@ -1178,12 +1178,41 @@ for (tipo apelido : coleção) {
 		* UTC: *Coordinated Universal Time* (*time standard*)
 
 * **SimpleDateFormat**
-* [https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/text/SimpleDateFormat.html](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/text/SimpleDateFormat.html)
-* Define formatos para conversão entre Date e String
-* *dd/MM/yyyy* -> *23/07/2018*
-* *dd/MM/yyyy HH:mm:ss* -> *23/07/2018 15:42:07*
+	* [https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/text/SimpleDateFormat.html](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/text/SimpleDateFormat.html)
+	* Define formatos para conversão entre Date e String
+	* *dd/MM/yyyy* -> *23/07/2018*
+	* *dd/MM/yyyy HH:mm:ss* -> *23/07/2018 15:42:07*
 
 * **Padrão ISO 8601 e classe Instant**
-* Formato: *yyyy-MM-ddTHH:mm:ssZ*
-* Exemplo: "*2018-06-25T15:42:07z*"
-* Date y3 = Date.from(Instant.parse("*2018-06-25T15:42:07z*"));
+	* Formato: *yyyy-MM-ddTHH:mm:ssZ*
+	* Exemplo: "*2018-06-25T15:42:07z*"
+	* Date y3 = Date.from(Instant.parse("*2018-06-25T15:42:07z*"));
+
+### 101. Manipulando um Date com Calendar
+
+* **Somando uma unidade de tempo**
+
+```java
+SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+Date d = Date.from(Instant.parse("2018-06-25T15:42:07Z"));
+System.out.println(sdf.format(d));
+Calendar cal = Calendar.getInstance();
+cal.setTime(d);
+cal.add(Calendar.HOUR_OF_DAY, 4);
+d = cal.getTime();
+System.out.println(sdf.format(d));
+```
+
+* **Obtendo uma unidade de tempo**
+
+```java
+SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+Date d = Date.from(Instant.parse("2018-06-25T15:42:07Z"));
+System.out.println(sdf.format(d));
+Calendar cal = Calendar.getInstance();
+cal.setTime(d);
+int minutes = cal.get(Calendar.MINUTE);
+int month = 1 + cal.get(Calendar.MONTH);
+System.out.println("Minutes: " + minutes);
+System.out.println("Month: " + month);
+´``
