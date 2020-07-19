@@ -1253,5 +1253,37 @@ System.out.println("Month: " + month);
 
 ### 107. Arquivo .gitignore
 
+### 108. Demo - trabalhando com um projeto existente
+
+### 109. Importante entender - a sequência de commits deve ser respeitada
+
+### 110. Kit de primeiros socorros
+
+```
+-------------------------------------------------------------------------------------------------------------------------------------------------
+|	PROBLEMA						|	COMANDO									|
+-------------------------------------------------------------------------------------------------------------------------------------------------
+|	Quero desfazer tudo que eu fiz desde o último commit	|	git clean -df								|
+|								| 	git checkout -- .							|
+-------------------------------------------------------------------------------------------------------------------------------------------------
+|	Preciso remover o último commit, porém mantendo os	|	git reset --soft HEAD~1							|
+|	arquivos do jeito que estão. 				|										|
+-------------------------------------------------------------------------------------------------------------------------------------------------
+|	Preciso remover o último commit, inclusive as		|	git reset --hard HEAD~1							|
+|	alterações nos arquivos.				|										|
+-------------------------------------------------------------------------------------------------------------------------------------------------
+|	Quero alterar temporariamente os arquivos do projeto	|										|
+|	de modo a ficarem no estado do commit informado.	|										|
+|	ATENÇÃO: não podem haver modificações não		|	git checkout <código do commit>						|
+|	commitadas no projeto.					|	EXEMPLO: git checkout e8a52f3						|
+|	NOTA: para voltar ao último commit faça:		|										|
+|	git checkout master					|										|
+-------------------------------------------------------------------------------------------------------------------------------------------------
+|	Preciso apagar o último commit no Github		|	git push -f origin HEAD^:master						|
+|	Quero mudar o meu repositório remoto "origin" 		|	git remote set-url origin https://github.com/acenelio/novoprojeto.git	|
+|	Entrei no VIM por engano. Como sair? 			|	Tecle ESC, depois digite :q! e tecle ENTER				|
+-------------------------------------------------------------------------------------------------------------------------------------------------
+```
+
 
 
