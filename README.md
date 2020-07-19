@@ -1160,3 +1160,10 @@ for (tipo apelido : coleção) {
 
 ### 98. Exercício proposto
 
+## Seção 11: Tópicos especiais em Java
+
+### 99. Material de apoio ao capítulo
+
+[Tópicos especiais](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%2098%20-%20T%C3%B3picos%20especiais.pdf)
+
+
