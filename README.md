@@ -1295,3 +1295,21 @@ System.out.println("Month: " + month);
 
 [Enumerações e composição](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%20111%20-%20Enumera%C3%A7%C3%B5es%20e%20composi%C3%A7%C3%A3o.pdf)
 
+### 113. Enumerações
+
+* **Checklist**
+	* Definição / discussão
+	* Exemplo: estados de um pedido
+	* Conversão de string para enum
+	* Representação UML
+* **Enumeraçõpes**
+	* É um tipo especial que serve para especificar de forma literal um conjunto de constantes relacionadas
+	* Palavra chama em Java: *enum*
+	* Vantagens: melhor semântica, código mais legível e auxiliado pelo compilador
+	* Referência: [https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Enum.html](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Enum.html)
+* **Conversão de String para enun**
+
+```java
+OrderStatus os1 = OrderStatus.DELIVERED;
+OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
+```
