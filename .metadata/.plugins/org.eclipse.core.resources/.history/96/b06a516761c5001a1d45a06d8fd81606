@@ -1,0 +1,32 @@
+package s10.Aula88_exemplo1.application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import s08.Aula65_exemplo1.entities.Product;
+
+/**
+ * Fazer um programa para ler um número inteiro N
+ * e os dados (nome e preço) de N produtos. Armazene
+ * os N produtos em um vetor. Em seguida, mostrar o
+ * preço médio dos produtos.
+ */
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		Product[] product = new Product()[];
+		int n = sc.nextInt();
+		
+		for (int i = 0; i < n; i++) {
+			
+		}
+		
+		sc.close();
+
+	}
+
+}

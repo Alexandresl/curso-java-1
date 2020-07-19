@@ -1,0 +1,11 @@
+package s10.Aula94_exercicio1_correcao.Entities;
+
+public class Employee {
+	
+	private Integer id;
+	private String name;
+	private Double salary;
+	
+	
+
+}

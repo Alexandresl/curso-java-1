@@ -1,0 +1,5 @@
+package s10.Aula89_exercicio1.entities;
+
+public class Room {
+
+}

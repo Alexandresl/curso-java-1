@@ -1,0 +1,19 @@
+package s10.Aula97_exercicio1.application;
+
+/**
+ * Fazer um programa para ler um número inteiro
+ * N e uma matriz de ordem N contendo números
+ * inteiro. Em seguida, mostrar a diagonal
+ * principal e a quantidade de valores 
+ * negativos da matriz.
+ */
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}
