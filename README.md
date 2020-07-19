@@ -1166,4 +1166,24 @@ for (tipo apelido : coleção) {
 
 [Tópicos especiais](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%2098%20-%20T%C3%B3picos%20especiais.pdf)
 
+### 100. Trabalhando com datas
 
+* A data representa um **instante**
+* Pacote java.util
+* Documentação: [https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Date.html](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Date.html)
+
+* Um objeto *Date* internamente armazena:
+	* O número de milissegundos desde a meia noite do dia 1 de janeiro de 1970 GTM (UTC)
+		* GTM: *Greenwich Mean Time* (*time zone*)
+		* UTC: *Coordinated Universal Time* (*time standard*)
+
+* **SimpleDateFormat**
+* [https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/text/SimpleDateFormat.html](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/text/SimpleDateFormat.html)
+* Define formatos para conversão entre Date e String
+* *dd/MM/yyyy* -> *23/07/2018*
+* *dd/MM/yyyy HH:mm:ss* -> *23/07/2018 15:42:07*
+
+* **Padrão ISO 8601 e classe Instant**
+* Formato: *yyyy-MM-ddTHH:mm:ssZ*
+* Exemplo: "*2018-06-25T15:42:07z*"
+* Date y3 = Date.from(Instant.parse("*2018-06-25T15:42:07z*"));
