@@ -1,0 +1,9 @@
+package s10.Aula94_exercicio1.entities;
+
+public class Emplyoee {
+
+	private Integer id;
+	private String name;
+	private Double salary;
+	
+}

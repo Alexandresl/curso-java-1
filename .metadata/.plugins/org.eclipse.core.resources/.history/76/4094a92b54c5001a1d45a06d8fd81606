@@ -1,0 +1,25 @@
+package s10.Aula87_exemplo1.application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+/**
+ * Fazer um programa para ler um número inteiro N e a
+ * altura de N pessoas. Armazene as N alturas em um vetor.
+ * Em seguida, mostrar a altura média dessas pessoas.
+ */
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+		sc.close();
+
+	}
+
+}

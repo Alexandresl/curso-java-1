@@ -1,0 +1,5 @@
+package s10.Aula88_exemplo1.entities;
+
+public class Product {
+
+}

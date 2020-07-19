@@ -1216,3 +1216,37 @@ int month = 1 + cal.get(Calendar.MONTH);
 System.out.println("Minutes: " + minutes);
 System.out.println("Month: " + month);
 ```
+
+## Seção 12: Bônus - nivelamento sobre Git e Github
+
+### 102. Visão geral do capítulo Git e Github
+
+* **Objetivo geral:**
+	* Oferecer um breve nivelamento sobre aspectos teóricos e procedimentos básicos do Git e Github necessários para acompanhar os projetos do curso
+	* Vamos abordar: usuário único / *branch* único
+
+### 103. Material de apoio do capítulo
+
+[Nivelamento Git e Github](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%20102%20-%20Nivelamento%20-%20git%20e%20github.pdf)
+
+### 104. O que é Git e Github
+
+* **Git** - **é um sistema de versionamento**: você controla as modificações de um projeto por meio de versões chamadas "*commits*".
+* Um projeto controlado pelo Git é chamado de **repositório de versionamento**. Tipicamente uma cópia "oficial" do repositório fica salvo em um **servidor** (repositório remoto). Cada pessoa que trabalha no projeto pode fazer uma cópia do repositório para seu computador (repositório local). A pessoa então faz suas alterações no projeto (novos commits) e depois salva as alterações no servidor
+
+* **Operações principais**
+	* **Clone** - Copia o repositório remoto para seu computador
+	* **Pull** - Atualiza seu repositório local em relação ao repositório remoto
+	* **Commit** - Salva uma nova versão (tipicamente no seu repositório local)
+	* **Push** - Envia o repositório local para o repositório remoto
+
+* **Github** - **é um serviço de hospedagem de repositórios Git remotos**
+	* Possui uma interface gráfica web: *github.com*
+	* É um plataforma social (usuários, página de perfil, seguidores, colaboração, etc).
+	* Maior serviço do mundo de hospedagem de projetos de código aberto.
+	* Modelo de cobrança: gratuíto para projetos de código aberto, pago para projetos privados.
+	* Alternativas: BitBucket, GitLav, etc.
+
+### 105. Instalação do Git no Windows
+
+### 106. Demo - criando um novo projeto
