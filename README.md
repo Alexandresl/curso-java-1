@@ -1255,6 +1255,8 @@ System.out.println("Month: " + month);
 
 ### 108. Demo - trabalhando com um projeto existente
 
+### 109. Importante entender - a sequência de commits deve ser respeitada
+
 
 
 
