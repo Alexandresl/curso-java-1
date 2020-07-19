@@ -1216,3 +1216,12 @@ int month = 1 + cal.get(Calendar.MONTH);
 System.out.println("Minutes: " + minutes);
 System.out.println("Month: " + month);
 ```
+
+## Seção 12: Bônus - nivelamento sobre Git e Github
+
+### 102. Visão geral do capítulo Git e Github
+
+* **Objetivo geral:**
+	* Oferecer um breve nivelamento sobre aspectos teóricos e procedimentos básicos do Git e Github necessários para acompanhar os projetos do curso
+	* Vamos abordar: usuário único / *branch* único
+
