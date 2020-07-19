@@ -1287,5 +1287,11 @@ System.out.println("Month: " + month);
 -------------------------------------------------------------------------------------------------------------------------------------------------
 ```
 
+## Seção 13. Enumerações, composição
 
+### 111. Visão geral do capítulo Enumerações e Composição
+
+### 112. Material de apoio do capítulo
+
+[Enumerações e composição](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%20111%20-%20Enumera%C3%A7%C3%B5es%20e%20composi%C3%A7%C3%A3o.pdf)
 
