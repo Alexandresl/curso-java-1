@@ -1225,3 +1225,8 @@ System.out.println("Month: " + month);
 	* Oferecer um breve nivelamento sobre aspectos teóricos e procedimentos básicos do Git e Github necessários para acompanhar os projetos do curso
 	* Vamos abordar: usuário único / *branch* único
 
+### 103. Material de apoio do capítulo
+
+[Nivelamento Git e Github](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%20102%20-%20Nivelamento%20-%20git%20e%20github.pdf)
+
+
