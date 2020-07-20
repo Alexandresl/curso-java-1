@@ -1343,3 +1343,7 @@ OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
 ### 118. Exercício resolvido 2 (demo StringBuilder)
 
 ### 119. Exercício de fixação
+
+### 120. Correção em vídeo do exercício de fixação
+
+[https://www.youtube.com/watch?v=gj80JEqk5ms](https://www.youtube.com/watch?v=gj80JEqk5ms)
