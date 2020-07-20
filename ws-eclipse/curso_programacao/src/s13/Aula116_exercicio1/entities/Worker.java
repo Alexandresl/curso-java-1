@@ -77,7 +77,7 @@ public class Worker {
 			int c_month = cal.get(Calendar.MONTH) + 1;
 			
 			if (year == c_year && month == c_month) {
-				soma = c.totalValue();
+				soma += c.totalValue();
 			}
 			
 		}
@@ -85,5 +85,12 @@ public class Worker {
 		return soma;
 		
 	}
+
+	@Override
+	public String toString() {
+		return "Name: " + name + "\nDepartment: " + department.getName();
+	}
+	
+	
 	
 }
