@@ -1356,3 +1356,17 @@ OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
 
 [Herança e polimorfismo](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%20120%20-%20Heran%C3%A7a%20e%20polimorfismo.pdf)
 
+### 123. Herança
+
+* É um tipo de associação que permite que uma classe herde **todos** os dados e comportamentos de outra.
+* Vantagens:
+	* Reuso
+	* Polimorfismo
+* Sintaxe:
+	* class A extends B
+* **Definições importantes**
+	* Relação "é-um"
+	* Generalização/especialização
+	* Superclasse (classe base) / subclasse (classe derivada)
+	* Herança / extensão
+	* Herança é uma associação entre classes ( e não entre objetos)
