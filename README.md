@@ -1342,3 +1342,4 @@ OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
 
 ### 118. Exercício resolvido 2 (demo StringBuilder)
 
+### 119. Exercício de fixação
