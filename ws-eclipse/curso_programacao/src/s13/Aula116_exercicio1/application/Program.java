@@ -2,7 +2,6 @@ package s13.Aula116_exercicio1.application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.Instant;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
