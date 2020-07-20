@@ -1347,3 +1347,8 @@ OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
 ### 120. Correção em vídeo do exercício de fixação
 
 [https://www.youtube.com/watch?v=gj80JEqk5ms](https://www.youtube.com/watch?v=gj80JEqk5ms)
+
+## Seção 14: Herança e polimorfismo
+
+### 121. Visão geral do capítulo Herança e polimorfismo
+
