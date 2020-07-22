@@ -1,11 +1,10 @@
-package s14.Aula124_exemplo1.entities;
+package s14.Aula125_exemplo1.entities;
 
-public class BusinessAccount extends Account{
+public class BusinessAccount extends Account {
 
 	private Double loanLimit;
 	
 	public BusinessAccount() {
-		super();
 	}
 
 	public BusinessAccount(Integer number, String holder, Double balance, Double loanLimit) {
@@ -21,8 +20,16 @@ public class BusinessAccount extends Account{
 		this.loanLimit = loanLimit;
 	}
 	
-	public void loan(Double amount) {		
-			balance += amount - 10.0;
+	public void loan(Double amount) {
+		if (loanLimit >= amount) {
+			balance += amount;
+		}
+	}
+	
+	@Override
+	public void withdraw(Double amount) {
+		super.withdraw(amount);
+		balance -= 2.0;
 	}
 	
 }
