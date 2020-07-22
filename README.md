@@ -1370,3 +1370,10 @@ OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
 	* Superclasse (classe base) / subclasse (classe derivada)
 	* Herança / extensão
 	* Herança é uma associação entre classes ( e não entre objetos)
+
+### 124. Upcasting e downcasting
+
+* **Upcasting** - Casting da subclasse para superclasse. 
+	* Uso comum: *polimorfismo*
+* **Downcasting** - Casting da superclasse para subclasse. Usa-se a palavra *instanceof*. 
+	* Uso comum: métodos que recebem parâmetros genéricos (ex: Equals)

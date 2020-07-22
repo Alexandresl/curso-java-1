@@ -42,7 +42,7 @@
 		<item key="Comments" value="false"/>
 	</section>
 	<section name="GenerateConstructorUsingFieldsSelectionDialog">
-		<item key="OmitCallToSuper" value="true"/>
+		<item key="OmitCallToSuper" value="false"/>
 	</section>
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
 		<item key="DIALOG_X_ORIGIN" value="679"/>
