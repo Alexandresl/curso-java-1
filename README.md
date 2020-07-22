@@ -1377,3 +1377,12 @@ OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
 	* Uso comum: *polimorfismo*
 * **Downcasting** - Casting da superclasse para subclasse. Usa-se a palavra *instanceof*. 
 	* Uso comum: métodos que recebem parâmetros genéricos (ex: Equals)
+
+### 125. Sobreposição, palavra super, anotação @Override
+
+* **Sobreposição ou Sobrescrita** - É a implementação de um método de uma superclasse na subclasse
+* É fortemente recomendável usar a anotação @Override em um método sobrescrito:
+	* Facilita a leitura e compreensão do código
+	* Avisamos ao compilador (boa prática)
+* **Palavra *super*** - É possível chamar a implementação da superclasse usando a palavra **super**;
+
