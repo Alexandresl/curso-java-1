@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="p4_Orientacao_objetos.Aula63_exemplo1.entities.Triangle"/>
-    <fullyQualifiedTypeName name="p4_Orientacao_objetos.Aula65_exemplo1.Product"/>
-    <fullyQualifiedTypeName name="p4_Orientacao_objetos.Aula65_exemplo1.entities.Product"/>
-    <fullyQualifiedTypeName name="p4_Orientacao_objetos.Aula68_exercicio1.entities.Rectangle"/>
-    <fullyQualifiedTypeName name="p4_Orientacao_objetos.Aula68_exercicio2.entities.Employee"/>
     <fullyQualifiedTypeName name="javax.net.ssl.SNIHostName"/>
     <fullyQualifiedTypeName name="p4_Orientacao_objetos.Aula68_exercicio3.entities.Student"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
@@ -33,7 +28,6 @@
     <fullyQualifiedTypeName name="s13.Aula116_exercicio1.entities.enums.WorkerLevel"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="java.time.Instant"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="s13.Aula118_exercicio1.entities.Comment"/>
     <fullyQualifiedTypeName name="s13.Aula118_exercicio1.entities.Post"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
@@ -59,5 +53,11 @@
     <fullyQualifiedTypeName name="s14.Aula123_exemplo1.entities.Account"/>
     <fullyQualifiedTypeName name="s14.Aula124_exemplo1.entities.Account"/>
     <fullyQualifiedTypeName name="s14.Aula124_exemplo1.entities.BusinessAccount"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="s14.Aula125_exemplo1.entities.SavingsAccount"/>
     <fullyQualifiedTypeName name="s14.Aula124_exemplo1.entities.SavingsAccount"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="s14.Aula125_exemplo1.entities.Account"/>
+    <fullyQualifiedTypeName name="s14.Aula125_exemplo1.entities.BusinessAccount"/>
 </qualifiedTypeNameHistroy>

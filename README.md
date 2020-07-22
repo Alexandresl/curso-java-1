@@ -1386,3 +1386,13 @@ OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
 	* Avisamos ao compilador (boa prática)
 * **Palavra *super*** - É possível chamar a implementação da superclasse usando a palavra **super**;
 
+### 126. Classes e métodos final
+
+* Palavra chave: **final**
+* **Quando usada em *classe*** - Evita que a classe seja herdada
+* **Quando usada em *método*** - evita que o método seja sobreposto
+* Utilizações:
+	* Segurança: dependendo das regras do negócio, às vezes é desejável garantir que uma classe não seja herdada, ou que um método não seja sobreposto
+		* *geralmente convèm acrescentar **final** em métodos sobrepostos, pois sobreposições múltiplas podem ser uma parta de entrada para inconsistências.*
+	* Performance: atributos de tipo de uma classe final são analisados de forma mais rápida em tempo de execução.
+		* Exemplo clássico: *String*
