@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.net.ssl.SNIHostName"/>
-    <fullyQualifiedTypeName name="p4_Orientacao_objetos.Aula68_exercicio3.entities.Student"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="p4_Orientacao_objetos.Aula69_exemplo1_v2.util.Calculator"/>
     <fullyQualifiedTypeName name="p4_Orientacao_objetos.Aula69_exemplo1_v3.util.Calculator"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="s14.Aula125_exemplo1.entities.Account"/>
     <fullyQualifiedTypeName name="s14.Aula125_exemplo1.entities.BusinessAccount"/>
+    <fullyQualifiedTypeName name="s14.Aula128_exercicio1.entities.Employee"/>
+    <fullyQualifiedTypeName name="s14.Aula128_exercicio1.entities.OutsourcedEmployee"/>
 </qualifiedTypeNameHistroy>

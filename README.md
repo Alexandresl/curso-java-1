@@ -1407,3 +1407,7 @@ OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
 * **Importante entender**
 	* A associação do tipo específico para o tipo genérico é feita em tempo de execução (*upcasting*).
 	* O compilador não sabe para qual tipo específico a chamada do método *Withdraw* está sendo feita (ele só sabe que são duas variáveis do tipo *Account*)
+
+	### 128. Exercício resolvido
+
+	
