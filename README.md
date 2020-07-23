@@ -1396,3 +1396,14 @@ OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
 		* *geralmente convèm acrescentar **final** em métodos sobrepostos, pois sobreposições múltiplas podem ser uma parta de entrada para inconsistências.*
 	* Performance: atributos de tipo de uma classe final são analisados de forma mais rápida em tempo de execução.
 		* Exemplo clássico: *String*
+
+### 127. Introdução ao polimorfismo
+
+* Pilares da POO
+	* Encapsulamento
+	* Herança
+	* Polimorfismo
+* **Polimorfismo** - Em Programação orientada a Objetos, polimorfismo é recurso que permite que variáveis de um mesmo tipo mais genérico possam apontar para objetos de tipos específicos diferentes, tendo assim comportamentos diferentes conforme cata tipo específico.
+* **Importante entender**
+	* A associação do tipo específico para o tipo genérico é feita em tempo de execução (*upcasting*).
+	* O compilador não sabe para qual tipo específico a chamada do método *Withdraw* está sendo feita (ele só sabe que são duas variáveis do tipo *Account*)
