@@ -1437,3 +1437,8 @@ OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
 
 ## Seção 15: Tratamento de exceções
 
+### 134. Visão geral do capítulo Tratamento de exceções
+
+### 135. Material de apoio do capítulo
+
+[Tratamento de exceções](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%20132%20-%20Tratamento%20de%20exce%C3%A7%C3%B5es.pdf)
