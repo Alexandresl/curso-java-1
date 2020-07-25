@@ -1478,3 +1478,17 @@ try {
 
 ### 138. Pilha de chamadass de métodos (stack trace)
 
+### 139. Bloco finally
+
+* **Bloco finally** - É um bloco que contém código a ser executado independentemente de ter ocorrido ou não uma exceção.
+* *Exemplos clássicos* - fechar um arquivo, conexão de banco de dados, ou outro recurso específico ao final do processamente.
+* **Sintaxe:**
+```java
+try {
+
+} catch (ExceptionType e) {
+
+} finally {
+	
+}
+```
