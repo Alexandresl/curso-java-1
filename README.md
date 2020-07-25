@@ -1489,6 +1489,17 @@ try {
 } catch (ExceptionType e) {
 
 } finally {
-	
+
 }
+```
+
+### 140. Criando exceções personalizadas
+
+* **Sugestão de pacotes "*model*"**
+```
+| model |
+	|--------| entities  |
+	|--------| enums     |
+	|--------| exception |
+	|--------| services  |
 ```
