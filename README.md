@@ -1412,5 +1412,10 @@ OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
 
 ### 129. Exercício de fixação
 
+### 130. Classes abstratas
 
-
+* **Classes abstratas** - São classes que não podem ser instanciadas.
+* É uma forma de garantir herança total: somente subclasses não abstratas podem ser instanciadas, mas nunca a superclasse abstrata.
+* **Questionamento**
+	* Se a classe Account não pode ser instanciada, por que simplesmente não criar somente savingsAccount e BusinessAccount?
+	* Resposta();
