@@ -1503,3 +1503,6 @@ try {
 	|--------| exception |
 	|--------| services  |
 ```
+
+### 141. Primeira solução - muito ruim
+
