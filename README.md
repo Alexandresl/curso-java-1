@@ -1463,6 +1463,7 @@ OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
 	* **Bloco try** - Contém o código que representa a execução normal do trecho de código que **pode** acarretar em uma exceção
 	* **Bloco catch** -  Contém o código a ser executado caso uma exceção ocorra. Deve ser especificado o tipo de exceção a ser tratada (upcasting é permitido)
 * **Sintaxe:**
+
 ```java
 try {
 
@@ -1474,3 +1475,6 @@ try {
 
 }
 ```
+
+### 138. Pilha de chamadass de métodos (stack trace)
+
