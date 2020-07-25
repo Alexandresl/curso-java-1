@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="S9.Aula74_exemplo1.entity.Product"/>
-    <fullyQualifiedTypeName name="S9.Aula77_encapsulamento.entities.Product"/>
     <fullyQualifiedTypeName name="S9.Aula80_exemplo1.entities.Conta"/>
     <fullyQualifiedTypeName name="s08.Aula65_exemplo1.entities.Product"/>
     <fullyQualifiedTypeName name="s10.Aula88_exemplo1.entities.Product"/>
@@ -50,14 +48,16 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="s14.Aula129_exercicio1.entities.UsedProduct"/>
     <fullyQualifiedTypeName name="s14.Aula129_exercicio1.entities.ImportedProduct"/>
     <fullyQualifiedTypeName name="s14.Aula129_exercicio1.entities.Product"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="s14.Aula130_exemplo1.entities.SavingsAccount"/>
+    <fullyQualifiedTypeName name="s14.Aula130_exemplo1.entities.BusinessAccount"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="s14.Aula130_exemplo1.entities.Account"/>
 </qualifiedTypeNameHistroy>

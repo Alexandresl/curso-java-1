@@ -1416,6 +1416,15 @@ OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
 
 * **Classes abstratas** - São classes que não podem ser instanciadas.
 * É uma forma de garantir herança total: somente subclasses não abstratas podem ser instanciadas, mas nunca a superclasse abstrata.
+* Notação UML: itálico.
 * **Questionamento**
 	* Se a classe Account não pode ser instanciada, por que simplesmente não criar somente savingsAccount e BusinessAccount?
-	* Resposta();
+	* **Resposta**
+		1. **Reuso**
+		2. **Polimorfismo** - a superclasse classe genérica permite tratar de forma fácil e uniforme todos os tipos de conta, inclusive com polimorfismo se for o caso (como fizemos nos últimos exercícios). Por exemplo, você pode colocar todos tipos de contas em uma mesma coleção.
+
+### 131. Métodos abstratos
+
+* **Métodos abstratos** - São mnétodos que não possuem implementação. Alguns métodos precisam ser abstratos quando a classe é genérica demais para conter sua implementação.
+* Se uma classe possuir pelo menos um método abtrato, então esta classe também é abstrata.
+* Notação UML: itálico.
