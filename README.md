@@ -1428,3 +1428,10 @@ OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
 * **Métodos abstratos** - São mnétodos que não possuem implementação. Alguns métodos precisam ser abstratos quando a classe é genérica demais para conter sua implementação.
 * Se uma classe possuir pelo menos um método abtrato, então esta classe também é abstrata.
 * Notação UML: itálico.
+
+### 132. Exercício de fixação
+
+### 133. Correção em vídeo do exercício de fixação
+
+[https://www.youtube.com/watch?v=eDsS3JM5iXw](https://www.youtube.com/watch?v=eDsS3JM5iXw)
+
