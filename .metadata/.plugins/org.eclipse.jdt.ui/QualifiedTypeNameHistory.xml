@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="S9.Aula80_exemplo1.entities.Conta"/>
-    <fullyQualifiedTypeName name="s08.Aula65_exemplo1.entities.Product"/>
-    <fullyQualifiedTypeName name="s10.Aula88_exemplo1.entities.Product"/>
-    <fullyQualifiedTypeName name="s10.Aula89_exercicio1.entities.Room"/>
-    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
-    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
-    <fullyQualifiedTypeName name="s10.Aula94_exercicio1.entities.Emplyoee"/>
-    <fullyQualifiedTypeName name="com.sun.tools.classfile.TypeAnnotation.Position"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="s10.Aula94_exercicio1_correcao.application.Program"/>
     <fullyQualifiedTypeName name="s10.Aula94_exercicio1_correcao.Entities.Employee"/>
@@ -36,7 +28,6 @@
     <fullyQualifiedTypeName name="s14.Aula123_exemplo1.entities.Account"/>
     <fullyQualifiedTypeName name="s14.Aula124_exemplo1.entities.Account"/>
     <fullyQualifiedTypeName name="s14.Aula124_exemplo1.entities.BusinessAccount"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="s14.Aula125_exemplo1.entities.SavingsAccount"/>
     <fullyQualifiedTypeName name="s14.Aula124_exemplo1.entities.SavingsAccount"/>
@@ -45,19 +36,28 @@
     <fullyQualifiedTypeName name="s14.Aula128_exercicio1.entities.OutsourcedEmployee"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="s14.Aula128_exercicio1.entities.Employee"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="s14.Aula129_exercicio1.entities.UsedProduct"/>
     <fullyQualifiedTypeName name="s14.Aula129_exercicio1.entities.ImportedProduct"/>
     <fullyQualifiedTypeName name="s14.Aula129_exercicio1.entities.Product"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="s14.Aula130_exemplo1.entities.SavingsAccount"/>
     <fullyQualifiedTypeName name="s14.Aula130_exemplo1.entities.BusinessAccount"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="s14.Aula130_exemplo1.entities.Account"/>
+    <fullyQualifiedTypeName name="s14.Aula131_exercicio1.entities.Shape"/>
+    <fullyQualifiedTypeName name="s14.Aula131_exercicio1.entities.Rectangle"/>
+    <fullyQualifiedTypeName name="s14.Aula131_exercicio1.entities.enums.Color"/>
+    <fullyQualifiedTypeName name="s14.Aula131_exercicio1.entities.Circle"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="s14.Aula132_exercicio1.entities.Individual"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="s14.Aula132_exercicio1.entities.company"/>
+    <fullyQualifiedTypeName name="s14.Aula132_exercicio1.entities.Person"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
