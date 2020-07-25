@@ -1442,3 +1442,17 @@ OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
 ### 135. Material de apoio do capítulo
 
 [Tratamento de exceções](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%20132%20-%20Tratamento%20de%20exce%C3%A7%C3%B5es.pdf)
+
+### 136. Discussão inicial sobre exceções
+
+* Uma exceção é qualquer condição de erro ou comportamento inesperado encontrado por um programa em execução
+* Em Java, uma exceção é um objeto herdado da classe:
+	* *java.lang.Exception* - O compilador obriga a tratar ou propagar
+	* *java.lang.RuntimeException* - O compilador não obriga a tratar ou propagar
+* Quando lançada, uma exceção é propagada na pilha de chamadas de métodos em execução, até que seja capturada (tratada) ou o programa seja encerrado
+* *Por que exceções?*
+	* O modelo de tratamento de exceções permite que erros sejam tratados de forma consistente e flexível, usando boas práticas
+	* *Vantagens*
+		* Delega a lógica do erro para a classe responsável por conhecer as regras que podem ocasionar o erro
+		* Trata de forma organizada (inclusive hierárquica) exceções de tipos diferentes
+		* A exceção pode carregar dados quaisquer.
