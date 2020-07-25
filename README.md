@@ -1435,3 +1435,5 @@ OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
 
 [https://www.youtube.com/watch?v=eDsS3JM5iXw](https://www.youtube.com/watch?v=eDsS3JM5iXw)
 
+## Seção 15: Tratamento de exceções
+
