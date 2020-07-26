@@ -1532,7 +1532,4 @@ try {
 
 [Projeto Sistema Jogo de Xadrez](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%20143%20-%20Projeto%20Sistema%20de%20Xadrez.pdf)
 
-
-
-
-
+### 147. Criando projeto e repositório Git
