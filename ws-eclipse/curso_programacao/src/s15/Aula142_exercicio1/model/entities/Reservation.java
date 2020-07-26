@@ -1,4 +1,4 @@
-package s15.Aula140_exemplo1.model.entities;
+package s15.Aula142_exercicio1.model.entities;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -6,11 +6,11 @@ import java.util.concurrent.TimeUnit;
 
 public class Reservation {
 
-	private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-
 	private Integer roomNumber;
 	private Date checkin;
 	private Date checkout;
+
+	private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
 	public Reservation() {
 	}
@@ -33,19 +33,31 @@ public class Reservation {
 		return checkin;
 	}
 
-	public Date getCheckout() {
+	public Date getCkeckout() {
 		return checkout;
 	}
 
 	public long duration() {
 		long diff = checkout.getTime() - checkin.getTime();
 		return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
-
 	}
 
-	public void updateDates(Date checkin, Date checkout) {
+	public String updateDates(Date checkin, Date checkout) {
+		Date now = new Date();
+		
+		if (checkin.before(now) || checkout.before(now)) {
+			return "Reservation dates for update must be future dates";
+		} 
+		
+		if (!checkout.after(checkin)) {
+			return "Check-out date must be after check-in date";
+		}
+		
 		this.checkin = checkin;
 		this.checkout = checkout;
+		
+		return null;
+		
 	}
 
 	@Override
@@ -54,10 +66,10 @@ public class Reservation {
 				+ roomNumber 
 				+ ", check-in: " 
 				+ sdf.format(checkin) 
-				+ ", check-out: "
-				+ sdf.format(checkout) 
+				+ ", check-out: " 
+				+ sdf.format(checkout)
 				+ ", " 
-				+ duration() 
+				+ duration()
 				+ " nights";
 	}
 

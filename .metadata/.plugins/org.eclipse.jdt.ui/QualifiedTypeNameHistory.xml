@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Boolean"/>
-    <fullyQualifiedTypeName name="s10.Aula94_exercicio1_correcao.application.Program"/>
-    <fullyQualifiedTypeName name="s10.Aula94_exercicio1_correcao.Entities.Employee"/>
-    <fullyQualifiedTypeName name="com.sun.tools.sjavac.comp.dependencies.NewDependencyCollector"/>
-    <fullyQualifiedTypeName name="java.util.TimeZone"/>
-    <fullyQualifiedTypeName name="s13.Aula113_exemplo1.entities.enums.OrderStatus"/>
-    <fullyQualifiedTypeName name="s13.Aula116_exercicio1.entities.Department"/>
-    <fullyQualifiedTypeName name="s13.Aula116_exercicio1.entities.Worker"/>
     <fullyQualifiedTypeName name="s13.Aula116_exercicio1.entities.HourContract"/>
     <fullyQualifiedTypeName name="s13.Aula116_exercicio1.entities.enums.WorkerLevel"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
@@ -36,8 +28,6 @@
     <fullyQualifiedTypeName name="s14.Aula128_exercicio1.entities.OutsourcedEmployee"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="s14.Aula128_exercicio1.entities.Employee"/>
-    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="s14.Aula129_exercicio1.entities.UsedProduct"/>
     <fullyQualifiedTypeName name="s14.Aula129_exercicio1.entities.ImportedProduct"/>
     <fullyQualifiedTypeName name="s14.Aula129_exercicio1.entities.Product"/>
@@ -50,14 +40,24 @@
     <fullyQualifiedTypeName name="s14.Aula131_exercicio1.entities.Circle"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="s14.Aula132_exercicio1.entities.Individual"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="s14.Aula132_exercicio1.entities.company"/>
     <fullyQualifiedTypeName name="s14.Aula132_exercicio1.entities.Person"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="com.sun.java.util.jar.pack.Package.File"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="s15.Aula140_exemplo1.model.entities.Reservation"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="s15.Aula42_exercicio1.model.entities.Reservation"/>
 </qualifiedTypeNameHistroy>
