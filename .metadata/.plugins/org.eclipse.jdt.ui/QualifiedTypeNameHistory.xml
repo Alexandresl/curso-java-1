@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="s14.Aula125_exemplo1.entities.SavingsAccount"/>
     <fullyQualifiedTypeName name="s14.Aula124_exemplo1.entities.SavingsAccount"/>
     <fullyQualifiedTypeName name="s14.Aula125_exemplo1.entities.BusinessAccount"/>
     <fullyQualifiedTypeName name="s14.Aula128_exercicio1.entities.OutsourcedEmployee"/>
@@ -54,10 +53,11 @@
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="s16.chess_system.chess.ChessException"/>
     <fullyQualifiedTypeName name="s16.chess_system.boardgame.Position"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="s16.chess_system.chess.ChessPiece"/>
     <fullyQualifiedTypeName name="s16.chess_system.chess.ChessPosition"/>
     <fullyQualifiedTypeName name="s16.chess_system.chess.pieces.Rook"/>
     <fullyQualifiedTypeName name="s16.chess_system.chess.Color"/>
     <fullyQualifiedTypeName name="s16.chess_system.chess.ChessMatch"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="s16.boardgame.Position"/>
 </qualifiedTypeNameHistroy>
