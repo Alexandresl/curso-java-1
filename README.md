@@ -1540,3 +1540,6 @@ try {
 
 ### 150. Camada Chess e imprimindo o tabuleiro
 
+### 151. Colocando peças no tabuleiro
+
+### 152. BoardException e programação defensiva
