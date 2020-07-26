@@ -1,3 +1,5 @@
 /Color.class
 /ChessPiece.class
 /ChessMatch.class
+/ChessException.class
+/ChessPosition.class

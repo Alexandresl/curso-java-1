@@ -1543,3 +1543,5 @@ try {
 ### 151. Colocando peças no tabuleiro
 
 ### 152. BoardException e programação defensiva
+
+### 153. ChessException e ChessPosition
