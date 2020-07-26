@@ -4,9 +4,9 @@ import s16.chess_system.boardgame.Board;
 import s16.chess_system.chess.ChessPiece;
 import s16.chess_system.chess.Color;
 
-public class king extends ChessPiece {
+public class King extends ChessPiece {
 
-	public king(Board board, Color color) {
+	public King(Board board, Color color) {
 		super(board, color);
 	}
 	

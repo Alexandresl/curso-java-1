@@ -1545,3 +1545,5 @@ try {
 ### 152. BoardException e programação defensiva
 
 ### 153. ChessException e ChessPosition
+
+### 154. Pequena melhoria na impressão do tabuleiro
