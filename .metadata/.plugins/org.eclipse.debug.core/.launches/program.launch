@@ -7,6 +7,7 @@
         <listEntry value="1"/>
     </listAttribute>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="s16.chess_system.application.Program"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="src"/>
 </launchConfiguration>

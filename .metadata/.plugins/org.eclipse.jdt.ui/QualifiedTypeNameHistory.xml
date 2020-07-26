@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="s13.Aula119_exercicio1.entities.Client"/>
-    <fullyQualifiedTypeName name="s13.Aula113_exemplo1.entities.Order"/>
-    <fullyQualifiedTypeName name="s13.Aula119_exercicio1.entities.Order"/>
-    <fullyQualifiedTypeName name="s13.Aula119_exercicio1.entities.enums.OrderStatus"/>
-    <fullyQualifiedTypeName name="s13.Aula119_exercicio1.entities.Product"/>
-    <fullyQualifiedTypeName name="s13.Aula119_exercicio1.entities.OrderItem"/>
-    <fullyQualifiedTypeName name="s13.Aula120_exercicio1_correcao.entities.Client"/>
-    <fullyQualifiedTypeName name="s13.Aula120_exercicio1_correcao.entities.Order"/>
-    <fullyQualifiedTypeName name="s13.Aula120_exercicio1_correcao.entities.enums.OrderStatus"/>
-    <fullyQualifiedTypeName name="s13.Aula120_exercicio1_correcao.entities.OrderItem"/>
-    <fullyQualifiedTypeName name="s13.Aula120_exercicio1_correcao.entities.Product"/>
-    <fullyQualifiedTypeName name="s14.Aula123_exemplo1.entities.Account"/>
-    <fullyQualifiedTypeName name="s14.Aula124_exemplo1.entities.Account"/>
-    <fullyQualifiedTypeName name="s14.Aula124_exemplo1.entities.BusinessAccount"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="s14.Aula125_exemplo1.entities.SavingsAccount"/>
     <fullyQualifiedTypeName name="s14.Aula124_exemplo1.entities.SavingsAccount"/>
     <fullyQualifiedTypeName name="s14.Aula125_exemplo1.entities.BusinessAccount"/>
@@ -53,11 +38,26 @@
     <fullyQualifiedTypeName name="java.text.ParseException"/>
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="s15.Aula142_exercicio1.model.exceptions.DomainException"/>
-    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="s14.Aula125_exemplo1.entities.Account"/>
     <fullyQualifiedTypeName name="s15.Aula144_exercicio1.model.entities.Account"/>
+    <fullyQualifiedTypeName name="java.util.zip.DataFormatException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="s15.Aula143_exercicio1.model.exceptions.DomainException"/>
+    <fullyQualifiedTypeName name="s15.Aula144_exercicio1.model.exception.DomainException"/>
+    <fullyQualifiedTypeName name="s16.chess_system.boardgame.Board"/>
+    <fullyQualifiedTypeName name="s16.chess_system.boardgame.Piece"/>
+    <fullyQualifiedTypeName name="s16.chess_system.chess.pieces.king"/>
+    <fullyQualifiedTypeName name="s16.chess_system.boardgame.BoardException"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="s16.chess_system.chess.ChessException"/>
+    <fullyQualifiedTypeName name="s16.chess_system.boardgame.Position"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="s16.chess_system.chess.ChessPiece"/>
+    <fullyQualifiedTypeName name="s16.chess_system.chess.ChessPosition"/>
+    <fullyQualifiedTypeName name="s16.chess_system.chess.pieces.Rook"/>
+    <fullyQualifiedTypeName name="s16.chess_system.chess.Color"/>
+    <fullyQualifiedTypeName name="s16.chess_system.chess.ChessMatch"/>
 </qualifiedTypeNameHistroy>
