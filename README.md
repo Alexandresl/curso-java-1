@@ -1509,3 +1509,19 @@ try {
 ### 142. Segunda solução - ruim
 
 ### 143. Terceira solução - boa
+
+* Clausula *throws*: propaga a exceção ao invés de trata-la
+* Clausula *throw*: lança a exceção / "corta" o método
+* Exception: compilador obriga a tratar ou propagar
+* RuntimeException: complilador não obriga
+* O modelo de tratamento de exceções permite que erros sejam tratados de forma consistente e flexível, usando boas práticas
+* Vantagens:
+	* Lógica delegada
+	* Contrutores podem ser tratamento de exc eções
+	* Possibilidade de auxílio do compilador (Exception)
+	* Código mais simples. Não há aninhamento de condicionais: a qualquer momento que uma exceção for disparada, a execução é interrompida e cai no bloco catch correspondente.
+	* É possível capturar inclusive outras exceções de sistema (RuntimeException ou Exception)
+
+	### 144. Exercício de fixação
+
+	

@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-import s15.Aula142_exercicio1.model.exceptions.DomainException;
+import s15.Aula143_exercicio1.model.exceptions.DomainException;
 import s15.Aula143_exercicio1.model.entities.Reservation;
 
 public class Program {
