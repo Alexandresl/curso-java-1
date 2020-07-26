@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="s13.Aula116_exercicio1.entities.HourContract"/>
-    <fullyQualifiedTypeName name="s13.Aula116_exercicio1.entities.enums.WorkerLevel"/>
-    <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="java.time.Instant"/>
-    <fullyQualifiedTypeName name="s13.Aula118_exercicio1.entities.Comment"/>
-    <fullyQualifiedTypeName name="s13.Aula118_exercicio1.entities.Post"/>
     <fullyQualifiedTypeName name="s13.Aula119_exercicio1.entities.Client"/>
     <fullyQualifiedTypeName name="s13.Aula113_exemplo1.entities.Order"/>
     <fullyQualifiedTypeName name="s13.Aula119_exercicio1.entities.Order"/>
@@ -23,7 +17,6 @@
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="s14.Aula125_exemplo1.entities.SavingsAccount"/>
     <fullyQualifiedTypeName name="s14.Aula124_exemplo1.entities.SavingsAccount"/>
-    <fullyQualifiedTypeName name="s14.Aula125_exemplo1.entities.Account"/>
     <fullyQualifiedTypeName name="s14.Aula125_exemplo1.entities.BusinessAccount"/>
     <fullyQualifiedTypeName name="s14.Aula128_exercicio1.entities.OutsourcedEmployee"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
@@ -39,7 +32,6 @@
     <fullyQualifiedTypeName name="s14.Aula131_exercicio1.entities.enums.Color"/>
     <fullyQualifiedTypeName name="s14.Aula131_exercicio1.entities.Circle"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="s14.Aula132_exercicio1.entities.Individual"/>
@@ -52,12 +44,20 @@
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="s15.Aula140_exemplo1.model.entities.Reservation"/>
+    <fullyQualifiedTypeName name="s15.Aula42_exercicio1.model.entities.Reservation"/>
     <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="s15.Aula140_exemplo1.model.entities.Reservation"/>
+    <fullyQualifiedTypeName name="s15.Aula143_exercicio1.model.entities.Reservation"/>
+    <fullyQualifiedTypeName name="java.text.ParseException"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="s15.Aula142_exercicio1.model.exceptions.DomainException"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-    <fullyQualifiedTypeName name="s15.Aula42_exercicio1.model.entities.Reservation"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="s14.Aula125_exemplo1.entities.Account"/>
+    <fullyQualifiedTypeName name="s15.Aula144_exercicio1.model.entities.Account"/>
 </qualifiedTypeNameHistroy>
