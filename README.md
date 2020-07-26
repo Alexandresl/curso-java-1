@@ -1506,3 +1506,6 @@ try {
 
 ### 141. Primeira solução - muito ruim
 
+### 142. Segunda solução - ruim
+
+### 143. Terceira solução - boa
