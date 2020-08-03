@@ -1,5 +1,9 @@
 # curso-java-1
 
+## Atalhos Eclipse (Extra)
+* **Aumentar fonte** - CTRL +
+* **Diminuir fonte** - CTRL -
+
 ## Seção 1: Introdução
 
 ### 1. Introdução: Visão geral do curso
@@ -121,3 +125,15 @@
 
 ### 15. Instalando o Eclipse
 
+### 16. Primeiro programa em Java no Eclipse
+
+* Workspace (Selecione a pasta aonde os projetos serão salvos)
+* Mudar o layout: Windows -> Perspective -> Open Perspective -> Java
+* Zerar o layout: Windows -> Perspective -> Reset Perspective
+* Mostar a aba Console: Windows -> Show View -> Console
+* Criar projeto: File -> New -> Java Project
+* **Criar Classe**:
+    * Botão direito na pasta "src" -> New -> Class
+    * Package: deixar em branco
+    * Nome da classe Main (com M maiúsculo)
+    * Marque a opção: *public static void main(String[] args)*
