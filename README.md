@@ -52,3 +52,7 @@
 ## Seção 3: Introdução à linguagem Java
 
 ### 8. Visão geral do capítulo
+
+### 9. Material de apoio do capítulo
+
+[Introdução à linguagem Java](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%209%20-%20Introdu%C3%A7%C3%A3o%20a%20linguagem%20Java.pdf)
