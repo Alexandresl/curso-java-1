@@ -104,3 +104,17 @@
 * **Módulo** - Introduzido no Java 9 - Agrupamento lógico de pacotes relacionados.
 * **Runtime** - Agrupamento físico.
 * **Aplicação** - Agrupamento de módulos relacionados
+
+## 14. Instalando Java JDK
+
+* Baixar e instalar o Java JDK - [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
+* Configurar variáveis de ambiente do sistema
+    * Painel de controle -> Variáveis de ambiente
+        * JAVA_HOME:
+            * C:\Program Files\Java\jdk-11.0.4
+        * Path: incluir
+            * C:\Program Files\Java\jdk-11.0.4\bin
+    * Testar no terminal de comando: *java -version*
+* Baixar e descompactar o Eclipse
+    * [https://www.eclipse.org/downloads/packages/](https://www.eclipse.org/downloads/packages/)
+    * Testar: rodar o eclipse e escolher um "*workspace*" (pasta onde você vai salvar seus projetos)
