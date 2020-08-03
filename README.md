@@ -60,3 +60,29 @@
 ### 10. Entendendo as versões do Java
 
 * Referência: [https://www.oracle.com/java/technologies/java-se-glance.html](https://www.oracle.com/java/technologies/java-se-glance.html)
+* **LTS** - Long Term Suport
+
+### 11. Histórico e edições de Java
+
+* **Java** é tanto uma linguagem de programação (regras sintáticas) quanto uma Plataforma de desenvolvimento e execução, composto entre outras coisas de bibliotecas (API) e ambienbte de execução.
+* **Histórico**
+    * Problemas resolvidos e motivo para o sucesso do Java:
+        * Ponteiros / Gerenciamento de memória
+        * Portabilidade falha: reescrever parte do código ao mudar de SO
+        * Utilização em dispositivos diversos
+        * Custo
+    * Criada pela Sun Microsystems no meio da década de 1990
+    * Adquirida pela Oracle Corporation em 2010
+* **Aspectos notáveis**
+    * Código compilado para *bytecode* e executado em máquina virtual (JVM)
+    * Portável, segura e robusta
+    * Roda em vários tipos de dispositivos
+    * Domina o mercado corporativo desde o fim do século 20
+    * Padrão Android por muitos anos
+* **Edições**
+    * **Java ME** - Java Micro Edition - dispositivos embarcados e móveis - IoT
+        * [http://www.oracle.com/technetwork/java/javame](http://www.oracle.com/technetwork/java/javame)
+    * **Java SE** - Java Standard Edition - core - desktops e servidores
+        * [https://www.oracle.com/java/technologies/java-se-glance.html](https://www.oracle.com/java/technologies/java-se-glance.html)
+    * **Java EE** - Java Enterprise Edition - aplicações corporativas
+        * [http://www.oracle.com/technetwork/java/javaee](http://www.oracle.com/technetwork/java/javaee)
