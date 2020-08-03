@@ -33,3 +33,10 @@
     * Uma **IDE**: software para editar e testar o programa
     * Um **compilador**: software para transformar o **código fonte** em **código objeto**
     * Um **gerador de código** ou **máquina virtual**: software que permite que o programa se executado
+
+### 6. Linguagens de programação, léxica e sintática
+
+* É um conjunto de regras **léxicas** (ortografia) e **sintáticas** (gramática) para se escrever programas.
+* **Léxica** - Diz respeito à correção das **palavras** "isoladas" (ortografia)
+* **Sintática** - Diz respeito à correção das sentenças (gramática)
+* **Linguagens de programação** - Ex.: C, Pascal, C++, Python, Ruby, PHP, JavaScript, etc.
