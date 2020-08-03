@@ -146,3 +146,23 @@
 ### 18. Material de apoio do capítulo
 
 [Estrutura sequencial](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%2018%20-%20Estrutura%20sequencial.pdf)
+
+### 19. Expressões aritméticas
+
+* São expressões que quando calculadas retornam um valor númérico.
+* **Operadores aritméticos**:
+```
+-------------------------------------------------
+|	Operador	|	Significado	|
+-------------------------------------------------
+|	+		|	Adição		|
+|	-		|	Subtração	|
+|	*		|	Multiplicação	|
+|	/		|	Divisão		|
+|	%		|	Módulo		|
+-------------------------------------------------
+```
+* **Precedência**:
+    * **1º lugar**: * / %
+    * **2º lugar**: + 0
+    * **Obs**.: expressões entre parênteses são calculadas em primeiro lugar
