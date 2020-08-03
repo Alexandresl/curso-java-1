@@ -3,6 +3,7 @@
 ## Atalhos Eclipse (Extra)
 * **Aumentar fonte** - CTRL +
 * **Diminuir fonte** - CTRL -
+* **Executar como aplicação Java** - Alt Shift X, J
 
 ## Seção 1: Introdução
 
@@ -137,3 +138,8 @@
     * Package: deixar em branco
     * Nome da classe Main (com M maiúsculo)
     * Marque a opção: *public static void main(String[] args)*
+
+## Seção 4: Estrutura sequencial
+
+### 17. Visão geral do capítulo
+
