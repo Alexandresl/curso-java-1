@@ -143,3 +143,6 @@
 
 ### 17. Visão geral do capítulo
 
+### 18. Material de apoio do capítulo
+
+[Estrutura sequencial](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%2018%20-%20Estrutura%20sequencial.pdf)
