@@ -118,3 +118,6 @@
 * Baixar e descompactar o Eclipse
     * [https://www.eclipse.org/downloads/packages/](https://www.eclipse.org/downloads/packages/)
     * Testar: rodar o eclipse e escolher um "*workspace*" (pasta onde você vai salvar seus projetos)
+
+## 15. Instalando o Eclipse
+
