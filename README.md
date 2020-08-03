@@ -14,3 +14,14 @@
 
 [Conceitos de programação](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%203%20-%20Conceitos%20de%20programa%C3%A7%C3%A3o.pdf)
 
+### 4. Algoritmo, automação e programação de computador
+
+* **Algoritmo** - Sequência finita de instruções para se resolver um problema. 
+* Aplica-se a diversas áreas do conhecimento.
+* **Automação** - Consiste em utilizar máquina(s) para executar o procedimento desejado de forma automática ou semiautomática.
+* **Computador**:
+    * **Hardware** - Parte física (a máquina em si)
+    * **software** - parte lógica (programas)
+* **Programa ~ Algoritmo** - Programas de computador são **algoritmos** executados pelo computador (em linhas gerais).
+* **Conclusão** - O computador é uma máquina que **automatiza** a execução de **algoritmos**.
+* O computador é apto para executar apenas algoritmos computacionais. ex.: Processamento de dádos, cálculos, etc.
