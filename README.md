@@ -56,3 +56,7 @@
 ### 9. Material de apoio do capítulo
 
 [Introdução à linguagem Java](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%209%20-%20Introdu%C3%A7%C3%A3o%20a%20linguagem%20Java.pdf)
+
+### 10. Entendendo as versões do Java
+
+* Referência: [https://www.oracle.com/java/technologies/java-se-glance.html](https://www.oracle.com/java/technologies/java-se-glance.html)
