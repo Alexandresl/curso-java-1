@@ -40,3 +40,15 @@
 * **Léxica** - Diz respeito à correção das **palavras** "isoladas" (ortografia)
 * **Sintática** - Diz respeito à correção das sentenças (gramática)
 * **Linguagens de programação** - Ex.: C, Pascal, C++, Python, Ruby, PHP, JavaScript, etc.
+
+### 7. IDE - Ambiente Integrado de Desenvolvimento
+
+* É um conjunto de softwares utilizado para a construção de programas
+* Exemplos:
+    * C/C++: Code Blocks
+    * Java: Eclipse, NetBeans
+    * C#: Microsoft Visual Studio
+
+## Seção 3: Introdução à linguagem Java
+
+### 8. Visão geral do capítulo
