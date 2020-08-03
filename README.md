@@ -86,3 +86,12 @@
         * [https://www.oracle.com/java/technologies/java-se-glance.html](https://www.oracle.com/java/technologies/java-se-glance.html)
     * **Java EE** - Java Enterprise Edition - aplicações corporativas
         * [http://www.oracle.com/technetwork/java/javaee](http://www.oracle.com/technetwork/java/javaee)
+
+### 12. JDK / JVM - Máquina Virtual do Java
+
+* **JVM** - Java Virtual Machine
+    * Máquina virtual do Java - necessário para executar sistemas Java
+* **Compilação e interpretação**
+    * Linguagens **compiladas** - C, C++
+    * Linguagens **interpretadas** - PHP, JavaScript
+    * Linguagens **pré-compiladas + máquina virtual** - Java, C#
