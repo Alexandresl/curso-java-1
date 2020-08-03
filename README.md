@@ -95,3 +95,12 @@
     * Linguagens **compiladas** - C, C++
     * Linguagens **interpretadas** - PHP, JavaScript
     * Linguagens **pré-compiladas + máquina virtual** - Java, C#
+
+### 13. Estrutura de uma aplicação Java
+
+* Java é uma linguagem orientada a objetos. A unidade lógica básica de um programa orientado a objeto é a **classe**. 
+* Todo o código em java deve estar dentro de classes.
+* **package** (pacote) - agrupamento *LÓGICO** de classes relacionadas.
+* **Módulo** - Introduzido no Java 9 - Agrupamento lógico de pacotes relacionados.
+* **Runtime** - Agrupamento físico.
+* **Aplicação** - Agrupamento de módulos relacionados
