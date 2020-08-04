@@ -166,3 +166,58 @@
     * **1º lugar**: * / %
     * **2º lugar**: + 0
     * **Obs**.: expressões entre parênteses são calculadas em primeiro lugar
+
+### 20. Variáveis e tipos básicos em Java
+
+* **Visão geral**:
+    * Um programa de computador em execução lida com dados
+    * Como estes dados são armazenados? **Em variáveis**
+    * **Variável** - (*definição informal*) Um programação, uma variável é uma porção de memória (RAM) utilizada para armazenar dados durante a execução dos programas.
+* **Declaração de variáveis**
+    * Sintaxe:
+```
+<tipo> <nome> = <valor inicial>;
+```
+    *Exemplos:
+```java
+int idade = 25;
+double altura = 1.68;
+char sexo = 'F';
+```
+* **Uma variável possui**:
+    * Nome (ou identificador)
+    * Tipo
+    * Valor
+    * Endereço
+* **Tipos primitivos em Java**:
+
+```
+---------------------------------------------------------------------------------------------------------------------------------
+|	Descrição		|	Tipo	|	Tamanho	|	Valores				|	Valor padrão	|
+---------------------------------------------------------------------------------------------------------------------------------
+|				|	byte	|	8 bits	|	-128 a 127			|	0		|
+|				|------------------------------------------------------------------------------------------------
+|	tipos numéricos		|	short	|	16 bits	|	-32768 a 32767			|	0		|
+|				|------------------------------------------------------------------------------------------------
+|	inteiros		|	int	|	32 bits	|	-2147483648 a 2147483647	|	0		|
+|				|------------------------------------------------------------------------------------------------
+|				|	long	|	64 bits	|	-9223372036854770000 a		|	0L		|
+|				|		|		|	9223372036854770000		|			|
+---------------------------------------------------------------------------------------------------------------------------------
+|	tipos números com	|	float	|	32 bits	|	-1,4024E-37 a 3,4028E+38	|	0.0f		|
+|				|------------------------------------------------------------------------------------------------
+|	ponto flutuante		|	double	|	64 bits	|	-4,94E-307 a 1,79E+308		|	0.0		|
+---------------------------------------------------------------------------------------------------------------------------------
+| 	Um caractere Unicode	|	char	|	16 bits	|	'\u0000' a '\uFFFF'		|	'\u0000'	|
+---------------------------------------------------------------------------------------------------------------------------------
+|	Um valor verdade	|	boolean	|	1 bit	|	{false, true}			|	false		|
+---------------------------------------------------------------------------------------------------------------------------------
+```  
+
+* **String** - Cadeia de caracteres (palavras ou textos)
+* **Veja**: [unicode-table.com](unicode-table.com)
+* **Nome de variáveis**:
+    * Não pode começar com dígito: use uma letra ou o _
+    * Não pode ter espaço em branco
+    * Não usar acentos ou til
+    * Sugestão: use o parão "*Camel case*"
