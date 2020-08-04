@@ -212,12 +212,19 @@ char sexo = 'F';
 ---------------------------------------------------------------------------------------------------------------------------------
 |	Um valor verdade	|	boolean	|	1 bit	|	{false, true}			|	false		|
 ---------------------------------------------------------------------------------------------------------------------------------
-```  
-
+```
 * **String** - Cadeia de caracteres (palavras ou textos)
-* **Veja**: [unicode-table.com](unicode-table.com)
+* **Veja**: [unicode-table.com](https://unicode-table.com/pt/)
 * **Nome de variáveis**:
     * Não pode começar com dígito: use uma letra ou o _
     * Não pode ter espaço em branco
     * Não usar acentos ou til
     * Sugestão: use o parão "*Camel case*"
+
+### 21. As três operações básicas de programação
+
+* Um programa de computador é capaz de realizar essencialmente três operações:
+    * Entrada de dados - (*Leitura*) - Usuário informa dados para o programa, que são armazenados em variáveis. O usuário informa dados através de dispositivos de entrada, como, por exemplo, um teclado.
+    * Processamento de dados - É quando o programa realiza cálculos. O processamento de dados se dá por um comando chamado **atribuição**.
+    * Saída de dados - (*Escrita*) - É quando o programa informa dados para o usuário. o programa utiliza para esta operação os dispositivos de saída, como o monitor.
+
