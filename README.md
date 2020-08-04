@@ -228,3 +228,58 @@ char sexo = 'F';
     * Processamento de dados - É quando o programa realiza cálculos. O processamento de dados se dá por um comando chamado **atribuição**.
     * Saída de dados - (*Escrita*) - É quando o programa informa dados para o usuário. o programa utiliza para esta operação os dispositivos de saída, como o monitor.
 
+### 22. Saída de dados em Java
+
+* Para escrefver na tela um texto qualquer
+    * Sem quebra de linha no final:
+    ```java
+    System.out.print("Bom dia!");
+    ```
+    * Com quebra de linha no final:
+    ```java
+    System.out.println("Bom dia!");
+    ```
+* Para escrever o conteúdo de uma variável de algum tipo básico:
+    * Suponha uma variável *y* tipo **int** declarada e iniciada:
+    ```java
+    int y = 32;
+    
+    System.out.println(y);
+    ```
+* Para escrever o conteúdo de uma variável de ponto flutuante:
+    * Suponha uma variável *x* do tipo **double** declarada e iniciada:
+    ```java
+    double x = 10.35784;
+
+    system.out.println(x);
+    system.out.printf("%.2f\n", x);
+    system.out.printf("%.4f\n", x);
+    ```
+    * Observações:
+        * *\n* - quebra de linha. Independente de plataforma.
+        * O comando printf, por padrão retorna o número no formato da localidade do sistema
+        * Para considerar o separador de decimais como ponto, **antes** da declaração do *Scanner*, faça:
+        ```java
+        Locale.setDefault(Locale.US)
+        ```
+* Para concatenar vários elementos em um mesmo comando de escrita:
+    * Regra geral para **print** e **println**: elemento1 + elemento2 + ... + elementoN
+    ```java
+    System.out.println("Resultado: " + x + " Metros");
+    ```
+    * Regra geral para **printf**: "Texto1 %f Texto2 %f Texto3", variavel1, variavel2
+        ```java
+        System.out.printf("Resultado = %.2f metros\n", x);
+        ```
+        * Observações:
+            * *%f - ponto flutuante
+            * *%d* - Inteiro
+            * *%s* - texto
+            * *%n* ou *\n* - quebra de linha
+            * mais informações [link](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html)
+        ```java
+        String nome = "Maria";
+		int idade = 31;
+		double renda = 4000.0;
+		System.out.printf("%s tem %d anos e ganha R$ %.2f reais", nome, idade, renda);
+        ```
