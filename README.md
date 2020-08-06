@@ -299,7 +299,7 @@
 
 * A entrada de dados é a operação realizada quando o usuário informa dados para o programa por meio de de dispositivos de leitura.
 * Os dados informados pelo usuário são armazenado em variáveis
-* **Scaneer**
+* **Scanner**
     * Para fazer entrada de dados, nós vamos criar um objeto do tipo "*Scanner*" da seguinte forma:
     ```java
     Scanner sc = new Scanner(System.in);
