@@ -294,3 +294,57 @@
 * ***BOA PRÁTICA*** - Sempre indique o tipo do número, se a expressão for de ponto flutuante (não inteira).
     * Para **double** - .0 - ex.: *5.0*
     * Para **float** - f - ex.: *5f*
+
+### 24. Entrada de dados em Java - Parte 1
+
+* A entrada de dados é a operação realizada quando o usuário informa dados para o programa por meio de de dispositivos de leitura.
+* Os dados informados pelo usuário são armazenado em variáveis
+* **Scaneer**
+    * Para fazer entrada de dados, nós vamos criar um objeto do tipo "*Scanner*" da seguinte forma:
+    ```java
+    Scanner sc = new Scanner(System.in);
+    ```
+    * Para que possamos instanciar um objeto do tipo *Scanner*, teremos que realizar a importação:
+    ```java
+    import java.util.Scanner;
+    ```
+    * Para desalocar o recurso do *Scanner*, quando não formos mais utilizar, temos que usar o camando a seguir:
+    ```java
+    sc.close();
+    ```
+* Para ler **uma palavra** (texto sem espaços):
+```java
+    String x;
+    x = sc.next();
+```
+* Para ler **um número inteiro**:
+```java
+int x;
+x = sc.nextInt();
+```
+* Para ler **um número com ponto flutuante**:
+```java
+double x;
+x = sc.nextDouble();
+
+// será retornado o número no formato do sistema operacional
+// Para considerar o separador de decimais como ponto, ANTES da declaração do Scanner, faça:
+// Locale.setDefault(Locale.US);
+```
+* Para ler **um caractere**:
+```java
+char x;
+x = sc.next().charAt(0);
+```
+* Para ler **Vários dados na mesma linha**
+```java
+String x;
+int y;
+double z;
+
+x = sc.next();
+y = sc.nextInt()
+z = sc.nextDouble()
+
+// Aceita cada um dos valores separados por um espaço. Ex.: string 3 5.3
+```
