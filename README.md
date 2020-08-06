@@ -175,15 +175,15 @@
     * **Variável** - (*definição informal*) Um programação, uma variável é uma porção de memória (RAM) utilizada para armazenar dados durante a execução dos programas.
 * **Declaração de variáveis**
     * Sintaxe:
-```
-<tipo> <nome> = <valor inicial>;
-```
-    *Exemplos:
-```java
-int idade = 25;
-double altura = 1.68;
-char sexo = 'F';
-```
+    ```
+    <tipo> <nome> = <valor inicial>;
+    ```
+    * Exemplos:
+    ```java
+    int idade = 25;
+    double altura = 1.68;
+    char sexo = 'F';
+    ```
 * **Uma variável possui**:
     * Nome (ou identificador)
     * Tipo
@@ -283,3 +283,14 @@ char sexo = 'F';
 		double renda = 4000.0;
 		System.out.printf("%s tem %d anos e ganha R$ %.2f reais", nome, idade, renda);
         ```
+
+### 23. Processamento de dados em Java e Casting
+
+* O **processamento de dados** é feito pelo comando de atribuição
+* **Sintaxe**:
+```
+<variavel> = <expressão>;
+```
+* ***BOA PRÁTICA*** - Sempre indique o tipo do número, se a expressão for de ponto flutuante (não inteira).
+    * Para **double** - .0 - ex.: *5.0*
+    * Para **float** - f - ex.: *5f*
