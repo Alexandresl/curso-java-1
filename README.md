@@ -370,6 +370,21 @@ sc.close();
 ```
 * Para corrigir a **quebra de linha pendente**
 ```java
+
+// Quando você usa um comando de
+// leitura diferente do nextLine() e
+// dá alguma quebra de linha, essa
+// quebra de linha fica "pendente"
+// na entrada padrão.
+//
+// Se você então fizer um nextLine()
+// aquela quera de linha pendente
+// será absorvida pelo nextLine()
+//
+// Solução:
+// Faça um nextline() extra antes de
+// fazer o nextLine de seu interesse
+
 Scanner sc = new Scanner(System.in);
 		
 int x;
