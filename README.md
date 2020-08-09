@@ -348,3 +348,44 @@ z = sc.nextDouble()
 
 // Aceita cada um dos valores separados por um espaço. Ex.: string 3 5.3
 ```
+
+### 25. Entrada de dados - Parte 2
+
+* Para ler um **texto até a quebra de linha**
+```java
+Scanner sc = new Scanner(System.in);
+
+String s1, s2, s3;
+
+s1 = sc.nextLine();
+s2 = sc.nextLine();
+s3 = sc.nextLine();
+
+System.out.println("Dados digitados:");
+System.out.println(s1);
+System.out.println(s2);
+System.out.println(s3);
+
+sc.close();
+```
+* Para corrigir a **quebra de linha pendente**
+```java
+Scanner sc = new Scanner(System.in);
+		
+int x;
+String s1, s2, s3;
+
+x = sc.nextInt();
+sc.nextLine(); // Necessário para ocupar o enter do nextInt() anterior 
+s1 = sc.nextLine();
+s2 = sc.nextLine();
+s3 = sc.nextLine();
+
+System.out.println("DADOS DIGITADOS: ");
+System.out.println(x);
+System.out.println(s1);
+System.out.println(s2);
+System.out.println(s3);
+
+sc.close();
+```
