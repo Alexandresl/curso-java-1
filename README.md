@@ -404,3 +404,18 @@ System.out.println(s3);
 
 sc.close();
 ```
+
+### 26. Funções matemáticas em java
+
+```java 
+    // Variável A recebe a raiz quadrada de x
+    A = Math.sqrt(x);
+```
+```java
+    // Variável A recebe o resultado de x elevado a y
+    A = Math.pow(x, y);
+```
+```java
+    // Variável A recebe o valor absoluto de x
+    A = Math.abs(x);
+```
