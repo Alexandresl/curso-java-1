@@ -419,3 +419,10 @@ sc.close();
     // Variável A recebe o valor absoluto de x
     A = Math.abs(x);
 ```
+
+### 27. AVISO: exercícios para iniciantes PARTE 1
+
+* Até o momento foi apresentado a "*estrutura sequencial*":
+    * Entrada de dados
+    * Processamento (atribuição)
+    * Saída
