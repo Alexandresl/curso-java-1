@@ -426,3 +426,8 @@ sc.close();
     * Entrada de dados
     * Processamento (atribuição)
     * Saída
+
+### 28. Exercícios para iniciantes - Parte 1
+
+* [Exercício 1](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%2028%20-%20Exerc%C3%ADcios%201.pdf)
+* [Exercício resolvido](https://www.youtube.com/watch?v=Ah1Y6d6deq0)
