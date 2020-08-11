@@ -440,3 +440,20 @@ sc.close();
 
 [Estrutura condicional](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%2030%20-%20Estrutura%20condicional.pdf)
 
+### 31. Expressões comparativas
+
+* Quando avaliamos uma expressão comparativa, o resultado é sempre um booleano (*true* ou *false*)
+* **Operadores comparativos**
+```
+-------------------------------------------------
+|	Operador	|	Significado	|
+-------------------------------------------------
+|	>		|	maior		|
+|	<		|	menor		|
+|	>=		|	maior ou igual	|
+|	<=		|	menor ou igual	|
+|	==		|	igual		|
+|	!=		|	diferente	|
+-------------------------------------------------
+```
+
