@@ -435,3 +435,8 @@ sc.close();
 ## Seção 5: Estrutura condicional
 
 ### 29. Visão geral do capítulo
+
+### 30. Material de apoio do capítulo
+
+[Estrutura condicional](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%2030%20-%20Estrutura%20condicional.pdf)
+
