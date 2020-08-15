@@ -539,3 +539,6 @@ if (<condicao>) {
     }
 }
 ```
+
+### 34. AVISO: exercício para iniciantes PARTE 2
+
