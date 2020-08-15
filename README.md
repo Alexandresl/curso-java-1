@@ -504,3 +504,38 @@ sc.close();
 |	F	|	V	|
 ---------------------------------
 ```
+
+### 33. Estrutura condicional (if-else)
+
+* **Estrutura condicional** é uma **estrutura de controle** que permite definir que um certo **bloco de comandos** somente será executado dependendo de uma **condição**
+* **Sintaxe**:
+```java
+// Estrutura Simples
+if (<condicao>) {
+    <comando 1>
+    <comando 2>
+}
+
+// Estrutura Composta
+if (<condicao>) {
+    <comando 1>
+    <comando 2>
+} else {
+    <comando 3>
+    <comando 4>
+}
+
+// Encadeamento de estruturas condicionais
+if (<condicao>) {
+    <comando 1>
+    <comando 2>
+} else {
+    if (<condicao>) {
+        <comendo 3>
+        <comando 4>
+    } else {
+        <comando 5>
+        <comando 6>
+    }
+}
+```
