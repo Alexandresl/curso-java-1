@@ -542,3 +542,7 @@ if (<condicao>) {
 
 ### 34. AVISO: exercício para iniciantes PARTE 2
 
+### 35. Exercícios para Iniciantes - PARTE 2
+
+[Exercícios 2](https://github.com/Alexandresl/Curso-java-1/blob/master/PDFs/Aula%2035%20-%20Exerc%C3%ADcios%202.pdf)
+
