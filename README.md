@@ -17,3 +17,7 @@
         * Mobile
         * Desktop
 
+## Seção 2: Conceitos de programação
+
+### 2. Visão geral do capítulo
+
