@@ -71,8 +71,12 @@
     * CRUD complemento
     * Tratamento de exceções
 
-[Arquivo](PDFs/Aula%20001%20-%20Curso%20Java%20Completo.pdf)
+[Arquivo Curso Java Completo](PDFs/Aula%20001%20-%20Curso%20Java%20Completo.pdf)
 
 ## Seção 2: Conceitos de programação
 
 ### 2. Visão geral do capítulo
+
+### 3. Material de apoio do capítulo
+
+[Conceitos de programação](PDFs/Aula%20003%20-%20Conceitos%20de%20programação.pdf)
