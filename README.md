@@ -97,3 +97,11 @@
         * **entre outros**
 
 * **Programas** - São *Algoritmos* executados pelo computador. Assim podemos dizer que o computador é uma máquina que *automatiza* a execução de algoritmos computacionais, como por exemplo, processamento de dados, cálculos, etc.
+
+### 5. O que é preciso para se fazer um programa de computador
+
+* Para construir um programa de computador nós vamos precisar:
+    * Uma **linguagem de programação**: regras **léxicas** e **sintáticas** para se escrever o programa.
+    * Uma **IDE**: Software para editar e testar o programa
+    * Um **compilador**: software para transformar o **código fonte** em **código objeto**
+    * Um **gerador de código** ou **máquina virtual**: software que permite que o programa seja executado
