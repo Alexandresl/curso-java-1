@@ -223,3 +223,7 @@
 ### 16. Instalando Java JDK
 
 * [Link para download do Java Zulu](https://www.azul.com/downloads/)
+  
+### 17. Instalando o Eclipse
+
+[Link](https://www.eclipse.org/downloads/packages/) para download do Eclipse
