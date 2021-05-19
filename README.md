@@ -162,3 +162,33 @@
 [Página do download](https://www.oracle.com/java/technologies/java-se-glance.html)
 
 * Será instalada a versão do jdk-11, por ser a mais recente versão LTS disponível.
+
+### 12. Histórico e edições de Java
+
+* **Java** além de uma linguagem de programação (regras sintáticas), é uma plataforma de programação.
+* Como uma Plataforma de desenvolvimento e execução, ela fornece:
+  * Biblioteca (API)
+  * Ambiente de execução
+
+* **Histórico**
+  * Problemas resolvidos e motivo de seu sucesso:
+    * Ponteiros / gerenciamento de memória
+    * Portabilidade falha: reescrever parte do código ao mudar de OS
+    * Utilização em dispositivos diversos
+    * custo
+
+* Criada pela Sun Microsystems no meio da década de 1990.
+
+* Adquirida pela Oracle Corporation em 2010.
+
+* **Aspectos Notáveis**
+  * Código compilado para *bytecode* e executado em máquina virtual (JVM)
+  * Portável, segura e robusta
+  * Roda em vários tipos de dispositivos
+  * Domina o mercado corporativo desde o fim do século 20.
+  * Padrão Android por muitos anos
+
+* **Edições do Java**
+  * Java ME - Java Micro Edition - dispositivos embarcados e móveis - IoT - [Link](https://www.oracle.com/java/technologies/javameoverview.html)
+  * Java SE - Java Standard Edition - core - desktop e servidores - [Link](https://www.oracle.com/java/technologies/java-se-glance.html)
+  * Java EE - Java Enterprise Edition - aplicações corporativas - [Link](https://www.oracle.com/java/technologies/java-ee-glance.html)
