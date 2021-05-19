@@ -192,3 +192,14 @@
   * Java ME - Java Micro Edition - dispositivos embarcados e móveis - IoT - [Link](https://www.oracle.com/java/technologies/javameoverview.html)
   * Java SE - Java Standard Edition - core - desktop e servidores - [Link](https://www.oracle.com/java/technologies/java-se-glance.html)
   * Java EE - Java Enterprise Edition - aplicações corporativas - [Link](https://www.oracle.com/java/technologies/java-ee-glance.html)
+
+### 13. JDK / JVM - Máquina Virtual do Java
+
+* **JVM - Java Virtual Machine**
+  * *Máquina Virtual do Java* - necessário para executar sistemas java
+  * Documentação do Java SE - [Link](https://docs.oracle.com/en/java/javase/11/)
+
+* **Compilação e Interpretação**
+  * Linguagens **compiladas**: C, C++
+  * Linguagens **interpretadas**: PHP, JavaScript
+  * Linguagens **pré-compiladas + máquina virtual**: Java, C#
