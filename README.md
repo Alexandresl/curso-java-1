@@ -244,3 +244,7 @@
   * Marque a opção: public static void main(String[] args)
 
 [Atalhos do eclipse](keyboard-eclipse.md)
+
+## Seção 4: Estrutura sequencial
+
+### 19. Visão geral do capítulo
