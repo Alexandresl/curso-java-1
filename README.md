@@ -333,3 +333,26 @@ char sexo = 'F';
 | int 5minutos;              | int _5minutos;           |
 | int salário;               | int salario;             |
 | int salário do funcionário | int salarioDoFuncionario |
+
+### 23. As três operações básicas de programação
+
+* Um programa de computador é capaz de realizar essencialmente três operações:
+  * *Entrada de dados*
+  * *Processamento de dados*
+  * *Saída de dados*
+
+* **Entrada de dados**
+  * É quando o usuário informa dados para o programa. 
+  * Estes dados serão armazenados em variáveis.
+  * Os dados são inseridos através de dispositivos de entrada. Ex.: Teclado
+  * A operação de entrada de dados também é chamada de **leitura**
+
+* **Processamento de dados**
+  * É quando o programa realiza os cálculos.
+  * O processamento de dados é realizado pelo processador do computador.
+  * O processamento da dados se dá por um comando de **atribuição**. ex.: `media = (x + y) / 2`
+
+* **Saída de dados**
+  * É quando o programa informa dados para o usuário.
+  * A apresentação destes dados se dá por dispositivos de saída. Ex.: Monitor do computador.
+  * Esta operação também é conhecida como **escrita**
