@@ -498,7 +498,7 @@ Regra:
   * neste exemplo é realizado o casting para *double*, pois, caso contrário, o resultado mesmo armazenado em uma variávvel do tipo *double* será *inteira* (*2.0*)
 
 ```java
-  // exemplo 3
+  // exemplo 5
   double a;
   int b;
   
