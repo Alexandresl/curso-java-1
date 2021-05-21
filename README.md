@@ -135,7 +135,7 @@
 * **Interpretação** - É o processo em que a partir do código fonte, um interpretador irá realizar a análise léxica, sintática e a geração do código executável, sob demanda. Exemplo de linguagens interpretadas: PHP, JavaScript, Python, Ruby e etc.
 * **Abordagem híbrida** - Além da compilação e a interpretação, existe uma abordagem híbrida. Nela, um compilador realiza uma "*pré-compilação*", neste processo será realizada a análise léxica e sintática gerando um código objeto chamado de *Bytecode*. Este *Bytecode* será interpretado sob demanda por uma máquina virtual. Exemplo de linguagens híbridas: Java e C#.
 
-* Vantagens:
+#### Vantagens:
   * **Compilação**:
     * Velocidade do programa
     * Auxílio do compilador antes da execução
@@ -170,39 +170,39 @@
   * Biblioteca (API)
   * Ambiente de execução
 
-* **Histórico**
-  * Problemas resolvidos e motivo de seu sucesso:
-    * Ponteiros / gerenciamento de memória
-    * Portabilidade falha: reescrever parte do código ao mudar de OS
-    * Utilização em dispositivos diversos
-    * custo
+#### Histórico
+* Problemas resolvidos e motivo de seu sucesso:
+  * Ponteiros / gerenciamento de memória
+  * Portabilidade falha: reescrever parte do código ao mudar de OS
+  * Utilização em dispositivos diversos
+  * custo
 
 * Criada pela Sun Microsystems no meio da década de 1990.
 
 * Adquirida pela Oracle Corporation em 2010.
 
-* **Aspectos Notáveis**
-  * Código compilado para *bytecode* e executado em máquina virtual (JVM)
-  * Portável, segura e robusta
-  * Roda em vários tipos de dispositivos
-  * Domina o mercado corporativo desde o fim do século 20.
-  * Padrão Android por muitos anos
+####  **Aspectos Notáveis**
+* Código compilado para *bytecode* e executado em máquina virtual (JVM)
+* Portável, segura e robusta
+* Roda em vários tipos de dispositivos
+* Domina o mercado corporativo desde o fim do século 20.
+* Padrão Android por muitos anos
 
-* **Edições do Java**
-  * Java ME - Java Micro Edition - dispositivos embarcados e móveis - IoT - [Link](https://www.oracle.com/java/technologies/javameoverview.html)
-  * Java SE - Java Standard Edition - core - desktop e servidores - [Link](https://www.oracle.com/java/technologies/java-se-glance.html)
-  * Java EE - Java Enterprise Edition - aplicações corporativas - [Link](https://www.oracle.com/java/technologies/java-ee-glance.html)
+#### **Edições do Java**
+* Java ME - Java Micro Edition - dispositivos embarcados e móveis - IoT - [Link](https://www.oracle.com/java/technologies/javameoverview.html)
+* Java SE - Java Standard Edition - core - desktop e servidores - [Link](https://www.oracle.com/java/technologies/java-se-glance.html)
+* Java EE - Java Enterprise Edition - aplicações corporativas - [Link](https://www.oracle.com/java/technologies/java-ee-glance.html)
 
 ### 13. JDK / JVM - Máquina Virtual do Java
 
-* **JVM - Java Virtual Machine**
-  * *Máquina Virtual do Java* - necessário para executar sistemas java
-  * Documentação do Java SE - [Link](https://docs.oracle.com/en/java/javase/11/)
+#### **JVM - Java Virtual Machine**
+* *Máquina Virtual do Java* - necessário para executar sistemas java
+* Documentação do Java SE - [Link](https://docs.oracle.com/en/java/javase/11/)
 
-* **Compilação e Interpretação**
-  * Linguagens **compiladas**: C, C++
-  * Linguagens **interpretadas**: PHP, JavaScript
-  * Linguagens **pré-compiladas + máquina virtual**: Java, C#
+#### **Compilação e Interpretação**
+* Linguagens **compiladas**: C, C++
+* Linguagens **interpretadas**: PHP, JavaScript
+* Linguagens **pré-compiladas + máquina virtual**: Java, C#
 
 ### 14. Estrutura de uma aplicação Java
 
@@ -214,11 +214,11 @@
 
 ### 15. Instalando o Java JDK
 
-* Instalando o Java JDK
-  * Vídeo/Tutorial de instalação para as diferentes plataformas:
-    * [Windows](https://youtu.be/laC0fiI-IOM)
-    * [Línux](https://www.youtube.com/watch?v=Sv0EwYPLw8w&list=PLNuUvBZGBA8mcAF-YX7RJhA26TBLdG5yk&index=3)
-    * [Mac](https://github.com/devsuperior/sds2/tree/master/instalacao/mac#java-11-on-macos)
+#### Instalando o Java JDK
+* Vídeo/Tutorial de instalação para as diferentes plataformas:
+  * [Windows](https://youtu.be/laC0fiI-IOM)
+  * [Línux](https://www.youtube.com/watch?v=Sv0EwYPLw8w&list=PLNuUvBZGBA8mcAF-YX7RJhA26TBLdG5yk&index=3)
+  * [Mac](https://github.com/devsuperior/sds2/tree/master/instalacao/mac#java-11-on-macos)
   
 ### 16. Instalando Java JDK
 
@@ -230,18 +230,18 @@
 
 ### 18. Primeiro programa em Java no Eclipse
 
-* Passo a passo para criação do projeto no Eclipse:
-  * Workspace (selecione a pasta aonde os projetos serão salvos)
-  * Mudar o layout: Window -> Perspective -> Open Perspective -> Java
-  * Zerar o layout: Window -> Perspective -> Reset Perspective
-  * Mostrar a aba Console: Window -> Show View -> Console
-  * Criar projeto: File -> New -> Java Project
+#### Passo a passo para criação do projeto no Eclipse:
+* Workspace (selecione a pasta aonde os projetos serão salvos)
+* Mudar o layout: Window -> Perspective -> Open Perspective -> Java
+* Zerar o layout: Window -> Perspective -> Reset Perspective
+* Mostrar a aba Console: Window -> Show View -> Console
+* Criar projeto: File -> New -> Java Project
 
-* Criar uma classe
-  * Botão direito na pasta "src" -> New -> Class
-  * Package: deixe em branco
-  * Nome da classe: Main (com M maiúsculo)
-  * Marque a opção: public static void main(String[] args)
+#### Criar uma classe
+* Botão direito na pasta "src" -> New -> Class
+* Package: deixe em branco
+* Nome da classe: Main (com M maiúsculo)
+* Marque a opção: public static void main(String[] args)
 
 [Atalhos do eclipse](keyboard-eclipse.md)
 
@@ -257,7 +257,7 @@
 
 * **Expressões aritméticas** são aquelas expressões que quando calculadas, resultam em um valor númérico.
 
-* Operadores aritméticos
+#### Operadores aritméticos
 
 | Operador | Significado              |
 | -------- | ------------------------ |
@@ -267,11 +267,11 @@
 | /        | Divisão                  |
 | %        | Resto da divisão ("mod") |
 
-* Precedência
+#### Precedência
   * 1º Lugar: * / %
   * 2º Lugar: + -
 
-* Exemplos de expressões aritméticas
+#### Exemplos de expressões aritméticas
 
 | Expressão          | resultado |
 | ------------------ | --------- |
@@ -302,7 +302,7 @@ char sexo = 'F';
   * valor
   * Endereço
 
-* Tipos primitivos em Java
+#### Tipos primitivos em Java
 
 | Descrição                | Tipo        | Tamanho | Valores                                    | Valor padrão |
 | ------------------------ | ----------- | ------- | ------------------------------------------ | ------------ |
@@ -322,11 +322,11 @@ char sexo = 'F';
 * A quantidade de bits determina a quantidade de valores diferentes que determinada tipo pode armazenar. Para sabermos este limite basta utilizarmos o número de bits como expoente de 2. Ex.:
   * 8 bits = 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 = 2⁸ = 256
 
-* **Nome de variáveis**
-  * Não pode começar com dígito: use uma letra ou _ (underscore)
-  * Não pode ter espaço em branco
-  * Não usar acentos ou til
-  * Sugestão: use o padrão "*camel case*"
+#### **Nome de variáveis**
+* Não pode começar com dígito: use uma letra ou _ (underscore)
+* Não pode ter espaço em branco
+* Não usar acentos ou til
+* Sugestão: use o padrão "*camel case*"
 
 | Errado                     | Correto                  |
 | -------------------------- | ------------------------ |
@@ -341,25 +341,25 @@ char sexo = 'F';
   * *Processamento de dados*
   * *Saída de dados*
 
-* **Entrada de dados**
-  * É quando o usuário informa dados para o programa. 
-  * Estes dados serão armazenados em variáveis.
-  * Os dados são inseridos através de dispositivos de entrada. Ex.: Teclado
-  * A operação de entrada de dados também é chamada de **leitura**
+#### **Entrada de dados**
+* É quando o usuário informa dados para o programa. 
+* Estes dados serão armazenados em variáveis.
+* Os dados são inseridos através de dispositivos de entrada. Ex.: Teclado
+* A operação de entrada de dados também é chamada de **leitura**
 
-* **Processamento de dados**
-  * É quando o programa realiza os cálculos.
-  * O processamento de dados é realizado pelo processador do computador.
-  * O processamento da dados se dá por um comando de **atribuição**. ex.: `media = (x + y) / 2`
+#### **Processamento de dados**
+* É quando o programa realiza os cálculos.
+* O processamento de dados é realizado pelo processador do computador.
+* O processamento da dados se dá por um comando de **atribuição**. ex.: `media = (x + y) / 2`
 
-* **Saída de dados**
-  * É quando o programa informa dados para o usuário.
-  * A apresentação destes dados se dá por dispositivos de saída. Ex.: Monitor do computador.
-  * Esta operação também é conhecida como **escrita**
+#### **Saída de dados**
+* É quando o programa informa dados para o usuário.
+* A apresentação destes dados se dá por dispositivos de saída. Ex.: Monitor do computador.
+* Esta operação também é conhecida como **escrita**
 
 ### 24. Saída de dados em Java
 
-* Para escrever na tela um texto qualquer:
+#### Para escrever na tela um texto qualquer:
 
 ```java
 // Sem quebra de linha ao final
@@ -369,14 +369,14 @@ System.out.print("Bom dia!");
 System.out.println("Bom dia!");
 ```
 
-* Para escrever na tela o conteúdo de uma variável de algum tipo básico:
+#### Para escrever na tela o conteúdo de uma variável de algum tipo básico:
 
 ```java
 int y = 32;
 System.out.println(y);
 ```
 
-* Para escrever o conteúdo de uma variável com ponto flutuante
+#### Para escrever o conteúdo de uma variável com ponto flutuante
 
 ```java
 
@@ -391,7 +391,7 @@ System.out.printf("%.4f%n", x); // 10.3578
 
   * *Obs*.: O comando `printf` por padrão irá formatar conforme a configuração do sistema operacional. Dessa forma ele irá apresentar os números de número flutuantes com o separador da vírgula. Ex.: `10,3578`. Para que seja apresentado com o ponto (.) deverá ser definido o `locale` conforme exemplo acima.
 
-* Para concatenar vários elementos em um mesmo comando de escrita (print e println)
+#### Para concatenar vários elementos em um mesmo comando de escrita (print e println)
 
 ```java
 // Regra geral para o comando print e println
@@ -401,7 +401,7 @@ int x = 5;
 System.out.println("Resultado = " + x + " Metros");
 ```
 
-* Para concatenar vários elementos em um mesmo comando de escrita (printf)
+#### Para concatenar vários elementos em um mesmo comando de escrita (printf)
 
 ```java
 // Regra geral para o comando printf
@@ -413,7 +413,7 @@ System.out.println("Resultado = " + x + " Metros");
 System.out.printf("Resultado = %.2f metros\n", x);
 ```
 
-* Para concatenar vários elementos em um mesmo comando de escrita (printf - diferentes tipos de dados)
+#### Para concatenar vários elementos em um mesmo comando de escrita (printf - diferentes tipos de dados)
 
 ```java
 // %f = número flutuante
@@ -478,9 +478,9 @@ Regra:
   // A área do trapézio é 35.00
 ```
 
-  * *Boa prática* - Sempre indique o tipo do número, se a exporessão for de ponto flutuante (não inteira).
-    * Para **double** use: `.0`
-    * Para **float** use: `f`
+* *Boa prática* - Sempre indique o tipo do número, se a exporessão for de ponto flutuante (não inteira).
+  * Para **double** use: `.0`
+  * Para **float** use: `f`
 
 ```java
   // exemplo 4
@@ -495,7 +495,7 @@ Regra:
   
   System.out.println(resultado);
 ```
-  * neste exemplo é realizado o casting para *double*, pois, caso contrário, o resultado mesmo armazenado em uma variávvel do tipo *double* será *inteira* (*2.0*)
+* neste exemplo é realizado o casting para *double*, pois, caso contrário, o resultado mesmo armazenado em uma variávvel do tipo *double* será *inteira* (*2.0*)
 
 ```java
   // exemplo 5
@@ -507,4 +507,23 @@ Regra:
   
   System.out.println(b);
 ```
-  * Neste exemplo o castin é feito para poder armazenar um valor de uma variável do tipo *double* em uma variável do tipo *int*.
+  * Neste exemplo o casting é feito para poder armazenar um valor de uma variável do tipo *double* em uma variável do tipo *int*.
+
+### 26. Entrada de dados em Java - Parte 1
+
+* Para realizarmos a entrada de dados em um programa java, utilizamos um objeto chamado *Scanner*. O **Scanner** é importado de `java.util.Scanner`
+* Este objeto é instanciado da seguinte forma:
+```java
+Scanner sc = new Scanner(System.in);
+
+sc.close()
+```
+* No exemplo podemos ver a utilização da função `close()`. Esta função serve para desalocar este recurso disponibilizado e deve ser utilizada quando não precisamos mais deste recurso.
+
+#### Para ler uma palavra (texto sem espaços)
+
+```java
+// Suponha uma variável do tipo String declarada
+String x;
+x = sc.next();
+```
