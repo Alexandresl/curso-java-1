@@ -429,3 +429,35 @@ System.out.printf("%s tem %d anos e ganha R$ %.2f reais\n", nome, idade, renda);
 ```
 
   * Mais informações sobre [formatação de números](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html)
+
+### 25. Processamento de dados em Java, Casting
+
+* Em programação, o processamento de dados é feito através do comando de atribuição.
+
+```
+// Sintaxe
+<variável> = <expressão>;
+
+Regra:
+1 - A expressão é calculada;
+2 - O resultado da expressão é armazenado na variável
+```
+
+```java
+  // exemplo 1
+  int x, y;
+  x = 5;
+  y = 2 * x;
+  System.out.println(x); // retorna 5
+  System.out.println(y); // retorna 10
+```
+
+```java
+  // exemplo 2
+  int x;
+  double y;
+  x = 5;
+  y = 2 * x;
+  System.out.println(x); // retorna 5
+  System.out.println(y); // retorna 10.0
+```
