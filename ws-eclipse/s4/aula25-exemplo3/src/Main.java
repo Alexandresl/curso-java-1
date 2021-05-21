@@ -6,13 +6,16 @@ public class Main {
 		
 		Locale.setDefault(Locale.US);
 		
-		int b = 6;
-		int B = 8;
-		int h = 5;
+		double b, B, h, area;
 		
-		double area = (b + B) / 2 * h;
+		b = 6.0;
+		B = 8.0;
+		h = 5.0;
+		
+		area = (b + B) / 2 * h;
 		
 		System.out.printf("A área do trapézio é %.2f", area);
+		// A área do trapézio é 35.00
 
 	}
 

@@ -461,3 +461,50 @@ Regra:
   System.out.println(x); // retorna 5
   System.out.println(y); // retorna 10.0
 ```
+
+```java
+  // exemplo 3
+  Locale.setDefault(Locale.US);
+      
+  double b, B, h, area;
+
+  b = 6.0;
+  B = 8.0;
+  h = 5.0;
+
+  area = (b + B) / 2 * h;
+
+  System.out.printf("A área do trapézio é %.2f", area);
+  // A área do trapézio é 35.00
+```
+
+  * *Boa prática* - Sempre indique o tipo do número, se a exporessão for de ponto flutuante (não inteira).
+    * Para **double** use: `.0`
+    * Para **float** use: `f`
+
+```java
+  // exemplo 4
+  int a, b;
+
+  double resultado;
+  
+  a = 5;
+  b = 2;
+  
+  resultado = (double) a / b;
+  
+  System.out.println(resultado);
+```
+  * neste exemplo é realizado o casting para *double*, pois, caso contrário, o resultado mesmo armazenado em uma variávvel do tipo *double* será *inteira* (*2.0*)
+
+```java
+  // exemplo 3
+  double a;
+  int b;
+  
+  a = 5.0;
+  b = (int) a;
+  
+  System.out.println(b);
+```
+  * Neste exemplo o castin é feito para poder armazenar um valor de uma variável do tipo *double* em uma variável do tipo *int*.
