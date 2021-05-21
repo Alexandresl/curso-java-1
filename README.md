@@ -523,7 +523,45 @@ sc.close()
 #### Para ler uma palavra (texto sem espaços)
 
 ```java
-// Suponha uma variável do tipo String declarada
+// Suponha uma variável do tipo String declarada:
 String x;
 x = sc.next();
+```
+
+#### Para ler um número inteiro
+
+```java
+// Suponha uma variável tipo int declarada:
+int x;
+x = sc.nextInt();
+```
+
+#### Para ler um número com ponto flutuante
+
+```java
+// Suponha uma variável tipo double declarada:
+double x;
+x = sc.nextDouble();
+```
+
+* **Atenção** - Para considerar o separador de decimais como ponto, **ANTES** da declaração do *Scanner*, faça `Locale.setDefault(Locale.US);`
+
+#### Para ler um caractere
+
+```java
+// Suponha uma variável tipo char declarada:
+char x;
+x = sc.next().charAT(0);
+```
+
+#### Para ler vários dados na mesma linha
+
+```java
+String x;
+int y;
+double z;
+
+x = sc.next();
+y = sc.nextInt();
+z = sc.nextDouble();
 ```
