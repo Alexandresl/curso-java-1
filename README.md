@@ -668,3 +668,12 @@ public class Main {
 
 }
 ```
+
+### 29. AVISO: exercícios para iniciantes PARTE 1
+
+* Até o momento nós apresentamos a "*estrutura sequencial*":
+  * Entrada de dados
+  * Processamento (atribuição)
+  * Saída de dados
+
+* A seguir será realizado exercícios sobre estes tópicos.
