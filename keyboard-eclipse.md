@@ -1,9 +1,10 @@
 # Diversos atalhos do Eclipse
 
 * Mudar o tamanho da fonte
-  * CTRL +
-  * CTRL -
+  * Ctrl +
+  * Ctrl -
 
-* Importar classes: CTRL + SHIFT + o
-* Auto identação: CTRL + SHIFT + f
-* `System.out.printls()`: CTRL + espaço
+* Importar classes: Ctrl + Shift + o
+* Auto identação: Ctrl + Shift + f
+* `System.out.printls()`: Ctrl + espaço
+* Renomear: Alt + Shift + r

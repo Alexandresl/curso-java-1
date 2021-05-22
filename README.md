@@ -677,3 +677,12 @@ public class Main {
   * Saída de dados
 
 * A seguir será realizado exercícios sobre estes tópicos.
+
+### 30. Exercícios para iniciantes - Parte 1
+
+* [Exercícios 1](PDFs/Aula%20028%20-%20Exercícios%201.pdf)
+
+#### Exercício Resolvido
+
+[Link](https://www.youtube.com/watch?v=Ah1Y6d6deq0)
+
