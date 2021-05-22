@@ -630,6 +630,8 @@ sc.close();
 | A = Math.pow(x, y); | Variável A recebe o resultado de x elevado a y |
 | A = Math.abs(x);    | Variável A recebe o valor absoluto de x        |
 
+* A relação completa dos métodos da função Math podem ser consultados [Aqui](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html).
+
 ```java
 // Exemplo 1
 public class Main {
