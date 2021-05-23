@@ -868,3 +868,6 @@ if (<condição>) {
 }
 
 ```
+
+### 36. AVISO: exercícios para iniciantes PARTE 2
+
