@@ -688,9 +688,9 @@ public class Main {
 
 #### Exercícios propostos
 
-* [Exercício 1](ws-eclipse\s4\aula30-exercicio1\src\Main.java)
-* [Exercício 2](ws-eclipse\s4\aula30-exercicio2\src\Main.java)
-* [Exercício 3](ws-eclipse\s4\aula30-exercicio3\src\Main.java)
-* [Exercício 4](ws-eclipse\s4\aula30-exercicio4\src\Main.java)
-* [Exercício 5](ws-eclipse\s4\aula30-exercicio5\src\Main.java)
-* [Exercício 6](ws-eclipse\s4\aula30-exercicio6\src\Main.java)
+* [Exercício 1](ws-eclipse/s4/aula30-exercicio1/src/Main.java)
+* [Exercício 2](ws-eclipse/s4/aula30-exercicio2/src/Main.java)
+* [Exercício 3](ws-eclipse/s4/aula30-exercicio3/src/Main.java)
+* [Exercício 4](ws-eclipse/s4/aula30-exercicio4/src/Main.java)
+* [Exercício 5](ws-eclipse/s4/aula30-exercicio5/src/Main.java)
+* [Exercício 6](ws-eclipse/s4/aula30-exercicio6/src/Main.java)
