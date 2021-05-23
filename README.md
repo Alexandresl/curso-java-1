@@ -680,7 +680,7 @@ public class Main {
 
 ### 30. Exercícios para iniciantes - Parte 1
 
-* [Exercícios 1](PDFs/Aula%20028%20-%20Exercícios%201.pdf)
+* [Lista de Exercícios 1](PDFs/Aula%20028%20-%20Exercícios%201.pdf)
 
 #### Exercício Resolvido
 

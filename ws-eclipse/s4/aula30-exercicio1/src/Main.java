@@ -4,6 +4,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		// Faça um programa para ler dois números inteiros, e depois mostrar na tela
+		// a soma desses números com uma mensagem explicativa.
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Digite um inteiro: ");
 		int num1 = sc.nextInt();
