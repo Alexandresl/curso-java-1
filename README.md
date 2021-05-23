@@ -445,6 +445,7 @@ Regra:
 
 ```java
   // exemplo 1
+
   int x, y;
   x = 5;
   y = 2 * x;
@@ -454,6 +455,7 @@ Regra:
 
 ```java
   // exemplo 2
+
   int x;
   double y;
   x = 5;
@@ -464,6 +466,7 @@ Regra:
 
 ```java
   // exemplo 3
+
   Locale.setDefault(Locale.US);
       
   double b, B, h, area;
@@ -484,6 +487,7 @@ Regra:
 
 ```java
   // exemplo 4
+
   int a, b;
 
   double resultado;
@@ -499,6 +503,7 @@ Regra:
 
 ```java
   // exemplo 5
+
   double a;
   int b;
   
@@ -524,6 +529,7 @@ sc.close()
 
 ```java
 // Suponha uma variável do tipo String declarada:
+
 String x;
 x = sc.next();
 ```
@@ -532,6 +538,7 @@ x = sc.next();
 
 ```java
 // Suponha uma variável tipo int declarada:
+
 int x;
 x = sc.nextInt();
 ```
@@ -540,6 +547,7 @@ x = sc.nextInt();
 
 ```java
 // Suponha uma variável tipo double declarada:
+
 double x;
 x = sc.nextDouble();
 ```
@@ -550,6 +558,7 @@ x = sc.nextDouble();
 
 ```java
 // Suponha uma variável tipo char declarada:
+
 char x;
 x = sc.next().charAT(0);
 ```
@@ -797,3 +806,65 @@ public class Main {
 | --- | --- |
 | F   | V   |
 | V   | F   |
+
+### 35. Estrutura condicional (if-else)
+
+* **Estrutura condicional** é uma *estrutura de controle* que permite definir que um certo *bloco de comando* somente será executado dependendo da *condição*.
+
+#### Sintaxe da estrutura condicional
+
+```Java
+// Simples:
+
+if (<condição>) {
+  <comando 1>
+  <comando 2>
+}
+```
+
+```java
+// composta
+
+if (<condição>) {
+  <comando 1>
+  <comando 2>
+} else {
+  <comando 3>
+  <comando 4>
+}
+```
+
+#### Encadeamento de estruturas condicionais
+
+```java
+// Exemplo 1
+// Comando completo
+
+if (<condição>) {
+  <comando 1>
+  <comando 2>
+} else {
+  if (<condição>) {
+    <comando 3>
+    <comando 4>
+  } else {
+    <comando 5>
+    <comando 6>
+  }
+}
+
+// Exemplo 2
+// Comando reduzido para evitar aumento de identação
+
+if (<condição>) {
+  <comando 1>
+  <comando 2>
+} else if (<condição>) {
+  <comando 3>
+  <comando 4>
+} else {
+  <comando 5>
+  <comando 6>
+}
+
+```
