@@ -694,6 +694,7 @@ public class Main {
 #### Exercício Resolvido
 
 [Link](https://www.youtube.com/watch?v=Ah1Y6d6deq0)
+[Código fonte](ws-eclipse/s4/aula30-exemplo1/src/Main.java)
 
 #### Exercícios propostos
 
@@ -871,3 +872,21 @@ if (<condição>) {
 
 ### 36. AVISO: exercícios para iniciantes PARTE 2
 
+### 37. Exercícios para Iniciantes - PARTE 2
+
+[Exercícios estrutura condicional](PDFs/Aula%20035%20-%20Exercícios%202.pdf)
+
+#### Exercícios Resolvidos
+ 
+ [Exercício resolvido 1](https://www.youtube.com/watch?v=SRyQZBaA-_s)
+ [Código fonte](ws-eclipse/s4/aula37-exemplo1/src/Main.java)
+
+ [Exercício resolvido 2](https://www.youtube.com/watch?v=3lhkB5I8P6E)
+ [Código fonte](ws-eclipse/s4/aula37-exemplo2/src/Main.java)
+
+ [Exercício resolvido 3](https://www.youtube.com/watch?v=UjCVIcKccdQ)
+ [Código fonte](ws-eclipse/s4/aula37-exemplo3/src/Main.java)
+
+ #### Exercícios propostos
+
+ 
