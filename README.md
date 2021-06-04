@@ -909,8 +909,10 @@ if (<condição>) {
 
 #### Operadores de atribuição cumulativa
 
-| a += b; | a = a + b; |
-| a -= b; | a = a - b; |
-| a *= b; | a = a * b; |
-| a /= b; | a = a / b; |
-| a %= b; | a = a % b; |
+| Operadores | expressão equivalente |
+| ---------- | --------------------- |
+| a += b;    | a = a + b;            |
+| a -= b;    | a = a - b;            |
+| a *= b;    | a = a * b;            |
+| a /= b;    | a = a / b;            |
+| a %= b;    | a = a % b;            |
