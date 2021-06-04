@@ -916,3 +916,11 @@ if (<condição>) {
 | a *= b;    | a = a * b;            |
 | a /= b;    | a = a / b;            |
 | a %= b;    | a = a % b;            |
+
+[Exemplo de uso](ws-eclipse/s4/aula38-exemplo1/src/Main.java)
+
+### 39. Sintaxe opcional - switch-case
+
+* Quando se tem várias opções de fluxo a serem tratadas com base no valor de uma varíavel, ao invés de várias estruturas *if-else* encadeadas, alguns preferem utilizar a estrutura *switch-case*.
+
+[Exemplo de uso](ws-eclipse/s4/aula39-exemplo1/src/Main.java)
