@@ -889,4 +889,11 @@ if (<condição>) {
 
  #### Exercícios propostos
 
- 
+ [Exercício 1](ws-eclipse/s4/aula37-exercicio1/src/Main.java)
+ [Exercício 2](ws-eclipse/s4/aula37-exercicio2/src/Main.java)
+ [Exercício 3](ws-eclipse/s4/aula37-exercicio3/src/Main.java)
+ [Exercício 4](ws-eclipse/s4/aula37-exercicio4/src/Main.java)
+ [Exercício 5](ws-eclipse/s4/aula37-exercicio5/src/Main.java)
+ [Exercício 6](ws-eclipse/s4/aula37-exercicio6/src/Main.java)
+ [Exercício 7](ws-eclipse/s4/aula37-exercicio7/src/Main.java)
+ [Exercício 8](ws-eclipse/s4/aula37-exercicio8/src/Main.java)
