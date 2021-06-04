@@ -904,3 +904,13 @@ if (<condição>) {
  [Exercício 7](ws-eclipse/s4/aula37-exercicio7/src/Main.java)
 
  [Exercício 8](ws-eclipse/s4/aula37-exercicio8/src/Main.java)
+
+ ### 38. Sintaxe opcional - operadores de atribuição cumulativa
+
+#### Operadores de atribuição cumulativa
+
+| a += b; | a = a + b; |
+| a -= b; | a = a - b; |
+| a *= b; | a = a * b; |
+| a /= b; | a = a / b; |
+| a %= b; | a = a % b; |
