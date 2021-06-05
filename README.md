@@ -943,3 +943,13 @@ switch ( expressão ) {
 ```
 
 [Exemplo de uso](ws-eclipse/s4/aula39-exemplo1/src/Main.java)
+
+### 40. Expressão condicional ternária
+
+A *Expressão condicional ternária* é uma estrutura opcional ao *if-else* quando se deseja decidir um **valor** com base em uma condição.
+
+#### Sintaxe
+
+```java
+( condicao ) ? valor_se_verdadeira : valor_se_falso
+```
