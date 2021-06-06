@@ -1002,3 +1002,6 @@ while ( condicao ) {
 ```
 
 [Exemplo](ws-eclipse/s06/aula45-exemplo1/src/Main.java)
+
+### 46. Teste de mesa com estrutura repetitiva enquanto
+
