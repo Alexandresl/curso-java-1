@@ -962,3 +962,7 @@ A *Expressão condicional ternária* é uma estrutura opcional ao *if-else* quan
 
 [Exemplo](ws-eclipse/s5/aula41-exemplo1/src/Main.java)
 
+## Seção 6: Estruturas repetitivas
+
+### 42. Visão geral do capítulo
+
