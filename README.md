@@ -1020,3 +1020,11 @@ while ( condicao ) {
 
 [Exercício resolvido 2](https://www.youtube.com/watch?v=vT0QEDHK2yU)
 [Código fonte](ws-eclipse/s06/aula49-exemplo2/src/Main.java)
+
+#### Exercícios propostos
+
+[Exercício 1](ws-eclipse/s06/aula49-exercicio1/src/Main.java)
+
+[Exercício 2](ws-eclipse/s06/aula49-exercicio2/src/Main.java)
+
+[Exercício 3](ws-eclipse/s06/aula49-exercicio3/src/Main.java)
