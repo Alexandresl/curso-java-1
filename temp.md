@@ -1,6 +1,4 @@
-## Seção 2: Conceitos de programação
 
-### 2. Visão geral do capítulo
 
 ### 3. Material de apoio do capítulo
 
