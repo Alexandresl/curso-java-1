@@ -73,28 +73,3 @@
 
 [Arquivo Curso Java Completo](PDFs/Aula%20001%20-%20Curso%20Java%20Completo.pdf)
 
-## Seção 2: Conceitos de programação
-
-### 2. Visão geral do capítulo
-
-### 3. Material de apoio do capítulo
-
-[Conceitos de programação](PDFs/Aula%20003%20-%20Conceitos%20de%20programação.pdf)
-
-### 4. Algoritmo, Automação, Programa de Computador
-
-* **Algoritmo** - Sequência finita de instruções para se resolver um problema. Este conceito aplica-se a diversas áreas do conhecimento.
-
-* **Automação** - Consiste em utilizar máquina(s) para executar o procedimento desejado de forma automática ou semiautomática.
-
-* **Computador** - É composto de *Hardware* e *Software*
-    * **Hardware** - Parte física, a máquina em si.
-    * **Software** - Parte lógica, que são os programas:
-        * **Sistema Operacional** - Windows, linux, iOS, ...
-        * **Aplicativos** - apps de escritório, apps de câmera, navegador web, ...
-        * **Jogos**
-        * **Utilitários** - Antivirus, compactador de arquivos
-        * **entre outros**
-
-* **Programas** - São *Algoritmos* executados pelo computador. Assim podemos dizer que o computador é uma máquina que *automatiza* a execução de algoritmos computacionais, como por exemplo, processamento de dados, cálculos, etc.
-
