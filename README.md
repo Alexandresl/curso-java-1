@@ -134,3 +134,17 @@
 * **Compilação** - É o processo que transforma código fonte em código objeto. Este código objeto, posteriormente passará por um processo de *build* para a geração do arquivo executável. Exemplos de linguagens compiladas: C, C++ e etc.
 * **Interpretação** - É o processo em que a partir do código fonte, um interpretador irá realizar a análise léxica, sintática e a geração do código executável, sob demanda. Exemplo de linguagens interpretadas: PHP, JavaScript, Python, Ruby e etc.
 * **Abordagem híbrida** - Além da compilação e a interpretação, existe uma abordagem híbrida. Nela, um compilador realiza uma "*pré-compilação*", neste processo será realizada a análise léxica e sintática gerando um código objeto chamado de *Bytecode*. Este *Bytecode* será interpretado sob demanda por uma máquina virtual. Exemplo de linguagens híbridas: Java e C#.
+
+#### Vantagens:
+  * **Compilação**:
+    * Velocidade do programa
+    * Auxílio do compilador antes da execução
+  * **Interpretação**:
+    * Flexibilidade de manutenção do aplicativo em produção
+    * Expressividade da linguagem (menos verbosidade, normalmente são linguagens fracamente tipadas)
+    * Código fonte não precisa ser recompilado para rodar em plataformas diferentes
+  * **Híbridas**:
+    * Auxílio do compilador antes da execução
+    * Código fonte não precisa ser recompilado para rodar em plataformas diferentes
+    * Auxílio do compilador antes da execução
+    * Flexibilidade de manutenção do aplicativo em produção

@@ -1,17 +1,3 @@
-#### Vantagens:
-  * **Compilação**:
-    * Velocidade do programa
-    * Auxílio do compilador antes da execução
-  * **Interpretação**:
-    * Flexibilidade de manutenção do aplicativo em produção
-    * Expressividade da linguagem (menos verbosidade, normalmente são linguagens fracamente tipadas)
-    * Código fonte não precisa ser recompilado para rodar em plataformas diferentes
-  * **Híbridas**:
-    * Auxílio do compilador antes da execução
-    * Código fonte não precisa ser recompilado para rodar em plataformas diferentes
-    * Auxílio do compilador antes da execução
-    * Flexibilidade de manutenção do aplicativo em produção
-
 ## Seção 3: Introdução à linguagem Java
 
 ### 9. Visão geral do capítulo
