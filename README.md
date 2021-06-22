@@ -148,3 +148,7 @@
     * Código fonte não precisa ser recompilado para rodar em plataformas diferentes
     * Auxílio do compilador antes da execução
     * Flexibilidade de manutenção do aplicativo em produção
+
+## Seção 3: Introdução à linguagem Java
+
+### 9. Visão geral do capítulo
