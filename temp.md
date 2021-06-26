@@ -1,11 +1,3 @@
-### 15. Instalando o Java JDK
-
-#### Instalando o Java JDK
-* Vídeo/Tutorial de instalação para as diferentes plataformas:
-  * [Windows](https://youtu.be/laC0fiI-IOM)
-  * [Línux](https://www.youtube.com/watch?v=Sv0EwYPLw8w&list=PLNuUvBZGBA8mcAF-YX7RJhA26TBLdG5yk&index=3)
-  * [Mac](https://github.com/devsuperior/sds2/tree/master/instalacao/mac#java-11-on-macos)
-  
 ### 16. Instalando Java JDK
 
 * [Link para download do Java Zulu](https://www.azul.com/downloads/)

@@ -211,3 +211,11 @@
 * **Módulo** - Recurso introduzido no Java 9, é um agrupamento lógico de pacotes relacionados. Ex.: Módulo financeiro, gráfico, etc.
 * **Runtime** - É o agrupamento físico. Enquanto o Módulo é o agrupamento a nível de código, o Runtime ocorre com o **build** da aplicação onde os diferentes módulos ficarão separados em arquivos.
 * **Aplicação** - Agrupamento de módulos relacionados
+
+### 15. Instalando o Java JDK
+
+#### Instalando o Java JDK
+* Vídeo/Tutorial de instalação para as diferentes plataformas:
+  * [Windows](https://youtu.be/laC0fiI-IOM)
+  * [Línux](https://www.youtube.com/watch?v=Sv0EwYPLw8w&list=PLNuUvBZGBA8mcAF-YX7RJhA26TBLdG5yk&index=3)
+  * [Mac](https://github.com/devsuperior/sds2/tree/master/instalacao/mac#java-11-on-macos)
