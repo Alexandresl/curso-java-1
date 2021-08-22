@@ -1,13 +1,3 @@
-
-
-## Seção 2: Conceitos de programação
-
-### 2. Visão geral do capítulo
-
-### 3. Material de apoio do capítulo
-
-[Conceitos de programação](PDFs/Aula%20003%20-%20Conceitos%20de%20programação.pdf)
-
 ### 4. Algoritmo, Automação, Programa de Computador
 
 * **Algoritmo** - Sequência finita de instruções para se resolver um problema. Este conceito aplica-se a diversas áreas do conhecimento.
