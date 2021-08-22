@@ -76,3 +76,7 @@
     * Tratamento de exceções
 
 [Arquivo Curso Java Completo](PDFs/Aula%20001%20-%20Curso%20Java%20Completo.pdf)
+
+## Seção 2: Conceitos de programação
+
+### 2. Visão geral do capítulo
