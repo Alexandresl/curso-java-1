@@ -258,3 +258,33 @@
 ### 20. Material de apoio do capítulo
 
 [Estrutura sequencial](PDFs/Aula%20018%20-%20Estrutura%20sequencial.pdf)
+
+### 21. Expressões aritméticas
+
+* **Expressões aritméticas** são aquelas expressões que quando calculadas, resultam em um valor númérico.
+
+#### Operadores aritméticos
+
+| Operador | Significado              |
+| -------- | ------------------------ |
+| +        | Adição                   |
+| -        | Subtração                |
+| *        | Multiplicação            |
+| /        | Divisão                  |
+| %        | Resto da divisão ("mod") |
+
+#### Precedência
+  * 1º Lugar: * / %
+  * 2º Lugar: + -
+
+#### Exemplos de expressões aritméticas
+
+| Expressão          | resultado |
+| ------------------ | --------- |
+| 2 * 6 / 3          | 4         |
+| 3 + 2 * 4          | 11        |
+| (3 + 2) * 4        | 20        |
+| 60 / (3 + 2) * 4   | 48        |
+| 60 / ((3 + 2) * 4) | 3         |
+| 14 % 3             | 2         |
+| 19 % 5             | 4         |
