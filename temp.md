@@ -1,7 +1,3 @@
-### 20. Material de apoio do capítulo
-
-[Estrutura sequencial](PDFs/Aula%20018%20-%20Estrutura%20sequencial.pdf)
-
 ### 21. Expressões aritméticas
 
 * **Expressões aritméticas** são aquelas expressões que quando calculadas, resultam em um valor númérico.
