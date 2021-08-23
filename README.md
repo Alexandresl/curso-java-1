@@ -362,3 +362,77 @@ char sexo = 'F'; // Caractere Unicode
 * É quando o programa informa dados para o usuário.
 * A apresentação destes dados se dá por dispositivos de saída. Ex.: Monitor do computador.
 * Esta operação também é conhecida como **escrita**
+
+### 24. Saída de dados em Java
+
+#### Para escrever na tela um texto qualquer:
+
+```java
+// Sem quebra de linha ao final
+System.out.print("Bom dia!");
+
+// Com quera de linha no ao final
+System.out.println("Bom dia!");
+```
+
+#### Para escrever na tela o conteúdo de uma variável de algum tipo básico:
+
+```java
+int y = 32;
+System.out.println(y);
+```
+
+#### Para escrever o conteúdo de uma variável com ponto flutuante
+
+```java
+
+double x = 10.35784;
+
+System.out.println(x); // 10.35784
+System.out.printf("%.2f%n", x); // 10,35
+System.out.printf("%.4f%n", x); // 10,3578
+Locale.setDefault(Locale.US);
+System.out.printf("%.2f%n", x); // 10.35
+System.out.printf("%.4f%n", x); // 10.3578
+```
+
+  * *Obs*.: O comando `printf` por padrão irá formatar conforme a configuração do sistema operacional. Dessa forma ele irá apresentar os números de ponto flutuante com o separador da vírgula em computadores em português. Ex.: `10,3578`. Para que seja apresentado com o ponto (.) deverá ser definido o `locale` conforme exemplo acima.
+
+#### Para concatenar vários elementos em um mesmo comando de escrita (print e println)
+
+```java
+// Regra geral para o comando print e println
+// ele1 + ele2 + ... + eleN
+
+int x = 5;
+System.out.println("Resultado = " + x + " Metros");
+```
+
+#### Para concatenar vários elementos em um mesmo comando de escrita (printf)
+
+```java
+// Regra geral para o comando printf
+// texto1 %f texto2 %f, variavel1, variavel2
+// onde:
+// %f = número de ponto flutuante
+// \n = quebra de linha
+
+System.out.printf("Resultado = %.2f metros\n", x);
+```
+
+#### Para concatenar vários elementos em um mesmo comando de escrita (printf - diferentes tipos de dados)
+
+```java
+// %f = número flutuante
+// %d = inteiro
+// %s = texto
+// \n = quebra de linha
+
+String nome = "Maria";
+int idade = 31;
+double renda = 4000.0;
+
+System.out.printf("%s tem %d anos e ganha R$ %.2f reais\n", nome, idade, renda);
+```
+
+* Mais informações sobre [formatação de números](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html)
