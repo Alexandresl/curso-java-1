@@ -1,18 +1,3 @@
-### 7. IDE - Ambiente Integraedo de Desenvolvimento
-
-* **IDE** - É um conjunto de softwares utilizado para a construção de programas.
-    * Exemplos:
-        * C/C++: **Code Blocks**
-        * Java: **Eclipse**, **Netbeans**
-        * C#: **Microsoft Visual Studio**
-* **Funcionalidades de uma IDE**:
-    * Edição de código fonte (indentação, autocompletar, destaque de palavras, etc.)
-    * Depuração e testes
-    * Construção do produto final (build)
-    * Sugestão de modelos (templates)
-    * Auxiliar em várias tarefas do seu projeto
-    * Etc.
-
 ### 8. Compilação, interpretação, código fonte, código objeto e máquina virtual
 
 * **Código fonte** - É o código escrito pelo programador em linguagem de programação. Este código não é entendido pelo computador, precisando ser convertido em código objeto.
