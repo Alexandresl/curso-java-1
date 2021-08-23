@@ -1,9 +1,3 @@
-### 11. Entendendo as versões do Java
-
-[Página do download](https://www.oracle.com/java/technologies/java-se-glance.html)
-
-* Será instalada a versão do jdk-11, por ser a mais recente versão LTS disponível.
-
 ### 12. Histórico e edições de Java
 
 * **Java** além de uma linguagem de programação (regras sintáticas), java também é uma plataforma de programação.

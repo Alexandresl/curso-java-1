@@ -160,3 +160,9 @@
 ### 10. Material de apoio do capítulo
 
 [Introdução Linguagem Java](PDFs/Aula%20009%20-%20Introdução%20a%20linguagem%20Java.pdf)
+
+### 11. Entendendo as versões do Java
+
+[Página do download](https://www.oracle.com/java/technologies/java-se-glance.html)
+
+* Será instalada a versão do jdk-11, por ser a mais recente versão LTS disponível.
