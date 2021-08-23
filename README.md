@@ -279,7 +279,7 @@
 
 #### Exemplos de expressões aritméticas
 
-| Expressão          | resultado |
+| Expressão          | Resultado |
 | ------------------ | --------- |
 | 2 * 6 / 3          | 4         |
 | 3 + 2 * 4          | 11        |
