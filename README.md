@@ -227,3 +227,24 @@
 ### 16. Instalando Java JDK
 
 * [Link para download do Java Zulu](https://www.azul.com/downloads/)
+
+### 17. Instalando o Eclipse
+
+[Link](https://www.eclipse.org/downloads/packages/) para download do Eclipse
+
+### 18. Primeiro programa em Java no Eclipse
+
+#### Passo a passo para criação do projeto no Eclipse:
+* Workspace (selecione a pasta aonde os projetos serão salvos)
+* Mudar o layout: Window -> Perspective -> Open Perspective -> Java
+* Zerar o layout: Window -> Perspective -> Reset Perspective
+* Mostrar a aba Console: Window -> Show View -> Console
+* Criar projeto: File -> New -> Java Project
+
+#### Criar uma classe
+* Botão direito na pasta "src" -> New -> Class
+* Package: deixe em branco
+* Nome da classe: Main (com M maiúsculo)
+* Marque a opção: public static void main(String[] args)
+
+[Atalhos do eclipse](keyboard-eclipse.md)
