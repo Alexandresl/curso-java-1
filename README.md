@@ -207,3 +207,11 @@
 * Linguagens **compiladas**: C, C++
 * Linguagens **interpretadas**: PHP, JavaScript
 * Linguagens **pré-compiladas + máquina virtual**: Java, C#
+
+### 14. Estrutura de uma aplicação Java
+
+* **Java** é uma linguagem de programação orientada a objetos e a unidade lógica básica de um programa orientado a objeto é a **classe**.
+* **Package** (pacote) - é um agrupamento lógico de classes relacionadas. Ex.: Entities, Services e Repositories.
+* **Módulo** - Recurso introduzido no Java 9, é um agrupamento lógico de pacotes relacionados. Ex.: Módulo financeiro, gráfico, etc.
+* **Runtime** - É o agrupamento físico. Enquanto o Módulo é o agrupamento a nível de código, o Runtime ocorre com o **build** da aplicação onde os diferentes módulos ficarão separados em arquivos.
+* **Aplicação** - Agrupamento de módulos relacionados
