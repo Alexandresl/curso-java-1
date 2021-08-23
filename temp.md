@@ -1,14 +1,3 @@
-### 13. JDK / JVM - Máquina Virtual do Java
-
-#### **JVM - Java Virtual Machine**
-* *Máquina Virtual do Java* - necessário para executar sistemas java
-* Documentação do Java SE - [Link](https://docs.oracle.com/en/java/javase/11/)
-
-#### **Compilação e Interpretação**
-* Linguagens **compiladas**: C, C++
-* Linguagens **interpretadas**: PHP, JavaScript
-* Linguagens **pré-compiladas + máquina virtual**: Java, C#
-
 ### 14. Estrutura de uma aplicação Java
 
 * **Java** é uma linguagem de programação orientada a objetos e a unidade lógica básica de um programa orientado a objeto é a **classe**.
