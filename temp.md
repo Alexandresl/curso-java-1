@@ -1,12 +1,3 @@
-### 29. AVISO: exercícios para iniciantes PARTE 1
-
-* Até o momento nós apresentamos a "*estrutura sequencial*":
-  * Entrada de dados
-  * Processamento (atribuição)
-  * Saída de dados
-
-* A seguir será realizado exercícios sobre estes tópicos.
-
 ### 30. Exercícios para iniciantes - Parte 1
 
 * [Lista de Exercícios 1](PDFs/Aula%20028%20-%20Exercícios%201.pdf)
