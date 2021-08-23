@@ -582,3 +582,57 @@ x = sc.next();
 y = sc.nextInt();
 z = sc.nextDouble();
 ```
+
+### 27. Entrada de dados em Java - Parte 2
+
+#### Para ler um texto até a quebra de linha
+
+```java
+Scanner sc = new Scanner(System.in);
+
+String s1, s2, s3;
+
+System.out.println("Digite 3 parágrafos:");
+s1 = sc.nextLine();
+s2 = sc.nextLine();
+s3 = sc.nextLine();
+
+System.out.println("Dados digitados");
+System.out.println(s1);
+System.out.println(s2);
+System.out.println(s3);
+
+sc.close();
+```
+
+* Neste exemplo vemos a diferença entre o método `next()` que lê apenas uma palavra, ou seja, uma cadeia de caracteres sem espaço, do `nextLine()` que irá ler toda a cadeia de caracteres até que seja digitado o *Enter*.
+
+#### Quebra de linha pendente
+
+* Quando você usa um comando de leitura diferente do ´nextLine()´ e dá alguma quebra de linha, essa quebra de linha fica "*pendente*" na entrada padrão. Se você então fizer um `nextLine()`, aquela quebra de linha pendente será absorvida pela `nextLine()`.
+
+##### Solução:
+
+* Faza um `nextLine()` extra antes de fazer o `nextLine()` de seu interesse, conforme exemplo abaixo.
+
+```java
+Scanner sc = new Scanner(System.in);
+		
+int x;
+String s1, s2, s3;
+
+System.out.println("Digite 1 inteiro e três parágrafos:");
+x = sc.nextInt();
+sc.nextLine();
+s1 = sc.nextLine();
+s2 = sc.nextLine();
+s3 = sc.nextLine();
+
+System.out.println("Dados digitados:");
+System.out.println(x);
+System.out.println(s1);
+System.out.println(s2);
+System.out.println(s3);
+
+sc.close();
+```
