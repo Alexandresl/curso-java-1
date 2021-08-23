@@ -250,3 +250,7 @@
 [Atalhos do eclipse](keyboard-eclipse.md)
 
 [Link para o projeto](ws-eclipse/secao3/Aula18-Exemplo1)
+
+## Seção 4: Estrutura sequencial
+
+### 19. Visão geral do capítulo

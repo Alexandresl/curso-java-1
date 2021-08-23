@@ -1,7 +1,3 @@
-## Seção 4: Estrutura sequencial
-
-### 19. Visão geral do capítulo
-
 ### 20. Material de apoio do capítulo
 
 [Estrutura sequencial](PDFs/Aula%20018%20-%20Estrutura%20sequencial.pdf)
