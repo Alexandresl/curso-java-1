@@ -1,7 +1,3 @@
-## Seção 5: Estrutura condicional
-
-### 31. Visão geral do capítulo
-
 ### 32. Material de apoio do capítulo
 
 [Estrutura condicional](PDFs/Aula%20030%20-%20Estrutura%20condicional.pdf)

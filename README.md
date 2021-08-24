@@ -702,6 +702,7 @@ public class Main {
 #### Exercício Resolvido
 
 [Link](https://www.youtube.com/watch?v=Ah1Y6d6deq0)
+
 [Código fonte](ws-eclipse/Aula30-ExercicioResolvido01)
 
 #### Exercícios propostos
@@ -712,3 +713,7 @@ public class Main {
 * [Exercício 4](ws-eclipse/Aula30-Exercicio04)
 * [Exercício 5](ws-eclipse/Aula30-Exercicio05)
 * [Exercício 6](ws-eclipse/Aula30-Exercicio06)
+
+## Seção 5: Estrutura condicional
+
+### 31. Visão geral do capítulo
