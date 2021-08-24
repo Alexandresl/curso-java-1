@@ -747,3 +747,72 @@ public class Main {
 | x == 3    | false     |
 | 10 <= 30  | true      |
 | x != 2    | true      |
+
+### 34. Expressões lógicas
+
+* As expressões lógicas, assim como as comparativas, quando avaliadas retornam um valor verdade: *true* ou *false*.
+
+#### Operadores lógicos
+
+| Operador | Significado |
+| -------- | ----------- |
+| &&       | E           |
+| ∥        | OU          |
+| !        | Não         |
+
+#### Exemplos de expressões lógicas
+
+##### E
+
+* Suponha `x = 5`:
+
+| Expressão                    | Resultado |
+| ---------------------------- | --------- |
+| x <= 20 && x == 10           | false     |
+| x > 0 && x != 3              | true      |
+| x <= 20 && x == 10 && x != 3 | false     |
+
+* Tabela verdade do operador "**E**"
+
+| A   | B   | A && B |
+| --- | --- | ------ |
+| V   | V   | V      |
+| V   | F   | F      |
+| F   | V   | F      |
+| F   | F   | F      |
+
+##### OU
+
+* Suponha `x = 5`:
+
+| Expressão                | Resultado |
+| ------------------------ | --------- |
+| X == 10 ∥ X <= 20        | true      |
+| x > 0 ∥ x != 3           | true      |
+| x <= 0 ∥ x != 3 ∥ x != 5 | true      |
+
+* Tabela verdade do operador "**OU**"
+
+| A   | B   | A ∥ B |
+| --- | --- | ----- |
+| V   | V   | V     |
+| V   | F   | V     |
+| F   | V   | V     |
+| F   | F   | F     |
+
+##### NÃO
+
+* Suponha `x = 5`:
+
+| Expressão             | Resultado |
+| --------------------- | --------- |
+| !(X == 10)            | true      |
+| !(x >= 2 )            | false     |
+| !(x <= 20 && x == 10) | true      |
+
+* Tabela verdade do operador "**NÃO**"
+
+| A   | !A  |
+| --- | --- |
+| F   | V   |
+| V   | F   |
