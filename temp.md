@@ -1,29 +1,3 @@
-### 33. Expressões comparativas
-
-* O resultado de uma expressão comparativa é um valor verdade: *true* ou *false*. Ex.: `5 > 10 = false`.
-
-#### Operadores comparativos
-
-| Operador | Significado    |
-| -------- | -------------- |
-| >        | Maior          |
-| <        | Menor          |
-| >=       | Maior ou igual |
-| <=       | Menor ou igual |
-| ==       | Igual          |
-| !=       | Diferente      |
-
-#### Exemplos de expressões comparativas
-
-* Suponha `x = 5`:
-
-| Expressão | Resultado |
-| --------- | --------- |
-| x > 0     | true      |
-| x == 3    | false     |
-| 10 <= 30  | true      |
-| x != 2    | true      |
-
 ### 34. Expressões lógicas
 
 * As expressões lógicas, assim como as comparativas, quando avaliadas retornam um valor verdade: *true* ou *false*.

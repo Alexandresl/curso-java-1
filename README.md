@@ -721,3 +721,29 @@ public class Main {
 ### 32. Material de apoio do capítulo
 
 [Estrutura condicional](PDFs/Aula%20030%20-%20Estrutura%20condicional.pdf)
+
+### 33. Expressões comparativas
+
+* O resultado de uma expressão comparativa é um valor verdade: *true* ou *false*. Ex.: `5 > 10 = false`.
+
+#### Operadores comparativos
+
+| Operador | Significado    |
+| -------- | -------------- |
+| >        | Maior          |
+| <        | Menor          |
+| >=       | Maior ou igual |
+| <=       | Menor ou igual |
+| ==       | Igual          |
+| !=       | Diferente      |
+
+#### Exemplos de expressões comparativas
+
+* Suponha `x = 5`:
+
+| Expressão | Resultado |
+| --------- | --------- |
+| x > 0     | true      |
+| x == 3    | false     |
+| 10 <= 30  | true      |
+| x != 2    | true      |
