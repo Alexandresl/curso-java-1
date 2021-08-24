@@ -1,5 +1,3 @@
-### 36. AVISO: exercícios para iniciantes PARTE 2
-
 ### 37. Exercícios para Iniciantes - PARTE 2
 
 [Exercícios estrutura condicional](PDFs/Aula%20035%20-%20Exercícios%202.pdf)
