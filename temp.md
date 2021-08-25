@@ -1,17 +1,3 @@
-### 38. Sintaxe opcional - operadores de atribuição cumulativa
-
-#### Operadores de atribuição cumulativa
-
-| Operadores | expressão equivalente |
-| ---------- | --------------------- |
-| a += b;    | a = a + b;            |
-| a -= b;    | a = a - b;            |
-| a *= b;    | a = a * b;            |
-| a /= b;    | a = a / b;            |
-| a %= b;    | a = a % b;            |
-
-[Exemplo de uso](ws-eclipse/s4/aula38-exemplo1/src/Main.java)
-
 ### 39. Sintaxe opcional - switch-case
 
 * Quando se tem várias opções de fluxo a serem tratadas com base no valor de uma varíavel, ao invés de várias estruturas *if-else* encadeadas, alguns preferem utilizar a estrutura *switch-case*.

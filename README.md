@@ -891,12 +891,15 @@ if (<condição>) {
 #### Exercícios Resolvidos
  
  [Exercício resolvido 1](https://www.youtube.com/watch?v=SRyQZBaA-_s)
+
  [Código fonte](ws-eclipse/Aula037-ExercicioResolvido01)
 
  [Exercício resolvido 2](https://www.youtube.com/watch?v=3lhkB5I8P6E)
+
  [Código fonte](ws-eclipse/Aula037-ExercicioResolvido02)
 
  [Exercício resolvido 3](https://www.youtube.com/watch?v=UjCVIcKccdQ)
+ 
  [Código fonte](ws-eclipse/Aula037-ExercicioResolvido03)
 
  #### Exercícios propostos
@@ -916,3 +919,17 @@ if (<condição>) {
  [Exercício 7](ws-eclipse/Aula037-Exercicio07)
 
  [Exercício 8](ws-eclipse/Aula037-Exercicio08)
+ 
+ ### 38. Sintaxe opcional - operadores de atribuição cumulativa
+
+#### Operadores de atribuição cumulativa
+
+| Operadores | expressão equivalente |
+| ---------- | --------------------- |
+| a += b;    | a = a + b;            |
+| a -= b;    | a = a - b;            |
+| a *= b;    | a = a * b;            |
+| a /= b;    | a = a / b;            |
+| a %= b;    | a = a % b;            |
+
+[Exemplo de uso]()
