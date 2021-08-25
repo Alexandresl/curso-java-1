@@ -3,6 +3,9 @@
 ## Links úteis
 
 [Atalhos no Eclipse](keyboard-eclipse.md)
+[Github Nelio Alves](https://github.com/acenelio)
+[URI Online Judge](https://www.urionlinejudge.com.br/judge/en/login)
+
 
 ## Seção 1: Introdução
 
@@ -880,3 +883,36 @@ if (<condição>) {
 ```
 
 ### 36. AVISO: exercícios para iniciantes PARTE 2
+
+### 37. Exercícios para Iniciantes - PARTE 2
+
+[Exercícios estrutura condicional](PDFs/Aula%20035%20-%20Exercícios%202.pdf)
+
+#### Exercícios Resolvidos
+ 
+ [Exercício resolvido 1](https://www.youtube.com/watch?v=SRyQZBaA-_s)
+ [Código fonte](ws-eclipse/Aula037-ExercicioResolvido01)
+
+ [Exercício resolvido 2](https://www.youtube.com/watch?v=3lhkB5I8P6E)
+ [Código fonte](ws-eclipse/Aula037-ExercicioResolvido02)
+
+ [Exercício resolvido 3](https://www.youtube.com/watch?v=UjCVIcKccdQ)
+ [Código fonte](ws-eclipse/Aula037-ExercicioResolvido03)
+
+ #### Exercícios propostos
+
+ [Exercício 1](ws-eclipse/Aula037-Exercicio01)
+
+ [Exercício 2](ws-eclipse/Aula037-Exercicio02)
+ 
+ [Exercício 3](ws-eclipse/Aula037-Exercicio03)
+ 
+ [Exercício 4](ws-eclipse/Aula037-Exercicio04)
+ 
+ [Exercício 5](ws-eclipse/Aula037-Exercicio05)
+
+ [Exercício 6](ws-eclipse/Aula037-Exercicio06)
+ 
+ [Exercício 7](ws-eclipse/Aula037-Exercicio07)
+
+ [Exercício 8](ws-eclipse/Aula037-Exercicio08)

@@ -1,37 +1,4 @@
-### 37. Exercícios para Iniciantes - PARTE 2
-
-[Exercícios estrutura condicional](PDFs/Aula%20035%20-%20Exercícios%202.pdf)
-
-#### Exercícios Resolvidos
- 
- [Exercício resolvido 1](https://www.youtube.com/watch?v=SRyQZBaA-_s)
- [Código fonte](ws-eclipse/s4/aula37-exemplo1/src/Main.java)
-
- [Exercício resolvido 2](https://www.youtube.com/watch?v=3lhkB5I8P6E)
- [Código fonte](ws-eclipse/s4/aula37-exemplo2/src/Main.java)
-
- [Exercício resolvido 3](https://www.youtube.com/watch?v=UjCVIcKccdQ)
- [Código fonte](ws-eclipse/s4/aula37-exemplo3/src/Main.java)
-
- #### Exercícios propostos
-
- [Exercício 1](ws-eclipse/s4/aula37-exercicio1/src/Main.java)
-
- [Exercício 2](ws-eclipse/s4/aula37-exercicio2/src/Main.java)
- 
- [Exercício 3](ws-eclipse/s4/aula37-exercicio3/src/Main.java)
- 
- [Exercício 4](ws-eclipse/s4/aula37-exercicio4/src/Main.java)
- 
- [Exercício 5](ws-eclipse/s4/aula37-exercicio5/src/Main.java)
-
- [Exercício 6](ws-eclipse/s4/aula37-exercicio6/src/Main.java)
- 
- [Exercício 7](ws-eclipse/s4/aula37-exercicio7/src/Main.java)
-
- [Exercício 8](ws-eclipse/s4/aula37-exercicio8/src/Main.java)
-
- ### 38. Sintaxe opcional - operadores de atribuição cumulativa
+### 38. Sintaxe opcional - operadores de atribuição cumulativa
 
 #### Operadores de atribuição cumulativa
 
