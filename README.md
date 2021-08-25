@@ -920,7 +920,7 @@ if (<condição>) {
 
  [Exercício 8](ws-eclipse/Aula037-Exercicio08)
  
- ### 38. Sintaxe opcional - operadores de atribuição cumulativa
+### 38. Sintaxe opcional - operadores de atribuição cumulativa
 
 #### Operadores de atribuição cumulativa
 
@@ -932,4 +932,4 @@ if (<condição>) {
 | a /= b;    | a = a / b;            |
 | a %= b;    | a = a % b;            |
 
-[Exemplo de uso]()
+[Exemplo de uso](ws-eclipse/Aula038-Exemplo01)
