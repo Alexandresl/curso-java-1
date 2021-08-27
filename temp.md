@@ -1,11 +1,3 @@
-### 41. Escopo e inicialização
-
-* *Escopo de uma variável*: é a região do programa onde a variável é válida, ou seja, onde ela pode ser referenciada.
-* Uma variável não pode ser usada se não for iniciada.
-* Falaremos de escopo de método no Capítulo 5.
-
-[Exemplo](ws-eclipse/s5/aula41-exemplo1/src/Main.java)
-
 ## Seção 6: Estruturas repetitivas
 
 ### 42. Visão geral do capítulo
