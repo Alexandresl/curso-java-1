@@ -968,3 +968,11 @@ A *Expressão condicional ternária* é uma estrutura opcional ao *if-else* quan
 ```java
 ( condicao ) ? valor_se_verdadeira : valor_se_falso
 ```
+
+### 41. Escopo e inicialização
+
+* *Escopo de uma variável*: é a região do programa onde a variável é válida, ou seja, onde ela pode ser referenciada.
+* Uma variável não pode ser usada se não for iniciada.
+* Falaremos de escopo de método no Capítulo 5.
+
+[Exemplo](ws-eclipse/Aula041-Exemplo1)
