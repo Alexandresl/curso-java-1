@@ -1,7 +1,3 @@
-## Seção 6: Estruturas repetitivas
-
-### 42. Visão geral do capítulo
-
 ### 43. Material de apoio do capítulo
 
 [Material Estruturas Repetitivas](PDFs/Aula%20041%20-%20Estruturas%20repetitivas.pdf)

@@ -976,3 +976,7 @@ A *Expressão condicional ternária* é uma estrutura opcional ao *if-else* quan
 * Falaremos de escopo de método no Capítulo 5.
 
 [Exemplo](ws-eclipse/Aula041-Exemplo1)
+
+## Seção 6: Estruturas repetitivas
+
+### 42. Visão geral do capítulo
