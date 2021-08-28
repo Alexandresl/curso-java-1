@@ -1,16 +1,3 @@
-### 44. Como utilizar o DEBUG no Eclipse (Execução passo a passo)
-
-* Para marcar uma linha de breakpoint:
-  * *Run* -> *Toggle Breakpoint*
-* Para iniciar o debug:
-  * Botão direito na classe -> *Debug as* -> *Java Aplication*
-* Para executar uma linha:;
-  * *F6*
-* Para interromper o debug:
-  * botão *stop*
-
-[Exemplo](ws-eclipse/s06/aula44-exemplo1/src/Main.java)
-
 ### 45. Estrutura repetitiva enquanto (while)
 
 * É uma *estrutura de controle* que *repete* um bloco de comandos *enquanto* uma *condição* for verdadeira.
