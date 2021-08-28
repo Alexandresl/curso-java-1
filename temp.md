@@ -1,7 +1,3 @@
-### 43. Material de apoio do capítulo
-
-[Material Estruturas Repetitivas](PDFs/Aula%20041%20-%20Estruturas%20repetitivas.pdf)
-
 ### 44. Como utilizar o DEBUG no Eclipse (Execução passo a passo)
 
 * Para marcar uma linha de breakpoint:
