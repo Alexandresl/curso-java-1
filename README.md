@@ -957,7 +957,7 @@ switch ( expressão ) {
 }
 ```
 
-[Exemplo de uso](ws-eclipse/Aula039-Exemplo1)
+[Exemplo de uso](ws-eclipse/Aula039-Exemplo01)
 
 ### 40. Expressão condicional ternária
 
@@ -975,7 +975,7 @@ A *Expressão condicional ternária* é uma estrutura opcional ao *if-else* quan
 * Uma variável não pode ser usada se não for iniciada.
 * Falaremos de escopo de método no Capítulo 5.
 
-[Exemplo](ws-eclipse/Aula041-Exemplo1)
+[Exemplo](ws-eclipse/Aula041-Exemplo01)
 
 ## Seção 6: Estruturas repetitivas
 
@@ -996,4 +996,24 @@ A *Expressão condicional ternária* é uma estrutura opcional ao *if-else* quan
 * Para interromper o debug:
   * botão *stop*
 
-[Exemplo](ws-eclipse/Aula044-Exemplo1)
+[Exemplo](ws-eclipse/Aula044-Exemplo01)
+
+### 45. Estrutura repetitiva enquanto (while)
+
+* É uma *estrutura de controle* que *repete* um bloco de comandos *enquanto* uma *condição* for verdadeira.
+* *Quando usar*: quando **não** se sabe previamente a quantidade de repetições que será realizada.
+
+#### Sintaxe
+
+```java
+while ( condicao ) {
+  comando 1;
+  comando 2;
+}
+
+// regra:
+// Condição verdadeira: executa e volta
+// Condição falsa: pula fora
+```
+
+[Exemplo](ws-eclipse/Aula045-Exemplo01)
