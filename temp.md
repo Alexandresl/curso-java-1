@@ -1,25 +1,3 @@
-### 45. Estrutura repetitiva enquanto (while)
-
-* É uma *estrutura de controle* que *repete* um bloco de comandos *enquanto* uma *condição* for verdadeira.
-* *Quando usar*: quando **não** se sabe previamente a quantidade de repetições que será realizada.
-
-#### Sintaxe
-
-```java
-while ( condicao ) {
-  comando 1;
-  comando 2;
-}
-
-// regra:
-// Condição verdadeira: executa e volta
-// Condição falsa: pula fora
-```
-
-[Exemplo](ws-eclipse/s06/aula45-exemplo1/src/Main.java)
-
-### 46. Teste de mesa com estrutura repetitiva enquanto
-
 ### 47. Exercícios de teste de mesa com while
 
 ### 48. AVISO: exercícios para iniciantes PARTE 3

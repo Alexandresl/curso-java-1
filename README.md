@@ -1017,3 +1017,7 @@ while ( condicao ) {
 ```
 
 [Exemplo](ws-eclipse/Aula045-Exemplo01)
+
+### 46. Teste de mesa com estrutura repetitiva enquanto
+
+[Exemplo](ws-eclipse/Aula046-exemplo01)
