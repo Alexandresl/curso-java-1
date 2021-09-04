@@ -1021,3 +1021,5 @@ while ( condicao ) {
 ### 46. Teste de mesa com estrutura repetitiva enquanto
 
 [Exemplo](ws-eclipse/Aula046-exemplo01)
+
+### 47. Exercícios de teste de mesa com while
