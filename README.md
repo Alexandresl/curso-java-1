@@ -1023,3 +1023,4 @@ while ( condicao ) {
 [Exemplo](ws-eclipse/Aula046-exemplo01)
 
 ### 47. Exercícios de teste de mesa com while
+
