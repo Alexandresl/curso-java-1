@@ -1077,3 +1077,4 @@ for ( inicio; condição; incremento ) {
 
 ### 51. Teste de mesa com estrutura repetitiva para
 
+### 52. Exercícios de testes de mesa com for
