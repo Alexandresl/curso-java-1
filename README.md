@@ -1047,3 +1047,26 @@ while ( condicao ) {
 [Exercício 2](ws-eclipse/Aula049_Exercicio02)
 
 [Exercício 3](ws-eclipse/Aula049_Exercicio03)
+
+### 50. Estrutura repetitiva (for)
+
+* A restrutura repetitiva "*para*" é uma **estrutura de controle** que **repete** um bloco de comandos para um certo **intervalo de valores**.
+* **Quando usar**: quando se sabe previamente a quantidade de repetições, ou o intervalo de valores.
+
+#### Sintaxe
+
+```java
+for ( inicio; condição; incremento ) {
+  comando 1;
+  comando 2;
+}
+
+// Regra:
+// * Início - Executa somente na primeira vez
+// * Condição 
+//    - se verdadeiro - executa e volta
+//    - se falso - pula fora
+// * Incremento - Executa toda vez depois de voltar
+```
+
+[Exemplo 1](ws-eclipse/Aula050_Exemplo01)
