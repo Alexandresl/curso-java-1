@@ -1024,3 +1024,26 @@ while ( condicao ) {
 
 ### 47. Exercícios de teste de mesa com while
 
+### 48. AVISO: exercícios para iniciantes PARTE 3
+
+### 49. Exercícios para iniciantes - PARTE 3
+
+[Lista de exercícios](PDFs/Aula%20049%20-%20Exercício%203.pdf)
+
+#### Exercícios resolvidos
+
+[Exercício resolvido 1](https://www.youtube.com/watch?v=r3qCFqaNHds)
+
+[Código fonte](ws-eclipse/Aula049_ExercicioResolvido01)
+
+[Exercício resolvido 2](https://www.youtube.com/watch?v=vT0QEDHK2yU)
+
+[Código fonte](ws-eclipse/Aula049_ExercicioResolvido02)
+
+#### Exercícios propostos
+
+[Exercício 1](ws-eclipse/Aula049_Exercicio01)
+
+[Exercício 2](ws-eclipse/Aula049_Exercicio02)
+
+[Exercício 3](ws-eclipse/Aula049_Exercicio03)
