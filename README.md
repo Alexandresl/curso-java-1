@@ -1074,3 +1074,6 @@ for ( inicio; condição; incremento ) {
 * A estrutura "*para*" é ótima para se fazer uma repetição baseada em uma **Contagem**
 
 [Exemplo 1](ws-eclipse/Aula050_Exemplo01)
+
+### 51. Teste de mesa com estrutura repetitiva para
+
