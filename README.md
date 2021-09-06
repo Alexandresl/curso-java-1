@@ -1080,3 +1080,17 @@ for ( inicio; condição; incremento ) {
 ### 52. Exercícios de testes de mesa com for
 
 ### 53. AVISO: Exercícios para iniciantes PARTE 4
+
+### 54. Exercícios para iniciantes PARTE 4
+
+[Exercícios Estrutura for](PDFs/Aula%20054%20-%20Exercício%204.pdf)
+
+#### Exercícios resolvidos
+
+[Link](https://www.youtube.com/watch?v=JTa8WEhV38E)
+
+[Código](ws-eclipse/Aula054-ExercicioResolvido01)
+
+[Link](https://www.youtube.com/watch?v=RVJnkOyc7Kk)
+
+[Código](ws-eclipse/Aula054-ExercicioResolvido02)
