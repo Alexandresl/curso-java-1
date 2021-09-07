@@ -1094,3 +1094,19 @@ for ( inicio; condição; incremento ) {
 [Link](https://www.youtube.com/watch?v=RVJnkOyc7Kk)
 
 [Código](ws-eclipse/Aula054-ExercicioResolvido02)
+
+#### Exercícios propostos
+
+[Exercício 1](ws-eclipse/Aula054-Exercicio01)
+
+[Exercício 2](ws-eclipse/Aula054-Exercicio02)
+
+[Exercício 3](ws-eclipse/Aula054-Exercicio03)
+
+[Exercício 4](ws-eclipse/Aula054-Exercicio04)
+
+[Exercício 5](ws-eclipse/Aula054-Exercicio05)
+
+[Exercício 6](ws-eclipse/Aula054-Exercicio06)
+
+[Exercício 7](ws-eclipse/Aula054-Exercicio07)
