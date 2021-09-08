@@ -1138,3 +1138,30 @@ do {
 ### 56. Material de apoio do capítulo
 
 [Material Outros tópicos básicos](PDFs/Aula%20056%20-%20Outros%20tópicos%20básicos.pdf)
+
+### 57. Restrições e convenções para nomes
+
+#### Restrições para nomes de variáveis
+
+* Não pode começar com dígito: use uma letro ou _ (underscore)
+* Não usar acentos ou til
+* Não pode ter espaço em branco
+* Sugestão: use nomes que tenham um significado
+
+| Errado                      | Correto                   |
+| --------------------------- | ------------------------- |
+| int 5minutes;               | int _5minutes;            |
+| int salário;                | int salario;              |
+| int salario do funcionario; | int salarioDoFuncionario; |
+| --------------------------- | ------------------------- |
+
+#### Convenções
+
+* Camel case - ex.: lastName
+  * pacotes
+  * atributos
+  * métodos
+  * variáveis e parâmetros
+
+* Pascal Case - ex.: ProductService
+  * classes
