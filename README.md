@@ -1112,3 +1112,23 @@ for ( inicio; condição; incremento ) {
 [Exercício 6](ws-eclipse/Aula054-Exercicio06)
 
 [Exercício 7](ws-eclipse/Aula054-Exercicio07)
+
+### 55. Estrutura repetitiva faça-enquanto (do-while)
+
+* Estrutura menos utilizada, mas em alguns casos se encaixa melhor ao problema.
+* O bloco de comandos executa pelo menos uma vez, pois a condição é verificada no final.
+
+#### Sintaxe
+
+```java
+do {
+  comando 1;
+  comando 2;
+} while (condicao);
+
+// Regra:
+// Se verdadeiro volta e executa novamente
+// Se falso pula fora da estrutura
+```
+
+[Exemplo](ws-eclipse/Aula055-Exemplo1)
