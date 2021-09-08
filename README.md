@@ -1153,7 +1153,6 @@ do {
 | int 5minutes;               | int _5minutes;            |
 | int salário;                | int salario;              |
 | int salario do funcionario; | int salarioDoFuncionario; |
-| --------------------------- | ------------------------- |
 
 #### Convenções
 
@@ -1175,7 +1174,6 @@ do {
 | &        | Operação "E" bit a bit            |
 | \|       | Operação "OU" bit a bit           |
 | ^        | Operação "OU-exclusivo" bit a bit |
-| -------- | --------------------------------- |
 
 | C1  | C2  | C1 E C2 |
 | --- | --- | ------- |
