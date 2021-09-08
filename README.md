@@ -1165,3 +1165,42 @@ do {
 
 * Pascal Case - ex.: ProductService
   * classes
+
+### 58. Operadores bitwise
+
+* São os operadores que realizam operações lógicas bit a bit.
+
+| Operador | Significado                       |
+| -------- | --------------------------------- |
+| &        | Operação "E" bit a bit            |
+|          |                                   | Operação "OU" bit a bit |
+| ^        | Operação "OU-exclusivo" bit a bit |
+| -------- | --------------------------------- |
+
+| C1  | C2  | C1 E C2 |
+| --- | --- | ------- |
+| F   | F   | F       |
+| F   | V   | F       |
+| V   | F   | F       |
+| V   | V   | V       |
+| --- | --- | ------- |
+
+| C1  | C2  | C1 OU C2 |
+| --- | --- | -------- |
+| F   | F   | F        |
+| F   | V   | V        |
+| V   | F   | V        |
+| V   | V   | V        |
+| --- | --- | -------  |
+
+| C1  | C2  | C1 XOR C2 |
+| --- | --- | --------- |
+| F   | F   | F         |
+| F   | V   | V         |
+| V   | F   | V         |
+| V   | V   | F         |
+| --- | --- | -------   |
+
+[Exemplo 1](ws-eclipse/Aula058-Exemplo01)
+
+[Exemplo 2]()
