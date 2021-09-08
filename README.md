@@ -1132,3 +1132,9 @@ do {
 ```
 
 [Exemplo](ws-eclipse/Aula055-Exemplo1)
+
+## Seção 7: Outros tópicos básicos sobre Java
+
+### 56. Material de apoio do capítulo
+
+[Material Outros tópicos básicos](PDFs/Aula%20056%20-%20Outros%20tópicos%20básicos.pdf)
