@@ -1173,7 +1173,7 @@ do {
 | Operador | Significado                       |
 | -------- | --------------------------------- |
 | &        | Operação "E" bit a bit            |
-| |        | Operação "OU" bit a bit           |
+| /|       | Operação "OU" bit a bit           |
 | ^        | Operação "OU-exclusivo" bit a bit |
 | -------- | --------------------------------- |
 
