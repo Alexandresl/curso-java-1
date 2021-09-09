@@ -1199,3 +1199,17 @@ do {
 [Exemplo 1](ws-eclipse/Aula058-Exemplo01)
 
 [Exemplo 2](ws-eclipse/Aula058-Exemplo02)
+
+### 59. Funções interessantes para String
+
+#### Checklist
+
+* **Formatar**: toLowerCase(), toUpperCase(), trim()
+* **Recortar**: substring(inicio), substring(inicio, fim)
+* **Substituir**: Replace(char, char), replace(string, string)
+* **Buscar**: IndexOf, LastIndexOf
+* **Recortar por caracter**: str.Split(" ")
+
+[Exemplo1](ws-eclipse/Aula059-Exemplo01)
+
+[Exemplo2](ws-eclipse/Aula059-Exemplo02)
