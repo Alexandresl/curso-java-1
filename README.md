@@ -1213,3 +1213,21 @@ do {
 [Exemplo1](ws-eclipse/Aula059-Exemplo01)
 
 [Exemplo2](ws-eclipse/Aula059-Exemplo02)
+
+### 60. Comentários em Java (básico)
+
+* Comentários de linha
+  
+```java
+// Este é um comentário de linha
+```
+
+* Comentários de bloco
+
+```java
+/*
+ * Este é um 
+ * comentário de 
+ * Bloco
+ */
+```
