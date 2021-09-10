@@ -1254,3 +1254,7 @@ do {
 ### 63. Material de apoio do capítulo
 
 [Material Classes, atributos e membros staticos](PDFs/Aula%20063%20-%20Classes,%20atributos,%20métodos%20e%20membros%20estáticos.pdf)
+
+### 64. Resolvendo um problema sem orientação a objetos
+
+[Problema Exemplo](ws-eclipse/Aula064-Exemplo01)
