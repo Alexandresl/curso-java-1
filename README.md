@@ -1246,3 +1246,8 @@ do {
 * Em orientação a objetos, funções em classes recebem o nome de "**métodos**"
 
 [Problema exemplo](ws-eclipse/Aula061-Exemplo01)
+
+## Seção 8: Introdução à Programação Orientada a Objetos
+
+### 62. Visão geral do capítulo
+
