@@ -1231,3 +1231,18 @@ do {
  * Bloco
  */
 ```
+
+* **CUIDADO!** - Use os comentários com parcimônia
+
+### 61. Funções (sintaxe)
+
+* Representam um processamento que possui um significado. Exemplos:
+  * **Math.sqrt(double)** - Calcula uma raiz quadrada
+  * **System.out.println(string)** - imprime uma string no console
+* *Principais vantagens*: modularização, delegação e reaproveitamento
+* Dados de entrada e saída
+  * Funções podem receber dados de entrada (**parâmetros** ou **argumentos**)
+  * Funções podem ou não retornar uma saída
+* Em orientação a objetos, funções em classes recebem o nome de "**métodos**"
+
+[Problema exemplo](ws-eclipse/Aula061-Exemplo01)
