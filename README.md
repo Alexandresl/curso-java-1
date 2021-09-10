@@ -1258,3 +1258,31 @@ do {
 ### 64. Resolvendo um problema sem orientação a objetos
 
 [Problema Exemplo](ws-eclipse/Aula064-Exemplo01)
+
+### 65. Criando uma classe com três atributos para representar melhor o triângulo
+
+* Pontos de atenção:
+  * O Triângulo é uma entidade com três atributos: a, b, c.
+  * Estamos usando três variáveis distintas para representar cada triângulo:
+  ```java
+  double aX, bX, cX, aY, bY, cY;
+  ```
+  * Para melhorar isso, vamos usar uma **Classe** para representar um triângulo.
+
+#### Classe
+
+* É um tipo estruturado que pode conter (membros):
+  * Atributos (dados/campos)
+  * Métodos (funções/operações)
+* A classe também pode prover muitos outros recursos, tais como:
+  * Contrutores
+  * Sobrecarga
+  * Encapsulamento
+  * Herança
+  * Polimorfismo
+* Exemplos:
+  * **Entidades**: Produtos, Clientes, Triângulo
+  * **Serviços**: ProdutoService, ClienteService, EmailService, StorageService
+  * **Controladores**: ProdutoController, ClienteController
+  * **Utilitários**: Calculadora, Compactador
+  * **Outros**: (views, repositórios, gerenciadores, etc.)
