@@ -1300,4 +1300,8 @@ y = new Triangle();
 ```
   * Agora vamos melhorar nossa classe, acrecentando nela um método para calcular a área.
 
+* Quais são os benefícios de se calcular a área de um triângulo por meio de um MÉTODO dentro da CLASSE Triangle?
+  * **1) Reaproveitamento de código**: nós eliminamos o código repetido (cálculo das áreas dos triângulos x e y) no prorama principal.
+  * **2) Delegação de responsabilidades**: quem deve ser responsável por saber como calcular a área de um triângulo é o próprio triângulo. A lógica do cálculo da área não deve estar em outro lugar.
+
 [Problema Exemplo](ws-eclipse/Aula066-Exemplo1)
