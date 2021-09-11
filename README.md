@@ -1387,4 +1387,6 @@ Exemplo:
 
 * Uma classe que possui somente membros estáticos, pode ser uma classe estática também. Esta classe não poderá ser instanciada.
 
+* **Importante** - Como o método *main* é um método estático, as constantes e métodos que são chamados neste método também deverão ser estáticos.
+
 [Problema Exemplo - Versão 1](ws-eclipse/Aula071-Exemplo01)
