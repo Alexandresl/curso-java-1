@@ -1373,3 +1373,18 @@ Exemplo:
 [Exercício 2](ws-eclipse/Aula070-Exercicio02)
 
 [Exercício 3](ws-eclipse/Aula070-Exercicio03)
+
+### 71. Membros estáticos - Parte 1
+
+* Também chamados membros de classe
+  * Em oposição a membros e instância
+
+* São membros que fazem sentido independentemente de objetos. Não precisam de objeto para serem chamados. São chamados a partiro do próprio nom e da classe.
+
+* Aplicações comuns
+  * Classes utilitárias
+  * Declaração de contantes
+
+* Uma classe que possui somente membros estáticos, pode ser uma classe estática também. Esta classe não poderá ser instanciada.
+
+[Problema Exemplo - Versão 1](ws-eclipse/Aula071-Exemplo01)
