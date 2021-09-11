@@ -1261,13 +1261,13 @@ do {
 
 ### 65. Criando uma classe com três atributos para representar melhor o triângulo
 
-* Discussão:
-  * O Triângulo é uma entidade com três atributos: a, b, c.
-  * Estamos usando três variáveis distintas para representar cada triângulo:
-  ```java
-  double aX, bX, cX, aY, bY, cY;
-  ```
-  * Para melhorar isso, vamos usar uma **Classe** para representar um triângulo.
+#### Discussão:
+* O Triângulo é uma entidade com três atributos: a, b, c.
+* Estamos usando três variáveis distintas para representar cada triângulo:
+```java
+double aX, bX, cX, aY, bY, cY;
+```
+* Para melhorar isso, vamos usar uma **Classe** para representar um triângulo.
 
 #### Classe
 
@@ -1291,14 +1291,14 @@ do {
 
 ### 66. Criando um método para obtermos os benefícios de reaproveitamento e delegação
 
-* Discussão:
-  * Com o uso de **classe**, agora nós temos uma variável composta do tipo "*Triangle*" para representar o triângulo:
+#### Discussão:
+* Com o uso de **classe**, agora nós temos uma variável composta do tipo "*Triangle*" para representar o triângulo:
 ```java
 Triangle x, y;****
 x = new Triangle();
 y = new Triangle();
 ```
-  * Agora vamos melhorar nossa classe, acrecentando nela um método para calcular a área.
+* Agora vamos melhorar nossa classe, acrecentando nela um método para calcular a área.
 
 * Quais são os benefícios de se calcular a área de um triângulo por meio de um MÉTODO dentro da CLASSE Triangle?
   * **1) Reaproveitamento de código**: nós eliminamos o código repetido (cálculo das áreas dos triângulos x e y) no prorama principal.
@@ -1348,3 +1348,16 @@ Exemplo:
 *Product data: TV, $ 900.00, 12 units, Total: $ 10800.00*
 
 [Programa Exemplo](ws-eclipse/Aula067-Exemplo01)
+
+### 68. Object e toString
+
+#### Discussão
+
+* Toda classe em Java é uma subclasse da classe **Object**
+* **Object** possui os seguintes métodos:
+    *   *getClass* - retorna o tipo do objeto
+    *   *equals* - compara se o objeto é igual a outro
+    *   *hashCode* - retorna um código hash do objeto
+    *   *toString* - converte o objeto para string
+
+[Programa Exemplo](ws-eclipse/Aula068-Exemplo1)
