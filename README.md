@@ -1318,7 +1318,6 @@ Fazer um programa para ler os dados de um produto em estoque (nome, preço e qua
 
 Para resolver este problema, você deve criar uma classe conforme projeto:
 
-| ------------------------------------- |
 | Product                               |
 | ------------------------------------- |
 | - Name: String                        |
@@ -1328,7 +1327,6 @@ Para resolver este problema, você deve criar uma classe conforme projeto:
 | + TotalValueInStock(): double         |
 | + AddProducts(quantity: int): void    |
 | + RemoveProducts(quantity: int): void |
-| ------------------------------------- |
 
 Exemplo:
 
@@ -1392,3 +1390,7 @@ Exemplo:
 [Problema Exemplo - Versão 1](ws-eclipse/Aula071-Exemplo01)
 
 [Problema Exemplo - Versão 2](ws-eclipse/Aula071-Exemplo02)
+
+### 72. Membros estáticos - Parte 2
+
+[Problema Exemplo - Versão 3](ws-eclipse/Aula072-exemplo01)
