@@ -1304,7 +1304,7 @@ y = new Triangle();
   * **1) Reaproveitamento de código**: nós eliminamos o código repetido (cálculo das áreas dos triângulos x e y) no prorama principal.
   * **2) Delegação de responsabilidades**: quem deve ser responsável por saber como calcular a área de um triângulo é o próprio triângulo. A lógica do cálculo da área não deve estar em outro lugar.
 
-[Problema Exemplo](ws-eclipse/Aula066-Exemplo1)
+[Problema Exemplo](ws-eclipse/Aula066-Exemplo01)
 
 ### 67. Começando a resolver um segundo problema exemplo
 
@@ -1360,4 +1360,8 @@ Exemplo:
     *   *hashCode* - retorna um código hash do objeto
     *   *toString* - converte o objeto para string
 
-[Programa Exemplo](ws-eclipse/Aula068-Exemplo1)
+[Programa Exemplo](ws-eclipse/Aula068-Exemplo01)
+
+### 69. Finalizando o programa
+
+[Programa Exemplo](ws-eclipse/Aula069-Exemplo01)
