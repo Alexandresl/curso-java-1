@@ -1393,4 +1393,4 @@ Exemplo:
 
 ### 72. Membros estáticos - Parte 2
 
-[Problema Exemplo - Versão 3](ws-eclipse/Aula072-exemplo01)
+[Problema Exemplo - Versão 3](ws-eclipse\Aula072-Exemplo01)
