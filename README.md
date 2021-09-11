@@ -1365,3 +1365,11 @@ Exemplo:
 ### 69. Finalizando o programa
 
 [Programa Exemplo](ws-eclipse/Aula069-Exemplo01)
+
+### 70. Exercícios de fixação
+
+[Exercício 1](ws-eclipse/Aula070-Exercicio01)
+
+[Exercício 2](ws-eclipse/Aula070-Exercicio02)
+
+[Exercício 3](ws-eclipse/Aula070-Exercicio03)
