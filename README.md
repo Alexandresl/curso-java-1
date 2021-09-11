@@ -1261,7 +1261,7 @@ do {
 
 ### 65. Criando uma classe com três atributos para representar melhor o triângulo
 
-* Pontos de atenção:
+* Discussão:
   * O Triângulo é uma entidade com três atributos: a, b, c.
   * Estamos usando três variáveis distintas para representar cada triângulo:
   ```java
@@ -1286,3 +1286,18 @@ do {
   * **Controladores**: ProdutoController, ClienteController
   * **Utilitários**: Calculadora, Compactador
   * **Outros**: (views, repositórios, gerenciadores, etc.)
+
+[Problema Exemplo](ws-eclipse/Aula065-Exemplo01)
+
+### 66. Criando um método para obtermos os benefícios de reaproveitamento e delegação
+
+* Discussão:
+  * Com o uso de **classe**, agora nós temos uma variável composta do tipo "*Triangle*" para representar o triângulo:
+```java
+Triangle x, y;****
+x = new Triangle();
+y = new Triangle();
+```
+  * Agora vamos melhorar nossa classe, acrecentando nela um método para calcular a área.
+
+[Problema Exemplo](ws-eclipse/Aula066-Exemplo1)
