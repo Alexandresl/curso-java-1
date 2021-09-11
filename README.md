@@ -1390,3 +1390,5 @@ Exemplo:
 * **Importante** - Como o método *main* é um método estático, as constantes e métodos que são chamados neste método também deverão ser estáticos.
 
 [Problema Exemplo - Versão 1](ws-eclipse/Aula071-Exemplo01)
+
+[Problema Exemplo - Versão 2](ws-eclipse/Aula071-Exemplo02)
