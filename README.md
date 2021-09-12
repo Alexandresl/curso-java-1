@@ -1510,3 +1510,7 @@ Você deve fazer um programa que realize o cadastro de uma conta, dando opção 
 ### 84. Corração do exercício de fixação - Parte 2
 
 [Exercício](ws-eclipse/Aula084-Exercicio1)
+
+## Seção 10: Comportamento de memória, arrays, listas
+
+### 85. Visão geral do capítulo
