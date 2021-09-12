@@ -1407,3 +1407,31 @@ Exemplo:
 
 [Material do capítulo](PDFs/Aula%20075%20-%20Construtores,%20palavra%20this,%20sobrecarga%20e%20encapsulamento.pdf)
 
+### 76. Construtores
+
+#### Construtor
+
+* É uma operação especial da classe, que executa no momento da instanciação do objeto
+* Usos comuns:
+  * Iniciar valores dos atributos
+  * Permitir ou obrigar que o objeto receba dados / dependências no momento de sua instanciação (injeção de dependência)
+* Se um construtor customizado não for especificado, a classe disponbiliza o construtor padrão:
+```java
+  Product p = new Product();
+```
+* É possível especificar mais de um construtor na mesma classe (sobrecarga)
+
+#### Proposta de melholria do problema exemplo
+
+* Quando executamos o comando abaixo, instanciamos um produto "**product**" com seus atributos "*vazios*":
+```java
+  product = new Product();
+
+  // Em memória
+  // Objeto Produto -> name = null, price 0.0, quantityj 0
+```
+* Entretanto, faz sentido um produto que não tem nome? Faz sentido um produto que não tem preço?
+* Com o intuito de evitar a existência de produtos sem nome e sem preço, é possível fazer com que seja "*obrigatória*" a iniciação destes valores?
+
+[Problema exemplo](ws-eclipse/Aula076-Exemplo01)
+
