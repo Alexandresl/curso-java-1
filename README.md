@@ -1571,3 +1571,14 @@ Você deve fazer um programa que realize o cadastro de uma conta, dando opção 
   * y = x "y recebe uma cópia de x"
   * variáveis armazenadas no stack
   * Variáveis são desalocados imediatamente quano o escopo de execução é finalizado
+
+### 88. Desalocação de memória - garbage collector e escopo local
+
+#### Garbage collector
+
+* É um processo que automatiza o gerenciamento de memória de um programa em execução (memória Heap).
+* O Garbage collector monitora os objetos alocados dinâmicamente pelo programa (no heap), desalocando aqueles que não estão mais sendo utilizados.
+
+#### Desalocação por escopo
+
+* Na desalocação por escopo, todas as variáveis declaradas dentro de determinado escopo, seja um *método* ou um bloco *if* serão imediatamente desalocadas após o término da execução daquele bloco.
