@@ -88,7 +88,7 @@
 
 ### 3. Material de apoio do capítulo
 
-[Conceitos de programação](PDFs/Aula%20003%20-%20Conceitos%20de%20programação.pdf)
+[Material do capítulo](PDFs/Aula%20003%20-%20Conceitos%20de%20programação.pdf)
 
 ### 4. Algoritmo, Automação, Programa de Computador
 
@@ -164,7 +164,7 @@
 
 ### 10. Material de apoio do capítulo
 
-[Introdução Linguagem Java](PDFs/Aula%20009%20-%20Introdução%20a%20linguagem%20Java.pdf)
+[Material do capítulo](PDFs/Aula%20009%20-%20Introdução%20a%20linguagem%20Java.pdf)
 
 ### 11. Entendendo as versões do Java
 
@@ -262,7 +262,7 @@
 
 ### 20. Material de apoio do capítulo
 
-[Estrutura sequencial](PDFs/Aula%20018%20-%20Estrutura%20sequencial.pdf)
+[Material do capítulo](PDFs/Aula%20018%20-%20Estrutura%20sequencial.pdf)
 
 ### 21. Expressões aritméticas
 
@@ -725,7 +725,7 @@ public class Main {
 
 ### 32. Material de apoio do capítulo
 
-[Estrutura condicional](PDFs/Aula%20030%20-%20Estrutura%20condicional.pdf)
+[Material do capítulo](PDFs/Aula%20030%20-%20Estrutura%20condicional.pdf)
 
 ### 33. Expressões comparativas
 
@@ -985,7 +985,7 @@ A *Expressão condicional ternária* é uma estrutura opcional ao *if-else* quan
 
 ### 43. Material de apoio do capítulo
 
-[Material Estruturas Repetitivas](PDFs/Aula%20041%20-%20Estruturas%20repetitivas.pdf)
+[Material do capítulo](PDFs/Aula%20041%20-%20Estruturas%20repetitivas.pdf)
 
 ### 44. Como utilizar o DEBUG no Eclipse (Execução passo a passo)
 
@@ -1137,7 +1137,7 @@ do {
 
 ### 56. Material de apoio do capítulo
 
-[Material Outros tópicos básicos](PDFs/Aula%20056%20-%20Outros%20tópicos%20básicos.pdf)
+[Material do capítulo](PDFs/Aula%20056%20-%20Outros%20tópicos%20básicos.pdf)
 
 ### 57. Restrições e convenções para nomes
 
@@ -1253,7 +1253,7 @@ do {
 
 ### 63. Material de apoio do capítulo
 
-[Material Classes, atributos e membros staticos](PDFs/Aula%20063%20-%20Classes,%20atributos,%20métodos%20e%20membros%20estáticos.pdf)
+[Material do capítulo](PDFs/Aula%20063%20-%20Classes,%20atributos,%20métodos%20e%20membros%20estáticos.pdf)
 
 ### 64. Resolvendo um problema sem orientação a objetos
 
@@ -1402,4 +1402,8 @@ Exemplo:
 ## Seção 9: Construtores, palavra this, sobrecarga, encapsulamento
 
 ### 74. Visão geral do capítulo
+
+### 75. Material de apoio do capitulo
+
+[Material do capítulo](PDFs/Aula%20075%20-%20Construtores,%20palavra%20this,%20sobrecarga%20e%20encapsulamento.pdf)
 
