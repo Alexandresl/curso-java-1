@@ -1506,3 +1506,7 @@ Você deve fazer um programa que realize o cadastro de uma conta, dando opção 
 ### 83. Correção do exercício de fixação - Parte 1
 
 [Exercício](ws-eclipse/Aula083-Exercicio01)
+
+### 84. Corração do exercício de fixação - Parte 2
+
+[Exercício](ws-eclipse/Aula084-Exercicio1)
