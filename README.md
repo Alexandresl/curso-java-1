@@ -1435,3 +1435,9 @@ Exemplo:
 
 [Problema exemplo](ws-eclipse/Aula076-Exemplo01)
 
+### 77. Palavra this
+
+* A palavra *this* é uma referência para o próprio objeto
+* Usos communs:
+  * Diferenciar atributos de variáveis locais
+  * Passar o próprio objeto como argumento na chamada de um método ou construtor
