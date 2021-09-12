@@ -1614,3 +1614,7 @@ Você deve fazer um programa que realize o cadastro de uma conta, dando opção 
   * Dificuldade para se realizar inserções e deleções
 
 [Problema exemplo 1](ws-eclipse/Aula089-Exemplo01)
+
+### 90. Vetores - Parte 2
+
+[Problema exemplo 2](ws-eclipse/Aula090-Exemplo01)
