@@ -1563,7 +1563,7 @@ Você deve fazer um programa que realize o cadastro de uma conta, dando opção 
   * Objetos instanciados no heap (valores no heap)
   * Objetos não utilizados são desalocados em um momento pelo garbage collector
 
-* ** Tipo primitivo**:
+* **Tipo primitivo**:
   * Vantagem: é mais simples e performático
   * Variáveis são caixas
   * Não instancia. Uma vez declarados estão prontos para uso
