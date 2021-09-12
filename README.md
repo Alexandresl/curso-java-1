@@ -1471,3 +1471,22 @@ Exemplo:
 
 * Botão direito -> *Source* -> *Generate Constructor using Fields*
 * Botão direito -> *Source* -> *Generate Getters and Setters*
+
+### 81. Modificadores de acesso
+
+* **private**: o membro só pode ser acessado na **própria classe**
+* **(nada)**: o membro só pode ser acessado nas classes do **mesmo pacote**
+* **protected**: o membro só pode ser acessado no **mesmo pacote**, bem como em **subclasses de pacotes diferentes**
+* **public**: o membro é acessado por todas as classes (a não ser que ele resida em um módulo diferente que não exporte o pacote onde ele está)
+
+* https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
+
+#### Resumo:
+
+| pacote 1        | pacote 1 | pacote 2            | pacote 2 | pacote x |
+| classe A        | classe B | Classe C extendes A | classe D | classe E |
+| --------------- | -------- | ------------------- | -------- | -------- |
+| private int i   | Não      | Não                 | Não      | Não      |
+| int j           | Sim      | Não                 | Não      | Não      |
+| protected int k | Sim      | Sim                 | Não      | Não      |
+| public int l    | Sim      | Sim                 | Sim      | Não      |
