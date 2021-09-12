@@ -1294,7 +1294,7 @@ double aX, bX, cX, aY, bY, cY;
 #### Discussão:
 * Com o uso de **classe**, agora nós temos uma variável composta do tipo "*Triangle*" para representar o triângulo:
 ```java
-Triangle x, y;****
+Triangle x, y;
 x = new Triangle();
 y = new Triangle();
 ```
@@ -1452,3 +1452,15 @@ Exemplo:
 * Nota: é possível também incluir um construtor padrão
 
 [Problema exemplo](ws-eclipse/Aula078-Exemplo01)
+
+### 79. Encapsulamento
+
+* **Encapsulamento** é um princípio que consiste em esconder detalhes de implementação de uma classe, expondo apenas operações seguras e que mantenham os objetos em um estado consistente.
+* **Regra de outo**: o objetivo deve sempre estar em um estado consistente, e a própria classe deve garantir isso.
+
+#### Regra geral básica
+
+* Um objeto **não** deve expor nenhum atributo (modificador de acesso **private**)
+* Os atributos devem ser acessados por meio de métodos get e set, [padrão JavaBeans](https://pt.wikipedia.org/wiki/JavaBeans).
+
+[Problema Exemplo](ws-eclipse/Aula079-Exemplo01)
