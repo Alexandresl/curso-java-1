@@ -1484,8 +1484,8 @@ Exemplo:
 #### Resumo:
 
 | pacote 1        | pacote 1 | pacote 2            | pacote 2 | pacote x |
-| classe A        | classe B | Classe C extendes A | classe D | classe E |
 | --------------- | -------- | ------------------- | -------- | -------- |
+| classe A        | classe B | Classe C extendes A | classe D | classe E |
 | private int i   | Não      | Não                 | Não      | Não      |
 | int j           | Sim      | Não                 | Não      | Não      |
 | protected int k | Sim      | Sim                 | Não      | Não      |
