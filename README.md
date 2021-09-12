@@ -1561,7 +1561,7 @@ Você deve fazer um programa que realize o cadastro de uma conta, dando opção 
   * Aceita o valor *null* 
   * y = x "y passa a apontar para onde x aponta"
   * Objetos instanciados no heap (valores no heap)
-  * Objetos não utilizados são desalocados em um momento pelo garbage collector
+  * Objetos não utilizados são desalocados em um momento próximo pelo garbage collector
 
 * **Tipo primitivo**:
   * Vantagem: é mais simples e performático
