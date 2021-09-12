@@ -1509,7 +1509,7 @@ Você deve fazer um programa que realize o cadastro de uma conta, dando opção 
 
 ### 84. Corração do exercício de fixação - Parte 2
 
-[Exercício](ws-eclipse/Aula084-Exercicio1)
+[Exercício](ws-eclipse/Aula084-Exercicio01)
 
 ## Seção 10: Comportamento de memória, arrays, listas
 
@@ -1519,3 +1519,55 @@ Você deve fazer um programa que realize o cadastro de uma conta, dando opção 
 
 [Material de apoio](pdf/../PDFs/Aula%20086%20-%20Comportamento%20de%20memória,%20arrays,%20listas.pdf)
 
+### 87. Tipos referência vs. tipos valor
+
+* **Classes são tipos referência** - Variáveis cujo tipo são classes não devem ser entendidas como "caixas", mas sim "tentáculos" (ponteiros) para caixas.
+* Necessário perceber a diferença entre memória **Stack** e memória **Heap**:
+  * Quando declaramos variáveis do tipo classes estas são armazenadas na memória **stack** e quando instânciamos passando valores aos seus atributos, por exemplo, estes valores são armazenados na memória **Heap**, na memória **stack** fica apenas o endereço da memória **heap** onde estes valores são armazenados.
+  * Dessa forma, a memória **Heap** é onde são alocados os *objetos* em tempo de execução (*alocação dinâmica de memória*). 
+* Tipos referência aceitam o valor "**null**", que indica que a variável não aponta para "ninguém".
+
+* **Tpois primitivos são tipos valor** - Em Java, tipos primitivos são tipos valor. Tipos valor são **caixas** e não ponteiros.
+  * Para os tipos primitivos, o valor das variáveis ficam armazenadas na memória **stack** e não apenas um ponteiro apontando para um endereço de meória.
+  * São tipos primitivos em Java:
+
+| Type    | Contains                | Default | Size    |
+| ------- | ----------------------- | ------- | ------- |
+| boolean | *true* or *false*       | *false* | 1 bit   |
+| char    | Unicode charater        | /u0000  | 16 bits |
+| byte    | Signed interger         | 0       | 8 bits  |
+| short   | Signed interger         | 0       | 16 bits |
+| int     | Signed integer          | 0       | 32 bits |
+| long    | Signed integer          | 0       | 64 bits |
+| float   | IEEE 754 floating point | 0.0     | 32 bits |
+| double  | IEEE 754 floating point | 0.0     | 64 bits |
+
+[Exemplo](ws-eclipse/Aula087-Exemplo01)
+
+#### Valores padrão
+
+* Quando alocamos (*new*) qualquer tipo estruturado (classe ou array), são atribuídos valores padrão aos seus elementos
+  * **números**: *0*
+  * **boolean**: *false*
+  * **char**: *caractere código 0 (zero)*
+  * **objeto**: *null*
+
+#### Resumo tipo referência vs. tipo valor
+
+* **Classe**:
+  * Vantagem: usufrui de todos os recursos OO
+  * Variáveis são ponteiros
+  * Objetos precisam ser instânciados usando *new* ou apontar para objetos existentes
+  * Aceita o valor *null* 
+  * y = x "y passa a apontar para onde x aponta"
+  * Objetos instanciados no heap (valores no heap)
+  * Objetos não utilizados são desalocados em um momento pelo garbage collector
+
+* ** Tipo primitivo**:
+  * Vantagem: é mais simples e performático
+  * Variáveis são caixas
+  * Não instancia. Uma vez declarados estão prontos para uso
+  * Não aceita o valor *null*
+  * y = x "y recebe uma cópia de x"
+  * variáveis armazenadas no stack
+  * Variáveis são desalocados imediatamente quano o escopo de execução é finalizado
