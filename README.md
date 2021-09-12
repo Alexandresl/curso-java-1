@@ -1428,7 +1428,7 @@ Exemplo:
   product = new Product();
 
   // Em memória
-  // Objeto Produto -> name = null, price 0.0, quantityj 0
+  // Objeto Produto -> name = null, price = 0.0, quantity = 0
 ```
 * Entretanto, faz sentido um produto que não tem nome? Faz sentido um produto que não tem preço?
 * Com o intuito de evitar a existência de produtos sem nome e sem preço, é possível fazer com que seja "*obrigatória*" a iniciação destes valores?
@@ -1441,3 +1441,14 @@ Exemplo:
 * Usos communs:
   * Diferenciar atributos de variáveis locais
   * Passar o próprio objeto como argumento na chamada de um método ou construtor
+
+### 78. Sobrecarga
+
+* **Sobrecarga** é um recurso que uma classe possui de oferecer mais de uma operação com o mesmo nome, porém com diferentes listas de parâmetros.
+
+#### Proposta de melholria do problema exemplo
+
+* Vamos criar um construtor opcional, o qual recebe apenas nome e preço do produto. A quantidade em estoque deste novo produto, por padrão, deverá ser iniciada com o valor zero.
+* Nota: é possível também incluir um construtor padrão
+
+[Problema exemplo](ws-eclipse/Aula078-Exemplo01)
