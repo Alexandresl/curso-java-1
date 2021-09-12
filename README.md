@@ -1582,3 +1582,8 @@ Você deve fazer um programa que realize o cadastro de uma conta, dando opção 
 #### Desalocação por escopo
 
 * Na desalocação por escopo, todas as variáveis declaradas dentro de determinado escopo, seja um *método* ou um bloco *if* serão imediatamente desalocadas após o término da execução daquele bloco.
+
+#### Resumo
+
+* Objetos alocados dinamicamente, quando não possuem mais referência para eles, seão desalocados pelo *garbage collector*
+* Variáveis locais são desalocadas imediatamente assim que seu escopo local sai de execução.
