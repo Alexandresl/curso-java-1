@@ -1464,3 +1464,10 @@ Exemplo:
 * Os atributos devem ser acessados por meio de métodos get e set, [padrão JavaBeans](https://pt.wikipedia.org/wiki/JavaBeans).
 
 [Problema Exemplo](ws-eclipse/Aula079-Exemplo01)
+
+### 80. Gerando automaticamente construtores, getters e setters com o Eclipse
+
+#### Comandos:
+
+* Botão direito -> *Source* -> *Generate Constructor using Fields*
+* Botão direito -> *Source* -> *Generate Getters and Setters*
