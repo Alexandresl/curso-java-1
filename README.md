@@ -1398,3 +1398,8 @@ Exemplo:
 ### 73. Exercício de fixação
 
 [Exercício 1](ws-eclipse/Aula073-Exercicio01)
+
+## Seção 9: Construtores, palavra this, sobrecarga, encapsulamento
+
+### 74. Visão geral do capítulo
+
