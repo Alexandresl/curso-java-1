@@ -1514,3 +1514,8 @@ Você deve fazer um programa que realize o cadastro de uma conta, dando opção 
 ## Seção 10: Comportamento de memória, arrays, listas
 
 ### 85. Visão geral do capítulo
+
+### 86. Material de apoio do capítulo
+
+[Material de apoio](pdf/../PDFs/Aula%20086%20-%20Comportamento%20de%20memória,%20arrays,%20listas.pdf)
+
