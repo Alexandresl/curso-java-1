@@ -1394,3 +1394,7 @@ Exemplo:
 ### 72. Membros estáticos - Parte 2
 
 [Problema Exemplo - Versão 3](ws-eclipse\Aula072-Exemplo01)
+
+### 73. Exercício de fixação
+
+[Exercício 1](ws-eclipse/Aula073-Exercicio01)
