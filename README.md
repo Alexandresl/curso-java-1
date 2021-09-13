@@ -1673,3 +1673,17 @@ Fazer um programa que inicie com todos os dez quartos vazios, e depois leia uma 
 | long             | Long          |
 | float            | Float         |
 | double           | Double        |
+
+### 93. Laço for each
+
+* Sintaxe opcional e simplificada para percorrer coleções.
+
+#### Sintaxe:
+```java
+for (Tipo apelido : colecao) {
+  <comando 1>
+  <comando 2>
+}
+```
+
+[Exemplo 1](ws-eclipse/Aula093-Exemplo01)
