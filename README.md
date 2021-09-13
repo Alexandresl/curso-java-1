@@ -1648,3 +1648,28 @@ Fazer um programa que inicie com todos os dez quartos vazios, e depois leia uma 
 *8: Alex Brown, alex@gmail.com*
 
 [Exercício](ws-eclipse/Aula091-Exercicio01)
+
+### 92. Boxing, umboxing e wrapper classes
+
+* **Boxing** - É o processo de conversão de um objeto tipo valor para um objeto tipo referência compatível.
+* **Unboxing** - é o processo de conversão de um objeto tipo referência para um objeto tipo valor compatível
+
+[Exemplo 1](ws-eclipse/Aula092-Exercicio01)
+
+#### Wrapper classes
+
+* São classes equivalentes aos tipos primitivos
+* Boxing e unboxing é natural na linguagem, ou seja, sem a necessidade de ser realizado o cast.
+* Uso comum: Campos de entidades em sistemas de informação (**importante**)
+  * Pois tipos referência (classes) aceitam valor null e usufruem dos recursos OO
+
+| Tipos primitivos | Tipos classes |
+| ---------------- | ------------- |
+| boolean          | Boolean       |
+| char             | Character     |
+| byte             | Byte          |
+| short            | Short         |
+| int              | Integer       |
+| long             | Long          |
+| float            | Float         |
+| double           | Double        |
