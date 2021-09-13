@@ -1687,3 +1687,36 @@ for (Tipo apelido : colecao) {
 ```
 
 [Exemplo 1](ws-eclipse/Aula093-Exemplo01)
+
+### 94. Listas - Parte 1
+
+#### checklist
+
+* Conceito de lista
+* Tipo **List** - Declaração, instanciação
+* Demo
+
+* Referência: https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/List.html
+
+* Assuntos pendentes:
+  * interfaces
+  * generics
+  * predicados (lambda)
+
+#### Listas
+
+* Lista é uma estrutura de dados:
+  * **Homogênea** (dados do mesmo tipo)
+  * **Ordenada** (Elementos acessados por meio de posições)
+  * **Inicia vazia**, e seus elementos são alocados sob demanda
+  * Cada elemento ocupa um "nó" (**nodo**) da lista
+
+* Tipo (interface): List
+* Classes que implementam: ArrayList, LinkedList, etc
+
+* Vantagens:
+  * Tamanho variável
+  * Facilidade para se realizar inserções e deleções
+
+* Desvantagens:
+  * Acesso sequencial aos elementos, podendo gerar baixa performance. Porém algumas implementações como o ArrayList otimizam este acesso.
