@@ -1771,3 +1771,5 @@ Lembre-se de aplicar a técnica de encapsulamento para não permitir que o salá
 *333, Maria Brown, 4000.00*
 *536, Alex Grey, 3300.00*
 *772, Bob Green, 5000.00*
+
+[Exercício 1](ws-eclipse\Aula096-Exercicio01)
