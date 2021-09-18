@@ -1778,3 +1778,24 @@ Lembre-se de aplicar a técnica de encapsulamento para não permitir que o salá
 
 [Link](https://youtu.be/Xj-osdBe3TE)
 
+### 98. Matrizes
+
+#### Checklist
+
+* Revisão do conceito de matriz
+* Declaração e instanciação
+* Acesso aos elementos / como percorrer uma matriz
+* Propriedade lenght
+
+#### Matrizes
+
+* Em programação, "*matriz*" é o nome dado a arranjos bidimensionais (*vetor de vetores*).
+* Arranjo (*array*) é uma estrutura de dados:
+  * *Homogênea* (dados do mesmo tipo)
+  * *Ordenada* (elementos acessados por meio de posições)
+  * *Alocada de uma vez só*, em um bloco contíguo de memória
+* *Vantagens*:
+  * Acesso imediato aos elementos pela sua posição
+* *Desvantagens*:
+  * Tamanho fixo
+  * Dificuldade para se realizar inserções e deleções
