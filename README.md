@@ -1773,3 +1773,8 @@ Lembre-se de aplicar a técnica de encapsulamento para não permitir que o salá
 *772, Bob Green, 5000.00*
 
 [Exercício 1](ws-eclipse\Aula096-Exercicio01)
+
+### 97. Correção em vídeo do exercício proposto
+
+[Link](https://youtu.be/Xj-osdBe3TE)
+
