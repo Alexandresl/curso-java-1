@@ -2100,4 +2100,4 @@ hs_err_pid*
 
 #### Entrei no VIM por engano. Como sair?
 
-*Tecle ESC, depois digite :q! e tecle ENTE*
+*Tecle ESC, depois digite :q! e tecle ENTER*
