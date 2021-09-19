@@ -2040,3 +2040,23 @@ Um projeto controlado pelo Git é chamado de **repositório de versionamento**. 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 ```
+
+### 110. Demo - trabalhando com um projeto existente
+
+#### Passos
+
+1. **IMPORTANTE** - **Certifique-se de estar identificado no Git do seu computador (nome e e-mail)**
+   1. **USUÁRIOS WINDOWS** - **Verifique o "Cofre" (gerenciador de credenciais)**
+   2. git config --list
+   3. git config --global user.name "Alexandre Lima"
+   4. git config --global user.email "al3xandr3sl@gmail.com"
+2. Se o projeto já não estiver no seu computador, *Clonar* o repositório do Github
+   1. git clone https://github.com/Alexandresl/meuprojeto.git
+3. Altere o que você precisar no projeto
+4. *Commitar* as mudanças feitas no projeto
+   1. Verificar arquivos: *git status*
+   2. Realizar o commit: 
+      1. *git add .*
+      2. *git commit -m "Mensagem explicativa"*
+   3. Listar histórico de commits: *git log --oneline*
+5. Salvar projeto atualizado no seu Github (*push*): *git push*
