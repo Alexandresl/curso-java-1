@@ -2064,3 +2064,40 @@ hs_err_pid*
 ### 111. Importante entender - a sequência de *commits* deve ser respeitada
 
 * **IMPORTANTE EVITAR** - Suponha que o repositório do seu computador estava em uma versão atrasada em relação ao *github*, daí você esquece de atualizá-lo (*git pull origin master*) e faz algumas alterações. Neste caso o Git não vai aceitar o *push*.
+
+### 112. Kit de primeiros socorros
+
+#### Quero desfazer todo que eu fiz desde o último *commit*
+
+*git clean -df*
+
+*git checkout -- .*
+
+#### Preciso remover o último commit, porém mantendo os arquivos do jeito que estão. 
+
+*git reset --soft HEAD~1*
+
+#### Preciso remover o último commit, inclusive as alterações nos arquivos.  
+
+*git reset --hard HEAD~1*
+
+#### Quero alterar temporariamente os arquivos do projeto de modo a ficarem no estado do commit informado.
+
+* Atenção: não podem haver modificações não commitadas no projeto
+* Nota: para voltar ao último *commit* faça: *git checkout master*
+
+*git checkout <código do commit>*
+
+*Exemplo: *git checkout e8a52f3*
+
+#### Preciso apagar o último commit no Github
+
+*git push -f origin HEAD^:master*
+
+#### Quero mudar o meu repositório remoto "*origin*"
+
+*git remote set-url origin https://github.com/acenelio/novoprojeto.git*
+
+#### Entrei no VIM por engano. Como sair?
+
+*Tecle ESC, depois digite :q! e tecle ENTE*
