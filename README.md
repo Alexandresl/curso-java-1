@@ -2105,3 +2105,7 @@ hs_err_pid*
 ## Seção 13: Enumerações, composição
 
 ### 113. Visão geral do capítulo
+
+### 114. Material de apoio do capítulo
+
+[Material de apoio](PDFs/Aula%20114%20-%20Enumerações%20e%20composição.pdf)
