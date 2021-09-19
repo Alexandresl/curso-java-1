@@ -1749,27 +1749,50 @@ Lembre-se de aplicar a técnica de encapsulamento para não permitir que o salá
 
 *How many employees will be registered? 3*
 
+
+
 *Emplyoee #1:*
+
 *Id: 333*
+
 *Name: Maria Brown*
+
 *Salary: 4000.00*
 
+
+
 *Emplyoee #2:*
+
 *Id: 536*
+
 *Name: Alex Grey*
+
 *Salary: 3000.00*
 
+
+
 *Emplyoee #3:*
+
 *Id: 772*
+
 *Name: Bob Green*
+
 *Salary: 5000.00*
 
+
+
 *Enter the employee id that will have salary increase : 536*
+
 *Enter the percentage: 10.0*
 
+
+
 *List of employees:*
+
 *333, Maria Brown, 4000.00*
+
 *536, Alex Grey, 3300.00*
+
 *772, Bob Green, 5000.00*
 
 [Exercício 1](ws-eclipse/Aula096-Exercicio01)
@@ -1813,17 +1836,29 @@ Fazer um programa para ler um número inteiro N e uma matriz de ordem N contendo
 Fazer um programa para ler dois números inteiros M e N, e depois ler uma matriz de M linhas por N colunas contendo números inteiros, podendo haver repetições. Em seguida, ler um número inteiros X que pertence à matriz. Para cada ocorrência de X, mostrar os valores à esquerda, acima, à direita e abaixo de X, quando houver, conforme exemplo:
 
 *3 4*
+
 *10 8 15 12*
+
 *21 11 23 8*
+
 *14 5 13 19*
+
 *8*
+
 *Position 0,1:*
+
 *Left: 10*
+
 *Right: 15*
+
 *Down: 11*
+
 *Position 1,3:*
+
 *Left: 23*
+
 *Up: 12*
+
 *Down: 19*
 
 [Exercício 1](ws-eclipse/Aula100-Exemplo01)
@@ -1901,3 +1936,6 @@ System.out.println("Month: " + month);
 ```
 
 [Exemplo 2](ws-eclipse/Aula103-Exemplo02)
+
+## Seção 12: Bônus - nivelamento sobre Git e Github
+
