@@ -2169,3 +2169,7 @@ Ler os dados de um trabalhador com N contratos (N fornecido pelo usuário). Depo
 ![Exemplo](images/aula118-img2.png)
 
 [Exercício](ws-eclipse/Aula118-Exemplo01)
+
+### 119. Exercício resolvido 1 - Parte 2
+
+[Exercício](ws-eclipse/Aula119-Exemplo01)
