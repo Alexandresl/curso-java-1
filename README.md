@@ -2127,3 +2127,13 @@ hs_err_pid*
 * Referência: https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Enum.html
 
 [Exemplo 1](ws-eclipse/Aula115-Exemplo01)
+
+### 116. Vamos falar um pouco sobre design
+
+#### Categorias de classes
+
+* Em um sistema orientado a objetos, de modo geral "tudo" é objeto.
+* Por questões de design tais como organização, flexibilidade, reuso, delegação, etc., há várias categorias de classes. Exemplos: *Views*, *Controllers*, *Entities*, *Services*, *Repositories*, ...
+
+* Exemplo de composição de Entities
+![Entities](images/aula116-img1.png)
