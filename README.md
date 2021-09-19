@@ -2060,3 +2060,7 @@ hs_err_pid*
       2. *git commit -m "Mensagem explicativa"*
    3. Listar histórico de commits: *git log --oneline*
 5. Salvar projeto atualizado no seu Github (*push*): *git push*
+
+### 111. Importante entender - a sequência de *commits* deve ser respeitada
+
+* **IMPORTANTE EVITAR** - Suponha que o repositório do seu computador estava em uma versão atrasada em relação ao *github*, daí você esquece de atualizá-lo (*git pull origin master*) e faz algumas alterações. Neste caso o Git não vai aceitar o *push*.
