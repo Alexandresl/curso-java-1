@@ -1393,7 +1393,7 @@ Exemplo:
 
 ### 72. Membros estáticos - Parte 2
 
-[Problema Exemplo - Versão 3](ws-eclipse\Aula072-Exemplo01)
+[Problema Exemplo - Versão 3](ws-eclipse/Aula072-Exemplo01)
 
 ### 73. Exercício de fixação
 
@@ -1772,13 +1772,13 @@ Lembre-se de aplicar a técnica de encapsulamento para não permitir que o salá
 *536, Alex Grey, 3300.00*
 *772, Bob Green, 5000.00*
 
-[Exercício 1](ws-eclipse\Aula096-Exercicio01)
+[Exercício 1](ws-eclipse/Aula096-Exercicio01)
 
 ### 97. Correção em vídeo do exercício proposto
 
 [Link](https://youtu.be/Xj-osdBe3TE)
 
-[Exercício 1](ws-eclipse\Aula097-Exercício01)
+[Exercício 1](ws-eclipse/Aula097-Exercício01)
 
 ### 98. Matrizes
 
@@ -1806,7 +1806,7 @@ Lembre-se de aplicar a técnica de encapsulamento para não permitir que o salá
 
 Fazer um programa para ler um número inteiro N e uma matriz de ordem N contendo números inteiros. Em seguida, mostrar a diagonal principal e a quantidade de valores negativos da matriz.
 
-[Exemplo 1](ws-eclipse\Aula099-Exemplo01)
+[Exemplo 1](ws-eclipse/Aula099-Exemplo01)
 
 ### 100. Exercício proposto
 
@@ -1826,7 +1826,7 @@ Fazer um programa para ler dois números inteiros M e N, e depois ler uma matriz
 *Up: 12*
 *Down: 19*
 
-[Exercício 1](ws-eclipse\Aula100-Exemplo01)
+[Exercício 1](ws-eclipse/Aula100-Exemplo01)
 
 ## Seção 11: Tópicos especiais em Java
 
@@ -1859,4 +1859,45 @@ Fazer um programa para ler dois números inteiros M e N, e depois ler uma matriz
 Date y3 = Date.from(Instant.parse("2018-06-25T15:42:07Z"));
 ```
 
-[Exemplo](ws-eclipse\Aula102-Exemplo01)
+[Exemplo](ws-eclipse/Aula102-Exemplo01)
+
+### 103. Manipulando um Date com o Calendar
+
+#### Somando uma unidade de tempo
+
+```java
+SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+
+Date d = Date.from(Instant.parse("2018-06-25T15:42:07Z"));
+
+System.out.println(sdf.format(d));
+
+Calendar cal = Calendar.getInstance();
+cal.setTime(d);
+cal.add(Calendar.HOUR_OF_DAY, 4);
+d = cal.getTime();
+
+System.out.println(sdf.format(d));
+```
+
+[Exemplo 1](ws-eclipse/Aula103-Exemplo01)
+
+#### Obtendo uma unidade de tempo
+
+```java
+SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+
+Date d = Date.from(Instant.parse("2018-06-25T15:42:07Z"));
+
+System.out.println(sdf.format(d));
+
+Calendar cal = Calendar.getInstance();
+cal.setTime(d);
+int minutes = cal.get(Calendar.MINUTE);
+int month = 1 + cal.get(Calendar.MONTH);
+
+System.out.println("Minutes: " + minutes);
+System.out.println("Month: " + month);
+```
+
+[Exemplo 2](ws-eclipse/Aula103-Exemplo02)
