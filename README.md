@@ -2136,4 +2136,23 @@ hs_err_pid*
 * Por questões de design tais como organização, flexibilidade, reuso, delegação, etc., há várias categorias de classes. Exemplos: *Views*, *Controllers*, *Entities*, *Services*, *Repositories*, ...
 
 * Exemplo de composição de Entities
+
 ![Entities](images/aula116-img1.png)
+
+* Exemplo de composição de Serviços
+
+![Entities](images/aula116-img2.png)
+
+### 117. Composição
+
+* É um tipo de associação que permite que um objeto contenha outro
+* Relação "tem-um" ou "tem-vários"
+* Vantagens:
+  * Organização: divisão de responsabilidades
+  * Coesão
+  * Flexibilidade
+  * Reuso
+* **Nota** - Embora o símbolo UML para composição (todo-parte) seja o diamante preto, neste contexto estamos chamando de composição qualquer associação tipo "tem-um" e "tem-vários".
+
+![Entities](images/aula117-img1.png)
+
