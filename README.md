@@ -1807,3 +1807,23 @@ Lembre-se de aplicar a técnica de encapsulamento para não permitir que o salá
 Fazer um programa para ler um número inteiro N e uma matriz de ordem N contendo números inteiros. Em seguida, mostrar a diagonal principal e a quantidade de valores negativos da matriz.
 
 [Exemplo 1](ws-eclipse\Aula099-Exemplo01)
+
+### 100. Exercício proposto
+
+Fazer um programa para ler dois números inteiros M e N, e depois ler uma matriz de M linhas por N colunas contendo números inteiros, podendo haver repetições. Em seguida, ler um número inteiros X que pertence à matriz. Para cada ocorrência de X, mostrar os valores à esquerda, acima, à direita e abaixo de X, quando houver, conforme exemplo:
+
+*3 4*
+*10 8 15 12*
+*21 11 23 8*
+*14 5 13 19*
+*8*
+*Position 0,1:*
+*Left: 10*
+*Right: 15*
+*Down: 11*
+*Position 1,3:*
+*Left: 23*
+*Up: 12*
+*Down: 19*
+
+[Exercício 1](ws-eclipse\Aula100-Exemplo01)
