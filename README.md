@@ -1778,6 +1778,8 @@ Lembre-se de aplicar a técnica de encapsulamento para não permitir que o salá
 
 [Link](https://youtu.be/Xj-osdBe3TE)
 
+[Exercício 1](ws-eclipse\Aula097-Exercício01)
+
 ### 98. Matrizes
 
 #### Checklist
@@ -1799,3 +1801,9 @@ Lembre-se de aplicar a técnica de encapsulamento para não permitir que o salá
 * *Desvantagens*:
   * Tamanho fixo
   * Dificuldade para se realizar inserções e deleções
+
+### 99. Exercício resolvido
+
+Fazer um programa para ler um número inteiro N e uma matriz de ordem N contendo números inteiros. Em seguida, mostrar a diagonal principal e a quantidade de valores negativos da matriz.
+
+[Exemplo 1](ws-eclipse\Aula099-Exemplo01)
