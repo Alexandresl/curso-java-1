@@ -1829,3 +1829,8 @@ Fazer um programa para ler dois números inteiros M e N, e depois ler uma matriz
 [Exercício 1](ws-eclipse\Aula100-Exemplo01)
 
 ## Seção 11: Tópicos especiais em Java
+
+### 101. Material de apoio do capítulo
+
+[Material de apoio](pdfs/Aula%20101%20-%20Tópicos%20especiais.pdf)
+
