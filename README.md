@@ -2002,3 +2002,6 @@ Um projeto controlado pelo Git é chamado de **repositório de versionamento**. 
    5. *git add .* - Adiciona todos os arquivo ao *stage*
    6. *git commit -m "Projeto criado"* - Salva uma versão do projeto
    7. *git push -u origin master* - Envia o repositório local para o repositório remoto
+
+
+* *git log --oneline* - Verificar histórico de commits
