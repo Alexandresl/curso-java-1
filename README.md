@@ -2109,3 +2109,21 @@ hs_err_pid*
 ### 114. Material de apoio do capítulo
 
 [Material de apoio](PDFs/Aula%20114%20-%20Enumerações%20e%20composição.pdf)
+
+### 115. Enumerações
+
+#### Checklist
+
+* Definição / Discussão
+* Exemplo: estado de um pedido
+* Conversão de string para enum
+* Representação UML
+
+#### Enumerações
+
+* É um tipo especial que serve para especificar de forma literal um conjunto de constantes relacionadas
+* Palavre chave em Java: *enum*
+* Vantagem: melhor semântica, código mais legível e auxiliado pelo compilador
+* Referência: https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Enum.html
+
+[Exemplo 1](ws-eclipse/Aula115-Exemplo01)
