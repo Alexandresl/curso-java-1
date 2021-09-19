@@ -2101,3 +2101,7 @@ hs_err_pid*
 #### Entrei no VIM por engano. Como sair?
 
 *Tecle ESC, depois digite :q! e tecle ENTER*
+
+## Seção 13: Enumerações, composição
+
+### 113. Visão geral do capítulo
