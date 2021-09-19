@@ -1965,7 +1965,7 @@ Um projeto controlado pelo Git é chamado de **repositório de versionamento**. 
 
 #### Como utilizar o Git no meu computador
 
-* É preciso ter um sistema Git instalado no computador: https://git-scm.com/downloads
+* É preciso ter um sistema Git instalado no computador: https://git-scm.com/
 * O Git pode ser usado ou por **terminal de comando**, ou por um aplicativo gráfico
   
 **GITHUB** - **é um serviço de hospedagem de repositórios Git remotos**
@@ -1975,3 +1975,7 @@ Um projeto controlado pelo Git é chamado de **repositório de versionamento**. 
 * Maior serviço do mundo de hospedagem de projetos de código aberto
 * Modelo de cobrança: gratuíto para projetos de código aberto, pago para projetos privados
 * Alternativas: BitBucket, GitLab, etc
+
+### 107. Instalação do Git no Windows
+
+* Download: https://git-scm.com/downloads
