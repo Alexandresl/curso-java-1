@@ -2156,3 +2156,16 @@ hs_err_pid*
 
 ![Entities](images/aula117-img1.png)
 
+### 118. Exercício Resolvido - Parte 1
+
+Ler os dados de um trabalhador com N contratos (N fornecido pelo usuário). Depois, solicitar do usuário um mês e mostrar qual foi o salário do funcionário nesse mês, conforme exemplo.
+
+#### Diagrama de classes
+
+![Diagrama de classes](images/aula118-img1.png)
+
+#### Exemplo
+
+![Exemplo](images/aula118-img2.png)
+
+[Exercício](ws-eclipse/Aula118-Exemplo01)
