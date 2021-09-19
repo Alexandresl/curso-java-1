@@ -2173,3 +2173,11 @@ Ler os dados de um trabalhador com N contratos (N fornecido pelo usuário). Depo
 ### 119. Exercício resolvido 1 - Parte 2
 
 [Exercício](ws-eclipse/Aula119-Exemplo01)
+
+### 120. Exercício resolvido 2 (demo StringBuilder)
+
+![Exercício](images/aula120-img1.png)
+
+![Resultado](images/aula120-img2.png)
+
+[Exercício](ws-eclipse/Aula120-Exemplo01)
