@@ -1979,3 +1979,26 @@ Um projeto controlado pelo Git é chamado de **repositório de versionamento**. 
 ### 107. Instalação do Git no Windows
 
 * Download: https://git-scm.com/downloads
+
+### 108. Demo - Criando um novo projeto
+
+* **Atenção usuários windows** - Configurar o sistema para mostrar extensões de arquivos. Painel de controle -> Opções de pasta -> Modo de exibição. Desmarcar "*Ocultar as extensões de tipos de arquivos conhecidos*"
+
+#### Passos
+
+1. Crie um novo projeto no seu ambiente de desenvolvimento
+2. Crie um novo repositório no Github
+   1. Atenção: se seu ambiente de desenvolvimento não gera o arquivo *.gitignore* automaticamente, escolha o seu tipo desejado de *.gitignore* na tela de criação de repositório do *github*.
+3. Abra um terminal na pasta do seu projeto
+4. **IMPORTANTE**: certifique-se de estar identificado no Git do seu computador (nome e email)
+   1. git config --list
+   2. git config --global user.name "Alexandre Lima"
+   3. git config --global user.email "al3xandr3sl@gmail.com"
+5. Faça os comandos a seguir:
+   1. *git init* - Inicia um novo repositório local na pasta de seu projeto
+   2. *git remote add origin https://github.com/Alexandresl/meu-projeto.git* - Associa seu repositório local ao repositório remoto, com o apelido de "*origin*".
+   3. *git pull origin master* - Atualiza seu repositório local em relação ao repositório remoto
+   4. *git status* - verifica arquivos
+   5. *git add .* - Adiciona todos os arquivo ao *stage*
+   6. *git commit -m "Projeto criado"* - Salva uma versão do projeto
+   7. *git push -u origin master* - Envia o repositório local para o repositório remoto
