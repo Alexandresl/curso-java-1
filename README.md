@@ -1834,3 +1834,29 @@ Fazer um programa para ler dois números inteiros M e N, e depois ler uma matriz
 
 [Material de apoio](pdfs/Aula%20101%20-%20Tópicos%20especiais.pdf)
 
+### 102. Trabalhando com dadas - Date
+
+* O tipo **Date** no java representa um **instante**
+* Pacote *java.util*
+* https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Date.html
+* Um objeto Date internamente armazena:
+  * O número de milissegundos desde a meia noite do dia 1 de janeiro de 1970 *GMT* (*UTC*)
+    * *GMT* - *Greenwich Mean Time (time zone)*
+    * *UTC* - *Coordinated Universal Time (time standard)*
+
+#### SimpleDateFormat
+
+* https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/text/SimpleDateFormat.html
+* Define formatos para conversão entre Date e String
+  * *dd/MM/yyyy* = *23/07/2018*
+  * *dd/MM/yyyy HH:mm:ss* = *23/07/2018 15:42:07*
+
+#### Padrão ISO 8601 e classe Instant
+
+* Formato: *yyyy-MM-ddTHH:mm:ssZ*
+* Exemplo: *2018-06-25T15:42:07Z*
+```java
+Date y3 = Date.from(Instant.parse("2018-06-25T15:42:07Z"));
+```
+
+[Exemplo](ws-eclipse\Aula102-Exemplo01)
