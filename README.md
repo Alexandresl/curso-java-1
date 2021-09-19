@@ -1944,3 +1944,34 @@ System.out.println("Month: " + month);
 ### 105. Material de apoio do capítulo
 
 [Material de apoio](PDFs/Aula%20105%20-%20Nivelamento%20-%20git%20e%20github.pdf)
+
+### 106. O que é Git e Github
+
+* Este capítulo tem por objetivo oferecer um breve nivelamento sobre aspectos e procedimentos básicos de Git e Github necessários para acompanhar os projetos do curso.
+* Vamos abordar: *usuários único* / *branch único*
+
+**GIT** - **é um sistema de versionamento**: Você controla as modificações de um projeto por meio de versões chamadas "*commits*"
+
+Um projeto controlado pelo Git é chamado de **repositório de versionamento**. Tipicamente uma cópia "*oficial*" do repositório fica salvo em um servidor (repositório remoto). Cada pessoa que trabalha no projeto pode fazer uma cópia do repositório para seu computador (repositório local). A pessoa então faz suas alterações no projeto (novos commits) e depois salva as alterações no servidor.
+
+#### Operações principais
+
+| Nome       | Ação                                                            |
+| ---------- | --------------------------------------------------------------- |
+| **Clone**  | Copia o repositório remoto para seu computador                  |
+| **Pull**   | Atualiza seu repositório local em relação ao repositório remoto |
+| **Commit** | Salva uma nova versão (tipicamente no seu repositório local)    |
+| **Push**   | Envia o repositório local para o repositório remoto             |
+
+#### Como utilizar o Git no meu computador
+
+* É preciso ter um sistema Git instalado no computador: https://git-scm.com/downloads
+* O Git pode ser usado ou por **terminal de comando**, ou por um aplicativo gráfico
+  
+**GITHUB** - **é um serviço de hospedagem de repositórios Git remotos**
+
+* Possui uma interface gráfica web: www.github.com
+* É uma plataforma social (usuários, páginas de perfil, seguidores, colaboração, etc.). **Dica: Currículo**
+* Maior serviço do mundo de hospedagem de projetos de código aberto
+* Modelo de cobrança: gratuíto para projetos de código aberto, pago para projetos privados
+* Alternativas: BitBucket, GitLab, etc
