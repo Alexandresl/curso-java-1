@@ -2229,3 +2229,20 @@ Utilizando herança nós podemos reutilizar os atributos e métodos que são com
 #### Modificador de acesso **protected**
 
 ![Tabela de encapsulamento com protected](images/aula125-img3.png)
+
+### 126. Upcasting e downcasting
+
+#### Upcasting
+
+* Casting da subclasse para superclasse
+* Uso comum: polimorfismo
+
+#### Downcasting
+
+* Casting da superclasse para a subclasse
+* Palavra *instanceof*
+* Uso comum: métodos que recebem parâmetros genéridcos (ex: Equals)
+
+#### Exemplo
+
+![Diagrama de classes](images/aula126-img1.png)
