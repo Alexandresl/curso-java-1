@@ -2201,3 +2201,7 @@ Ler os dados de um pedido com N itens (N fornecido pelo usuário). Depois, mostr
 ## Seção 14: Herança e polimorfismo
 
 ### 123. Visão geral do capítulo Herança e Polimorfismo
+
+### 124. Material de apoio do capítulo
+
+[Material de apoio](PDFs/Aula%20124%20-%20Herança%20e%20polimorfismo.pdf)
