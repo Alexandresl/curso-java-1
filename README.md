@@ -2191,3 +2191,9 @@ Ler os dados de um pedido com N itens (N fornecido pelo usuário). Depois, mostr
 ![Exemplo](images/aula121-img2.png)
 
 [Exercício](ws-eclipse/Aula121-Exercicio01)
+
+### 122. Correção em vídeo do exercício de fixação
+
+[Link Youtube](https://www.youtube.com/watch?v=gj80JEqk5ms)
+
+[Exercício](ws-eclipse/Aula122-Exercicio01)
