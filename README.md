@@ -2181,3 +2181,13 @@ Ler os dados de um trabalhador com N contratos (N fornecido pelo usuário). Depo
 ![Resultado](images/aula120-img2.png)
 
 [Exercício](ws-eclipse/Aula120-Exemplo01)
+
+### 121. Exercício de fixação
+
+Ler os dados de um pedido com N itens (N fornecido pelo usuário). Depois, mostrar um sumário do pedido conforme exemplo abaixo. Nota: o instante do pedido deve ser o instante do sistema: *new Date()*
+
+![Diagrama de classes](images/aula121-img1.png)
+
+![Exemplo](images/aula121-img2.png)
+
+[Exercício](ws-eclipse/Aula121-Exercicio01)
