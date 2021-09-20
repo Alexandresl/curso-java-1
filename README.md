@@ -2246,3 +2246,29 @@ Utilizando herança nós podemos reutilizar os atributos e métodos que são com
 #### Exemplo
 
 ![Diagrama de classes](images/aula126-img1.png)
+
+[Exemplo 1](ws-eclipse/Aula126-Exemplo01)
+
+### 127. Sobreposição, palavra *super*, anotação *@Overrride*
+
+#### Sobreposição ou sobrescrita
+
+* É a implementação de um método de uma superclasse na subclasse.
+* É fortemente recomendável usar a anotação *@override* em um método sobrescrito
+  * Facilita a leitura e compreensão do código
+  * Avisamos ao compilador (boa prática)
+
+#### Exemplo:
+
+Suponha que a operação de saque possui uma taxa no valor de 5.0. Entretanto, se a conta for do tipo poupança, esta taxa não deve ser cobrada.
+
+Como resolver isso?
+
+Resposta: Sobrescrevendo o método *withdraw* na subclasse *SavingsAccount*.
+
+#### Palavra **super**
+
+* É possível chamar a implementação da superclasse usando a palavra **super**.
+* *Exemplo*: suponha que, na classe *BusinessAccount*, a regra para saque seja realizar o saque normalmente da superclasse e depois descontar mais 2.0.
+
+![Diagrama de classes](images/aula127-img1.png)
