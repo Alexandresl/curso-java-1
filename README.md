@@ -2272,3 +2272,39 @@ Resposta: Sobrescrevendo o método *withdraw* na subclasse *SavingsAccount*.
 * *Exemplo*: suponha que, na classe *BusinessAccount*, a regra para saque seja realizar o saque normalmente da superclasse e depois descontar mais 2.0.
 
 ![Diagrama de classes](images/aula127-img1.png)
+
+### 128. Classes e métodos final
+
+* Palavra chave: **final**
+* Quando aplicada a uma classe
+  * evita que a classe seja herdada. Ex.: ```public final class SavingsAccount{}```
+* Quando aplicada a uma método
+  * evita que o método possa ser sobreposto por outra classe
+
+#### Exemplo - Classe final
+
+* Suponha que você queira evitar que sejam criadas subclasses de SavingsAccount.
+
+![Diagrama de classes](images/aula128-img1.png)
+
+```java
+public final class SavingsAccount {
+  (...)
+}
+```
+
+#### Exemplo - método final
+
+* Suponha que você não queira que o método *withdraw* de *SavingsAccount* seja sobreposto.
+
+```java
+@Override
+public final void Withdraw(double amount) {
+  balance -= amount;
+}
+```
+
+#### Benefícios
+
+* **Segurança** - dependendo das regras de negócio, às vezes é desejável garantir que uma classe não seja herdada, ou que um método não seja sobreposto.
+  * Geralmente convém acrescentar **final** em métodos sobrepostos, pois sobreposições múltiplas podem ser uma porta de entrada para inconsistências.
