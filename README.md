@@ -2205,3 +2205,27 @@ Ler os dados de um pedido com N itens (N fornecido pelo usuário). Depois, mostr
 ### 124. Material de apoio do capítulo
 
 [Material de apoio](PDFs/Aula%20124%20-%20Herança%20e%20polimorfismo.pdf)
+
+### 125. Herança
+
+* **Herança** é um tipo de associação que permite que uma classe herde **todos** os dados e comportamentos de outra.
+* Vantagens:
+  * Reuso
+  * Polimorfismo
+* Sintaxe: *class A extends B*
+
+#### Exemplo
+
+Suponha um negócio de banco que possui uma conta comum e uma conta para empresas, sendo que a conta para empresa possui todos membros da conta comum, mais um limite de empréstimo e uma operação de realizar emprestimos.
+
+![Diagrama de classes](images/aula125-img1.png)
+
+Utilizando herança nós podemos reutilizar os atributos e métodos que são comuns às duas classes:
+
+![Diagrama de classes](images/aula125-img2.png)
+
+[Exemplo 01](ws-eclipse/Aula125-Exemplo01)
+
+#### Modificador de acesso **protected**
+
+![Tabela de encapsulamento com protected](images/aula125-img3.png)
