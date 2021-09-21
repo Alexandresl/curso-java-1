@@ -2353,3 +2353,15 @@ Construa o programa conforme projeto ao lado. Veja exemplo na próxima página.
 ![Exemplo 1](images/aula130-img2.png)
 
 [Exercício resolvido](ws-eclipse/Aula130-Exercício01)
+
+### 131. Exercício de fixação
+
+Fazer um programa para ler os dados de N produtos (N fornecido pelo usuário). Ao final, mostrar a etiqueta de preço de cada produto na mesma ordem em que foram digitados.
+
+Todo o produto possui nome e preço. Produtos importados possuem uma taxa de alfândega, e produtos usados possuem data de fabricação. Estes dados específicos devem ser acrescentados na etiqueta de preço conforme exemplo. Para Produtos importados, a taxa e alfândega deve ser acrescentada ao preço final do produto.
+
+Favor implementar o programa conforme o projeto abaixo.
+
+![Diagrama de classes](images/aula131-img1.png)
+
+[Exercício](ws-eclipse/Aula131-Exercicio01)
