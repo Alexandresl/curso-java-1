@@ -2351,3 +2351,5 @@ Construa o programa conforme projeto ao lado. Veja exemplo na próxima página.
 ![Diagrama de classes](images/aula130-img1.png)
 
 ![Exemplo 1](images/aula130-img2.png)
+
+[Exercício resolvido](ws-eclipse/Aula130-Exercício01)
