@@ -2337,3 +2337,17 @@ y.withdraw(50.0);
 
 * A associação do tipo específico com o tipo genérico é feita em tempo de execução (upcasting).
 * O compilador não sabe para qual tipo específico a chamada do método *Withdraw* está sendo feita (ele só sabe que são duas variáveis tipo **Account**)
+
+### 130. Exercício resolvido
+
+Uma empresa possui funcionários próprios e terceirizados. Para cada funcionário, deseja-se registrar nome, horas trabalhadas e valor por hora. Funcionários terceirizado possuem ainda uma despesa adicional.
+
+O pagamento dos funcionários corresponde ao valor da hora multiplicado pelas horas trabalhadas, sendo que os funcionários terceirizados ainda recebem um bônus correspondente a 110% de sua despesa adicional.
+
+Fazer um programa para ler os dados de N funcionários (N fornecido pelo usuário) e armazená-los em uma lista. Depois de ler todos os dados, mostrar nome e pagamento de cada funcionário na mesma ordem em que foram digitados.
+
+Construa o programa conforme projeto ao lado. Veja exemplo na próxima página.
+
+![Diagrama de classes](images/aula130-img1.png)
+
+![Exemplo 1](images/aula130-img2.png)
