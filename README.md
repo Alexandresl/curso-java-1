@@ -2412,3 +2412,11 @@ public abstract class Account {
 ![Diagrama de classe](images/aula133-img1.png)
 
 [Exemplo](ws-eclipse/Aula133-Exercicio01)
+
+### 134. Exercício de fixação
+
+![Enunciado](images/aula134-img1.png)
+
+![Exemplo](images/aula134-img2.png)
+
+[Exercício](ws-eclipse/Aula134-Exercicio01)
