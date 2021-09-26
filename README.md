@@ -2430,3 +2430,7 @@ public abstract class Account {
 ## Seção 15: Tratamento de exceções
 
 ### 136. Visão geral do capítulo Tratamento de exceções
+
+### 137. Material de apoio do capítulo
+
+[Material de apoio](PDFs/Aula%20137%20-%20Tratamento%20de%20exceções.pdf)
