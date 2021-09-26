@@ -2420,3 +2420,9 @@ public abstract class Account {
 ![Exemplo](images/aula134-img2.png)
 
 [Exercício](ws-eclipse/Aula134-Exercicio01)
+
+### 135. Correção em vídeo do exercício de fixação
+
+[Link](https://www.youtube.com/watch?v=eDsS3JM5iXw)
+
+[Correção do exercício](ws-eclipse/Aula134-Exercicio01)
