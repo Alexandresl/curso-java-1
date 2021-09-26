@@ -2426,3 +2426,7 @@ public abstract class Account {
 [Link](https://www.youtube.com/watch?v=eDsS3JM5iXw)
 
 [Correção do exercício](ws-eclipse/Aula134-Exercicio01)
+
+## Seção 15: Tratamento de exceções
+
+### 136. Visão geral do capítulo Tratamento de exceções
