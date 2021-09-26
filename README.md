@@ -2399,3 +2399,16 @@ public abstract class Account {
 * Exemplo de casos de uso:
   * Totalizar o saldo de todas as contas.
   * Depositar 10.00 em todas as contas.
+
+### 133. Métodos abstratos
+
+* São métodos que não possuem implementação.
+* Métodos precisam ser abstratos quando a classe é genérica demais para conter sua implementação.
+* Se uma classe possuir pelo menos um método abstrato, então esta classes também é abstrata.
+* A notação UML de um método abstrato é o *itálico*.
+
+#### Exemplo de uso
+
+![Diagrama de classe](images/aula133-img1.png)
+
+[Exemplo](ws-eclipse/Aula133-Exercicio01)
