@@ -2490,3 +2490,23 @@ try {
 
 [Exemplo 01](ws-eclipse/Aula140-Exemplo01)
 
+### 141. Bloco finally
+
+* É um bloco que contém o código a ser executado independentemente de ter ocorrido ou não uma exceção.
+* Exemplo clássico: fechar um arquivo, conexão de banco de dados, ou outro recurso específico ao final do processamento.
+
+#### Sintaxe:
+
+```java
+try {
+
+} catch (ExceptionType e) {
+
+} finally {
+
+}
+```
+
+#### Exemplo
+
+[Exemplo 01](ws-eclipse/Aula141-Exemplo01)
