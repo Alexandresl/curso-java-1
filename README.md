@@ -2499,14 +2499,26 @@ try {
 
 ```java
 try {
-
+  (...)
 } catch (ExceptionType e) {
-
+  (...)
 } finally {
-
+  (...)
 }
 ```
 
 #### Exemplo
 
 [Exemplo 01](ws-eclipse/Aula141-Exemplo01)
+
+### 142. Criando exceções personalizadas
+
+#### Sugestão de pacotes "*model*"
+
+![Diagrama com os pacotes](images/aula142-img1.png)
+
+#### Problema exemplo
+
+![Exemplo](images/aula142-img2.png)
+
+[Problema exemplo 01](ws-eclipse/Aula142-Exemplo01)
