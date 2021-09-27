@@ -2522,3 +2522,7 @@ try {
 ![Exemplo](images/aula142-img2.png)
 
 [Problema exemplo 01](ws-eclipse/Aula142-Exemplo01)
+
+### 143. Primeira solução - muito ruim
+
+[Exemplo 01](ws-eclipse/Aula143-Exemplo01)
