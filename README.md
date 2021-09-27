@@ -2485,3 +2485,8 @@ try {
 #### Exemplo
 
 [Exemplo 01](ws-eclipse/Aula139-Exemplo01)
+
+### 140. Pilha de chamadas de métodos (stack trace)
+
+[Exemplo 01](ws-eclipse/Aula140-Exemplo01)
+
