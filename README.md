@@ -2526,3 +2526,7 @@ try {
 ### 143. Primeira solução - muito ruim
 
 [Exemplo 01](ws-eclipse/Aula143-Exemplo01)
+
+### 144. Segunda solução - ruim
+
+[Exemplo 01](ws-eclipse/Aula144-Exemplo01)
