@@ -2530,3 +2530,7 @@ try {
 ### 144. Segunda solução - ruim
 
 [Exemplo 01](ws-eclipse/Aula144-Exemplo01)
+
+### 145. Terceira solução - boa
+
+[Exemplo 01](ws-eclipse/Aula145-Exemplo01)
