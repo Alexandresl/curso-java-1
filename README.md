@@ -2548,3 +2548,9 @@ try {
   * Possibilidade de auxílio do compilador (Exception)
   * Código mais simples. Não há aninhamento de condicionais: a qualquer momento que uma exceção for disparada, a execução é interrompida e cai no bloco catch correspondente.
   * É possível capturar inclusive outras exceções de sistema (*RuntimeException*).
+
+### 146. Exercício de fixação
+
+![Enunciado](images/aula146-img1.png)
+
+[Exercício 01](ws-eclipse/Aula146-Exercicio01)
