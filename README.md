@@ -2702,4 +2702,23 @@ try {
   * Exceptions
   * Encapsulation
 
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/1d2ff5500eb7af0c3f52406bbfc3e96ca91f90d8)
+
+### 159. Tratando exceções e limpando a tela
+
+#### Clear screen Using Java:
+
+```java
+// https://stackoverflow.com/questions/2979383/java-clear-the-console 
+public static void clearScreen() {   
+    System.out.print("\033[H\033[2J");   
+    System.out.flush();   
+} 
+```
+
+#### Checklist:
+
+* ChessException
+* InputMismatchException
+
 [Commit da aula]()
