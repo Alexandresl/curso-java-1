@@ -2593,9 +2593,42 @@ try {
 
 #### Checklist:
 
-* Classes Piece, Board [public]
+* Classes ```Piece```, ```Board``` [public]
 * **OOP Topics:**
   * Associations
   * Encapsulation / Access Modifiers
+* **Data Structures Topics:**
+  * Matrix
+
+[Commit da Aula](https://github.com/Alexandresl/Curso-java-1/tree/f7f15f6226d19afbf2c1f6086c5162a5ec1ebb45)
+
+### 153. Camada Chess e imprimindo o tabuleiro
+
+```
+8 - - - - - - - -
+7 - - - - - - - -
+6 - - - - - - - -
+5 - - - - - - - -
+4 - - - - - - - -
+3 - - - - - - - -
+2 - - - - - - - -
+1 - - - - - - - -
+  a b c d e f g h
+```
+
+#### Checklist:
+
+* Methods: ```Board.Piece(row, column)``` and ```Board.Piece(position)```
+* Enum ```Chess.Color```
+* Class ```Chess.ChessPiece``` [public]
+* Class ```Chess.ChessMatch``` [public]
+* Class ```ChessConsole.UI```
+* **OOP Topics:**
+  * Enumerations
+  * Encapsulation / Access Modifiers
+  * Inheritance
+  * Downcasting
+  * Static Members
+  * Layers pattern
 * **Data Structures Topics:**
   * Matrix
