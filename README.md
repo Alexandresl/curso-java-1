@@ -2646,3 +2646,18 @@ try {
   * Inheritance
   * Overriding
   * Polymorphism (ToString)
+
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/34e2b170ef88fde8918138af57251cc63bc0b1e4)
+
+### 155. BoardException e programação defensiva
+
+#### Checklist:
+
+* Class ```BoardException``` [public]
+* Methods: ```Board.PositionExists```, ```Board.ThereIsAPiece```
+* Implement defensive programming in Board methods
+* **OOP Topics:**
+  * Exceptions
+  * Constructors (a string must be informed to the exception)
+
+[Commit da aula]()
