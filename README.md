@@ -2632,3 +2632,17 @@ try {
   * Layers pattern
 * **Data Structures Topics:**
   * Matrix
+
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/3c788c01404f79358694575f40a87d56a38f67c0)
+
+### 154. Colocando peças no tabuleiro
+
+#### Checklist:
+
+* Method: ```Board.PlacePiece(piece, position)```
+* Classes: ```Rock```, ```King``` [public]
+* Method: ```ChessMatch.InitialSetup```
+* **OOP Topics:**
+  * Inheritance
+  * Overriding
+  * Polymorphism (ToString)
