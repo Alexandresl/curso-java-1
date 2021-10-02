@@ -2564,3 +2564,7 @@ try {
 ## Seção 16: Projeto: Sistema jogo de xadrez
 
 ### 148. Visão geral do capítulo Sistema jogo de Xadrez
+
+### 149. Material de apoio do capítulo
+
+[Material de apoio](PDFs/Aula%20149%20-%20Projeto%20Sistema%20de%20Xadrez.pdf)
