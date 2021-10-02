@@ -2677,4 +2677,13 @@ try {
   * Static members
   * Layers pattern
 
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/f1d361f466643305d146c5f77b3fc374787543c4)
+
+### 157. Pequena melhoria na impressão do tabuleiro
+
+#### Checklist:
+
+* Place more pieces on the board
+* Distinguish piece colors in ```UI.PrintPiece``` method
+
 [Commit da aula]()
