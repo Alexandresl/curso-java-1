@@ -2567,8 +2567,22 @@ try {
 
 ### 149. Material de apoio do capítulo
 
+![Diagrama de classe](PDFs/chess-system-design.png)
+
 [Material de apoio](PDFs/Aula%20149%20-%20Projeto%20Sistema%20de%20Xadrez.pdf)
 
 ### 150. Criando projeto e repositório Git
+
+[Desenvolvimento do sistema](ws-eclipse\Aula150-Projeto-jogo-xadrez)
+
+### 151. Primeira classe - Position
+
+#### Checklist:
+
+* Class Position [public]
+* OOP Topics
+  * Encapsulation
+  * Constructors
+  * ToString (Object / overriding)
 
 [Desenvolvimento do sistema](ws-eclipse\Aula150-Projeto-jogo-xadrez)
