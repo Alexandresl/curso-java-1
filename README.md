@@ -2568,3 +2568,7 @@ try {
 ### 149. Material de apoio do capítulo
 
 [Material de apoio](PDFs/Aula%20149%20-%20Projeto%20Sistema%20de%20Xadrez.pdf)
+
+### 150. Criando projeto e repositório Git
+
+[Desenvolvimento do sistema](ws-eclipse\Aula150-Projeto-jogo-xadrez)
