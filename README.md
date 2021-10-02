@@ -2554,3 +2554,10 @@ try {
 ![Enunciado](images/aula146-img1.png)
 
 [Exercício 01](ws-eclipse/Aula146-Exercicio01)
+
+### 147. Correção do exercício de fixação
+
+[Link](https://www.youtube.com/watch?v=AiIuJqJ0r8A)
+
+[Exercício 01](ws-eclipse/Aula147-Exercicio01)
+
