@@ -2575,14 +2575,27 @@ try {
 
 [Desenvolvimento do sistema](ws-eclipse\Aula150-Projeto-jogo-xadrez)
 
+[Commit da Aula](https://github.com/Alexandresl/Curso-java-1/tree/fba7a491ab2ca33301fd9c8680b44f4bcaee66fb)
+
 ### 151. Primeira classe - Position
 
 #### Checklist:
 
 * Class Position [public]
-* OOP Topics
+* **OOP Topics**
   * Encapsulation
   * Constructors
   * ToString (Object / overriding)
 
-[Desenvolvimento do sistema](ws-eclipse\Aula150-Projeto-jogo-xadrez)
+[Commit da Aula](https://github.com/Alexandresl/Curso-java-1/tree/ac730ce9f6200efeeaff8eb3668749a4e82ad6ea)
+
+### 152. Comaçando a implementar Board e Piece
+
+#### Checklist:
+
+* Classes Piece, Board [public]
+* **OOP Topics:**
+  * Associations
+  * Encapsulation / Access Modifiers
+* **Data Structures Topics:**
+  * Matrix
