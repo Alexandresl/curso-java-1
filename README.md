@@ -2660,4 +2660,21 @@ try {
   * Exceptions
   * Constructors (a string must be informed to the exception)
 
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/20247d215155663bdfe115187ed5e36cbe820228)
+
+### 156. ChessException e ChessPosition
+
+#### Checklist:
+
+* Class ```ChessException``` [public]
+* Class ```ChessPosition```[public]
+* Refactor ```ChessMatch.InitialSetup```
+* **OOP Topics:**
+  * Exceptions
+  * Encapsulation
+  * Constructors (a string must be informed to the exception)
+  * Overriding
+  * Static members
+  * Layers pattern
+
 [Commit da aula]()
