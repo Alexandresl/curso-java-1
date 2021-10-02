@@ -2686,4 +2686,20 @@ try {
 * Place more pieces on the board
 * Distinguish piece colors in ```UI.PrintPiece``` method
 
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/f01110c4c00b6fadce289d462ec763f4c3f4f47f)
+
+### 158. Movendo peças
+
+#### Checklist:
+
+* Method ```Board.RemovePiece```
+* Method ```UI.ReadChessPosition```
+* Method ```ChessMatch.PerformChessMove```
+  * Method ```ChessMatch.MakeMove```
+  * Method ```ChessMatch.ValidateSourcePosition```
+* Write basic logic on ```Program.cs```
+* **OOP Topics:**
+  * Exceptions
+  * Encapsulation
+
 [Commit da aula]()
