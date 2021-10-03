@@ -2751,4 +2751,16 @@ public static void clearScreen() {
   * Encapsulation / access modifiers [protected]
   * Exceptions
 
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/945d02976eae9c800bc52891d622328111e8c389)
+
+### 162. Imprimindo os movimentos possíveis
+
+#### Checklist:
+
+* Method ```ChessMatch.PossibleMoves```
+* Method ```UI.PrintBoard``` [Overload]
+* Refactor main program logic
+* **OOP Topics:**
+  * Overloading
+
 [Commit da aula]()
