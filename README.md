@@ -2721,4 +2721,20 @@ public static void clearScreen() {
 * ChessException
 * InputMismatchException
 
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/52156c821126410b159355693f1072163ad0d808)
+
+### 160. Movimentos possíveis de uma peça
+
+#### Checklist:
+
+* Method in Piece:
+  * ```PossibleMoves [abstract]```
+  * ```PossibleMove```
+  * ```IsThereAnyPossibleMove```
+* Basic PossibleMove implementation for Rook and King
+* Update ```ChessMatch.validateSourcePosition```
+* **OOP Topics**
+  * Abstract method / class
+  * Exceptions
+
 [Commit da aula]()
