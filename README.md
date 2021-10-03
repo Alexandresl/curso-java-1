@@ -2728,13 +2728,27 @@ public static void clearScreen() {
 #### Checklist:
 
 * Method in Piece:
-  * ```PossibleMoves [abstract]```
+  * ```PossibleMoves``` [abstract]
   * ```PossibleMove```
   * ```IsThereAnyPossibleMove```
 * Basic PossibleMove implementation for Rook and King
 * Update ```ChessMatch.validateSourcePosition```
 * **OOP Topics**
   * Abstract method / class
+  * Exceptions
+
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/87b409c23dcd3060e0d9d22602e25b9020a87991)
+
+### 161. Implementando movimentos possíveis da Torre
+
+#### Checklist:
+
+* Method ```ChessPiece.isThereOpponentPiece(position)``` [protected]
+* implement ```Rook.PossibleMoves```
+* Method ```ChessMatch.ValidateTargetPosition```
+* **OOP Topics:**
+  * Polymorphism
+  * Encapsulation / access modifiers [protected]
   * Exceptions
 
 [Commit da aula]()
