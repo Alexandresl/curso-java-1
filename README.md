@@ -2763,4 +2763,14 @@ public static void clearScreen() {
 * **OOP Topics:**
   * Overloading
 
-[Commit da aula]()
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/2a7bcc16dc3b6330fe66f9468a45e7454925655e)
+
+### 163. Implementando os movimentos possíveis do rei
+
+#### Checklist:
+
+* Method ```King.camMove(position)``` [private]
+* Implement ```King.possibleMoves```
+* **OOP Topics:**
+  * Encapsulation
+  * Polymorphism
