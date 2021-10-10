@@ -2831,4 +2831,8 @@ public static void clearScreen() {
   * Update ```performChessMove```
 * Update ```UI.printMatch```
 
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/b0783339f85b7f92fb5b4318eb7864e591c9e808)
+
+### 167. Lógica de xeque - PARTE 2
+
 [Commit da aula]()
