@@ -2890,4 +2890,17 @@ public static void clearScreen() {
   * Inheritance
   * Polymorphism
 
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/7ff86e5d530a539b3d81f8515ec829cddb3babd7)
+
+### 172. Cavalo
+
+#### Checklist:
+
+* Class ```Knight```
+  * Update ```ChessMatch.initialSetup```
+* **OOP Topics**:
+  * Encapsulation
+  * Inheritance
+  * Polymorphism
+
 [Commit da aula]()
