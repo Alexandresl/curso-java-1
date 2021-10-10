@@ -2916,4 +2916,14 @@ public static void clearScreen() {
   * Inheritance
   * Polymorphism
 
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/3a893f2ebbacc5d81d734fd962a3062a0f3f313d)
+
+### 174. Jogada especial Roque - PARTE 1
+
+#### Checklist:
+
+* Update ```King```
+* Update ```ChessMatch.makeMove```
+* Update ```ChessMatch.undoneMove```
+
 [Commit da aula]()
