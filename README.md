@@ -2903,4 +2903,17 @@ public static void clearScreen() {
   * Inheritance
   * Polymorphism
 
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/1f5ca841b9c3243eead4ed95451347f0a1132a2c)
+
+### 173. Rainha
+
+#### Queen
+
+* Class ```Queen```
+* Update ```ChessMatch.initialSetup```
+* **OOP Topics**:
+  * Encapsulation
+  * Inheritance
+  * Polymorphism
+
 [Commit da aula]()
