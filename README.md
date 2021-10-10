@@ -2775,6 +2775,8 @@ public static void clearScreen() {
   * Encapsulation
   * Polymorphism
 
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/f991978be9c902eae1176b6b81754b9d4b57c08d)
+
 ### 164. Trocando de jogador a cada turno
 
 #### Checklist:
@@ -2788,6 +2790,8 @@ public static void clearScreen() {
 * **OOP Topics:**
   * Encapsulation
   * Exceptions
+
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/c193dff5b3a6f6f6f31ba4e676e56f67bd8b341f)
 
 ### 165. Manipulando peças capturadas
 
@@ -2805,3 +2809,26 @@ public static void clearScreen() {
   * Constructors
 * Data Structures Topics:
   * List
+
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/6be1e335515947dc7529f53a355a5a05a8d1ec12)
+
+### 166. Lógica de xeque - PARTE 1
+
+#### Rules:
+
+* Check means your king is under threat by at least one opponent piece
+* You can't put yourself in check
+
+#### Checklist:
+
+* Property ```ChessPiece.ChessPosition``` [get]
+* Class ```ChessMatch```:
+  * Method ```undoneMove```
+  * Property ```Check``` [private]
+  * Method ```opponent``` [private]
+  * Method ```king(Color)``` [private]
+  * Method ```testCheck```
+  * Update ```performChessMove```
+* Update ```UI.printMatch```
+
+[Commit da aula]()
