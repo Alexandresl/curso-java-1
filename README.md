@@ -2848,4 +2848,18 @@ public static void clearScreen() {
 * Update ```UI.printMatch```
 * Update Program Logic
 
-[Commit da aula]()
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/4ea352211a92ad05f366df99e0d1512b9ffe7049)
+
+### 169. Contagem de movimentos das peças
+
+#### Checklist:
+
+* Class ```ChessPiece```:
+  * Property ```MoveCount``` [private]
+  * Method ```increaseMoveCount``` [protected]
+  * Method ```decreaseMoveCount``` [protected]
+* Class ```ChessMatch```
+  * Update ```makeMove```
+  * update ```UndoMove```
+* **OOP Topics**:
+  * Encapsulation
