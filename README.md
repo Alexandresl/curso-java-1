@@ -2774,3 +2774,17 @@ public static void clearScreen() {
 * **OOP Topics:**
   * Encapsulation
   * Polymorphism
+
+### 164. Trocando de jogador a cada turno
+
+#### Checklist:
+
+* Class ```ChessMatch```
+  * Properties ```turn```, ```currentPlayer``` [private]
+  * Method ```NextTurn``` [private]
+  * Update ```PerformChessMove```
+  * Update ```ValidateSourcePosition```
+* Method ```UI.PrintMatch```
+* **OOP Topics:**
+  * Encapsulation
+  * Exceptions
