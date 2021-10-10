@@ -2835,4 +2835,17 @@ public static void clearScreen() {
 
 ### 167. Lógica de xeque - PARTE 2
 
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/d4b90d9e2a9eac77a8ea0bbe563c5bed5847e66e)
+
+### 168. Lógica de xequemate
+
+#### Checklist:
+
+* Class ```ChessMatch```:
+  * Property ```Checkmate``` [private]
+  * Method ```testCheckmate``` [private]
+  * Update ```performChessMove```
+* Update ```UI.printMatch```
+* Update Program Logic
+
 [Commit da aula]()
