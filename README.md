@@ -2944,4 +2944,8 @@ public static void clearScreen() {
 * Update ```ChessMatch.undoneMove```
 * Update ```ChessMatch.initialSetup```
 
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/893373ebdfe394582b0265866bb661687a817913)
+
+### 177. Jogada especial *en passant* - PARTE 2
+
 [Commit da aula]()
