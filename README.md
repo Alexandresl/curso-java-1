@@ -2930,4 +2930,18 @@ public static void clearScreen() {
 
 ### 175. Jogada especial Roque - PARTE 2
 
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/1b022a0e3878765593fee9e6b5056538aff0f464)
+
+### 176. Jogada especial *en passant* - PARTE 1
+
+#### Checklist:
+
+* Register a pawn which cam be captured by *en passant* on next turn
+  * Property ```ChessMatch.enPassantVulnerable```
+  * Update ```ChessMatch.performChessMove```
+* Update ```Pawn.possibleMoves```
+* Update ```ChessMatch.MakeMove```
+* Update ```ChessMatch.undoneMove```
+* Update ```ChessMatch.initialSetup```
+
 [Commit da aula]()
