@@ -2948,4 +2948,15 @@ public static void clearScreen() {
 
 ### 177. Jogada especial *en passant* - PARTE 2
 
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/179b44a22946411ee307fa4a6dc7344861c174e0)
+
+### 178. Jogada especial promoção
+
+#### Checklist:
+
+* Property ```ChessMatch.promoted```
+* Update ```ChessMatch.PerformChessMove```
+* Method ```ChessMatch.ReplacePromotedPiece```
+* Update Program logic
+
 [Commit da aula]()
