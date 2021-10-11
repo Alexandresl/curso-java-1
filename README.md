@@ -2959,4 +2959,10 @@ public static void clearScreen() {
 * Method ```ChessMatch.ReplacePromotedPiece```
 * Update Program logic
 
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/2a561ba5c8c6a27006011c3a209ba4fa95c54c6b)
+
+### 179. Atualização de complience
+
+### 180. Dando um tratamento melhor para promoção
+
 [Commit da aula]()
