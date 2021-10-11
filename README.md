@@ -2926,4 +2926,8 @@ public static void clearScreen() {
 * Update ```ChessMatch.makeMove```
 * Update ```ChessMatch.undoneMove```
 
+[Commit da aula](https://github.com/Alexandresl/Curso-java-1/tree/aca41261e5a24af5172210eb88e5c9654b507aff)
+
+### 175. Jogada especial Roque - PARTE 2
+
 [Commit da aula]()
