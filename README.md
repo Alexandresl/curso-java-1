@@ -2970,3 +2970,7 @@ public static void clearScreen() {
 ## Seção 17: Trabalhando com arquivos
 
 ### 181. Visão geral do capítulo
+
+### 182. Material de apoio do capítulo
+
+[Material de apoio](PDFs/Aula%20182%20-%20Arquivos.pdf)
