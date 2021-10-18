@@ -2974,3 +2974,18 @@ public static void clearScreen() {
 ### 182. Material de apoio do capítulo
 
 [Material de apoio](PDFs/Aula%20182%20-%20Arquivos.pdf)
+
+### 183. Lendo arquivo texto com classes File e Scanner
+
+#### Classes
+
+* **File** - Representação abstrata de um arquivo e seu caminho
+  * [Documentação](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/nio/file/Files.html)
+
+* **Scanner** - Leitor de texto
+  * [Documentação](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Scanner.html)
+
+* **IOException (Exception)** - Exceção padrão de entrada e saída de dados
+  * [Documentação](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/IOException.html)
+
+[Exemplo 1](ws-eclipse/Aula183-Exemplo01)
