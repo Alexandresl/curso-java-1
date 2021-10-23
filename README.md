@@ -2977,7 +2977,7 @@ public static void clearScreen() {
 
 ### 183. Lendo arquivo texto com classes File e Scanner
 
-#### Classes
+#### Classes:
 
 * **File** - Representação abstrata de um arquivo e seu caminho
   * [Documentação](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/nio/file/Files.html)
@@ -2989,3 +2989,18 @@ public static void clearScreen() {
   * [Documentação](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/IOException.html)
 
 [Exemplo 1](ws-eclipse/Aula183-Exemplo01)
+
+### 184. FileReader e BufferedReader
+
+#### Clesses:
+
+* **FileReader** - Stream de leitura de caracteres a partir de arquivos
+  * [Documentação](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/FileReader.html)
+
+* **BufferedReader** - Mais rápido
+  * [Documantação](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/BufferedReader.html)
+
+* [Diferença entre FileReader e BufferedReader](https://stackoverflow.com/questions/9648811/specific-difference-between-bufferedreader-and-filereader)
+
+
+
