@@ -3026,3 +3026,6 @@ public static void clearScreen() {
 
 [Exemplo 1](ws-eclipse/Aula186-Exemplo01)
 
+### 187. Manipulando pasta com File
+
+[Exemplo 1](ws-eclipse/Aula187-Exemplo01)
