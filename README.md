@@ -376,7 +376,7 @@ char sexo = 'F'; // Caractere Unicode
 // Sem quebra de linha ao final
 System.out.print("Bom dia!");
 
-// Com quera de linha no ao final
+// Com quebra de linha no final
 System.out.println("Bom dia!");
 ```
 
@@ -3029,3 +3029,7 @@ public static void clearScreen() {
 ### 187. Manipulando pasta com File
 
 [Exemplo 1](ws-eclipse/Aula187-Exemplo01)
+
+### 188. Informações do caminho do arquivo
+
+[Exemplo 01](ws-eclipse/Aula188-Exemplo01)
