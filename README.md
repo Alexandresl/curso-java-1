@@ -3002,5 +3002,9 @@ public static void clearScreen() {
 
 * [Diferença entre FileReader e BufferedReader](https://stackoverflow.com/questions/9648811/specific-difference-between-bufferedreader-and-filereader)
 
+### 185. Bloco try-with-resources
 
+* É um bloco *try* que declara um ou mais recursos, e garante que esses recursos serão fechados ao final do bloco.
+* Disponível do Java 7 em diante
+* [Documentação](https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html)
 
