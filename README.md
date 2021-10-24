@@ -3004,6 +3004,56 @@ public static void clearScreen() {
 
 [Exemplo 1](ws-eclipse/Aula184-Exemplo01)
 
+```java
+package application;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Program {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		String path = "c:\\temp\\in.txt";
+		FileReader fr = null;
+		BufferedReader br = null;
+
+		try {
+			fr = new FileReader(path);
+			br = new BufferedReader(fr);
+
+			String line = br.readLine();
+
+			while (line != null) {
+				System.out.println(line);
+				line = br.readLine();
+			}
+
+		} catch (IOException e) {
+			System.out.println("Error: " + e.getMessage());
+		} finally {
+			try {
+				if (br != null) {
+				}
+				if (fr != null) {
+					fr.close();
+				}
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+
+		}
+
+	}
+
+}
+
+```
+
 ### 185. Bloco try-with-resources
 
 * É um bloco *try* que declara um ou mais recursos, e garante que esses recursos serão fechados ao final do bloco.
@@ -3011,6 +3061,38 @@ public static void clearScreen() {
 * [Documentação](https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html)
 
 [Exemplo 01](ws-eclipse/Aula185-Exemplo01)
+
+```java
+package application;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		String path = "c:\\temp\\in.txt";
+
+		try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+			String line = br.readLine();
+			
+			while (line != null) {
+				System.out.println(line);
+				line = br.readLine();
+			}
+		} catch (IOException e) {
+			System.out.println("Error: " + e.getMessage());
+		}
+		
+		
+
+	}
+
+}
+
+```
 
 ### 186. FileWriter e BufferedWriter
 
@@ -3026,10 +3108,122 @@ public static void clearScreen() {
 
 [Exemplo 1](ws-eclipse/Aula186-Exemplo01)
 
+```java
+package application;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		String[] lines = new String[] { "Good morning", "Gook afternoon", "Good night" };
+		
+		String path = "C:\\temp\\out.txt";
+		
+		try (BufferedWriter bw = new BufferedWriter(new FileWriter(path, true))) {
+			for (String line : lines) {
+				bw.write(line);
+				bw.newLine();
+			}
+		} catch (IOException e) {
+			System.out.println("Error: " + e.getMessage());
+		}
+		
+
+	}
+
+}
+
+```
+
 ### 187. Manipulando pasta com File
 
 [Exemplo 1](ws-eclipse/Aula187-Exemplo01)
 
+```java
+package application;
+
+import java.io.File;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter a folder path: ");
+		String strPath = sc.nextLine();
+		
+		File path = new File(strPath);
+		
+		File[] folders = path.listFiles(File::isDirectory);
+		
+		System.out.println("Folders: ");
+		for (File folder : folders) {
+			System.out.println(folder);
+		}
+		
+		File[] files = path.listFiles(File::isFile);
+		
+		System.out.println();
+		System.out.println("Files: ");
+		for (File file : files) {
+			System.out.println(file);
+		}
+		
+		boolean success = new File(strPath + "\\subdir").mkdir();
+		
+		System.out.println("Directory created successfully: " + success);
+
+		sc.close();
+		
+	}
+
+}
+
+```
+
 ### 188. Informações do caminho do arquivo
 
 [Exemplo 01](ws-eclipse/Aula188-Exemplo01)
+
+```java
+package application;
+
+import java.io.File;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter a file path: ");
+		String strPath = sc.nextLine();
+		
+		File path = new File(strPath);
+		
+		System.out.println("getName: " + path.getName());
+		System.out.println("getParent: " + path.getParent());
+		System.out.println("getPath: " + path.getPath());
+		
+		sc.close();
+
+	}
+
+}
+
+```
+
+### 189. Exercício proposto
+
+Fazer um programa para ler o caminho de um arquivo .csv contendo os dados de itens vendidos. Cada item possui um nome, preço unitário e quantidade, separados por vírgula. Você deve gerar um novo arquivo chamado "*Summary.csv*", localizado em uma subpasta "*out*" a partir da pasta original do arquivo de origem, contendo apenas o nome e o valor total para aquele item (preço unitário multiplicado pela quantidade), conforme exemplo.
+
+[Exercício 1](ws-eclipse/Aula189-Exercicio01)
+
+[Exercício Corrigido](ws-eclipse/Aula189-Exercicio01-Correcao)
