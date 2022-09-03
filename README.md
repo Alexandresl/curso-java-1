@@ -82,3 +82,38 @@
 ### 3. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/02-conceitos-de-programacao.pdf)
+
+### 4. Algoritmo, Automação, Programa de computador
+
+* **Algoritmo** - Sequência finita de instruções para se resolver um problema. Aplicamos este conceito a diversas área de conhecimento.
+* Exemplo:
+  * **problema**: *lavar a roupa suja*
+  * **Algoritmo** (*um dos algoritmos possíveis*):
+    * 1. Colocar a roupa em um recipiente
+    * 2. Colocar um pouco de sabão e amaciente
+    * 3. Encher de água
+    * 4. Mexer tudo até dissolver todo o sabão
+    * 5. Deixar de molho por vinte minutos
+    * 6. Esfregar a roupa
+    * 7. Enxaguar
+    * 8. Torcer
+
+* **Automação** - Consiste em utilizar máquina(s) para executar o procedimento desejado de forma automática ou semiautomática.
+
+* **Computador**:
+  * **Hardware** - Parte física (a máquina em si)
+  * **Software** - Parte lógicas (programas)
+    * Sistema operacional (Windows, Linux, iOS)
+    * Aplicativos (apps de escritório, app de câmera, navegador web)
+    * Jogos
+    * Utilitários (Antivírus, compactador de arquivos)
+    * Outros
+
+* **Programa** x **Algoritmo**
+  * Existe uma similaridade entre os conceitos de programa de commputador e algoritmos.
+  * Em linhas gerais, **programas de computador** são **algoritmos** executados pelo computador.
+  * Desta forma, podemos concluir que o computador é uma máquina que **automatiza** a execução de **algoritmos**.
+  * Os **algoritmos** automatizados pelo computador são os chamados *algoritmos computacionais*:
+    * processamento de dados
+    * cálculos
+    * etc
