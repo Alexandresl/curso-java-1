@@ -1,30 +1,31 @@
-# curso-java-1
+# Curso Java Completo
 
-## Links úteis
+## Links Úteis
 
 [Atalhos no Eclipse](keyboard-eclipse.md)
 
-[Github Nelio Alves](https://github.com/acenelio)
+[Link Github Nélio Alves](https://github.com/acenelio)
 
 [URI Online Judge](https://www.urionlinejudge.com.br/judge/en/login)
-
 
 ## Seção 1: Introdução
 
 ### 1. Introdução: visão geral do curso
 
+[Recurso do capítulo](PDFs/Aula%20001%20-%20Curso%20Java%20Completo.pdf)
+
 * Profissional Java
-	* Fundamentos
-		* Lógica de programação
-			* Estrutura de dados
-			* Programação Orientada a objetos
-		* Banco de dados
-		* Análise e Design de Sistemas
-	* Comercial
-		* Backend
-		* Web
-		* Mobile
-		* Desktop
+  * Fundamentos
+    * Lógica de programação
+    * Estrutura de dados
+    * Programação
+    * Banco de dados
+    * Análise e Design de Sistemas
+  * Comercial
+    * Backend
+    * Web
+    * Mobile
+    * Desktop
 
 * Assuntos abordados
   * Lógica de Programação e Algoritmo usando Java
@@ -79,5 +80,4 @@
     * Spring Data MongoDB
     * CRUD complemento
     * Tratamento de exceções
-
-[Arquivo Curso Java Completo](PDFs/Aula%20001%20-%20Curso%20Java%20Completo.pdf)
+  
