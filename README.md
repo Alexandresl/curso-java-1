@@ -6,7 +6,7 @@
 
 ### 1. Introdução: Visão geral do curso
 
-[Recurso da seção](Recursos/Curso-Java-COMPLETO.pdf)
+[Material de apoio](Recursos/Curso-Java-COMPLETO.pdf)
 
 * Profissional Java
   * Fundamentos
@@ -78,3 +78,7 @@
 ## Seção 2: Conceitos de programação
 
 ### 2. Visão geral do capítulo
+
+### 3. Material de apoio do capítulo
+
+[Material de apoio](Recursos/pdf/02-conceitos-de-programacao.pdf)
