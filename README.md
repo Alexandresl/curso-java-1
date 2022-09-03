@@ -1,24 +1,18 @@
 # Curso Java Completo
 
-## Links Úteis
-
-[Atalhos no Eclipse](keyboard-eclipse.md)
-
-[Link Github Nélio Alves](https://github.com/acenelio)
-
-[URI Online Judge](https://www.urionlinejudge.com.br/judge/en/login)
+## Links úteis
 
 ## Seção 1: Introdução
 
-### 1. Introdução: visão geral do curso
+### 1. Introdução: Visão geral do curso
 
-[Recurso do capítulo](PDFs/Aula%20001%20-%20Curso%20Java%20Completo.pdf)
+[Recurso da seção](Recursos/Curso-Java-COMPLETO.pdf)
 
 * Profissional Java
   * Fundamentos
     * Lógica de programação
     * Estrutura de dados
-    * Programação
+    * Programação Orientada a Objetos
     * Banco de dados
     * Análise e Design de Sistemas
   * Comercial
@@ -27,43 +21,43 @@
     * Mobile
     * Desktop
 
-* Assuntos abordados
-  * Lógica de Programação e Algoritmo usando Java
+* **Assuntos abordados**
+  * *Lógica de Programação - Algoritmos Usando Java (iniciante)*
     * Conceitos de programação
     * Introdução à linguagem Java
     * Estrutura sequencial
     * Estrutura condicional
     * Estruturas repetitivas
-  * Java e Programação Orientada a Objetos (Parte 1)
+  * *Java e Programação Orientada a Objetos (parte 1)*
     * Introdução à programação Orientada a Objetos
-    * Construtores, palavra *this*, sobrecarga e encapsulamento
-    * Comportamento de memória, array, listas
+    * Construtores, palavra this, sobrecarga, encapsulamento
+    * Comportamento de memória, arrays, listas
     * Tópicos especiais em Java
-    * *Bônus* - Nivelamento sobre Git e Github
-    * Enumeração, composição
+    * BÔNUS - Nivelamento sobre Git e Github
+    * Enumerações, composição
     * Herança e polimorfismo
     * Tratamento de exceções
-  * Projeto - Sistema Jogo de Xadrez
+  * *PROJETO - Sistema jogo de xadrez*
     * Composição de objetos, herança, coleções, etc.
-    * Desenvolvemento em camadas
-    * Padrões de projetos
-  * Java e Programação Orientada a Objetos (parte 2) + Programação Funcional (lambda)
+    * Desenvolvimento em camadas
+    * Padrão de projetos
+  * *Java e Programação Orientada a objetos (parte 2) + Programação Funcional*
     * Trabalhando com arquivos
     * Interfaces
-    * Generics, Set, map
+    * Generics, Set, Map
     * Programação funcional e expressões lambda
-    * *Bônus* - Nivelamento Álgebra Relacional, SQL, MySQL
+    * BÔNUS - Nivelamento álgebra relacional, SQL, MySQL
     * Acesso a banco de dados com JDBC
     * Interface Gráfica com JavaFX
-  * Projeto - Aplicação desktop com JavaFX e banco de dados MySQL com JDBC
+  * *PROJETO - Aplicação desktop com JavaFX e banco de dados MySQL com JDBC*
     * Padrão MVC - Model View Controller
     * Padrão Camadas
     * FXML, SceneBuilder
     * Tratamento de eventos de UI
     * CRUD completo
-    * Padrão de projetos
-  * Projeto - Web Services com Spring Boot e JPA / Hibernate
-    * *Bônus* - Nivelamento ORM com JPA / Hibernate
+    * padrão0 de projetos
+  * *PROJETO - Web Services com Spring Boot e JPA / Hibernate*
+    * BÔNUS - Nivelamento ORM com JPA / Hibernate
     * Padrão camadas
     * Web e HTTP
     * REST / Web Services
@@ -73,11 +67,10 @@
     * Spring Data JPA
     * CRUD completo
     * Tratamento de exceções
-  * Projeto - Web Services com Spring Boot e NoSQL (MongoDB)
-    * *Bônus* - Nivelamento NoSQL e MongoDB
+  * *PROJETO - Web services com Spring boot e NoSQL (MongoDB)*
+    * Bônus - Nivelamento NoSQL e MongoDB
     * Modelo de domínio: agregados e desnormalização
     * Padrão DTO
     * Spring Data MongoDB
-    * CRUD complemento
+    * CRUD completo
     * Tratamento de exceções
-  
