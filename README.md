@@ -85,7 +85,9 @@
 
 ### 4. Algoritmo, Automação, Programa de computador
 
-* **Algoritmo** - Sequência finita de instruções para se resolver um problema. Aplicamos este conceito a diversas área de conhecimento.
+#### **Algoritmo**
+
+* Sequência finita de instruções para se resolver um problema. Aplicamos este conceito a diversas área de conhecimento.
 * Exemplo:
   * **problema**: *lavar a roupa suja*
   * **Algoritmo** (*um dos algoritmos possíveis*):
@@ -100,20 +102,31 @@
 
 * **Automação** - Consiste em utilizar máquina(s) para executar o procedimento desejado de forma automática ou semiautomática.
 
-* **Computador**:
-  * **Hardware** - Parte física (a máquina em si)
-  * **Software** - Parte lógicas (programas)
-    * Sistema operacional (Windows, Linux, iOS)
-    * Aplicativos (apps de escritório, app de câmera, navegador web)
-    * Jogos
-    * Utilitários (Antivírus, compactador de arquivos)
-    * Outros
+#### **Computador**:
 
-* **Programa** x **Algoritmo**
-  * Existe uma similaridade entre os conceitos de programa de commputador e algoritmos.
-  * Em linhas gerais, **programas de computador** são **algoritmos** executados pelo computador.
-  * Desta forma, podemos concluir que o computador é uma máquina que **automatiza** a execução de **algoritmos**.
-  * Os **algoritmos** automatizados pelo computador são os chamados *algoritmos computacionais*:
-    * processamento de dados
-    * cálculos
-    * etc
+* **Hardware** - Parte física (a máquina em si)
+* **Software** - Parte lógicas (programas)
+  * Sistema operacional (Windows, Linux, iOS)
+  * Aplicativos (apps de escritório, app de câmera, navegador web)
+  * Jogos
+  * Utilitários (Antivírus, compactador de arquivos)
+  * Outros
+
+#### **Programa** x **Algoritmo**
+
+* Existe uma similaridade entre os conceitos de programa de commputador e algoritmos.
+* Em linhas gerais, **programas de computador** são **algoritmos** executados pelo computador.
+* Desta forma, podemos concluir que o computador é uma máquina que **automatiza** a execução de **algoritmos**.
+* Os **algoritmos** automatizados pelo computador são os chamados *algoritmos computacionais*:
+  * processamento de dados
+  * cálculos
+  * etc
+
+### 5. O que é preciso para se fazer um programa de computador
+
+#### Para criar um programa de computador, vamos precisar de:
+
+* Uma **linguagem de programação**: regras **léxicas** e **sintáticas** para se escrever o programa
+* uma **IDE**: software para editar e testar o programa
+* um **compilador**: software para transfermar o **código fonte** em **código objeto**
+* um **gerador de código** ou **máquina virtual**: software que permite que o programa seja executado
