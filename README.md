@@ -106,7 +106,7 @@
 
 * Consiste em utilizar máquina(s) para executar o procedimento desejado de forma automática ou semiautomática.
 
-#### **Computador**:
+#### **Computador**
 
 * **Hardware** - Parte física (a máquina em si)
 * **Software** - Parte lógicas (programas)
@@ -259,3 +259,9 @@
 * [Java SE - Java Standard Edition](https://www.oracle.com/java/technologies/java-se-glance.html) - Core - Para Desktops e servidores
 
 * [Java EE](https://www.oracle.com/java/technologies/java-ee-glance.html) - Java Enterprise Edition - Para plicações corporativas
+
+### 13. JDK / JVM - Máquina virtual do Java
+
+#### JVM - Java Virtual Machine
+
+* A **JVM** - máquina virtual do Java - é necessária para executar sistema em Java. Também é necessária no desenvolvimento de aplicações em Java.
