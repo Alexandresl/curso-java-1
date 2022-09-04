@@ -211,3 +211,7 @@
   * Vantagens secundárias (parcialmente aproveitadas):
     * Velocidade do programa
     * Flexibilidade de manutenção do aplicativo em produção
+
+## Seção 3: Introdução à linguagem Java
+
+### 9. Visão geral do capítulo
