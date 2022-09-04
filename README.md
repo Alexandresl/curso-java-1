@@ -320,3 +320,34 @@ Link do download: [https://www.eclipse.org/downloads/packages/](https://www.ecli
 ### 20. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/04-estrutura-sequencial.pdf)
+
+### 21. Expressões aritméticas
+
+* **Expressões aritméticas** são aquelas que quando calculadas retornam um valor numérico. Exemplo: *4 + 5 = 9*
+
+#### Operadores Aritméticos
+
+| Operador | Significado               |
+| -------- | ------------------------- |
+| +        | Adição                    |
+| -        | Subtração                 |
+| *        | Multiplicação             |
+| /        | divisão                   |
+| %        | Módulo (Resto da divisão) |
+
+#### Ordem de prescedência
+
+| Importância | operadores                                  |
+| ----------- | ------------------------------------------- |
+| 1º Lugar    | * (multiplicação), / (divisão) e % (módulo) |
+| 2º Lugar    | + (adição) e - (subtração)                  |
+
+#### Exemplos
+
+| Expressão          | Resultado |
+| ------------------ | --------- |
+| 2 * 6 / 3          | 4         |
+| 3 + 2 * 4          | 11        |
+| (3 + 2) * 4        | 20        |
+| 60 / (3 + 2) * 4   | 48        |
+| 60 / ((3 + 2) * 4) | 3         |
