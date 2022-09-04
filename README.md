@@ -265,3 +265,10 @@
 #### JVM - Java Virtual Machine
 
 * A **JVM** - máquina virtual do Java - é necessária para executar sistema em Java. Também é necessária no desenvolvimento de aplicações em Java.
+
+### 14. Estrutura de uma aplicação Java
+
+* **Java** é uma linguagem de programação orientada a objetos e a unidade básica dela é a **classe**, ou seja, todo o código estará dentro de uma classe.
+* temos também o conceito de **pacote** ou**package**, que é o agrupamento lógico de classes relacionadas.
+* A partir do Java 9, foi adicionado o conceito de **módulo**, que é o agrupamento de pacotes relacionados.
+* A **aplicação** é um agrupamento de módulos relacionados.
