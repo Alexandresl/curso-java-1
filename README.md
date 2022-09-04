@@ -284,3 +284,13 @@ Mac: [https://github.com/devsuperior/sds2/tree/master/instalacao/mac#java-11-on-
 ### 16. Instalando o Java JDK
 
 [Link da distribuição Zulu](https://www.azul.com/downloads/?package=jdk)
+
+* Configuração das variáveis de ambiente do sistema
+  * Painel de Controle -> Variáveis de ambiente
+    * JAVA_HOME: C:\Program Files\Java\jdk... (pasta da versão instalada)
+    * Path: incluir o caminho - C:\Program Files\Java\jdk... (pasta da versão instalada)/bin
+* Para verificar se a configuração ocorreu com sucesso, basta testar no terminal o comando: ```java version```
+
+### 17. Instalando o Eclipse
+
+Link do download: [https://www.eclipse.org/downloads/packages/](https://www.eclipse.org/downloads/packages/)
