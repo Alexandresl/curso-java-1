@@ -219,3 +219,9 @@
 ### 10. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/03-introducao-linguagem-java.pdf)
+
+### 11. Entendendo as versões do Java
+
+[Link atual das versões do Java](https://www.oracle.com/java/technologies/downloads/)
+
+* LTS - Long Term Support
