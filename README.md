@@ -225,3 +225,37 @@
 [Link atual das versões do Java](https://www.oracle.com/java/technologies/downloads/)
 
 * LTS - Long Term Support
+
+### 12. Histórico e edições do Java
+
+#### O que é Java?
+
+* Java é além de uma linguagem de programação, ou seja, um conjunto de regras sintáticas, uma plataforma de desenvolvimento e execução. Esta incluí bibliotecas (APIs) e ambiente de execução.
+
+#### Histórico
+
+* Os problemas resolvidos e o motivo de seu sucesso:
+  * Ponteiros / gerenciamento de memória
+  * Portabilidade falha: reescrever parte do código ao mudar de S.O.
+  * Utilização em diversos dispositivos
+  * Custo
+
+* Criada pela Sum Microsystems no meio da década de 1990
+
+* Adquirida pela Oracle Corporation em 2010
+
+#### Aspectos notáveis
+
+* O código java é compilado para *bytecode* e executado em uma máquina virtual - *JVM*.
+* É portável, segura e robusta.
+* Roda em vários tipos de dispositivos.
+* Domina o mercado corporativo desde o fim do século 20.
+* Padrão para o desenvolvimento Android por muitos anos.
+
+#### As edições do Java
+
+* [Java ME - Java Micro Edition](https://www.oracle.com/java/technologies/javameoverview.html) - Para dispositivos embarcados e móveis - IoT
+
+* [Java SE - Java Standard Edition](https://www.oracle.com/java/technologies/java-se-glance.html) - Core - Para Desktops e servidores
+
+* [Java EE](https://www.oracle.com/java/technologies/java-ee-glance.html) - Java Enterprise Edition - Para plicações corporativas
