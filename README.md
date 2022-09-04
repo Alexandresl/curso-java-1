@@ -168,3 +168,46 @@
 * Sugestão de modelos (templates)
 * Auxiliar em várias tarefas do seu projeto
 * etc
+
+### 8. Compilação, interpretação, código fonte, código objeto, máquina virtual
+
+#### Código fonte
+
+* É aquele escrito pelo programador em linguagem de programação
+
+#### Tipos de linguagens
+
+* **Compiladas**
+  * O código fonte é transformado (compilado) pelo compilador em código objeto. O compilador realiza uma análise léxica e sintática do código fonte.
+  * Uma vez que o código fonte foi compilado e transformado em código objeto. Este passará por um gerador de código, processo conhecido como *build*.
+  * Após o *build* teremos um código executável que poderá ser executado pelo sistema operacional.
+  * Exemplos de linguagens que tipicamente usam esta abordagem: **C** e **C++**.
+
+* **Interpretadas**
+  * Nas linguagens interpretadas, o código fonte passa por um interpretador. Este realizará as análise léxicas, sintáticas e fará a geração do código sob demanda no momento em que o programa é executado.
+  * Exemplos de linguagens que tipicamente usam esta abordagem: **PHP**, **JavaScript**, **Python** e **Ruby**
+
+* **Abordagem híbrida**
+  * Nesta abordagem o código fonte passa por uma précompilação, com a análise léxica e sintática, resultando em um **bytecode**.
+  * Este **bytecode** é executado por uma máquina virtual, que faz a interpretação deste código sob demanda.
+  * Exemplos de linguagens que tipicamente usam esta abordagem: **Java** e **C#**
+
+#### Vantagens
+
+* **Linguagens compiladas**
+  * Velocidade do programa
+  * Auxílio do compilador antes da execução
+
+* **Linguagens interpretadas**
+  * Flexibilidade de manutenção do aplicativo em produção
+  * Expressividade da linguagem
+  * Código fonte não precisa ser compilado para rodar em plataformas diferentes
+
+* **Abordagem híbrida**
+  * Se beneficia das principais vantagens das duas abordagem:
+  * Principais vantagens:
+    * Auxílio do compilador antes da execução
+    * Código fonte não precisa ser compilado para rodar em plataformas diferentes
+  * Vantagens secundárias (parcialmente aproveitadas):
+    * Velocidade do programa
+    * Flexibilidade de manutenção do aplicativo em produção
