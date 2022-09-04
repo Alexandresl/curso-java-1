@@ -152,3 +152,19 @@
 #### Exemplos de linguagens de programação
 
 * Existem diversas linguagens de programação: **C**, **Pascal**, **C++**, **Java**, **C#**, **Python**, **Ruby**, **PHP**, **JavaScript**, etc.
+
+### 7. IDE - Ambiente Integrado de Desenvolvimento
+
+* IDE é a sigla para *Integrated Development Environment* ou *Ambiente Integrado de Desenvolvimento*. Trata-se de um conjunto de softwares utilizados para a construção de programas. Exemplos:
+  * C/C++: **Code Blocks**
+  * Java: **Eclipse, NetBeans**
+  * C#: **Microsoft Visual Studio**
+
+#### Funcionalidades de uma IDE
+
+* Edição de código fonte (endentação, autocompletar, destaque de palavras, etc)
+* Depuração e testes
+* Construção do produto final (build)
+* Sugestão de modelos (templates)
+* Auxiliar em várias tarefas do seu projeto
+* etc
