@@ -294,3 +294,21 @@ Mac: [https://github.com/devsuperior/sds2/tree/master/instalacao/mac#java-11-on-
 ### 17. Instalando o Eclipse
 
 Link do download: [https://www.eclipse.org/downloads/packages/](https://www.eclipse.org/downloads/packages/)
+
+### 18. Primeiro programa em Java no Eclipse
+
+#### Primeiros passos:
+
+* Workspace: Seleciona a pasta onde o projeto será salvo
+* Mudar o Layout: Windows -> Perspective -> Open Perspective -> Java
+* Zerar o Layout: Windows -> Perspective -> Reset Perspective
+* Mostrar a aba do console: Windows -> Show View -> Console
+* Criar Projetos: File -> New -> Java Project
+* Para criar uma classe:
+  * Botão direito na pasta *src* -> new -> class
+  * Package: em branco
+  * nome da classe: Main (com M maiúsculo)
+  * marque a opção: *public static void main (string[] args)*
+* Alterar o tamanho da fonte:
+  * Ctrl +
+  * Ctrl -
