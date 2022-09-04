@@ -312,3 +312,7 @@ Link do download: [https://www.eclipse.org/downloads/packages/](https://www.ecli
 * Alterar o tamanho da fonte:
   * Ctrl +
   * Ctrl -
+
+## Seção 4: Estrutura sequencial
+
+### 19. Visão geral do capítulo
