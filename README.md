@@ -316,3 +316,7 @@ Link do download: [https://www.eclipse.org/downloads/packages/](https://www.ecli
 ## Seção 4: Estrutura sequencial
 
 ### 19. Visão geral do capítulo
+
+### 20. Material de apoio do capítulo
+
+[Material de apoio](Recursos/pdf/04-estrutura-sequencial.pdf)
