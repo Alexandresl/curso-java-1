@@ -215,3 +215,7 @@
 ## Seção 3: Introdução à linguagem Java
 
 ### 9. Visão geral do capítulo
+
+### 10. Material de apoio do capítulo
+
+[Material de apoio](Recursos/pdf/03-introducao-linguagem-java.pdf)
