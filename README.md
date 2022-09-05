@@ -2,6 +2,8 @@
 
 ## Links úteis
 
+[Atalhos do Eclipse](Eclipse-atalhos.md)
+
 ## Seção 1: Introdução
 
 ### 1. Introdução: Visão geral do curso
@@ -503,3 +505,95 @@ System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
 [Exemplo 1](Workspace/aula024_Exemplo_001)
 
 [Exercício 1](workspace/aula024_Exercicio_001/)
+
+### 25. Processamento de dados em Java, Casting
+
+* O processamento de dados em Java é feito por meio do comando de atribuição. 
+* Sintaxe: ```<variavel> = <expressão>;```.
+* Lê-se que a *variável* recebe o resultado da *expressão*.
+
+#### Regra de execução
+
+1. A expressão é calculada.
+2. O resultado da expressão é armazenado na variável.
+
+```Java
+// Exemplo 1
+
+int x, y;
+
+x = 5;
+
+y = 2 * x;
+
+System.out.println(x); // 5
+System.out.println(y); // 10
+```
+
+[Exemplo 1](Workspace/aula025_Exemplo_001)
+
+```java
+// Exemplo 2
+
+int x;
+double y;
+
+x = 5;
+
+y = 2 * x;
+
+System.out.println(x); // 5
+System.out.println(y); // 10.0
+```
+
+[Exemplo 2](Workspace/aula025_Exemplo_002)
+
+```java
+// Exemplo 3
+
+double b, B, h, area;
+
+b = 6.0;
+B = 8.0;
+h = 5.0;
+
+area = (b + B) / 2.0 * h;
+
+System.out.println(area); // 35.0
+```
+
+[Exemplo 3](Workspace/aula025_Exemplo_003)
+
+* **Atenção** - Sempre indique o tipo do número, se a expressão fo de ponto flutuante (não inteira).
+  * Para **double** use: **.0**
+  * Para float use: **f**
+
+```java
+// Exemplo 4
+int a, b;
+double resultado;
+
+a = 5;
+b = 2;
+
+resultado = (double) a / b;
+
+System.out.println(resultado); // 2.5
+```
+
+[Exemplo 4](Workspace/aula025_Exemplo_004)
+
+```java
+// Exemplo 5
+
+double a;
+int b;
+
+a = 5.0;
+b = (int) a;
+
+System.out.println(b); // 5
+
+```
+
+[Exemplo 5](Workspace/aula025_Exemplo_005)
