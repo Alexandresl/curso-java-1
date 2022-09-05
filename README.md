@@ -313,6 +313,8 @@ Link do download: [https://www.eclipse.org/downloads/packages/](https://www.ecli
   * Ctrl +
   * Ctrl -
 
+[Exemplo 1](Workspace/aula018_Exemplo_001)
+
 ## Seção 4: Estrutura sequencial
 
 ### 19. Visão geral do capítulo
@@ -427,3 +429,77 @@ char sexo = 'F';
 * O programa utiliza **dispositivos de saída** para informar estes dados.
 * Um exemplo de **dispositivo de saída** é o monitor do computador.
 * A operação de **saída de dados** também é conhecida como **escrita**.
+
+### 24. Saída de dados em Java
+
+#### Para escrevermos um texto qualquer
+
+```java
+// Sem quebra de linha ao final
+System.out.print("Bom dia!");
+
+// Com quabra de linha ao final
+System.out.println("Bom dia!");
+```
+
+* Para escrever na tela o conteúdo de uma variável de algum tipo básico:
+
+```java
+// considerando uma variável do tipo int declarada e iniciada
+int y = 32;
+
+System.out.println(y);
+```
+
+#### Para escrever o conteúdo de uma variável com ponto flutuante
+
+```java
+// Considerando uma variável do tipo double declarada e iniciada
+double x = 10.35784;
+
+System.out.println(x);
+System.out.printf("%.2f%n", x);
+System.out.printf("%.4f%n", x);
+```
+
+* **Atenção**: para considerar o separador de decimais como ponto, **antes** da declaração do Scanner, faça: ```Locale.setDefault(Locale.US);```
+* **Atenção 2**: O simbolo **%n** representa uma quebra de linha e pode ser utilizada independente de plataforma.
+
+#### Para concatenar vários elementos em um mesmo comando de escrita Sem formatação
+
+* Como regra geral para concatenar usando os comandos **print** ou **println** utilizamos: ```elemento1 + elemento2 + ... + elementoN```. Exemplo:
+
+```java
+System.out.println("Resultado = " + x + " metros");
+```
+
+#### Para concatenar vários elementos em um mesmo comando de escrita Com formatação
+
+* Como regra geral para concatenar usando o comando **printf**: ```"elemento1 %f elemento2 %f elemento3", variavel1, variavel2```
+* O simbolo **%f** representa um número de ponto flutuante.
+* O simbolo **%n** representa uma quebra de linha.
+
+```java
+System.out.printf("Resultado = %.2f metros%n", x);
+```
+
+#### Para concatenar vários elementos em um mesmo comando de escrita com diferentes tipos de variáveis
+
+* Para concatenar com diferentes tipos de variáveis utilizaremos:
+  * *%f* para ponto flutuante
+  * *%d* para inteiro
+  * *%s* para texto
+  * *%n* para quebra de linha
+* Mais informações sobre formato de números em [https://docs.oracle.com/javase/tutorial/java/data/numberformat.html](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html)
+
+```java
+String nome = "Maria";
+int idade = 31;
+double renda = 4000.0;
+
+System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
+```
+
+[Exemplo 1](Workspace/aula024_Exemplo_001)
+
+[Exercício 1](workspace/aula024_Exercicio_001/)
