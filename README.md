@@ -297,7 +297,7 @@ Link do download: [https://www.eclipse.org/downloads/packages/](https://www.ecli
 
 ### 18. Primeiro programa em Java no Eclipse
 
-#### Primeiros passos:
+#### Primeiros passos
 
 * Workspace: Seleciona a pasta onde o projeto será salvo
 * Mudar o Layout: Windows -> Perspective -> Open Perspective -> Java
@@ -351,3 +351,53 @@ Link do download: [https://www.eclipse.org/downloads/packages/](https://www.ecli
 | (3 + 2) * 4        | 20        |
 | 60 / (3 + 2) * 4   | 48        |
 | 60 / ((3 + 2) * 4) | 3         |
+
+### 22. Variáveis e tipos básicos em Java
+
+* Um programa de computador em execução lida com dados. Estes dados são armazenados em variáveis.
+* **Variáveis** em programação é uma porção de memória (RAM) utilizada para armazenar dados durante a execução dos programas.
+* Para uma programa em Java utilizar variávies, estas devem ser declaradas com a seguinte sintaxe: ```<tipo> <nome> = <valor inicial>;```. Exemplo:
+
+```java
+int idade = 25;
+double altura = 1.68;
+char sexo = 'F';
+```
+
+* Desta forma concluímos que uma variável possui:
+  * Nome (ou identificador)
+  * Tipo
+  * Valor
+  * Endereço (local da memória onde o dado está armazenado)
+
+#### Tipos primitivos em Java
+
+| Descrição                | Tipo        | Tamanho | Valores                                    | Valor padrão |
+| ------------------------ | ----------- | ------- | ------------------------------------------ | ------------ |
+| tipos numéricos inteiros | **byte**    | 8 bits  | -128 a 127                                 | 0            |
+| tipos numéricos inteiros | **short**   | 16 bits | -32768 a 32767                             | 0            |
+| tipos numéricos inteiros | **int**     | 32 bits | -2147483648 a 2147483647                   | 0            |
+| tipos numéricos inteiros | **long**    | 64 bits | -9223372036854770000 a 9223372036854770000 | 0L           |
+| tipos numéricos com      | **float**   | 32 bits | -1,4024E-37 a 3,4028E+38                   | 0.0f         |
+| ponto flutuante          | **double**  | 64 bits | -4,94E-307 a 1,79E+308                     | 0.0          |
+| um caractere Unicode     | **char**    | 16 bits | '\u0000' a '\uFFFF'                        | '\u0000'     |
+| valor verdade            | **boolean** | 1 bit   | {false, true}                              | false        |
+
+* **String** é uma cadeia de caracteres e apesar de não ser um tipo primitivo será amplamente utilizado.
+* Para descobrir um código unicode referente a um caracter, podemos utilizar o link [unicode-table.com](https://unicode-table.com/pt/). Ex.: 'a' = '\u0061'
+
+* A quantidade de bits determina a quantidade de valores diferentes que determinada tipo pode armazenar. Para sabermos este limite basta utilizarmos o número de bits como expoente de 2. Ex.:
+  * 8 bits = 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 = 2⁸ = 256
+
+#### Nome de variáveis
+
+* Não pode começar com dígito: use uma letra ou _ (underscore)
+* Não pode ter espaço em branco
+* Não usar acentos ou til
+* Sugestão: use o padrão "*camel case*"
+
+| Errado                     | Correto                  |
+| -------------------------- | ------------------------ |
+| int 5minutos;              | int _5minutos;           |
+| int salário;               | int salario;             |
+| int salário do funcionário | int salarioDoFuncionario |
