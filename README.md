@@ -8,7 +8,7 @@
 
 ### 1. Introdução: Visão geral do curso
 
-[Material de apoio](Recursos/Curso-Java-COMPLETO.pdf)
+[Material de apoio](Recursos/pdf/01-Curso-Java-COMPLETO.pdf)
 
 #### Profissional Java
 
@@ -508,7 +508,7 @@ System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
 
 ### 25. Processamento de dados em Java, Casting
 
-* O processamento de dados em Java é feito por meio do comando de atribuição. 
+* O processamento de dados em Java é feito por meio do comando de atribuição.
 * Sintaxe: ```<variavel> = <expressão>;```.
 * Lê-se que a *variável* recebe o resultado da *expressão*.
 
@@ -597,3 +597,109 @@ System.out.println(b); // 5
 ```
 
 [Exemplo 5](Workspace/aula025_Exemplo_005)
+
+### 26. Entrada de dados em Java - Parte 1
+
+* A entrada de dados é quando um usuário informa dados para um programa por meio de um dispositivo de entrada. Os dados são inseridos dentro de variáveis.
+
+#### Scanner
+
+* Para realizarmos a entrada de dados em Java, precisaremos criar um objeto do tipo *Scanner*. Para isso, utilizaremos o seguinte comando: ```Scanner sc = new Scanner(System.in);```
+* Para conseguirmos criar um objeto do tipo *Scanner*, precisamos utilizar o ```import java.util.Scanner;```
+* Após utilizarmos o objeto precisamos desalocar o objeto através do comando: ```sc.close()```
+
+#### Para ler uma palavra
+
+```java
+// Exemplo 1
+
+Scanner sc = new Scanner(System.in);
+String x;
+
+x = sc.next();
+
+System.out.println("Você digitou: " + x);
+
+sc.close();
+```
+
+[Exemplo 1](Workspace/aula026_Exemplo_001)
+
+#### Para ler um número inteiro
+
+```java
+// Exemplo 2
+
+Scanner sc = new Scanner(System.in);
+int x;
+
+x = sc.nextInt();
+
+System.out.println("Você digitou: " + x);
+
+sc.close();
+```
+
+[Exemplo 2](Workspace/aula026_Exemplo_002)
+
+#### Para ler um número com ponto flutuante
+
+```java
+// Exemplo 3
+
+Locale.setDefault(Locale.US);
+Scanner sc = new Scanner(System.in);
+double x;
+
+x = sc.nextDouble();
+
+System.out.printf("Você digitou: %.2f%n", x);
+
+sc.close();
+
+```
+
+* **Atenção**: para considerar o separador de decimais como ponto, **antes** da declaração do Scanner, faça: ```Locale.setDefault(Locale.US);```
+
+[Exemplo 3](Workspace/aula026_Exemplo_003)
+
+#### Para ler um caractere
+
+```java
+// Exemplo 4
+
+Scanner sc = new Scanner(System.in);
+char x;
+
+x = sc.next().charAt(0);
+
+System.out.println("Você digitou: " + x);
+
+sc.close();
+```
+
+[Exemplo 4](Workspace\aula026_Exemplo_004)
+
+### Para ler vários dados na mesma linha
+
+```java
+// Exemplo 5
+
+Locale.setDefault(Locale.US);
+Scanner sc = new Scanner(System.in);
+
+String x;
+int y;
+double z;
+
+x = sc.next();
+y = sc.nextInt();
+z = sc.nextDouble();
+
+System.out.println("Dados digitados:");
+System.out.println(x);
+System.out.println(y);
+System.out.println(z);
+
+sc.close();
+```
