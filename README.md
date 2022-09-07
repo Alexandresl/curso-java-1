@@ -775,6 +775,8 @@ sc.close();
 | ```A = Math.pow(x, y);``` | Variável A recebe o resultado de x elevado a y |
 | ```A = Math.abs(x);```    | Variável A recebe o valor ab soluto de x       |
 
+* Mais Métodos podem ser verificados em [java.lang.Math](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html)
+
 ```java
 // Exemplo 1
 
@@ -802,3 +804,13 @@ B = Math.abs(z);
 System.out.println("O valor absoluto de " + y + " = " + A); // O valor absoluto de 4.0 = 4.0
 System.out.println("O valor absoludo de " + z + " = " + B); // O valor absoludo de -5.0 = 5.0
 ```
+
+### 29. Aviso: exercícios para iniciantes PARTE 1
+
+Até o momento nós aprendemos no curso a estrutura sequencial, ou seja:
+
+* Entrada de dados
+* Processamenteo (atribuição)
+* Saída
+
+Agora serão apresentados exercícios para praticar os tópicos apresentados.
