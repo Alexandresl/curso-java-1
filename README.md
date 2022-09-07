@@ -705,3 +705,62 @@ sc.close();
 ```
 
 [Exemplo 5](Workspace/aula026_Exemplo_005)
+
+### 27. Entrada de dados em Java - Parte 2
+
+#### Para ler um texto até a quebra de linha
+
+```java
+// Exemplo 1
+
+Scanner sc = new Scanner(System.in);
+
+String s1, s2, s3;
+
+s1 = sc.nextLine();
+s2 = sc.nextLine();
+s3 = sc.nextLine();
+
+System.out.println("Dados digitados:");
+System.out.println(s1);
+System.out.println(s2);
+System.out.println(s3);
+
+sc.close();
+```
+
+[Exemplo 1](Workspace/aula027_Exemplo_001)
+
+### Quebra de linha pendente
+
+Quando você usa um comando de leitura diferente do *nextLine()* e dá alguma quebra de linha, essa quebra de linha fica "*pendente*" na entrada padrão.
+
+Se você então fizer um *nextLine()*, aquela quebra de linha pendente será absorvida.
+
+**Solução** - Faça um *nextLine()* extra antes de fazer o nextLine() de seu interesse.
+
+```java
+// Exemplo 2
+
+Scanner sc = new Scanner(System.in);
+
+int x;
+String s1, s2, s3;
+
+x = sc.nextInt();
+sc.nextLine(); // nextLine() extra para consumir a quebra de linha
+s1 = sc.nextLine();
+s2 = sc.nextLine();
+s3 = sc.nextLine();
+
+System.out.println("Dados digitados:");
+System.out.println(x);
+System.out.println(s1);
+System.out.println(s2);
+System.out.println(s3);
+
+sc.close();
+
+```
+
+[Exempl 2](Workspace/aula027_Exemplo_002)
