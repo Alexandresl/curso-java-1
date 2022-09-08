@@ -10,7 +10,7 @@
 
 ### 1. Introdução: Visão geral do curso
 
-[Material de apoio](Recursos/pdf/01-Curso-Java-COMPLETO.pdf)
+[Material de apoio](Recursos/pdf/01-curso-Java-COMPLETO.pdf)
 
 #### Profissional Java
 
@@ -1004,3 +1004,7 @@ area = base x altura
 |                | RETANGULO: 132.080 |
 
 [Exercício 6](Workspace/aula030_Exercicio_006)
+
+## Seção 5: Estrutura condicional
+
+### 31. Visão geral do capítulo
