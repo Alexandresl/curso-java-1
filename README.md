@@ -1012,3 +1012,31 @@ area = base x altura
 ### 32. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/05-estrutura-condicional.pdf)
+
+### 33. Expressões comparativas
+
+As expressões comparativas são utilizadas para comparar valores e seu resultado e um valor booleano, ou seja, verdadeiro ou falso. Exemplo:
+
+```5 > 10 = falso```
+
+#### Operadores comparativos
+
+| Operador | Significado    |
+| -------- | -------------- |
+| >        | maior          |
+| <        | menor          |
+| >=       | maior ou igual |
+| <=       | menor ou igual |
+| ==       | igual          |
+| !=       | diferente      |
+
+#### Exemplos de expressões comparativas
+
+* Considere x igual a 5
+
+| Expressão | Resultado  |
+| --------- | ---------- |
+| X > 0     | Verdadeiro |
+| X == 3    | Falso      |
+| 10 <= 30  | Verdadeiro |
+| x != 2    | Verdadeiro |
