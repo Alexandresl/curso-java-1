@@ -1008,3 +1008,7 @@ area = base x altura
 ## Seção 5: Estrutura condicional
 
 ### 31. Visão geral do capítulo
+
+### 32. Material de apoio do capítulo
+
+[Material de apoio](Recursos/pdf/05-estrutura-condicional.pdf)
