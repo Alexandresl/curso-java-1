@@ -1040,3 +1040,48 @@ As expressões comparativas são utilizadas para comparar valores e seu resultad
 | X == 3    | Falso      |
 | 10 <= 30  | Verdadeiro |
 | x != 2    | Verdadeiro |
+
+### 34. Expressões lógicas
+
+Assim como as expressões comparativas, as expressões lógicas resultam em um valor booleano, ou seja, verdadeiro ou falso.
+
+#### Operadores lógicos
+
+| Operador | Significado |
+| -------- | ----------- |
+| &&       | E           |
+| ❘ ❘      | OU          |
+| !        | NÃO         |
+
+#### Operador E
+
+Todas as condições precisam ser verdadeiras para que a expressão seja verdadeira.
+
+* Tabela verdade do operador "*E*"
+
+| A   | B   | A && B |
+| --- | --- | ------ |
+| V   | V   | V      |
+| V   | F   | F      |
+| F   | V   | F      |
+| F   | F   | F      |
+
+#### Operador OU
+
+Apenas uma das expressões precisam ser verdadeiras para que a expressão seja verdadeira.
+
+* Tabela verdade do operador "*OU*"
+
+| A   | B   | A ❘❘ B |
+| --- | --- | ------ |
+| V   | V   | V      |
+| V   | F   | V      |
+| F   | V   | V      |
+| F   | F   | F      |
+
+#### Operador NÃO
+
+| A   | !A  |
+| --- | --- |
+| V   | F   |
+| F   | V   |
