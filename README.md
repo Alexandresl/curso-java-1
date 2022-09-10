@@ -1089,3 +1089,107 @@ O operador não inverte a condição.
 | --- | --- |
 | V   | F   |
 | F   | V   |
+
+### 35. strutura condicional (if - else)
+
+**Estrutura condicional** é uma **Estrutura de controle** que permite definir que um certo **bloco de comandos** somente será executado dependendo de uma **condição**.
+
+![Imagem 1](Recursos/images/aula35-img1.jpg)
+
+#### Sintaxe simples
+
+```java
+if (<condição>) {
+  <comando 1>
+  <comando 2>
+}
+```
+
+* Se a ```<condição>``` for verdadeira, o bloco de código delimitado por chaves(*{}*) será executado, se falso, o bloco é pulado.
+
+```java
+// Exemplo 1
+
+int x = 5;
+
+System.out.println("Bom dia");
+
+if (x < 0) { // Falso - Bloco não será executada
+  System.out.println("Boa tarde");
+}
+
+System.out.println("Boa noite");
+```
+
+#### Sintaxe composta
+
+```java
+if (<condição>) {
+  <comando 1>
+  <comando 2>
+} else {
+  <comando 3>
+  <comando 4>
+}
+```
+
+* Se a ```<condição>``` for verdadeira, é executado o bloco do **if**, se falso, é executado o bloco do **else**.
+
+```java
+// Exemplo 2
+
+Scanner sc = new Scanner(System.in);
+int hora;
+
+System.out.print("Que horas são? ");
+hora = sc.nextInt();
+
+if (hora < 12) {
+  System.out.println("Bom dia!");
+} else {
+  System.out.println("Boa tarde!");
+}
+
+sc.close();
+```
+
+#### Sintaxe para múltiplas possibilidades
+
+Imaginando a seguinte situação:
+
+* Se quando a hora for menor que 12 eu mostrar: "Bom dia!";
+* Quando a hora for maior ou igual a 12 e menor que 18 eu mostrar: "Bom tarde!";
+* Quando a hora for maior ou igual a 18 eu mostrar: "Boa noite!".
+
+```java
+if (<condição 1>) {
+  <comando 1>
+  <comando 2>
+} else if (<condição 2>) {
+  <comando 3>
+  <comando 4>
+} else {
+  <comando 5>
+  <comando 6>
+}
+```
+
+```java
+// Exemplo 3
+
+Scanner sc = new Scanner(System.in);
+int horas;
+
+System.out.print("Que horas são: ");
+horas = sc.nextInt();
+
+if (horas < 12) {
+  System.out.println("Bom dia!");
+} else if (horas < 18) {
+  System.out.println("Boa tarde!");
+} else {
+  System.out.println("Boa noite!");
+}
+
+sc.close();
+```
