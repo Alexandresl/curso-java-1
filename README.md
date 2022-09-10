@@ -1081,6 +1081,10 @@ Apenas uma das expressões precisam ser verdadeiras para que a expressão seja v
 
 #### Operador NÃO
 
+O operador não inverte a condição.
+
+* Tabela verdade do operador "*NÃO*"
+
 | A   | !A  |
 | --- | --- |
 | V   | F   |
