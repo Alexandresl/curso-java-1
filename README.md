@@ -1193,3 +1193,5 @@ if (horas < 12) {
 
 sc.close();
 ```
+
+### 36. AVISO: exercícios para iniciantes PARTE 2
