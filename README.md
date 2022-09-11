@@ -1195,3 +1195,218 @@ sc.close();
 ```
 
 ### 36. AVISO: exercícios para iniciantes PARTE 2
+
+### 37. Exercícios para Iniciantes
+
+[Exercícios 2](Recursos/pdf/Exercicios2-estrutura-condicional.pdf)
+
+#### Exercício resolvido 1
+
+[Link Youtube](https://www.youtube.com/watch?v=SRyQZBaA-_s)
+
+Fazer um programa para ler as duas notas que um aluno obteve no primeiro e segundo semestres de uma disciplina anual. Em seguida, mostrar a nota final que o aluno obteve no ano juntamente com um texto explicativo. Caso a nota final do aluno seja inferior a 60.00, mostrar a mensagem "REPROVADO", conforme exemplos. Todos os valores devem ter uma casa decimal.
+
+| Entrada | Saída             |
+| ------- | ----------------- |
+| 45.5    | NOTA FINAL = 76.8 |
+| 31.3    | -                 |
+
+| Entrada | Saída             |
+| ------- | ----------------- |
+| 34.0    | NOTA FINAL = 57.5 |
+| 23.5    | REPROVADO         |
+
+[Exercício resolvido 1](Workspace/aula37_Exercicio_resolvido_001)
+
+#### Exercício resolvido 2
+
+[Link Youtube](https://www.youtube.com/watch?v=3lhkB5I8P6E)
+
+Leia 3 valores de ponto flutuante e efetue o cálculo das raízes da equação de Bhaskara. Se não for possível calcular as raízes, mosre a mensagem correspondente "*Impossível calcular*", Caso haja uma divisão por 0 ou raiz de número negativo.
+
+* Entrada
+
+Leia três valores de ponto flutuante (double) A, B e C
+
+* Saída
+
+Se não houver possibilidade de calcular as raízes, apresente a mensagem "*Impossível calcular*". Caso contrário, imprima o resultado das raízes com 5 dígitos após o ponto, com uma mensagem correspondente conforme exemplo abaixo. Imprima sempre o final de linha após cada mensagem.
+
+Exemplos:
+
+| Entrada       | Saída         |
+| ------------- | ------------- |
+| 10.0 20.1 5.1 | R1 = -0.29788 |
+| -             | R2 = -1.71212 |
+
+| Entrada      | Saída               |
+| ------------ | ------------------- |
+| 0.0 20.0 5.0 | Impossível calcular |
+
+| Entrada        | Saída          |
+| -------------- | -------------- |
+| 10.3 203.0 5.0 | R1 = -0.02466  |
+| -              | R2 = -19.68408 |
+
+| Entrada      | Saída               |
+| ------------ | ------------------- |
+| 10.0 3.0 5.0 | Impossivel calcular |
+
+[Exercício resolvido 2](Workspace/aula37_Exercicio_resolvido_002)
+
+#### Exercício resolvido 3
+
+[Link do youtube](https://www.youtube.com/watch?v=UjCVIcKccdQ)
+
+Fazer um programa para ler três números inteiros. Em seguida, mostrar qual o menor dentre os três números lidos. Em caso de empate, mostrar apenas uma vez.
+
+Exemplos:
+
+| Entrada | Saída     |
+| ------- | --------- |
+| 7 3 8   | Menor = 3 |
+
+| Entrada | Saída     |
+| ------- | --------- |
+| 5 12 5  | Menor = 5 |
+
+| Entrada | Saída     |
+| ------- | --------- |
+| 9 9 9   | Menor = 9 |
+
+[Exercício resolvido 3](Workspace/aula37_Exercício_resolvido_003)
+
+#### Exercício 1
+
+Fazer um programa para ler um número inteiro, e depois dizer se este número é negativo ou não.
+
+Exemplos:
+
+| Entrada | Saída        |
+| ------- | ------------ |
+| -10     | NEGATIVO     |
+| 8       | NAO NEGATIVO |
+| 0       | NAO NEGATIVO |
+
+[Exercício 1](Workspace/aula37_Exercicio_001)
+
+#### Exercício 2
+
+Fazer um programa para ler um número inteiro e dizer se este número é par ou ímpar.
+
+Exemplos:
+
+| Entrada | Saída |
+| ------- | ----- |
+| 12      | PAR   |
+| -27     | IMPAR |
+| 0       | PAR   |
+
+[Exercício 2](Workspace/aula37_Exercicio_002)
+
+#### Exercício 3
+
+Leia 2 valores inteiros (A e B). Após, o programa deve mostrar uma mensagem "Sao Multiplos" ou "Nao sao Multiplos", indicando se os valores lidos são múltiplos entre si. ATENÇÃO: os número devem poder ser digitados em ordem crescente ou decrescente.
+
+Exemplos:
+
+| Entrada | Saída             |
+| ------- | ----------------- |
+| 6 24    | Sao Multiplos     |
+| 6 25    | Nao sao Multiplos |
+| 26 6    | Sao Multiplos     |
+
+[Exercício 3](Workspace/aula37_Exercicio_003)
+
+#### Exercício 4
+
+Leia a hora inicial e a hora final de um jogo. A seguir calcule a duração do jogo, sabendo que o mesmo pode começar em um dia e terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.
+
+Exemplos:
+
+| Entrada | Saída                    |
+| ------- | ------------------------ |
+| 16 2    | O JOGO DURAOU 10 HORA(S) |
+| 0 0     | O JOGO DURAOU 24 HORA(S) |
+| 2 16    | O JOGO DURAOU 14 HORA(S) |
+
+[Exercício 4](Workspace/aula37_Exercicio_004)
+
+#### Exercício 5
+
+Com base na tabela abaixo, escreva um programa que leia o código de um item e a quantidade deste item. A seguir, calcule e mostre o valor da conta a pagar.
+
+| Código | Especificação   | Preço   |
+| ------ | --------------- | ------- |
+| 1      | Cachorro Quente | R$ 4.00 |
+| 2      | X-Salada        | R$ 4.50 |
+| 3      | X-Bacon         | R$ 5.00 |
+| 4      | Torrada Simples | R$ 2.00 |
+| 5      | Refrigerante    | R$ 1.50 |
+
+Exemplos:
+
+| Entrada | Saída           |
+| ------- | --------------- |
+| 3 2     | Total: R$ 10.00 |
+| 2 3     | Total: R$ 13.50 |
+
+[Exercício 5](Workspace/aula37_Exercicio_005)
+
+#### Exercício 6
+
+Você deve fazer um programa que leia um valor qualquer e apresente uma mensagem dizendo em qual dos seguintes intervalos ([0,25], (25, 50], (50, 75], (75, 100]) este valor se encontra. Obviamente se o valor não estiver em nenhum destes intervalos, deverá ser impressa a mensagem "Fora de intervalo".
+
+Exemplos:
+
+| Entrada | Saída               |
+| ------- | ------------------- |
+| 25.01   | Intervalo (25,50]   |
+| 25.00   | Intervalo [0, 25]   |
+| 100.00  | Intervalo (75, 100] |
+| -25.02  | Fora de intervalo   |
+
+[Exercício 6](Workspace/aula37_Exercicio_006)
+
+#### Exercício 7
+
+Leia 2 valores com uma casa decimal (x e y), que devem representar as coordenadas de um ponto em um plano. A seguir, determine qual o quadrante ao qual pertence o ponto, ou se está sobre um dos eixos cartgesianos ou na origem (x = y = 0).
+
+Se o ponto estiver na origem, escreva a mensagem "Origem".
+
+Se o ponto estiver sobre um dos eixos escreva "Eixo X" ou "Eixo Y", conforme for a situação.
+
+![Modelo quadrante](Recursos/images/aula37-img1.jpg)
+
+| Entrada  | Saída  |
+| -------- | ------ |
+| 4.5 -2.2 | Q4     |
+| 0.1 0.1  | Q1     |
+| 0.0 0.0  | Origem |
+
+[Exercício 7](Workspace/aula37_Exercicio_007)
+
+#### Exercício 8
+
+Em um país imaginári denominado Lisarb, todos os habitantes ficam felizes em pagar seus impostos, pois sabem que nele não existem políticos corruptos e os recursos arrecadados são utilizado em benefício da população, sem qualqer desvio. A moeda deste país é o Rombus, cujo símbolo é o R$.
+
+Leia um valor com duas casas decimais, equivalente ao salário de uma pessoa de Lisarb. em seguida, calcule e mostre o valor que eseta pessoa deve pagar de Imposto de Renda, segundo a tabela abaixo.
+
+| Renda                        | Imposto de Renda |
+| ---------------------------- | ---------------- |
+| de R$ 0.00 a R$ 2000.00      | Isento           |
+| de R$ 2000.01 até R$ 3000.00 | 8%               |
+| de R$ 3000.01 até R$ 4500.00 | 18%              |
+| acima de R$ 4500.01          | 28%              |
+
+Lembre que, se o salário for R$ 3002.00, a taxa que incide é de 8% apenas sobre R$ 1000.00, pois a faixa de salário que fica de R$ 0.00 até R$ 2000.00 é isenta de Imposto de Renda. No exemplo fornecido (abaixo), a taxa é de 8% sobre R$ 1000.00 + 18% sobre R$ 2.00, o que resulta em R$ 80.36 no total.
+
+O valor deve ser impresso com duas casas decimais.
+
+| Entrada | Saída     |
+| ------- | --------- |
+| 3002.00 | R$ 80.36  |
+| 1701.12 | Isento    |
+| 4520.00 | R$ 355.60 |
+
+[Exercício 8](Workspace/aula37_Exercicio_008)
