@@ -1592,7 +1592,7 @@ sc.close();
 * Para interromper o *debug*:
   * *Stop*
 
-### 45. Estrutura repetitiva enquanto (*while*)
+### 45. Estrutura repetitiva enquanto (while)
 
 A estrutura repetitiva **while** (enquanto) é uma **estrutura de controle** que *repete* um bloco de coamandos enquanto uma condição for verdadeira. É utilizada quando **não** se sabe previamente a quantidade de repetições que será realizada.
 
