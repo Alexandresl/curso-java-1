@@ -1410,3 +1410,45 @@ O valor deve ser impresso com duas casas decimais.
 | 4520.00 | R$ 355.60 |
 
 [Exercício 8](Workspace/aula37_Exercicio_008)
+
+### 38. Sintaxe opcional - Operadores de atribuição cumulativa
+
+#### Operadores de atribuição cumulativos
+
+| Operadores    | Equivalente     |
+| ------------- | --------------- |
+| ```a += b;``` | ```a = a + b``` |
+| ```a -= b;``` | ```a = a - b``` |
+| ```a *= b;``` | ```a = a * b``` |
+| ```a /= b;``` | ```a = a / b``` |
+| ```a %= b;``` | ```a = a % b``` |
+
+Exemplo de uso:
+
+Uma operadora de elefonia combra R$ 50.00 por um plano básico que dá direito a 100 minutos de telefone. Cada minuto que exceder a franquia de 100 minutos custa R$ 2.00. Fazer um programa para ler a quantidade de minutos que uma pessoa consumiu, daí mostrar o valor a ser pago.
+
+| Entrada | Saída                   |
+| ------- | ----------------------- |
+| 22      | Valor a pagar: R$ 50.00 |
+| 103     | Valor a pagar: R$ 56.00 |
+
+```java
+Locale.setDefault(Locale.US);
+Scanner sc = new Scanner(System.in);
+
+int qtdMinutos;
+double valor = 50.0;
+
+System.out.print("Digite a quantidade de minutos; ");
+qtdMinutos = sc.nextInt();
+
+if (qtdMinutos > 100) {
+  valor += (qtdMinutos - 100) * 2.0; // Usando o operador de atribuição cumulativo
+}
+
+System.out.printf("Valor a pagar: R$ %.2f%n", valor);
+
+sc.close();
+```
+
+[Exemplo 1](Workspace/aula38_Exemplo_001)
