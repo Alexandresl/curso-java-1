@@ -1572,3 +1572,7 @@ System.out.println(discount);
 
 sc.close();
 ```
+
+## Seção 6: Estruturas repetitivas
+
+### 42. Visão geral do capítulo
