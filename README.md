@@ -1580,3 +1580,14 @@ sc.close();
 ### 43. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/06-estruturas-repetitivas.pdf)
+
+### 44. Como utilizar o DEBUG no Eclipse (execução passo a passo)
+
+* Para marcar uma linha de *breakpoint*:
+  * *Run* -> *Toggle Breakpoint*
+* Para iniciar o *debug*:
+  * Botão direito na classe -> *Debug as* -> *Java Aplication*
+* Para executar uma linha:
+  * *F6*
+* Para interromper o *debug*:
+  * *Stop*
