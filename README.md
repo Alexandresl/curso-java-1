@@ -1531,3 +1531,24 @@ System.out.println("Dia da semana: " + dia);
 
 sc.close();
 ```
+
+### 40. Expressões condicionais ternárias
+
+É uma estrutura opcional ao *if*-*else* quando se deseja decidir um **valor** com base em uma condição.
+
+#### Sintaxe
+
+```java
+(condição) ? valor_se_verdadeiro : valor_se_falso
+```
+
+#### Exemplos
+
+```java
+double preco = 34.5;
+double desconto;
+
+desconto = (preco < 20.0) ? preco * 0.1 : preco * 0.05;
+
+System.out.println("O desconto é de: " + desconto);
+```
