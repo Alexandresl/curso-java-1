@@ -1576,3 +1576,7 @@ sc.close();
 ## Seção 6: Estruturas repetitivas
 
 ### 42. Visão geral do capítulo
+
+### 43. Material de apoio do capítulo
+
+[Material de apoio](Recursos/pdf/06-estruturas-repetitivas.pdf)
