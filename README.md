@@ -1452,3 +1452,82 @@ sc.close();
 ```
 
 [Exemplo 1](Workspace/aula38_Exemplo_001)
+
+### 39. Sintaxe opcional - switch-case
+
+A estrutura **switch**-**case** é utilizada quando se tem várias opções de fluxo a serem tratadas com base no valor de uma variável, ao invés de várias estruturas **if**-**else** encadeadas, é preferível utilizar a estrutura **switch**-**case**.
+
+#### Sintaxe:
+
+```java
+switch (expressao) {
+  case valor 1:
+    comando 1;
+    comando 2;
+    break;
+  case valor 2:
+    comando 3;
+    comando 4;
+    break;
+  default:
+    comando 5;
+    comando 6;
+    break;
+}
+```
+
+Exemplo de uso:
+
+Fazer um programa para ler um valor inteiro de 1 a 7 representando um dia da semana (sendo 1 = domingo, 2 = segunda, e assim por diante).
+
+Escrever na tela o dia da semana correspondente, conforme exemplos.
+
+| Entrada | Saída                         |
+| ------- | ----------------------------- |
+| 1       | Dia da semana: domingo        |
+| 4       | Dia da semana: quarta         |
+| 9       | Dia da semana: valor inválido |
+
+```java
+// Exemplo 1
+
+Scanner sc = new Scanner(System.in);
+
+int number;
+String dia;
+
+System.out.println("Digite um número representando um dia da semana");
+number = sc.nextInt();
+
+switch (number) {
+
+case 1:
+  dia = "Domingo";
+  break;
+case 2:
+  dia = "Segunda";
+  break;
+case 3:
+  dia = "Terça";
+  break;
+case 4:
+  dia = "Quarta";
+  break;
+case 5:
+  dia = "Quinta";
+  break;
+case 6:
+  dia = "Sexta";
+  break;
+case 7:
+  dia = "Sábado";
+  break;
+default:
+  dia = "Valor inválido";
+
+}
+
+System.out.println("Dia da semana: " + dia);
+
+sc.close();
+```
