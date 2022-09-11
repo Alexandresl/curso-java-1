@@ -1591,3 +1591,51 @@ sc.close();
   * *F6*
 * Para interromper o *debug*:
   * *Stop*
+
+### 45. Estrutura repetitiva enquanto (*while*)
+
+A estrutura repetitiva **while** (enquanto) é uma **estrutura de controle** que *repete* um bloco de coamandos enquanto uma condição for verdadeira. É utilizada quando **não** se sabe previamente a quantidade de repetições que será realizada.
+
+#### Sintaxe
+
+```java
+while (condicao) {
+  comando 1
+  comando 2
+}
+```
+
+#### Exemplo de uso
+
+Fazer um progrmaa que leia números inteiros até que um zero seja lido. Ao final mostra a soma dos números lidos.
+
+| Entrada | Saída |
+| ------- | ----- |
+| 5       | 11    |
+| 2       |       |
+| 4       |       |
+| 0       |       |
+
+```java
+Scanner sc = new Scanner(System.in);
+
+int num, soma;
+
+System.out.print("Digite um número: ");
+num = sc.nextInt();
+
+soma = 0;
+
+while (num != 0) {
+  
+  soma += num;
+  
+  System.out.print("Digite outro número: ");
+  num = sc.nextInt();
+    
+}
+
+System.out.println(soma);
+
+sc.close();
+```
