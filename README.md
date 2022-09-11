@@ -1562,7 +1562,7 @@ System.out.println("O desconto é de: " + desconto);
 Scanner sc = new Scanner(System.in);
 
 double price = sc.nextDouble();
-double discount = 0; // precisa ser inicializada fora do if
+double discount = 0; // precisa ser inicializada antes do if
 
 if (price > 100.0) {
   discount = price * 0.1;
