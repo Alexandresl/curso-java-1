@@ -1639,3 +1639,5 @@ System.out.println(soma);
 
 sc.close();
 ```
+
+### 46. Teste de mesa com estrutura repetitiva enquanto
