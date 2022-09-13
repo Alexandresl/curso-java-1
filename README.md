@@ -1641,3 +1641,5 @@ sc.close();
 ```
 
 ### 46. Teste de mesa com estrutura repetitiva enquanto
+
+### 47. Exercícios de teste de mesa com while
