@@ -821,9 +821,9 @@ Agora serão apresentados exercícios para praticar os tópicos apresentados.
 
 [Exercícios 1](Recursos/pdf/Exercicios1-estrutura-sequencial.pdf)
 
-[Link Exercício resolvido no Youtube](https://www.youtube.com/watch?v=Ah1Y6d6deq0)
-
 #### Exercício resolvido 1
+
+[Link Exercício resolvido no Youtube](https://www.youtube.com/watch?v=Ah1Y6d6deq0)
 
 Fazer um programa para ler as medidas da largura e comprimento de um terreno retangular com uma casa decimal, bem como o valor do metro quadrado do terreno com duas casas decimais. Em seguinda, o programa deve mostrar o valor da área do terreno, bem como o valor do preço do terreno, ambos com duas casas decimais, conforme exemplo:
 
@@ -1645,3 +1645,97 @@ sc.close();
 ### 47. Exercícios de teste de mesa com while
 
 ### 48. AVISO: exercícios para iniciantes PARTE 3
+
+### 49. Exercícios para Inicantes - PARTE 3
+
+[Exercícios 3](Recursos/pdf/Exercicios3-estrutura-while.pdf)
+
+#### Exercício resolvido 1
+
+[Link Youtube](https://www.youtube.com/watch?v=r3qCFqaNHds)
+
+Leia uma quantidade indeterminada de duças de valores inteiros X e Y. Escreva para cada X e Y uma mensagem que indique se estes valores foram digitados em ordem crescente ou decrescente.
+
+##### Entrada
+
+A entrada contém vários casos de teste. Cada caso contém dois valores inteiros X e Y. A leitura deve ser encerrada ao ser fornecido valores iguais para X e Y.
+
+##### Saída
+
+Para cada caso de teste imprima "Crescente", caso os valores tenham sido digitado na ordem crescente, caso contrário imprima a mensagem "Decrescente".
+
+| Entrada | Saída       |
+| ------- | ----------- |
+| 5 4     | Decrescente |
+| 7 2     | Decrescente |
+| 3 8     | Crescente   |
+| 2 2     |             |
+
+[Exercício resolvido 1](Workspace/aula049_Exercicio_resolvido_001)
+
+#### Exercício resolvido 2
+
+[Link Youtube](https://www.youtube.com/watch?v=vT0QEDHK2yU)
+
+Faça um programa para ler um número indeterminado de dados, contendo cada um, a idade de um indivíduo. O último dado, que não entrar nos cálculos, contém um valor de idade negativa. Calcular e imprimir a idade média deste grupo de indivíduos. se for entrado um valor negativo na primeira vez, mostrar a mensagem "impossível calcular".
+
+| Entrada | Saída |
+| ------- | ----- |
+| 31      | 34.67 |
+| 27      |       |
+| 46      |       |
+| -5      |       |
+
+| Entrada | Saída               |
+| ------- | ------------------- |
+| -10     | impossível calcular |
+
+[Exercício resolvido 2](Workspace/aula049_Exercicio_resolvido_002)
+
+#### Exercício 1
+
+Escreva um programa que repita a leitura de uma senha até que ela seja válida. Para cada leitura de senha incorreta informada, escrever a mensagem "Senha Invalida". Quando a senha for informada corretamentne deve ser impressa a mensagem "Acesso Permitido" e o algoritmo encerrado. Considere que a senha correta é o valor 2002.
+
+Exemplo:
+
+| Entrada | Saída            |
+| ------- | ---------------- |
+| 2200    | Senha Invalida   |
+| 1020    | Senha Invalida   |
+| 2022    | Senha Invalida   |
+| 2002    | Acesso Permitido |
+
+[Exercício 1](Workspace/Aula049_Exercicio_001)
+
+#### Exercício 2
+
+Escreva um programa para ler as coordenadas (X, Y) de uma quantidade indeterminada de pontos no sistema cartesiano. Para cada ponto escrever o quadrante a que ele pertence. O algoritmo será encerrado quando pelo menos uma de duas coordenadas for NULA (Nesta situação sem escrever menagem alguma).
+
+Exemplo:
+
+| Entrada | Saída    |
+| ------- | -------- |
+| 2 2     | primeiro |
+| 3 -2    | quarto   |
+| -8 -1   | terceiro |
+| -7 1    | segundo  |
+| 0 2     |          |
+
+[Exercício 2](Workspace/aula049_Exercicio_002)
+
+#### Exercício 3
+
+Um posto de combustíveis deseja determinar qual de seus produtos tem a preferência de seus clientes. Escreva um algoritmo para ler o tipo de combustível abastecido (codificando da seguinte forma: 1. Álcool 2. Gasolina 3. Diesel 4 fim). Caso o usuário informe um código inválido (fora da faixa de 1 a 4) deve ser solicitado um novo código (até que seja válido). O programa será encerrado quano o código informado for o número 4. Deve ser escrito a mensagem: "MUITO OBRIGADO" e a quantidade de clientes que abasteceram cada tipo de combustível, conforme exemplo.
+
+Exemplo:
+
+| Entrada | Saída          |
+| ------- | -------------- |
+| 8       | MUITO OBRIGADO |
+| 1       | Alcool: 1      |
+| 7       | Gasolina: 2    |
+| 2       | Diesel: 0      |
+| 2       |                |
+| 4       |                |
+
+[Exercício 3](Workspace/aula049_Exercicio_003)
