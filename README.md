@@ -1739,3 +1739,33 @@ Exemplo:
 | 4       |                |
 
 [Exercício 3](Workspace/aula049_Exercicio_003)
+
+### 50. Estrutura repetitiva "para" (for)
+
+É uma **estrutura de controle** que **repete** um bloco de comandos **para** um certo **intervalo de valores**.
+
+#### Sintaxe
+
+```java
+for (início; condição; incremento) {
+  comando 1
+  comando 2
+}
+
+// início - Executa somente na primeira vez
+// condição - V = Executa e volta | F = Pula fora
+// Incremento - Executa toda vez depois de voltar
+```
+
+#### Exemplo
+
+Fazer um programa que lê um valor inteiro N e depois N números inteiros. Ao final, mostra a soma dos N números lidos.
+
+| Entrada | Saída |
+| ------- | ----- |
+| 3       | 11    |
+| 5       |       |
+| 2       |       |
+| 4       |       |
+
+[Exemplo](Workspace/aula050_Exemplo_001)
