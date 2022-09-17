@@ -1769,3 +1769,5 @@ Fazer um programa que lê um valor inteiro N e depois N números inteiros. Ao fi
 | 4       |       |
 
 [Exemplo](Workspace/aula050_Exemplo_001)
+
+### 51. Teste de mesa com estrutura repetitiva para
