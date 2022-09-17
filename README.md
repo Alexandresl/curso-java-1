@@ -1774,3 +1774,4 @@ Fazer um programa que lê um valor inteiro N e depois N números inteiros. Ao fi
 
 ### 52. Exercícios de testes de mesa com for
 
+### 53. AVISO: exercícios para iniciiantes PARTE 4
