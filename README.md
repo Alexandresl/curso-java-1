@@ -1775,3 +1775,188 @@ Fazer um programa que lê um valor inteiro N e depois N números inteiros. Ao fi
 ### 52. Exercícios de testes de mesa com for
 
 ### 53. AVISO: exercícios para iniciiantes PARTE 4
+
+### 54. Exercícios para iniciantes PARTE 4
+
+[Exercícios 4](Recursos/pdf/Exercicios4-estrutura-for.pdf)
+
+#### Exercício resolvido 01
+
+[Link Youtube](https://www.youtube.com/watch?v=JTa8WEhV38E)
+
+Leia 1 valor inteiro N (2 < N < 2N). A seguir mostre a tabuada de N:
+1 x N = N
+2 x N = 2N
+...
+10 x N = 10N
+
+##### Entrada
+
+A entrada contém um número inteiro **N** (2 < **N** < 1000).
+
+##### Saída
+
+Imprima a tabuada de N, conforme o exemplo fornecido.
+
+| Entrada | Saída           |
+| ------- | --------------- |
+| 140     | 1 x 140 = 140   |
+|         | 2 x 140 = 280   |
+|         | 3 x 140 = 420   |
+|         | 4 x 140 = 560   |
+|         | 5 x 140 = 700   |
+|         | 6 x 140 = 840   |
+|         | 7 x 140 = 980   |
+|         | 8 x 140 = 1120  |
+|         | 9 x 140 = 1260  |
+|         | 10 x 140 = 1400 |
+
+#### Exercícios resolvido 02
+
+[Link Youtube](https://www.youtube.com/watch?v=RVJnkOyc7Kk)
+
+Leia 2 valores inteiros *x* e *y*. A seguir, calcule e mostre a soma dos números ímpares entre eles.
+
+##### Entrada
+
+O arquivo de entrada contém dois valores inteiros.
+
+##### Saída
+
+O programa deve imprimir um valor inteiro. Este valor é a soma dos valores ímpares que estão entre os valores fornecidos na entrada que deverá caber em um inteiro.
+
+| Entrada | Saída |
+| ------- | ----- |
+| 6       | 5     |
+| -5      |       |
+
+| Entrada | Saída |
+| ------- | ----- |
+| 15      | 13    |
+| 12      |       |
+
+| Entrada | Saída |
+| ------- | ----- |
+| 12      | 0     |
+| 12      |       |
+
+[Exercício resolvido 2](Workspace/aula051_Exercicio_resolvido_002)
+
+#### Exercício 1
+
+Leia um valor inteiro x (1 <= x <= 100). Em seguida mostre os ímpares de 1 até x, um valor por linha, inclusive o x, se for o caso.
+
+Exemplo:
+
+| Entrada | Saída |
+| ------- | ----- |
+| 8       | 1     |
+|         | 5     |
+|         | 7     |
+|         | 3     |
+
+[Exercício 1](Workspace/aula054_Exercicio_001)
+
+#### Exercício 2
+
+Leia um valor inteiro N. Este valor será a quantidade de valores inteiros X que serão lidos em seguida.
+
+Mostre quantos destes valores X estão dentro do intervalo [10, 20] e quantos estão fora do intervalo, mostrando essas informações conforme exemplo (use a palavra "*in*" para dentro do intervalo, e "*out*" para fora do intervalo).
+
+Exemplo:
+
+| Entrada | Saída |
+| ------- | ----- |
+| 5       | 2 in  |
+| 14      | 3 out |
+| 10      |       |
+| 123     |       |
+| -25     |       |
+| 32      |       |
+
+[Exercício 2](Workspace/aula054_Exercicio_002)
+
+#### Exercício 3
+
+Leia 1 valor inteiro N, que representa o número de casos de teste que vem a seguir. cada caso de teste consiste de 3 valores reais, cada um deles com uma casa decimal. Apresente a média ponderada para cada um destes conjunto de 3 valores, sendo que o primeiro valor tem peso 2, o segundo valor tem peso 3 e o terceiro valor tem peso 5.
+
+Exemplo:
+
+| Entrada      | Saída |
+| ------------ | ----- |
+| 3            | 5.7   |
+| 6.5 4.3 6.2  | 6.3   |
+| 5.1 4.2 8.1  | 9.3   |
+| 8.0 9.0 10.0 |       |
+
+[Exercício 3](Workspace/aula054_Exercicio_003)
+
+#### Exercício 4
+
+Fazer um programa para ler um número N. Depois leia N pares de números e mostre a divisão do primeiro pelo segundo. Se o denominador for igual a zero, mostrar a mensagem "*divisao impossivel*".
+
+Exemplo:
+
+| Entrada | Saída              |
+| ------- | ------------------ |
+| 3       | -1.5               |
+| 3 -2    | divisao impossivel |
+| -8 0    | 0.0                |
+| 0 8     |                    |
+
+[Exercício 4](Workspace/aula054_Exercicio_004)
+
+#### Exercício 5
+
+Ler um valor N. Calcular e escrever seu respectivo fatorial. Fatorial de N = N * (N - 1) * (N - 2) * * (N - 3) * ... * 1. Lembrando que, por definição, fatorial de 0 é 1.
+
+Exemplo:
+
+| Entrada | Saída |
+| ------- | ----- |
+| 4       | 24    |
+
+| Entrada | Saída |
+| ------- | ----- |
+| 1       | 1     |
+
+| Entrada | Saída |
+| ------- | ----- |
+| 5       | 120   |
+
+| Entrada | Saída |
+| ------- | ----- |
+| 0       | 1     |
+
+[Exercício 5](Workspace/aula054_Exercicio_005)
+
+#### Exercício 6
+
+Ler um número inteiro N e calcular todos os seus divisores
+
+Exemplo:
+
+| Entrada | Saída |
+| ------- | ----- |
+| 6       | 1     |
+|         | 2     |
+|         | 3     |
+|         | 6     |
+
+[Exercício 6](Workspace/aula054_Exercicio_006)
+
+#### Exercício 7
+
+Fazer um programa para ler um número inteiro positivo N. O programa deve entrão mostrar na tela N linhas, começando de 1 até N. Para cada linha, mostrar o número de ljinhas, depois o quadrado e o cubo do valor, conforme exemplo.
+
+Exemplo:
+
+| Entrada | Saída    |
+| ------- | -------- |
+| 5       | 1 1 1    |
+| -       | 2 4 8    |
+| -       | 3 9 27   |
+| -       | 4 16 64  |
+| -       | 5 25 125 |
+
+[Exercício 7](Workspace/aula054_Exercicio_007)
