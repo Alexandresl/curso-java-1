@@ -190,6 +190,8 @@
       - [Instanciação](#instanciação)
     - [66. Criando um método para obtermos os benefícios de reaproveitamento e delegação.](#66-criando-um-método-para-obtermos-os-benefícios-de-reaproveitamento-e-delegação)
       - [Discussão](#discussão-1)
+      - [Projeto da classe (UML)](#projeto-da-classe-uml)
+      - [Benefícios](#benefícios)
 
 ## Links úteis
 
@@ -2507,5 +2509,16 @@ y = new Triangle();
 ```
 
 Agora vamos melhorar nossa **classe**, acrescentando nela um **método** para calcular a área.
+
+#### Projeto da classe (UML)
+
+![Imagem 1](Recursos/images/aula66-img1.jpg)
+
+#### Benefícios
+
+Quais são os benefícios de se calcular a área de um triângulo por meio de um **método** dentro da **classe** *Triangle*?
+
+1. **Reaproveitamento de código**: nós eliminamos o código repetido (cálculo das áreas dos triângulos x e y) no programa principal.
+2. **Delegação de responsabilidades**: quem deve ser responsável por saber como calcular a área de um triângulo é o próprio triângulo. A lógica do cálculo da área não deve estar em outro lugar.
 
 [Exemplo 1](Workspace/aula066_Exemplo_001)
