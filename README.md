@@ -183,6 +183,7 @@
   - [Seção 8: Introdução à Programação Orientada a Objetos](#seção-8-introdução-à-programação-orientada-a-objetos)
     - [62. Visão geral do capítulo](#62-visão-geral-do-capítulo)
     - [63. Material de apoio do capítulo](#63-material-de-apoio-do-capítulo)
+    - [64. Resolvendo um problema sem orientação a objetos](#64-resolvendo-um-problema-sem-orientação-a-objetos)
 
 ## Links úteis
 
@@ -2417,3 +2418,29 @@ higher = 8
 ### 63. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/08-classes-atributos-membros-staticos.pdf)
+
+### 64. Resolvendo um problema sem orientação a objetos
+
+Fazer um programa para ler as medidas dos lados de dois triângulos X e Y (suponha medidas válidas). Em seguida, mostrar o valor das áreas dos dois triângulos e dizer qual dos dois triângulos possuí a maior área.
+
+A formula para calcular a área de um triângulo a partir das medidas de seus lados *a*, *b* e *c* é a seguinte (fórmula de Heron):
+
+![Fórmula de Haron](Recursos/images/aula64-img1.jpg)
+
+Exemplo:
+
+```powershell
+Enter the measures of triangle X:
+3.00
+4.00
+5.00
+Enter the measures of triangle Y:
+7.50
+4.50
+4.02
+Triangle X area: 6.0000
+Triangle Y area: 7.5638
+Larger area: Y
+```
+
+[Exemplo 1](Workspace/aula064_Exemplo_001)
