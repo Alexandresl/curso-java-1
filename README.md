@@ -182,6 +182,7 @@
       - [Exemplo](#exemplo-1)
   - [Seção 8: Introdução à Programação Orientada a Objetos](#seção-8-introdução-à-programação-orientada-a-objetos)
     - [62. Visão geral do capítulo](#62-visão-geral-do-capítulo)
+    - [63. Material de apoio do capítulo](#63-material-de-apoio-do-capítulo)
 
 ## Links úteis
 
@@ -2413,3 +2414,6 @@ higher = 8
 
 ### 62. Visão geral do capítulo
 
+### 63. Material de apoio do capítulo
+
+[Material de apoio](Recursos/pdf/08-classes-atributos-membros-staticos.pdf)
