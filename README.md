@@ -5,15 +5,15 @@
   - [Seção 1: Introdução](#seção-1-introdução)
     - [1. Introdução: Visão geral do curso](#1-introdução-visão-geral-do-curso)
       - [Profissional Java](#profissional-java)
-      - [**Assuntos abordados**](#assuntos-abordados)
+      - [Assuntos abordados](#assuntos-abordados)
   - [Seção 2: Conceitos de programação](#seção-2-conceitos-de-programação)
     - [2. Visão geral do capítulo](#2-visão-geral-do-capítulo)
     - [3. Material de apoio do capítulo](#3-material-de-apoio-do-capítulo)
     - [4. Algoritmo, Automação, Programa de computador](#4-algoritmo-automação-programa-de-computador)
-      - [**Algoritmo**](#algoritmo)
-      - [**Automação**](#automação)
-      - [**Computador**](#computador)
-      - [**Programa** x **Algoritmo**](#programa-x-algoritmo)
+      - [Algoritmo](#algoritmo)
+      - [Automação](#automação)
+      - [Computador](#computador)
+      - [Programa x Algoritmo](#programa-x-algoritmo)
     - [5. O que é preciso para se fazer um programa de computador](#5-o-que-é-preciso-para-se-fazer-um-programa-de-computador)
       - [Para criar um programa de computador, vamos precisar de](#para-criar-um-programa-de-computador-vamos-precisar-de)
     - [6. Linguagem de programação, léxica e sintática](#6-linguagem-de-programação-léxica-e-sintática)
@@ -180,6 +180,8 @@
       - [Comentário de bloco](#comentário-de-bloco)
     - [61. Funções (sintaxe)](#61-funções-sintaxe)
       - [Exemplo](#exemplo-1)
+  - [Seção 8: Introdução à Programação Orientada a Objetos](#seção-8-introdução-à-programação-orientada-a-objetos)
+    - [62. Visão geral do capítulo](#62-visão-geral-do-capítulo)
 
 ## Links úteis
 
@@ -207,7 +209,7 @@
   - Mobile
   - Desktop
 
-#### **Assuntos abordados**
+#### Assuntos abordados
 
 - *Lógica de Programação - Algoritmos Usando Java (iniciante)*
   - Conceitos de programação
@@ -272,7 +274,7 @@
 
 ### 4. Algoritmo, Automação, Programa de computador
 
-#### **Algoritmo**
+#### Algoritmo
 
 - Sequência finita de instruções para se resolver um problema. Aplicamos este conceito a diversas área de conhecimento.
 - Exemplo:
@@ -287,11 +289,11 @@
     - 7. Enxaguar
     - 8. Torcer
 
-#### **Automação**
+#### Automação
 
 - Consiste em utilizar máquina(s) para executar o procedimento desejado de forma automática ou semiautomática.
 
-#### **Computador**
+#### Computador
 
 - **Hardware** - Parte física (a máquina em si)
 - **Software** - Parte lógicas (programas)
@@ -301,7 +303,7 @@
   - Utilitários (Antivírus, compactador de arquivos)
   - Outros
 
-#### **Programa** x **Algoritmo**
+#### Programa x Algoritmo
 
 - Existe uma similaridade entre os conceitos de programa de commputador e algoritmos.
 - Em linhas gerais, **programas de computador** são **algoritmos** executados pelo computador.
@@ -2406,3 +2408,8 @@ higher = 8
 ```
 
 [Exemplo 1](Workspace/aula061_Exemplo_001)
+
+## Seção 8: Introdução à Programação Orientada a Objetos
+
+### 62. Visão geral do capítulo
+
