@@ -2023,3 +2023,32 @@ sc.close();
 ### 56. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/07-outros-topicos-basicos.pdf)
+
+### 57. Restrições e convenções para nomes
+
+#### Restrições para nomes de variáveis
+
+* Não podem começar com dígito: use uma letra ou *_*
+* Não usar acentos ou til
+* Não pode ter espaço em branco
+* Sugestão: use nomes que tenham um significado
+
+Exemplos:
+
+| Errado                      | Certo                     |
+| --------------------------- | ------------------------- |
+| int 5minutes;               | int _5minutes;            |
+| int salário;                | int salario;              |
+| int salario do funcionario; | int salarioDoFuncionario; |
+
+#### Convenções
+
+* **Camel Case** : *lastName*
+  * pacotes
+  * atributos
+  * métodos
+  * variáveis e parâmetros
+
+* **Pascal Case**:  *ProductService*
+  * classes
+
