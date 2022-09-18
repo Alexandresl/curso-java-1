@@ -184,6 +184,10 @@
     - [62. Visão geral do capítulo](#62-visão-geral-do-capítulo)
     - [63. Material de apoio do capítulo](#63-material-de-apoio-do-capítulo)
     - [64. Resolvendo um problema sem orientação a objetos](#64-resolvendo-um-problema-sem-orientação-a-objetos)
+    - [65. Criando uma classe com três atributos para representar melhor o triângulo](#65-criando-uma-classe-com-três-atributos-para-representar-melhor-o-triângulo)
+      - [Discussão](#discussão)
+      - [classe](#classe)
+      - [Instanciação](#instanciação)
 
 ## Links úteis
 
@@ -2444,3 +2448,45 @@ Larger area: Y
 ```
 
 [Exemplo 1](Workspace/aula064_Exemplo_001)
+
+### 65. Criando uma classe com três atributos para representar melhor o triângulo
+
+#### Discussão
+
+Triângulo é uma entidade com três atributos: *a*, *b* e *c*
+
+Estamos usando três variáveis distintas para representar cada triângulo:
+
+```double aX, bX, cX, aY, bY, cY;```
+
+Para melhorár isso, vamos usar uma **classe** para representar um triângulo
+
+#### classe
+
+É um tipo estruturada que pode conter (membros):
+
+- **Atributos** (*dados* / *campos*)
+- **Métodos** (*funções* / *operações*)
+
+A classe também pode prover outros recursos, tais como:
+
+- Construtores
+- Sobrecarga
+- Encapsulamento
+- Herança
+- Polimorfismo
+
+Exemplos:
+
+- **Entidades**: Produto, Cliente, Triângulo
+- **Serviços**: ProdutoService, ClienteService, EmailService, StorageService
+- **Controladores**: ProdutoController, ClienteController
+- **Utilitário**: Calculadora, Compactador
+- **outros**: Views, Repositórios, Gerenciadores, etc
+
+#### Instanciação
+
+Conforme pode ser visto na imagem abaixo, quando declaramos a variável *x* e *y* do tipo *triangle*, estamos criando na memória estática (**stack**), apenas espaço para armazenar as referências (ponteiro) para os futuros objetos. Já quando instanciamos, isto é, utilizamos o comando *new*, estamos alocando na memória dinâmica (**Heap**) o espaço da memória para o armazenamento dos dados do objeto.
+
+![imagem 1](Recursos/images/aula65-img1.jpg)
+
