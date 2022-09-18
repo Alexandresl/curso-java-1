@@ -188,6 +188,8 @@
       - [Discussão](#discussão)
       - [classe](#classe)
       - [Instanciação](#instanciação)
+    - [66. Criando um método para obtermos os benefícios de reaproveitamento e delegação.](#66-criando-um-método-para-obtermos-os-benefícios-de-reaproveitamento-e-delegação)
+      - [Discussão](#discussão-1)
 
 ## Links úteis
 
@@ -2490,3 +2492,20 @@ Conforme pode ser visto na imagem abaixo, quando declaramos a variável *x* e *y
 
 ![imagem 1](Recursos/images/aula65-img1.jpg)
 
+[Exemplo 1](Workspace/aula065_Exemplo_001)
+
+### 66. Criando um método para obtermos os benefícios de reaproveitamento e delegação.
+
+#### Discussão
+
+Com o uso da **classe**, agora nós temos uma variável composta do tipo "Triangle" para representar cada triângulo:
+
+```java
+Triangle x, y;
+x = new Triangle();
+y = new Triangle();
+```
+
+Agora vamos melhorar nossa **classe**, acrescentando nela um **método** para calcular a área.
+
+[Exemplo 1](Workspace/aula066_Exemplo_001)
