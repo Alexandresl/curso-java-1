@@ -2163,7 +2163,7 @@ System.out.println("lastIndexOf(\"bc\"): " + j); //lastIndexOf("bc"): 17
 ```java
 // Exemplo 2
 String s = "potato apple lemon";
-		
+
 String[] vect = s.split(" ");
 String word1 = vect[0];
 String word2 = vect[1];
@@ -2172,4 +2172,26 @@ String word3 = vect[2];
 System.out.println(word1); // potato
 System.out.println(word2); // apple
 System.out.println(word3); // lemon
+```
+
+### 60. Comentários em Java (básico)
+
+#### Comentário de linha
+
+```java
+// Este é um comentário de linha
+```
+
+#### Comentário de bloco
+
+```java
+/**
+ * Este
+ * é
+ * um
+ * comentário 
+ * de
+ * bloco
+ */
+
 ```
