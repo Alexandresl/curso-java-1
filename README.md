@@ -1,5 +1,186 @@
 # Curso Java Completo
 
+- [Curso Java Completo](#curso-java-completo)
+  - [Links úteis](#links-úteis)
+  - [Seção 1: Introdução](#seção-1-introdução)
+    - [1. Introdução: Visão geral do curso](#1-introdução-visão-geral-do-curso)
+      - [Profissional Java](#profissional-java)
+      - [**Assuntos abordados**](#assuntos-abordados)
+  - [Seção 2: Conceitos de programação](#seção-2-conceitos-de-programação)
+    - [2. Visão geral do capítulo](#2-visão-geral-do-capítulo)
+    - [3. Material de apoio do capítulo](#3-material-de-apoio-do-capítulo)
+    - [4. Algoritmo, Automação, Programa de computador](#4-algoritmo-automação-programa-de-computador)
+      - [**Algoritmo**](#algoritmo)
+      - [**Automação**](#automação)
+      - [**Computador**](#computador)
+      - [**Programa** x **Algoritmo**](#programa-x-algoritmo)
+    - [5. O que é preciso para se fazer um programa de computador](#5-o-que-é-preciso-para-se-fazer-um-programa-de-computador)
+      - [Para criar um programa de computador, vamos precisar de](#para-criar-um-programa-de-computador-vamos-precisar-de)
+    - [6. Linguagem de programação, léxica e sintática](#6-linguagem-de-programação-léxica-e-sintática)
+      - [Linguagem de programação](#linguagem-de-programação)
+      - [Léxica](#léxica)
+      - [Sintática](#sintática)
+      - [Exemplos de linguagens de programação](#exemplos-de-linguagens-de-programação)
+    - [7. IDE - Ambiente Integrado de Desenvolvimento](#7-ide---ambiente-integrado-de-desenvolvimento)
+      - [Funcionalidades de uma IDE](#funcionalidades-de-uma-ide)
+    - [8. Compilação, interpretação, código fonte, código objeto, máquina virtual](#8-compilação-interpretação-código-fonte-código-objeto-máquina-virtual)
+      - [Código fonte](#código-fonte)
+      - [Tipos de linguagens](#tipos-de-linguagens)
+      - [Vantagens](#vantagens)
+  - [Seção 3: Introdução à linguagem Java](#seção-3-introdução-à-linguagem-java)
+    - [9. Visão geral do capítulo](#9-visão-geral-do-capítulo)
+    - [10. Material de apoio do capítulo](#10-material-de-apoio-do-capítulo)
+    - [11. Entendendo as versões do Java](#11-entendendo-as-versões-do-java)
+    - [12. Histórico e edições do Java](#12-histórico-e-edições-do-java)
+      - [O que é Java?](#o-que-é-java)
+      - [Histórico](#histórico)
+      - [Aspectos notáveis](#aspectos-notáveis)
+      - [As edições do Java](#as-edições-do-java)
+    - [13. JDK / JVM - Máquina virtual do Java](#13-jdk--jvm---máquina-virtual-do-java)
+      - [JVM - Java Virtual Machine](#jvm---java-virtual-machine)
+    - [14. Estrutura de uma aplicação Java](#14-estrutura-de-uma-aplicação-java)
+    - [15. Instalando o Java JDK](#15-instalando-o-java-jdk)
+    - [16. Instalando o Java JDK](#16-instalando-o-java-jdk)
+    - [17. Instalando o Eclipse](#17-instalando-o-eclipse)
+    - [18. Primeiro programa em Java no Eclipse](#18-primeiro-programa-em-java-no-eclipse)
+      - [Primeiros passos](#primeiros-passos)
+  - [Seção 4: Estrutura sequencial](#seção-4-estrutura-sequencial)
+    - [19. Visão geral do capítulo](#19-visão-geral-do-capítulo)
+    - [20. Material de apoio do capítulo](#20-material-de-apoio-do-capítulo)
+    - [21. Expressões aritméticas](#21-expressões-aritméticas)
+      - [Operadores Aritméticos](#operadores-aritméticos)
+      - [Ordem de prescedência](#ordem-de-prescedência)
+      - [Exemplos](#exemplos)
+    - [22. Variáveis e tipos básicos em Java](#22-variáveis-e-tipos-básicos-em-java)
+      - [Tipos primitivos em Java](#tipos-primitivos-em-java)
+      - [Nome de variáveis](#nome-de-variáveis)
+    - [23. As três operações básicas de programação](#23-as-três-operações-básicas-de-programação)
+      - [Entrada de dados](#entrada-de-dados)
+      - [Processamento de dados](#processamento-de-dados)
+      - [Saída de dados](#saída-de-dados)
+    - [24. Saída de dados em Java](#24-saída-de-dados-em-java)
+      - [Para escrevermos um texto qualquer](#para-escrevermos-um-texto-qualquer)
+      - [Para escrever o conteúdo de uma variável com ponto flutuante](#para-escrever-o-conteúdo-de-uma-variável-com-ponto-flutuante)
+      - [Para concatenar vários elementos em um mesmo comando de escrita Sem formatação](#para-concatenar-vários-elementos-em-um-mesmo-comando-de-escrita-sem-formatação)
+      - [Para concatenar vários elementos em um mesmo comando de escrita Com formatação](#para-concatenar-vários-elementos-em-um-mesmo-comando-de-escrita-com-formatação)
+      - [Para concatenar vários elementos em um mesmo comando de escrita com diferentes tipos de variáveis](#para-concatenar-vários-elementos-em-um-mesmo-comando-de-escrita-com-diferentes-tipos-de-variáveis)
+    - [25. Processamento de dados em Java, Casting](#25-processamento-de-dados-em-java-casting)
+      - [Regra de execução](#regra-de-execução)
+    - [26. Entrada de dados em Java - Parte 1](#26-entrada-de-dados-em-java---parte-1)
+      - [Scanner](#scanner)
+      - [Para ler uma palavra](#para-ler-uma-palavra)
+      - [Para ler um número inteiro](#para-ler-um-número-inteiro)
+      - [Para ler um número com ponto flutuante](#para-ler-um-número-com-ponto-flutuante)
+      - [Para ler um caractere](#para-ler-um-caractere)
+    - [Para ler vários dados na mesma linha](#para-ler-vários-dados-na-mesma-linha)
+    - [27. Entrada de dados em Java - Parte 2](#27-entrada-de-dados-em-java---parte-2)
+      - [Para ler um texto até a quebra de linha](#para-ler-um-texto-até-a-quebra-de-linha)
+    - [Quebra de linha pendente](#quebra-de-linha-pendente)
+    - [28. Funções matemáticas em Java](#28-funções-matemáticas-em-java)
+      - [Algumas funções matemáticas em Java](#algumas-funções-matemáticas-em-java)
+    - [29. Aviso: exercícios para iniciantes PARTE 1](#29-aviso-exercícios-para-iniciantes-parte-1)
+    - [30. Exercícios para iniciantes - PARTE 1](#30-exercícios-para-iniciantes---parte-1)
+      - [Exercício resolvido 1](#exercício-resolvido-1)
+      - [Exercício 01](#exercício-01)
+      - [Exercício 02](#exercício-02)
+      - [Exercício 03](#exercício-03)
+      - [Exercício 04](#exercício-04)
+      - [Exercício 05](#exercício-05)
+      - [Exercício 06](#exercício-06)
+  - [Seção 5: Estrutura condicional](#seção-5-estrutura-condicional)
+    - [31. Visão geral do capítulo](#31-visão-geral-do-capítulo)
+    - [32. Material de apoio do capítulo](#32-material-de-apoio-do-capítulo)
+    - [33. Expressões comparativas](#33-expressões-comparativas)
+      - [Operadores comparativos](#operadores-comparativos)
+      - [Exemplos de expressões comparativas](#exemplos-de-expressões-comparativas)
+    - [34. Expressões lógicas](#34-expressões-lógicas)
+      - [Operadores lógicos](#operadores-lógicos)
+      - [Operador E](#operador-e)
+      - [Operador OU](#operador-ou)
+      - [Operador NÃO](#operador-não)
+    - [35. strutura condicional (if - else)](#35-strutura-condicional-if---else)
+      - [Sintaxe simples](#sintaxe-simples)
+      - [Sintaxe composta](#sintaxe-composta)
+      - [Sintaxe para múltiplas possibilidades](#sintaxe-para-múltiplas-possibilidades)
+    - [36. AVISO: exercícios para iniciantes PARTE 2](#36-aviso-exercícios-para-iniciantes-parte-2)
+    - [37. Exercícios para Iniciantes](#37-exercícios-para-iniciantes)
+      - [Exercício resolvido 1](#exercício-resolvido-1-1)
+      - [Exercício resolvido 2](#exercício-resolvido-2)
+      - [Exercício resolvido 3](#exercício-resolvido-3)
+      - [Exercício 1](#exercício-1)
+      - [Exercício 2](#exercício-2)
+      - [Exercício 3](#exercício-3)
+      - [Exercício 4](#exercício-4)
+      - [Exercício 5](#exercício-5)
+      - [Exercício 6](#exercício-6)
+      - [Exercício 7](#exercício-7)
+      - [Exercício 8](#exercício-8)
+    - [38. Sintaxe opcional - Operadores de atribuição cumulativa](#38-sintaxe-opcional---operadores-de-atribuição-cumulativa)
+      - [Operadores de atribuição cumulativos](#operadores-de-atribuição-cumulativos)
+    - [39. Sintaxe opcional - switch-case](#39-sintaxe-opcional---switch-case)
+      - [Sintaxe:](#sintaxe)
+    - [40. Expressões condicionais ternárias](#40-expressões-condicionais-ternárias)
+      - [Sintaxe](#sintaxe-1)
+      - [Exemplos](#exemplos-1)
+    - [41. Escopo e inicialização](#41-escopo-e-inicialização)
+  - [Seção 6: Estruturas repetitivas](#seção-6-estruturas-repetitivas)
+    - [42. Visão geral do capítulo](#42-visão-geral-do-capítulo)
+    - [43. Material de apoio do capítulo](#43-material-de-apoio-do-capítulo)
+    - [44. Como utilizar o DEBUG no Eclipse (execução passo a passo)](#44-como-utilizar-o-debug-no-eclipse-execução-passo-a-passo)
+    - [45. Estrutura repetitiva enquanto (while)](#45-estrutura-repetitiva-enquanto-while)
+      - [Sintaxe](#sintaxe-2)
+      - [Exemplo de uso](#exemplo-de-uso)
+    - [46. Teste de mesa com estrutura repetitiva enquanto](#46-teste-de-mesa-com-estrutura-repetitiva-enquanto)
+    - [47. Exercícios de teste de mesa com while](#47-exercícios-de-teste-de-mesa-com-while)
+    - [48. AVISO: exercícios para iniciantes PARTE 3](#48-aviso-exercícios-para-iniciantes-parte-3)
+    - [49. Exercícios para Inicantes - PARTE 3](#49-exercícios-para-inicantes---parte-3)
+      - [Exercício resolvido 1](#exercício-resolvido-1-2)
+        - [Entrada](#entrada)
+        - [Saída](#saída)
+      - [Exercício resolvido 2](#exercício-resolvido-2-1)
+      - [Exercício 1](#exercício-1-1)
+      - [Exercício 2](#exercício-2-1)
+      - [Exercício 3](#exercício-3-1)
+    - [50. Estrutura repetitiva "para" (for)](#50-estrutura-repetitiva-para-for)
+      - [Sintaxe](#sintaxe-3)
+      - [Exemplo](#exemplo)
+    - [51. Teste de mesa com estrutura repetitiva para](#51-teste-de-mesa-com-estrutura-repetitiva-para)
+    - [52. Exercícios de testes de mesa com for](#52-exercícios-de-testes-de-mesa-com-for)
+    - [53. AVISO: exercícios para iniciiantes PARTE 4](#53-aviso-exercícios-para-iniciiantes-parte-4)
+    - [54. Exercícios para iniciantes PARTE 4](#54-exercícios-para-iniciantes-parte-4)
+      - [Exercício resolvido 01](#exercício-resolvido-01)
+        - [Entrada](#entrada-1)
+        - [Saída](#saída-1)
+      - [Exercícios resolvido 02](#exercícios-resolvido-02)
+        - [Entrada](#entrada-2)
+        - [Saída](#saída-2)
+      - [Exercício 1](#exercício-1-2)
+      - [Exercício 2](#exercício-2-2)
+      - [Exercício 3](#exercício-3-2)
+      - [Exercício 4](#exercício-4-1)
+      - [Exercício 5](#exercício-5-1)
+      - [Exercício 6](#exercício-6-1)
+      - [Exercício 7](#exercício-7-1)
+    - [55. Estrutura repetitiva faça-enquanto (do-while)](#55-estrutura-repetitiva-faça-enquanto-do-while)
+      - [Sintaxe](#sintaxe-4)
+      - [Exemplo de uso](#exemplo-de-uso-1)
+  - [Seção 7: Outros tópicos básicos sobre Java](#seção-7-outros-tópicos-básicos-sobre-java)
+    - [56. Material de apoio do capítulo](#56-material-de-apoio-do-capítulo)
+    - [57. Restrições e convenções para nomes](#57-restrições-e-convenções-para-nomes)
+      - [Restrições para nomes de variáveis](#restrições-para-nomes-de-variáveis)
+      - [Convenções](#convenções)
+    - [58. Operadores bitwise](#58-operadores-bitwise)
+      - [Tabela verdade](#tabela-verdade)
+      - [Exemplos](#exemplos-2)
+    - [59. Funções interessantes para String](#59-funções-interessantes-para-string)
+      - [Checklist](#checklist)
+      - [Exemplos](#exemplos-3)
+    - [60. Comentários em Java (básico)](#60-comentários-em-java-básico)
+      - [Comentário de linha](#comentário-de-linha)
+      - [Comentário de bloco](#comentário-de-bloco)
+    - [61. Funções (sintaxe)](#61-funções-sintaxe)
+      - [Exemplo](#exemplo-1)
+
 ## Links úteis
 
 [Atalhos do Eclipse](Eclipse-atalhos.md)
@@ -14,72 +195,72 @@
 
 #### Profissional Java
 
-* Fundamentos
-  * Lógica de programação
-  * Estrutura de dados
-  * Programação Orientada a Objetos
-  * Banco de dados
-  * Análise e Design de Sistemas
-* Comercial
-  * Backend
-  * Web
-  * Mobile
-  * Desktop
+- Fundamentos
+  - Lógica de programação
+  - Estrutura de dados
+  - Programação Orientada a Objetos
+  - Banco de dados
+  - Análise e Design de Sistemas
+- Comercial
+  - Backend
+  - Web
+  - Mobile
+  - Desktop
 
 #### **Assuntos abordados**
 
-* *Lógica de Programação - Algoritmos Usando Java (iniciante)*
-  * Conceitos de programação
-  * Introdução à linguagem Java
-  * Estrutura sequencial
-  * Estrutura condicional
-  * Estruturas repetitivas
-* *Java e Programação Orientada a Objetos (parte 1)*
-  * Introdução à programação Orientada a Objetos
-  * Construtores, palavra this, sobrecarga, encapsulamento
-  * Comportamento de memória, arrays, listas
-  * Tópicos especiais em Java
-  * BÔNUS - Nivelamento sobre Git e Github
-  * Enumerações, composição
-  * Herança e polimorfismo
-  * Tratamento de exceções
-* *PROJETO - Sistema jogo de xadrez*
-  * Composição de objetos, herança, coleções, etc.
-  * Desenvolvimento em camadas
-  * Padrão de projetos
-* *Java e Programação Orientada a objetos (parte 2) + Programação Funcional*
-  * Trabalhando com arquivos
-  * Interfaces
-  * Generics, Set, Map
-  * Programação funcional e expressões lambda
-  * BÔNUS - Nivelamento álgebra relacional, SQL, MySQL
-  * Acesso a banco de dados com JDBC
-  * Interface Gráfica com JavaFX
-* *PROJETO - Aplicação desktop com JavaFX e banco de dados MySQL com JDBC*
-  * Padrão MVC - Model View Controller
-  * Padrão Camadas
-  * FXML, SceneBuilder
-  * Tratamento de eventos de UI
-  * CRUD completo
-  * padrão0 de projetos
-* *PROJETO - Web Services com Spring Boot e JPA / Hibernate*
-  * BÔNUS - Nivelamento ORM com JPA / Hibernate
-  * Padrão camadas
-  * Web e HTTP
-  * REST / Web Services
-  * Modelo de domínio complexo
-  * Maven
-  * Banco de dados H2
-  * Spring Data JPA
-  * CRUD completo
-  * Tratamento de exceções
-* *PROJETO - Web services com Spring boot e NoSQL (MongoDB)*
-  * Bônus - Nivelamento NoSQL e MongoDB
-  * Modelo de domínio: agregados e desnormalização
-  * Padrão DTO
-  * Spring Data MongoDB
-  * CRUD completo
-  * Tratamento de exceções
+- *Lógica de Programação - Algoritmos Usando Java (iniciante)*
+  - Conceitos de programação
+  - Introdução à linguagem Java
+  - Estrutura sequencial
+  - Estrutura condicional
+  - Estruturas repetitivas
+- *Java e Programação Orientada a Objetos (parte 1)*
+  - Introdução à programação Orientada a Objetos
+  - Construtores, palavra this, sobrecarga, encapsulamento
+  - Comportamento de memória, arrays, listas
+  - Tópicos especiais em Java
+  - BÔNUS - Nivelamento sobre Git e Github
+  - Enumerações, composição
+  - Herança e polimorfismo
+  - Tratamento de exceções
+- *PROJETO - Sistema jogo de xadrez*
+  - Composição de objetos, herança, coleções, etc.
+  - Desenvolvimento em camadas
+  - Padrão de projetos
+- *Java e Programação Orientada a objetos (parte 2) + Programação Funcional*
+  - Trabalhando com arquivos
+  - Interfaces
+  - Generics, Set, Map
+  - Programação funcional e expressões lambda
+  - BÔNUS - Nivelamento álgebra relacional, SQL, MySQL
+  - Acesso a banco de dados com JDBC
+  - Interface Gráfica com JavaFX
+- *PROJETO - Aplicação desktop com JavaFX e banco de dados MySQL com JDBC*
+  - Padrão MVC - Model View Controller
+  - Padrão Camadas
+  - FXML, SceneBuilder
+  - Tratamento de eventos de UI
+  - CRUD completo
+  - padrão0 de projetos
+- *PROJETO - Web Services com Spring Boot e JPA / Hibernate*
+  - BÔNUS - Nivelamento ORM com JPA / Hibernate
+  - Padrão camadas
+  - Web e HTTP
+  - REST / Web Services
+  - Modelo de domínio complexo
+  - Maven
+  - Banco de dados H2
+  - Spring Data JPA
+  - CRUD completo
+  - Tratamento de exceções
+- *PROJETO - Web services com Spring boot e NoSQL (MongoDB)*
+  - Bônus - Nivelamento NoSQL e MongoDB
+  - Modelo de domínio: agregados e desnormalização
+  - Padrão DTO
+  - Spring Data MongoDB
+  - CRUD completo
+  - Tratamento de exceções
 
 ## Seção 2: Conceitos de programação
 
@@ -93,128 +274,129 @@
 
 #### **Algoritmo**
 
-* Sequência finita de instruções para se resolver um problema. Aplicamos este conceito a diversas área de conhecimento.
-* Exemplo:
-  * **problema**: *lavar a roupa suja*
-  * **Algoritmo** (*um dos algoritmos possíveis*):
-    * 1. Colocar a roupa em um recipiente
-    * 2. Colocar um pouco de sabão e amaciente
-    * 3. Encher de água
-    * 4. Mexer tudo até dissolver todo o sabão
-    * 5. Deixar de molho por vinte minutos
-    * 6. Esfregar a roupa
-    * 7. Enxaguar
-    * 8. Torcer
+- Sequência finita de instruções para se resolver um problema. Aplicamos este conceito a diversas área de conhecimento.
+- Exemplo:
+  - **problema**: *lavar a roupa suja*
+  - **Algoritmo*- (*um dos algoritmos possíveis*):
+    - 1. Colocar a roupa em um recipiente
+    - 2. Colocar um pouco de sabão e amaciente
+    - 3. Encher de água
+    - 4. Mexer tudo até dissolver todo o sabão
+    - 5. Deixar de molho por vinte minutos
+    - 6. Esfregar a roupa
+    - 7. Enxaguar
+    - 8. Torcer
 
 #### **Automação**
 
-* Consiste em utilizar máquina(s) para executar o procedimento desejado de forma automática ou semiautomática.
+- Consiste em utilizar máquina(s) para executar o procedimento desejado de forma automática ou semiautomática.
 
 #### **Computador**
 
-* **Hardware** - Parte física (a máquina em si)
-* **Software** - Parte lógicas (programas)
-  * Sistema operacional (Windows, Linux, iOS)
-  * Aplicativos (apps de escritório, app de câmera, navegador web)
-  * Jogos
-  * Utilitários (Antivírus, compactador de arquivos)
-  * Outros
+- **Hardware** - Parte física (a máquina em si)
+- **Software** - Parte lógicas (programas)
+  - Sistema operacional (Windows, Linux, iOS)
+  - Aplicativos (apps de escritório, app de câmera, navegador web)
+  - Jogos
+  - Utilitários (Antivírus, compactador de arquivos)
+  - Outros
 
 #### **Programa** x **Algoritmo**
 
-* Existe uma similaridade entre os conceitos de programa de commputador e algoritmos.
-* Em linhas gerais, **programas de computador** são **algoritmos** executados pelo computador.
-* Desta forma, podemos concluir que o computador é uma máquina que **automatiza** a execução de **algoritmos**.
-* Os **algoritmos** automatizados pelo computador são os chamados *algoritmos computacionais*:
-  * processamento de dados
-  * cálculos
-  * etc
+- Existe uma similaridade entre os conceitos de programa de commputador e algoritmos.
+- Em linhas gerais, **programas de computador** são **algoritmos** executados pelo computador.
+- Desta forma, podemos concluir que o computador é uma máquina que **automatiza** a execução de **algoritmos**.
+
+- Os **algoritmos** automatizados pelo computador são os chamados *algoritmos computacionais*:
+  - processamento de dados
+  - cálculos
+  - etc
 
 ### 5. O que é preciso para se fazer um programa de computador
 
 #### Para criar um programa de computador, vamos precisar de
 
-* Uma **linguagem de programação**: regras **léxicas** e **sintáticas** para se escrever o programa.
-* uma **IDE**: software para editar e testar o programa.
-* um **compilador**: software para transfermar o **código fonte** em **código objeto**.
-* um **gerador de código** ou **máquina virtual**: software que permite que o programa seja executado.
+- Uma **linguagem de programação**: regras **léxicas** e **sintáticas** para se escrever o programa.
+- uma **IDE**: software para editar e testar o programa.
+- um **compilador**: software para transfermar o **código fonte** em **código objeto**.
+- um **gerador de código** ou **máquina virtual**: software que permite que o programa seja executado.
 
 ### 6. Linguagem de programação, léxica e sintática
 
 #### Linguagem de programação
 
-* É um conjunto de regras **léxicas** (*ortografia*) e **sintáticas** (gramática) para se escrever programas.
+- É um conjunto de regras **léxicas** (*ortografia*) e **sintáticas** (gramática) para se escrever programas.
 
 #### Léxica
 
-* Diz respeito à correção das **palavras isoladas** (ortografia).
+- Diz respeito à correção das **palavras isoladas** (ortografia).
 
 #### Sintática
 
-* Diz respeito à correção das sentenças (gramática).
+- Diz respeito à correção das sentenças (gramática).
 
 #### Exemplos de linguagens de programação
 
-* Existem diversas linguagens de programação: **C**, **Pascal**, **C++**, **Java**, **C#**, **Python**, **Ruby**, **PHP**, **JavaScript**, etc.
+- Existem diversas linguagens de programação: **C**, **Pascal**, **C++**, **Java**, **C#**, **Python**, **Ruby**, **PHP**, **JavaScript**, etc.
 
 ### 7. IDE - Ambiente Integrado de Desenvolvimento
 
-* IDE é a sigla para *Integrated Development Environment* ou *Ambiente Integrado de Desenvolvimento*. Trata-se de um conjunto de softwares utilizados para a construção de programas. Exemplos:
-  * C/C++: **Code Blocks**
-  * Java: **Eclipse, NetBeans**
-  * C#: **Microsoft Visual Studio**
+- IDE é a sigla para *Integrated Development Environment* ou *Ambiente Integrado de Desenvolvimento*. Trata-se de um conjunto de softwares utilizados para a construção de programas. Exemplos:
+  - C/C++: **Code Blocks**
+  - Java: **Eclipse, NetBeans**
+  - C#: **Microsoft Visual Studio**
 
 #### Funcionalidades de uma IDE
 
-* Edição de código fonte (endentação, autocompletar, destaque de palavras, etc)
-* Depuração e testes
-* Construção do produto final (build)
-* Sugestão de modelos (templates)
-* Auxiliar em várias tarefas do seu projeto
-* etc
+- Edição de código fonte (endentação, autocompletar, destaque de palavras, etc)
+- Depuração e testes
+- Construção do produto final (build)
+- Sugestão de modelos (templates)
+- Auxiliar em várias tarefas do seu projeto
+- etc
 
 ### 8. Compilação, interpretação, código fonte, código objeto, máquina virtual
 
 #### Código fonte
 
-* É aquele escrito pelo programador em linguagem de programação
+- É aquele escrito pelo programador em linguagem de programação
 
 #### Tipos de linguagens
 
-* **Compiladas**
-  * O código fonte é transformado (compilado) pelo compilador em código objeto. O compilador realiza uma análise léxica e sintática do código fonte.
-  * Uma vez que o código fonte foi compilado e transformado em código objeto. Este passará por um gerador de código, processo conhecido como *build*.
-  * Após o *build* teremos um código executável que poderá ser executado pelo sistema operacional.
-  * Exemplos de linguagens que tipicamente usam esta abordagem: **C** e **C++**.
+- **Compiladas**
+  - O código fonte é transformado (compilado) pelo compilador em código objeto. O compilador realiza uma análise léxica e sintática do código fonte.
+  - Uma vez que o código fonte foi compilado e transformado em código objeto. Este passará por um gerador de código, processo conhecido como *build*.
+  - Após o *build* teremos um código executável que poderá ser executado pelo sistema operacional.
+  - Exemplos de linguagens que tipicamente usam esta abordagem: **C** e **C++**.
 
-* **Interpretadas**
-  * Nas linguagens interpretadas, o código fonte passa por um interpretador. Este realizará as análise léxicas, sintáticas e fará a geração do código sob demanda no momento em que o programa é executado.
-  * Exemplos de linguagens que tipicamente usam esta abordagem: **PHP**, **JavaScript**, **Python** e **Ruby**
+- **Interpretadas**
+  - Nas linguagens interpretadas, o código fonte passa por um interpretador. Este realizará as análise léxicas, sintáticas e fará a geração do código sob demanda no momento em que o programa é executado.
+  - Exemplos de linguagens que tipicamente usam esta abordagem: **PHP**, **JavaScript**, **Python** e **Ruby**
 
-* **Abordagem híbrida**
-  * Nesta abordagem o código fonte passa por uma précompilação, com a análise léxica e sintática, resultando em um **bytecode**.
-  * Este **bytecode** é executado por uma máquina virtual, que faz a interpretação deste código sob demanda.
-  * Exemplos de linguagens que tipicamente usam esta abordagem: **Java** e **C#**
+- **Abordagem híbrida**
+  - Nesta abordagem o código fonte passa por uma précompilação, com a análise léxica e sintática, resultando em um **bytecode**.
+  - Este **bytecode** é executado por uma máquina virtual, que faz a interpretação deste código sob demanda.
+  - Exemplos de linguagens que tipicamente usam esta abordagem: **Java** e **C#**
 
 #### Vantagens
 
-* **Linguagens compiladas**
-  * Velocidade do programa
-  * Auxílio do compilador antes da execução
+- **Linguagens compiladas**
+  - Velocidade do programa
+  - Auxílio do compilador antes da execução
 
-* **Linguagens interpretadas**
-  * Flexibilidade de manutenção do aplicativo em produção
-  * Expressividade da linguagem
-  * Código fonte não precisa ser compilado para rodar em plataformas diferentes
+- **Linguagens interpretadas**
+  - Flexibilidade de manutenção do aplicativo em produção
+  - Expressividade da linguagem
+  - Código fonte não precisa ser compilado para rodar em plataformas diferentes
 
-* **Abordagem híbrida**
-  * Se beneficia das principais vantagens das duas abordagem:
-  * Principais vantagens:
-    * Auxílio do compilador antes da execução
-    * Código fonte não precisa ser compilado para rodar em plataformas diferentes
-  * Vantagens secundárias (parcialmente aproveitadas):
-    * Velocidade do programa
-    * Flexibilidade de manutenção do aplicativo em produção
+- **Abordagem híbrida**
+  - Se beneficia das principais vantagens das duas abordagem:
+  - Principais vantagens:
+    - Auxílio do compilador antes da execução
+    - Código fonte não precisa ser compilado para rodar em plataformas diferentes
+  - Vantagens secundárias (parcialmente aproveitadas):
+    - Velocidade do programa
+    - Flexibilidade de manutenção do aplicativo em produção
 
 ## Seção 3: Introdução à linguagem Java
 
@@ -228,60 +410,60 @@
 
 [Link atual das versões do Java](https://www.oracle.com/java/technologies/downloads/)
 
-* LTS - Long Term Support
+- LTS - Long Term Support
 
 ### 12. Histórico e edições do Java
 
 #### O que é Java?
 
-* Java é além de uma linguagem de programação, ou seja, um conjunto de regras sintáticas, uma plataforma de desenvolvimento e execução. Esta incluí bibliotecas (APIs) e ambiente de execução.
+- Java é além de uma linguagem de programação, ou seja, um conjunto de regras sintáticas, uma plataforma de desenvolvimento e execução. Esta incluí bibliotecas (APIs) e ambiente de execução.
 
 #### Histórico
 
-* Os problemas resolvidos e o motivo de seu sucesso:
-  * Ponteiros / gerenciamento de memória
-  * Portabilidade falha: reescrever parte do código ao mudar de S.O.
-  * Utilização em diversos dispositivos
-  * Custo
+- Os problemas resolvidos e o motivo de seu sucesso:
+  - Ponteiros / gerenciamento de memória
+  - Portabilidade falha: reescrever parte do código ao mudar de S.O.
+  - Utilização em diversos dispositivos
+  - Custo
 
-* Criada pela Sum Microsystems no meio da década de 1990
+- Criada pela Sum Microsystems no meio da década de 1990
 
-* Adquirida pela Oracle Corporation em 2010
+- Adquirida pela Oracle Corporation em 2010
 
 #### Aspectos notáveis
 
-* O código java é compilado para *bytecode* e executado em uma máquina virtual - *JVM*.
-* É portável, segura e robusta.
-* Roda em vários tipos de dispositivos.
-* Domina o mercado corporativo desde o fim do século 20.
-* Padrão para o desenvolvimento Android por muitos anos.
+- O código java é compilado para *bytecode* e executado em uma máquina virtual - *JVM*.
+- É portável, segura e robusta.
+- Roda em vários tipos de dispositivos.
+- Domina o mercado corporativo desde o fim do século 20.
+- Padrão para o desenvolvimento Android por muitos anos.
 
 #### As edições do Java
 
-* [Java ME - Java Micro Edition](https://www.oracle.com/java/technologies/javameoverview.html) - Para dispositivos embarcados e móveis - IoT
+- [Java ME - Java Micro Edition](https://www.oracle.com/java/technologies/javameoverview.html) - Para dispositivos embarcados e móveis - IoT
 
-* [Java SE - Java Standard Edition](https://www.oracle.com/java/technologies/java-se-glance.html) - Core - Para Desktops e servidores
+- [Java SE - Java Standard Edition](https://www.oracle.com/java/technologies/java-se-glance.html) - Core - Para Desktops e servidores
 
-* [Java EE](https://www.oracle.com/java/technologies/java-ee-glance.html) - Java Enterprise Edition - Para plicações corporativas
+- [Java EE](https://www.oracle.com/java/technologies/java-ee-glance.html) - Java Enterprise Edition - Para plicações corporativas
 
 ### 13. JDK / JVM - Máquina virtual do Java
 
 #### JVM - Java Virtual Machine
 
-* A **JVM** - máquina virtual do Java - é necessária para executar sistema em Java. Também é necessária no desenvolvimento de aplicações em Java.
+- A **JVM** - máquina virtual do Java - é necessária para executar sistema em Java. Também é necessária no desenvolvimento de aplicações em Java.
 
 ### 14. Estrutura de uma aplicação Java
 
-* **Java** é uma linguagem de programação orientada a objetos e a unidade básica dela é a **classe**, ou seja, todo o código estará dentro de uma classe.
-* temos também o conceito de **pacote** ou**package**, que é o agrupamento lógico de classes relacionadas.
-* A partir do Java 9, foi adicionado o conceito de **módulo**, que é o agrupamento de pacotes relacionados.
-* A **aplicação** é um agrupamento de módulos relacionados.
+- **Java** é uma linguagem de programação orientada a objetos e a unidade básica dela é a **classe**, ou seja, todo o código estará dentro de uma classe.
+- temos também o conceito de **pacote** ou**package**, que é o agrupamento lógico de classes relacionadas.
+- A partir do Java 9, foi adicionado o conceito de **módulo**, que é o agrupamento de pacotes relacionados.
+- A **aplicação** é um agrupamento de módulos relacionados.
 
 ### 15. Instalando o Java JDK
 
-* Windows: [https://www.youtube.com/watch?v=QekeJBShCy4](https://www.youtube.com/watch?v=QekeJBShCy4)
+- Windows: [https://www.youtube.com/watch?v=QekeJBShCy4](https://www.youtube.com/watch?v=QekeJBShCy4)
 
-* Linux: [https://www.youtube.com/watch?v=Sv0EwYPLw8w&list=PLNuUvBZGBA8mcAF-YX7RJhA26TBLdG5yk&index=3](https://www.youtube.com/watch?v=Sv0EwYPLw8w&list=PLNuUvBZGBA8mcAF-YX7RJhA26TBLdG5yk&index=3)
+- Linux: [https://www.youtube.com/watch?v=Sv0EwYPLw8w&list=PLNuUvBZGBA8mcAF-YX7RJhA26TBLdG5yk&index=3](https://www.youtube.com/watch?v=Sv0EwYPLw8w&list=PLNuUvBZGBA8mcAF-YX7RJhA26TBLdG5yk&index=3)
 
 Mac: [https://github.com/devsuperior/sds2/tree/master/instalacao/mac#java-11-on-macos](https://github.com/devsuperior/sds2/tree/master/instalacao/mac#java-11-on-macos)
 
@@ -289,11 +471,11 @@ Mac: [https://github.com/devsuperior/sds2/tree/master/instalacao/mac#java-11-on-
 
 [Link da distribuição Zulu](https://www.azul.com/downloads/?package=jdk)
 
-* Configuração das variáveis de ambiente do sistema
-  * Painel de Controle -> Variáveis de ambiente
-    * JAVA_HOME: C:\Program Files\Java\jdk... (pasta da versão instalada)
-    * Path: incluir o caminho - C:\Program Files\Java\jdk... (pasta da versão instalada)/bin
-* Para verificar se a configuração ocorreu com sucesso, basta testar no terminal o comando: ```java version```
+- Configuração das variáveis de ambiente do sistema
+  - Painel de Controle -> Variáveis de ambiente
+    - JAVA_HOME: C:\Program Files\Java\jdk... (pasta da versão instalada)
+    - Path: incluir o caminho - C:\Program Files\Java\jdk... (pasta da versão instalada)/bin
+- Para verificar se a configuração ocorreu com sucesso, basta testar no terminal o comando: ```java version```
 
 ### 17. Instalando o Eclipse
 
@@ -303,19 +485,19 @@ Link do download: [https://www.eclipse.org/downloads/packages/](https://www.ecli
 
 #### Primeiros passos
 
-* Workspace: Seleciona a pasta onde o projeto será salvo
-* Mudar o Layout: Windows -> Perspective -> Open Perspective -> Java
-* Zerar o Layout: Windows -> Perspective -> Reset Perspective
-* Mostrar a aba do console: Windows -> Show View -> Console
-* Criar Projetos: File -> New -> Java Project
-* Para criar uma classe:
-  * Botão direito na pasta *src* -> new -> class
-  * Package: em branco
-  * nome da classe: Main (com M maiúsculo)
-  * marque a opção: *public static void main (string[] args)*
-* Alterar o tamanho da fonte:
-  * Ctrl +
-  * Ctrl -
+- Workspace: Seleciona a pasta onde o projeto será salvo
+- Mudar o Layout: Windows -> Perspective -> Open Perspective -> Java
+- Zerar o Layout: Windows -> Perspective -> Reset Perspective
+- Mostrar a aba do console: Windows -> Show View -> Console
+- Criar Projetos: File -> New -> Java Project
+- Para criar uma classe:
+  - Botão direito na pasta *src* -> new -> class
+  - Package: em branco
+  - nome da classe: Main (com M maiúsculo)
+  - marque a opção: *public static void main (string[] args)*
+- Alterar o tamanho da fonte:
+  - Ctrl +
+  - Ctrl -
 
 [Exemplo 1](Workspace/aula018_Exemplo_001)
 
@@ -329,7 +511,7 @@ Link do download: [https://www.eclipse.org/downloads/packages/](https://www.ecli
 
 ### 21. Expressões aritméticas
 
-* **Expressões aritméticas** são aquelas que quando calculadas retornam um valor numérico. Exemplo: *4 + 5 = 9*
+- **Expressões aritméticas** são aquelas que quando calculadas retornam um valor numérico. Exemplo: *4 + 5 = 9*
 
 #### Operadores Aritméticos
 
@@ -360,9 +542,9 @@ Link do download: [https://www.eclipse.org/downloads/packages/](https://www.ecli
 
 ### 22. Variáveis e tipos básicos em Java
 
-* Um programa de computador em execução lida com dados. Estes dados são armazenados em variáveis.
-* **Variáveis** em programação é uma porção de memória (RAM) utilizada para armazenar dados durante a execução dos programas.
-* Para uma programa em Java utilizar variávies, estas devem ser declaradas com a seguinte sintaxe: ```<tipo> <nome> = <valor inicial>;```. Exemplo:
+- Um programa de computador em execução lida com dados. Estes dados são armazenados em variáveis.
+- **Variáveis** em programação é uma porção de memória (RAM) utilizada para armazenar dados durante a execução dos programas.
+- Para uma programa em Java utilizar variávies, estas devem ser declaradas com a seguinte sintaxe: ```<tipo> <nome> = <valor inicial>;```. Exemplo:
 
 ```java
 int idade = 25;
@@ -370,11 +552,11 @@ double altura = 1.68;
 char sexo = 'F';
 ```
 
-* Desta forma concluímos que uma variável possui:
-  * Nome (ou identificador)
-  * Tipo
-  * Valor
-  * Endereço (local da memória onde o dado está armazenado)
+- Desta forma concluímos que uma variável possui:
+  - Nome (ou identificador)
+  - Tipo
+  - Valor
+  - Endereço (local da memória onde o dado está armazenado)
 
 #### Tipos primitivos em Java
 
@@ -389,18 +571,18 @@ char sexo = 'F';
 | um caractere Unicode     | **char**    | 16 bits | '\u0000' a '\uFFFF'                        | '\u0000'     |
 | valor verdade            | **boolean** | 1 bit   | {false, true}                              | false        |
 
-* **String** é uma cadeia de caracteres e apesar de não ser um tipo primitivo será amplamente utilizado.
-* Para descobrir um código unicode referente a um caracter, podemos utilizar o link [unicode-table.com](https://unicode-table.com/pt/). Ex.: 'a' = '\u0061'
+- **String** é uma cadeia de caracteres e apesar de não ser um tipo primitivo será amplamente utilizado.
+- Para descobrir um código unicode referente a um caracter, podemos utilizar o link [unicode-table.com](https://unicode-table.com/pt/). Ex.: 'a' = '\u0061'
 
-* A quantidade de bits determina a quantidade de valores diferentes que determinada tipo pode armazenar. Para sabermos este limite basta utilizarmos o número de bits como expoente de 2. Ex.:
-  * 8 bits = 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 = 2⁸ = 256
+- A quantidade de bits determina a quantidade de valores diferentes que determinada tipo pode armazenar. Para sabermos este limite basta utilizarmos o número de bits como expoente de 2. Ex.:
+  - 8 bits = 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 = 2⁸ = 256
 
 #### Nome de variáveis
 
-* Não pode começar com dígito: use uma letra ou _ (underscore)
-* Não pode ter espaço em branco
-* Não usar acentos ou til
-* Sugestão: use o padrão "*camel case*"
+- Não pode começar com dígito: use uma letra ou _ (underscore)
+- Não pode ter espaço em branco
+- Não usar acentos ou til
+- Sugestão: use o padrão "*camel case*"
 
 | Errado                     | Correto                  |
 | -------------------------- | ------------------------ |
@@ -410,29 +592,29 @@ char sexo = 'F';
 
 ### 23. As três operações básicas de programação
 
-* Um programa de computador é capaz de realizar essencialmente três operações:
-  * Entrada de dados
-  * Processamento de dados
-  * Saída de dados
+- Um programa de computador é capaz de realizar essencialmente três operações:
+  - Entrada de dados
+  - Processamento de dados
+  - Saída de dados
 
 #### Entrada de dados
 
-* É quando um usuário informa dados para um programa. Os dados informados serão armazenados dentro de variáveis.
-* Os dados são inseridos pelo usuário através de **dispositivos de entrada**.
-* Um exemplo de dispositivo de entrada é o teclado.
-* A operação de **entrada de dados** também é conhecida como **leitura**.
+- É quando um usuário informa dados para um programa. Os dados informados serão armazenados dentro de variáveis.
+- Os dados são inseridos pelo usuário através de **dispositivos de entrada**.
+- Um exemplo de dispositivo de entrada é o teclado.
+- A operação de **entrada de dados** também é conhecida como **leitura**.
 
 #### Processamento de dados
 
-* É quando o computador realiza cálculos de acordo com as instruções contidas nos programas de computadores.
-* O **processamento de dados** se dá por um comando chamado de **atribuição** (**=**).
+- É quando o computador realiza cálculos de acordo com as instruções contidas nos programas de computadores.
+- O **processamento de dados** se dá por um comando chamado de **atribuição** (**=**).
 
 #### Saída de dados
 
-* É quando um programa informa dados para o usuário.
-* O programa utiliza **dispositivos de saída** para informar estes dados.
-* Um exemplo de **dispositivo de saída** é o monitor do computador.
-* A operação de **saída de dados** também é conhecida como **escrita**.
+- É quando um programa informa dados para o usuário.
+- O programa utiliza **dispositivos de saída** para informar estes dados.
+- Um exemplo de **dispositivo de saída** é o monitor do computador.
+- A operação de **saída de dados** também é conhecida como **escrita**.
 
 ### 24. Saída de dados em Java
 
@@ -446,7 +628,7 @@ System.out.print("Bom dia!");
 System.out.println("Bom dia!");
 ```
 
-* Para escrever na tela o conteúdo de uma variável de algum tipo básico:
+- Para escrever na tela o conteúdo de uma variável de algum tipo básico:
 
 ```java
 // considerando uma variável do tipo int declarada e iniciada
@@ -466,12 +648,12 @@ System.out.printf("%.2f%n", x);
 System.out.printf("%.4f%n", x);
 ```
 
-* **Atenção**: para considerar o separador de decimais como ponto, **antes** da declaração do Scanner, faça: ```Locale.setDefault(Locale.US);```
-* **Atenção 2**: O simbolo **%n** representa uma quebra de linha e pode ser utilizada independente de plataforma.
+- **Atenção**: para considerar o separador de decimais como ponto, **antes** da declaração do Scanner, faça: ```Locale.setDefault(Locale.US);```
+- **Atenção 2**: O simbolo **%n** representa uma quebra de linha e pode ser utilizada independente de plataforma.
 
 #### Para concatenar vários elementos em um mesmo comando de escrita Sem formatação
 
-* Como regra geral para concatenar usando os comandos **print** ou **println** utilizamos: ```elemento1 + elemento2 + ... + elementoN```. Exemplo:
+- Como regra geral para concatenar usando os comandos **print** ou **println** utilizamos: ```elemento1 + elemento2 + ... + elementoN```. Exemplo:
 
 ```java
 System.out.println("Resultado = " + x + " metros");
@@ -479,9 +661,9 @@ System.out.println("Resultado = " + x + " metros");
 
 #### Para concatenar vários elementos em um mesmo comando de escrita Com formatação
 
-* Como regra geral para concatenar usando o comando **printf**: ```"elemento1 %f elemento2 %f elemento3", variavel1, variavel2```
-* O simbolo **%f** representa um número de ponto flutuante.
-* O simbolo **%n** representa uma quebra de linha.
+- Como regra geral para concatenar usando o comando **printf**: ```"elemento1 %f elemento2 %f elemento3", variavel1, variavel2```
+- O simbolo **%f** representa um número de ponto flutuante.
+- O simbolo **%n** representa uma quebra de linha.
 
 ```java
 System.out.printf("Resultado = %.2f metros%n", x);
@@ -489,12 +671,12 @@ System.out.printf("Resultado = %.2f metros%n", x);
 
 #### Para concatenar vários elementos em um mesmo comando de escrita com diferentes tipos de variáveis
 
-* Para concatenar com diferentes tipos de variáveis utilizaremos:
-  * *%f* para ponto flutuante
-  * *%d* para inteiro
-  * *%s* para texto
-  * *%n* para quebra de linha
-* Mais informações sobre formato de números em [https://docs.oracle.com/javase/tutorial/java/data/numberformat.html](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html)
+- Para concatenar com diferentes tipos de variáveis utilizaremos:
+  - *%f* para ponto flutuante
+  - *%d* para inteiro
+  - *%s* para texto
+  - *%n* para quebra de linha
+- Mais informações sobre formato de números em [https://docs.oracle.com/javase/tutorial/java/data/numberformat.html](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html)
 
 ```java
 String nome = "Maria";
@@ -510,9 +692,9 @@ System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
 
 ### 25. Processamento de dados em Java, Casting
 
-* O processamento de dados em Java é feito por meio do comando de atribuição.
-* Sintaxe: ```<variavel> = <expressão>;```.
-* Lê-se que a *variável* recebe o resultado da *expressão*.
+- O processamento de dados em Java é feito por meio do comando de atribuição.
+- Sintaxe: ```<variavel> = <expressão>;```.
+- Lê-se que a *variável* recebe o resultado da *expressão*.
 
 #### Regra de execução
 
@@ -566,9 +748,9 @@ System.out.println(area); // 35.0
 
 [Exemplo 3](Workspace/aula025_Exemplo_003)
 
-* **Atenção** - Sempre indique o tipo do número, se a expressão fo de ponto flutuante (não inteira).
-  * Para **double** use: **.0**
-  * Para float use: **f**
+- **Atenção** - Sempre indique o tipo do número, se a expressão fo de ponto flutuante (não inteira).
+  - Para **double** use: **.0**
+  - Para float use: **f**
 
 ```java
 // Exemplo 4
@@ -602,13 +784,13 @@ System.out.println(b); // 5
 
 ### 26. Entrada de dados em Java - Parte 1
 
-* A entrada de dados é quando um usuário informa dados para um programa por meio de um dispositivo de entrada. Os dados são inseridos dentro de variáveis.
+- A entrada de dados é quando um usuário informa dados para um programa por meio de um dispositivo de entrada. Os dados são inseridos dentro de variáveis.
 
 #### Scanner
 
-* Para realizarmos a entrada de dados em Java, precisaremos criar um objeto do tipo *Scanner*. Para isso, utilizaremos o seguinte comando: ```Scanner sc = new Scanner(System.in);```
-* Para conseguirmos criar um objeto do tipo *Scanner*, precisamos utilizar o ```import java.util.Scanner;```
-* Após utilizarmos o objeto precisamos desalocar o objeto através do comando: ```sc.close()```
+- Para realizarmos a entrada de dados em Java, precisaremos criar um objeto do tipo *Scanner*. Para isso, utilizaremos o seguinte comando: ```Scanner sc = new Scanner(System.in);```
+- Para conseguirmos criar um objeto do tipo *Scanner*, precisamos utilizar o ```import java.util.Scanner;```
+- Após utilizarmos o objeto precisamos desalocar o objeto através do comando: ```sc.close()```
 
 #### Para ler uma palavra
 
@@ -661,7 +843,7 @@ sc.close();
 
 ```
 
-* **Atenção**: para considerar o separador de decimais como ponto, **antes** da declaração do Scanner, faça: ```Locale.setDefault(Locale.US);```
+- **Atenção**: para considerar o separador de decimais como ponto, **antes** da declaração do Scanner, faça: ```Locale.setDefault(Locale.US);```
 
 [Exemplo 3](Workspace/aula026_Exemplo_003)
 
@@ -777,7 +959,7 @@ sc.close();
 | ```A = Math.pow(x, y);``` | Variável A recebe o resultado de x elevado a y |
 | ```A = Math.abs(x);```    | Variável A recebe o valor ab soluto de x       |
 
-* Mais Métodos podem ser verificados em [java.lang.Math](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html)
+- Mais Métodos podem ser verificados em [java.lang.Math](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html)
 
 ```java
 // Exemplo 1
@@ -811,9 +993,9 @@ System.out.println("O valor absoludo de " + z + " = " + B); // O valor absoludo 
 
 Até o momento nós aprendemos no curso a estrutura sequencial, ou seja:
 
-* Entrada de dados
-* Processamenteo (atribuição)
-* Saída
+- Entrada de dados
+- Processamenteo (atribuição)
+- Saída
 
 Agora serão apresentados exercícios para praticar os tópicos apresentados.
 
@@ -967,23 +1149,23 @@ e) a área do retângulo que tem lados A e B.
 
 Fórmulas:
 
-* Área do triângulo retangulo:
+- Área do triângulo retangulo:
 
 area = base * altura / 2
 
-* Área do círculo
+- Área do círculo
 
 area = π * raio²
 
-* Área do trapézio
+- Área do trapézio
 
 area = (base1 + base2) * altura / 2
 
-* Área do quadrado
+- Área do quadrado
 
 area = lado²
 
-* Área do retângulo
+- Área do retângulo
 
 area = base x altura
 
@@ -1032,7 +1214,7 @@ As expressões comparativas são utilizadas para comparar valores e seu resultad
 
 #### Exemplos de expressões comparativas
 
-* Considere x igual a 5
+- Considere x igual a 5
 
 | Expressão | Resultado  |
 | --------- | ---------- |
@@ -1057,7 +1239,7 @@ Assim como as expressões comparativas, as expressões lógicas resultam em um v
 
 Todas as condições precisam ser verdadeiras para que a expressão seja verdadeira.
 
-* Tabela verdade do operador "*E*"
+- Tabela verdade do operador "*E*"
 
 | A   | B   | A && B |
 | --- | --- | ------ |
@@ -1070,7 +1252,7 @@ Todas as condições precisam ser verdadeiras para que a expressão seja verdade
 
 Apenas uma das expressões precisam ser verdadeiras para que a expressão seja verdadeira.
 
-* Tabela verdade do operador "*OU*"
+- Tabela verdade do operador "*OU*"
 
 | A   | B   | A ❘❘ B |
 | --- | --- | ------ |
@@ -1083,7 +1265,7 @@ Apenas uma das expressões precisam ser verdadeiras para que a expressão seja v
 
 O operador não inverte a condição.
 
-* Tabela verdade do operador "*NÃO*"
+- Tabela verdade do operador "*NÃO*"
 
 | A   | !A  |
 | --- | --- |
@@ -1105,7 +1287,7 @@ if (<condição>) {
 }
 ```
 
-* Se a ```<condição>``` for verdadeira, o bloco de código delimitado por chaves(*{}*) será executado, se falso, o bloco é pulado.
+- Se a ```<condição>``` for verdadeira, o bloco de código delimitado por chaves(*{}*) será executado, se falso, o bloco é pulado.
 
 ```java
 // Exemplo 1
@@ -1133,7 +1315,7 @@ if (<condição>) {
 }
 ```
 
-* Se a ```<condição>``` for verdadeira, é executado o bloco do **if**, se falso, é executado o bloco do **else**.
+- Se a ```<condição>``` for verdadeira, é executado o bloco do **if**, se falso, é executado o bloco do **else**.
 
 ```java
 // Exemplo 2
@@ -1157,9 +1339,9 @@ sc.close();
 
 Imaginando a seguinte situação:
 
-* Se quando a hora for menor que 12 eu mostrar: "Bom dia!";
-* Quando a hora for maior ou igual a 12 e menor que 18 eu mostrar: "Bom tarde!";
-* Quando a hora for maior ou igual a 18 eu mostrar: "Boa noite!".
+- Se quando a hora for menor que 12 eu mostrar: "Bom dia!";
+- Quando a hora for maior ou igual a 12 e menor que 18 eu mostrar: "Bom tarde!";
+- Quando a hora for maior ou igual a 18 eu mostrar: "Boa noite!".
 
 ```java
 if (<condição 1>) {
@@ -1224,11 +1406,11 @@ Fazer um programa para ler as duas notas que um aluno obteve no primeiro e segun
 
 Leia 3 valores de ponto flutuante e efetue o cálculo das raízes da equação de Bhaskara. Se não for possível calcular as raízes, mosre a mensagem correspondente "*Impossível calcular*", Caso haja uma divisão por 0 ou raiz de número negativo.
 
-* Entrada
+- Entrada
 
 Leia três valores de ponto flutuante (double) A, B e C
 
-* Saída
+- Saída
 
 Se não houver possibilidade de calcular as raízes, apresente a mensagem "*Impossível calcular*". Caso contrário, imprima o resultado das raízes com 5 dígitos após o ponto, com uma mensagem correspondente conforme exemplo abaixo. Imprima sempre o final de linha após cada mensagem.
 
@@ -1555,8 +1737,8 @@ System.out.println("O desconto é de: " + desconto);
 
 ### 41. Escopo e inicialização
 
-* **Escopo de uma variável**: é a região do programa onde a variável é válida, ou seja, onde ela pode ser referenciada.
-* Uma variável não pode ser usada se não for iniciada.
+- **Escopo de uma variável**: é a região do programa onde a variável é válida, ou seja, onde ela pode ser referenciada.
+- Uma variável não pode ser usada se não for iniciada.
 
 ```java
 Scanner sc = new Scanner(System.in);
@@ -1583,14 +1765,14 @@ sc.close();
 
 ### 44. Como utilizar o DEBUG no Eclipse (execução passo a passo)
 
-* Para marcar uma linha de *breakpoint*:
-  * *Run* -> *Toggle Breakpoint*
-* Para iniciar o *debug*:
-  * Botão direito na classe -> *Debug as* -> *Java Aplication*
-* Para executar uma linha:
-  * *F6*
-* Para interromper o *debug*:
-  * *Stop*
+- Para marcar uma linha de *breakpoint*:
+  - *Run* -> *Toggle Breakpoint*
+- Para iniciar o *debug*:
+  - Botão direito na classe -> *Debug as* -> *Java Aplication*
+- Para executar uma linha:
+  - *F6*
+- Para interromper o *debug*:
+  - *Stop*
 
 ### 45. Estrutura repetitiva enquanto (while)
 
@@ -2028,10 +2210,10 @@ sc.close();
 
 #### Restrições para nomes de variáveis
 
-* Não podem começar com dígito: use uma letra ou *_*
-* Não usar acentos ou til
-* Não pode ter espaço em branco
-* Sugestão: use nomes que tenham um significado
+- Não podem começar com dígito: use uma letra ou *_*
+- Não usar acentos ou til
+- Não pode ter espaço em branco
+- Sugestão: use nomes que tenham um significado
 
 Exemplos:
 
@@ -2043,14 +2225,14 @@ Exemplos:
 
 #### Convenções
 
-* **Camel Case** : *lastName*
-  * pacotes
-  * atributos
-  * métodos
-  * variáveis e parâmetros
+- **Camel Case** : *lastName*
+  - pacotes
+  - atributos
+  - métodos
+  - variáveis e parâmetros
 
-* **Pascal Case**:  *ProductService*
-  * classes
+- **Pascal Case**:  *ProductService*
+  - classes
 
 ### 58. Operadores bitwise
 
@@ -2124,11 +2306,11 @@ sc.close();
 
 #### Checklist
 
-* Formatar: *toLowerCase()*, *toUpperCase()*, *trim()*
-* Recortar: *substring(inicio)*, *substring(inicio, fim)*
-* Substituir: *replace(char, char)*, *replace(string, string)*
-* Buscar: *IndexOf()*, *LastIndexOf()*
-* dividir: *str.Split(" ")*
+- Formatar: *toLowerCase()*, *toUpperCase()*, *trim()*
+- Recortar: *substring(inicio)*, *substring(inicio, fim)*
+- Substituir: *replace(char, char)*, *replace(string, string)*
+- Buscar: *IndexOf()*, *LastIndexOf()*
+- dividir: *str.Split(" ")*
 
 #### Exemplos
 
@@ -2193,5 +2375,34 @@ System.out.println(word3); // lemon
  * de
  * bloco
  */
-
 ```
+
+### 61. Funções (sintaxe)
+
+- Representam um processamente que possui um significado.
+  - Math.sqrt(double)
+  - System.out.println(string)
+
+- Principais vantagens: **modularização**, **delegação** e **reaproveitamento**
+
+- Dados de entrada e saída
+  - Funções podem receber dados de entrada (parâmetros ou argumentos)
+  - Funções podem ou não retornar uma saída
+
+- Em orientação a objetos, funções em classes recebem o nome de "métodos".
+
+#### Exemplo
+
+Fazer um programa para ler três números inteiros e mostrar na tela o maior deles.
+
+Exemplo
+
+```powershell
+Enter theree numbers:
+5
+8
+3
+higher = 8
+```
+
+[Exemplo 1](Workspace/aula061_Exemplo_001)
