@@ -1960,3 +1960,60 @@ Exemplo:
 | -       | 5 25 125 |
 
 [Exercício 7](Workspace/aula054_Exercicio_007)
+
+### 55. Estrutura repetitiva faça-enquanto (do-while)
+
+É uma **estrutura de controle** que repete um bloco de comandos enquanto uma condição for verdadeira. contudo, diferente da estrutura *while*, a instrução *do-while* é executada ao menos um vez e sua condição é verificada no final.
+
+Apesar de menos utilizada que as outras estruturas já estudadas, em alguns casos esta esta se encaixa melhor.
+
+#### Sintaxe
+
+```java
+do {
+  comando 1
+  comando 2
+} while ( condicao );
+```
+
+#### Exemplo de uso
+
+Fazer um programa para ler uma temperatura em Celsius e mostrar o equivalente em Fahrenheit. Perguntar se o usuário deseja repetir (s/n). Caso o usuário digite "s", repetiro o programa.
+
+Fórmula: F = 9c / 5 + 32
+
+Exemplo:
+
+```powershell
+Digite a temperatura em Celcius: 30.0
+Equivalente em Fahrenheit: 86.0
+Deseja repetir (s/n): s
+Digite a temperatura em Celcius: 21.0
+Equivalente em Fahrenheit: 69.8
+Deseja repetir (s/n): s
+Digite a temperatura em Celcius: -10.5
+Equivalente em Fahrenheit: 13.1
+Deseja repetir (s/n): n
+```
+
+```java
+Locale.setDefault(Locale.US);
+Scanner sc = new Scanner(System.in);
+
+char option;
+
+do {
+  
+  System.out.print("Digite a temperatura em Celcius: ");
+  double c = sc.nextDouble();
+  double f = 9 * c / 5 + 32;
+  System.out.printf("Equivalente em Fahrenheit: %.1f%n", f);
+  System.out.print("Deseja repetir (s/n): ");
+  option = sc.next().charAt(0);
+  
+} while (option == 's');
+
+sc.close();
+```
+
+[Exemplo 1](Workspace/aula055_Exemplo_001)
