@@ -2017,3 +2017,9 @@ sc.close();
 ```
 
 [Exemplo 1](Workspace/aula055_Exemplo_001)
+
+## Seção 7: Outros tópicos básicos sobre Java
+
+### 56. Material de apoio do capítulo
+
+[Material de apoio](Recursos/pdf/07-outros-topicos-basicos.pdf)
