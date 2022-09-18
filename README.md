@@ -2052,3 +2052,70 @@ Exemplos:
 * **Pascal Case**:  *ProductService*
   * classes
 
+### 58. Operadores bitwise
+
+**Operadores bitwise** são aqueles que realizam operações lógicas bit a bit em valores.
+
+| Operador | Significado                       |
+| -------- | --------------------------------- |
+| &        | Operação "E" bit a bit            |
+| &boxv;   | Operação "OU" bit a bit           |
+| ^        | Operação "OU-Exclusivo" bit a bit |
+
+#### Tabela verdade
+
+| C1  | C2  | C1 & C2 |
+| --- | --- | ------- |
+| F   | F   | F       |
+| F   | V   | F       |
+| V   | F   | F       |
+| V   | V   | V       |
+
+| C1  | C2  | C1 &boxv; C2 |
+| --- | --- | ------------ |
+| F   | F   | F            |
+| F   | V   | V            |
+| V   | F   | V            |
+| V   | V   | V            |
+
+| C1  | C2  | C1 ^ C2 |
+| --- | --- | ------- |
+| F   | F   | F       |
+| F   | V   | V       |
+| V   | F   | V       |
+| V   | V   | F       |
+
+#### Exemplos
+
+```java
+// Exemplo 1
+
+int n1 = 89;
+int n2 = 60;
+
+System.out.println(n1 & n2); // 24
+System.out.println(n1 | n2); // 125
+System.out.println(n1 ^ n2); // 101
+```
+
+[Exemplo 1](Workspace/aula058_Exemplo_001)
+
+```java
+// Exemplo 2
+
+Scanner sc = new Scanner(System.in);
+		
+int mask = 0b100000;
+int n = sc.nextInt();
+
+if ((n & mask) != 0) {
+  System.out.println("6th bit is true!");
+} else {
+  System.out.println("6th bit is false!");
+}
+
+sc.close();
+
+```
+
+[Exemplo 2](Workspace/aula058_Exemplo_002)
