@@ -192,6 +192,7 @@
       - [Discussão](#discussão-1)
       - [Projeto da classe (UML)](#projeto-da-classe-uml)
       - [Benefícios](#benefícios)
+    - [67. Começando a resolver um segundo problema exemplo](#67-começando-a-resolver-um-segundo-problema-exemplo)
 
 ## Links úteis
 
@@ -2522,3 +2523,34 @@ Quais são os benefícios de se calcular a área de um triângulo por meio de um
 2. **Delegação de responsabilidades**: quem deve ser responsável por saber como calcular a área de um triângulo é o próprio triângulo. A lógica do cálculo da área não deve estar em outro lugar.
 
 [Exemplo 1](Workspace/aula066_Exemplo_001)
+
+### 67. Começando a resolver um segundo problema exemplo
+
+Fazer um programa para ler os dados de um produto em estoque (nome, preço e quantidade no estoque). Em seguida:
+
+- Mostrar os dados do produto (nome, preço, quantidade no estoque, valor total no estoque).
+- Realizar uma entrada no estoque e mostrar novamente os dados do produto.
+- Realizar uma saída no estoque e mostrar novamente os dados do produto.
+
+Para resolver este problema, você deve criar uma **classe** conforme projeto a seguir:
+
+![imagem 1](Recursos/images/aula67-img1.jpg)
+
+Exemplo:
+
+```powershell
+Enter product data:
+name: TV
+Price: 900.00
+Quantity in stock: 10
+
+Product data: TV, $ 900.00, 10 units, Total: $ 9000.00
+
+Enter the number of products to be added in stock: 5
+
+Updated data: TV, $ 900.00, 15 units, Total: $ 13500.00
+
+Enter the number of products to be removed from stock: 3
+
+Updated data: TV, $ 900.00, 12 units, Total: $ 10800.00
+```
