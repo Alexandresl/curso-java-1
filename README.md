@@ -195,6 +195,7 @@
     - [67. Começando a resolver um segundo problema exemplo](#67-começando-a-resolver-um-segundo-problema-exemplo)
     - [68. Object e toString](#68-object-e-tostring)
       - [Discussão](#discussão-2)
+    - [69. Finalizando o programa](#69-finalizando-o-programa)
 
 ## Links úteis
 
@@ -2571,3 +2572,7 @@ Updated data: TV, $ 900.00, 12 units, Total: $ 10800.00
   - **toString** - converte o objeto para String
 
 [Exemplo 1](Workspace/aula068_Exemplo_001)
+
+### 69. Finalizando o programa
+
+[Exemplo 1](Workspace/aula069_Exemplo_001)
