@@ -211,6 +211,7 @@
     - [73. Exercício de fixação](#73-exercício-de-fixação)
   - [Seção 9: Construtores, palavra this, sobrecarga, encapsulamento](#seção-9-construtores-palavra-this-sobrecarga-encapsulamento)
     - [74. Visão geral do capítulo](#74-visão-geral-do-capítulo)
+    - [75. Material de apoio do capítulo](#75-material-de-apoio-do-capítulo)
 
 ## Links úteis
 
@@ -2728,3 +2729,8 @@ Amount to be paid in reais = 657.20
 ## Seção 9: Construtores, palavra this, sobrecarga, encapsulamento
 
 ### 74. Visão geral do capítulo
+
+### 75. Material de apoio do capítulo
+
+[Material de apoio](Recursos/pdf/09-construtores-this-sobrecarga-encapsulamento.pdf)
+
