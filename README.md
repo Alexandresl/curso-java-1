@@ -205,6 +205,9 @@
       - [Faremos a solução em 3 versões:](#faremos-a-solução-em-3-versões)
       - [Versão 1 - Métodos na própria classe do programa](#versão-1---métodos-na-própria-classe-do-programa)
       - [Versão 2 - Classe Calculator com membros de instância](#versão-2---classe-calculator-com-membros-de-instância)
+    - [72. Membros estáticos - Parte 2](#72-membros-estáticos---parte-2)
+      - [Discussão](#discussão-3)
+      - [Versão 3 - Classe Calculator com método estático](#versão-3---classe-calculator-com-método-estático)
 
 ## Links úteis
 
@@ -2690,3 +2693,17 @@ PI value: 3.14
 #### Versão 2 - Classe Calculator com membros de instância
 
 [Exemplo 2](Workspace/aula071_Exemplo_002)
+
+### 72. Membros estáticos - Parte 2
+
+#### Discussão
+
+Ao contrário do problema resolvido anteriormente, referente aos triângulos, que cada um possuía a sua área, no caso da calculadora, os valores dos cálculos não mudam para calculadoras diferentes, ou seja, são cálculos estáticos. o valor de PI também é estático.
+
+Como exemplo, caso intanciemos duas calculadoras, os valores de suas operações seriam iguais, confome destacado abaixo:
+
+![Imagem 1](Recursos/images/aula72-img1.jpg)
+
+#### Versão 3 - Classe Calculator com método estático
+
+[Exemplo 1](Workspace/aula072_Exemplo_001)
