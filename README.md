@@ -193,6 +193,8 @@
       - [Projeto da classe (UML)](#projeto-da-classe-uml)
       - [Benefícios](#benefícios)
     - [67. Começando a resolver um segundo problema exemplo](#67-começando-a-resolver-um-segundo-problema-exemplo)
+    - [68. Object e toString](#68-object-e-tostring)
+      - [Discussão](#discussão-2)
 
 ## Links úteis
 
@@ -2556,3 +2558,16 @@ Updated data: TV, $ 900.00, 12 units, Total: $ 10800.00
 ```
 
 [Exemplo 1](Workspace/aula067_Exemplo_001)
+
+### 68. Object e toString
+
+#### Discussão
+
+- Toda a classe em **Java** é uma subclasse da classe **Object**.
+- **Object** possui os seguintes métodos.
+  - **getClass** - retorna o tipo do objeto
+  - **equals** - compara se o objeto é igual a outro
+  - **hashCode** - retorna um código hash do objeto
+  - **toString** - converte o objeto para String
+
+[Exemplo 1](Workspace/aula068_Exemplo_001)
