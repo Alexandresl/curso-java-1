@@ -3,6 +3,7 @@
 ## 1. Alterar o tamanho da fonte:
   
 ```Ctrl``` + ```+```
+
 ```Ctrl``` + ```-```
 
 Aumenta ou diminue o tamanho da fonte.
