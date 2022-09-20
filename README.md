@@ -196,6 +196,10 @@
     - [68. Object e toString](#68-object-e-tostring)
       - [Discussão](#discussão-2)
     - [69. Finalizando o programa](#69-finalizando-o-programa)
+    - [70. Exercícios de fixação](#70-exercícios-de-fixação)
+      - [Exercício 1](#exercício-1-3)
+      - [Exercício 2](#exercício-2-3)
+      - [Exercício 3](#exercício-3-3)
 
 ## Links úteis
 
@@ -2576,3 +2580,70 @@ Updated data: TV, $ 900.00, 12 units, Total: $ 10800.00
 ### 69. Finalizando o programa
 
 [Exemplo 1](Workspace/aula069_Exemplo_001)
+
+### 70. Exercícios de fixação
+
+#### Exercício 1
+
+Fazer um programa para ler os valores da largura e altura de um retângulo. Em seguida, mostrar na tela o valor de sua área, perímetro e diagonal. Usar uma classe como mostrado no projeto abaixo.
+
+![Imagem 1](Recursos/images/aula70-img1.jpg)
+
+Exemplo:
+
+```powershell
+Enter rectangle width and height:
+3.00
+4.00
+AREA = 12.00
+PERIMETER = 14.00
+DIAGONAL = 5.00
+```
+
+[Exercício 1](Workspace/aula070_Exercicio_001)
+
+#### Exercício 2
+
+Fazer um proggrama para ler os dados de um funcionário (nome, salário bruto e imposto). Em seguida, mostrar os dados do funcionário (nome e salário líquido). Em mseguida, aumentar o salário do funcionário com base em uma porcentagem dada (somente o salário bruto é afetado pela porcentagem) e mostrar novamente os dados do funcionário. Use a classe projetada abaixo:
+
+![Imagem 2](Recursos/images/aula70-img2.jpg)
+
+Exemplo:
+
+```powershell
+Nome: João Silva
+Gross salary: 6000.00
+Tax: 1000.00
+
+Employee: João Silva, $ 5000.00
+
+Which percentage to increase salary? 10.0
+
+Updated data: João Silva, $ 5600.00
+```
+
+[Exercício 2](Workspace/aula070_Exercicio_002)
+
+#### Exercício 3
+
+Fazer um programa para ler o nome de um aluno e as três notas que ele obteve nos três trimestres do ano (primeiro trimestre vale 30 e o segundo e terceiro valem 35 cada). Ao final, mostrar qual a nota final do aluno no ano. Dizer também se o aluno está aprovado (PASS) ou não (FAILED) e, em caso negativo, quantos pontos faltam para o aluno obter o mínimo para ser aprovado (que é 60% da nota). Você deve criar uma classe *Student* para resolver este problema.
+
+Exemplo:
+
+| Entrada    | Saída               |
+| ---------- | ------------------- |
+| Alex Green | FINAL GRADE = 90.00 |
+| 27.00      | PASS                |
+| 31.00      | -                   |
+| 32.00      | -                   |
+
+| Entrada    | Saída               |
+| ---------- | ------------------- |
+| Alex Green | FINAL GRADE = 52.00 |
+| 17.00      | FAILED              |
+| 20.00      | MISSING 8.00 POINTS |
+| 15.00      | -                   |
+
+[Exercício 3](Workspace/aula070_Exercicio_003)
+
+[Resposta dos exercícios](Recursos/pdf/08-correcao-exercicios-fixacao.pdf)
