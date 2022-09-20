@@ -209,6 +209,8 @@
       - [Discussão](#discussão-3)
       - [Versão 3 - Classe Calculator com método estático](#versão-3---classe-calculator-com-método-estático)
     - [73. Exercício de fixação](#73-exercício-de-fixação)
+  - [Seção 9: Construtores, palavra this, sobrecarga, encapsulamento](#seção-9-construtores-palavra-this-sobrecarga-encapsulamento)
+    - [74. Visão geral do capítulo](#74-visão-geral-do-capítulo)
 
 ## Links úteis
 
@@ -2722,3 +2724,7 @@ Amount to be paid in reais = 657.20
 ```
 
 [Exercício 1](Workspace/aula073_Exercicio_001)
+
+## Seção 9: Construtores, palavra this, sobrecarga, encapsulamento
+
+### 74. Visão geral do capítulo
