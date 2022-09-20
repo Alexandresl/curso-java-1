@@ -2554,3 +2554,5 @@ Enter the number of products to be removed from stock: 3
 
 Updated data: TV, $ 900.00, 12 units, Total: $ 10800.00
 ```
+
+[Exemplo 1](Workspace/aula067_Exemplo_001)
