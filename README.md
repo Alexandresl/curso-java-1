@@ -208,6 +208,7 @@
     - [72. Membros estáticos - Parte 2](#72-membros-estáticos---parte-2)
       - [Discussão](#discussão-3)
       - [Versão 3 - Classe Calculator com método estático](#versão-3---classe-calculator-com-método-estático)
+    - [73. Exercício de fixação](#73-exercício-de-fixação)
 
 ## Links úteis
 
@@ -2707,3 +2708,17 @@ Como exemplo, caso intanciemos duas calculadoras, os valores de suas operações
 #### Versão 3 - Classe Calculator com método estático
 
 [Exemplo 1](Workspace/aula072_Exemplo_001)
+
+### 73. Exercício de fixação
+
+Faça um programa para lere a cotação do dólar, e depois um valor em dólares a ser comprado por uma pessoa em reais. Informar quantos reais a pessoa vai pagar pelos dólares, considerando ainda que a pessoa terá que pagar 6% de IOF sobre o valor em dólar. Criar uma classe **CurrencyConverter** para ser responsável pelos cálculos.
+
+Exemplo:
+
+```powershell
+What is the dollar price? 3.10
+How many dollars will be bought? 200.00
+Amount to be paid in reais = 657.20
+```
+
+[Exercício 1](Workspace/aula073_Exercicio_001)
