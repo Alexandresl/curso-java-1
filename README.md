@@ -212,6 +212,10 @@
   - [Seção 9: Construtores, palavra this, sobrecarga, encapsulamento](#seção-9-construtores-palavra-this-sobrecarga-encapsulamento)
     - [74. Visão geral do capítulo](#74-visão-geral-do-capítulo)
     - [75. Material de apoio do capítulo](#75-material-de-apoio-do-capítulo)
+    - [76. Construtores](#76-construtores)
+      - [Usos comuns:](#usos-comuns)
+      - [Problema exemplo](#problema-exemplo)
+      - [Proposta de melhoria](#proposta-de-melhoria)
 
 ## Links úteis
 
@@ -2559,7 +2563,7 @@ Exemplo:
 
 ```powershell
 Enter product data:
-name: TV
+Name: TV
 Price: 900.00
 Quantity in stock: 10
 
@@ -2734,3 +2738,60 @@ Amount to be paid in reais = 657.20
 
 [Material de apoio](Recursos/pdf/09-construtores-this-sobrecarga-encapsulamento.pdf)
 
+### 76. Construtores
+
+**Construtor** é uma operação especial da classe, que executa no momento da instanciação do objeto.
+
+Se um construtor customizado não for especificado, a classe disponibiliza o construtor padrão: ```Product p = new Product();```
+
+É possível especificar mais de um construtor na mesma classe (**sobrecarga**)
+
+#### Usos comuns:
+
+- Inicial valores dos atributos
+- Permitir ou obrigar que o objeto receba *dados* / *dependências* no momento de sua instanciação (injeção de dependências).
+
+#### Problema exemplo
+
+Fazer um programa para ler os dados de um produto em estoque (nome, preço e quantidade no estoque). Em seguida:
+
+- Mostrar os dados do produto (nome, preço, quantidade no estoque, valor total no estoque).
+- Realizar uma entrada no estoque e mostrar novamente os dados do produto.
+- Realizar uma saída no estoque e mostrar novamente os dados do produto.
+
+Para resolver este problema, você deve criar uma **classe** conforme projeto a seguir:
+
+![imagem 1 da aula 67](Recursos/images/aula67-img1.jpg)
+
+Exemplo:
+
+```powershell
+Enter product data:
+Name: TV
+Price: 900.00
+Quantity in stock: 10
+
+Product data: TV, $ 900.00, 10 units, Total: $ 9000.00
+
+Enter the number of products to be added in stock: 5
+
+Updated data: TV, $ 900.00, 15 units, Total: $ 13500.00
+
+Enter the number of products to be removed from stock: 3
+
+Updated data: TV, $ 900.00, 12 units, Total: $ 10800.00
+```
+
+#### Proposta de melhoria
+
+Quando executamos o comando abaixo, instanciamos um produto "**product**" com seus atributos "Vazios":
+
+```product = new product()```
+
+![imagem 1](Recursos/images/aula76-img1.jpg)
+
+Entretando, faz sentido um produto que não tem nome? faz sentido um produto que não tem preço?
+
+Com o intuíto de evitar a existência de produtos sem nome e sem preço, é possível fazer com que seja "Obrigatória" a iniciação deses valores?
+
+[Exemplo 1](Workspace/aula076_Exemplo_001)
