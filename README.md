@@ -216,6 +216,8 @@
       - [Usos comuns:](#usos-comuns)
       - [Problema exemplo](#problema-exemplo)
       - [Proposta de melhoria](#proposta-de-melhoria)
+    - [77. Palavra this](#77-palavra-this)
+      - [Usos comuns:](#usos-comuns-1)
 
 ## Links úteis
 
@@ -2795,3 +2797,12 @@ Entretando, faz sentido um produto que não tem nome? faz sentido um produto que
 Com o intuíto de evitar a existência de produtos sem nome e sem preço, é possível fazer com que seja "Obrigatória" a iniciação deses valores?
 
 [Exemplo 1](Workspace/aula076_Exemplo_001)
+
+### 77. Palavra this
+
+A palavra **this** é uma referência para o próprio objeto.
+
+#### Usos comuns:
+
+- Diferenciar atributos de variáveis locais.
+- Passar o próprio objeto como argumento na chamada de um método ou construtor.
