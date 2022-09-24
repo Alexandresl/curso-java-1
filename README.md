@@ -2875,4 +2875,5 @@ Coloque o cursor onde você deseja incluir os métodos e utilize um dos dois mé
 - **public**: o membro é acessado por todas as classes (a menos que ele resida em um módulo diferente que não exporte o pacote onde ele está)
 
 ![Imagem 1](Recursos/images/aula81-img1.jpg)
+
 Fonte: [https://stackoverflow.com/questions/215497/what-is-the-difference-between-public-protected-package-private-and-private-in](https://stackoverflow.com/questions/215497/what-is-the-difference-between-public-protected-package-private-and-private-in)
