@@ -237,7 +237,7 @@
 
 ### 1. Introdução: Visão geral do curso
 
-[Material de apoio](Recursos/pdf/01-curso-Java-COMPLETO.pdf)
+[Material de apoio](Recursos/pdf/01-curso-java-completo.pdf)
 
 #### Profissional Java
 
