@@ -232,6 +232,7 @@
     - [84. Correção do exercício de fixação - Parte 2](#84-correção-do-exercício-de-fixação---parte-2)
   - [Seção 10: Comportamento de memória, arrays e listas](#seção-10-comportamento-de-memória-arrays-e-listas)
     - [85. Visão geral do capítulo](#85-visão-geral-do-capítulo)
+    - [86. Material de apoio do capítulo](#86-material-de-apoio-do-capítulo)
 
 ## Links úteis
 
@@ -2943,3 +2944,9 @@ Account 7801, Holder: Maria Brown, Balance: $ -3.00
 ## Seção 10: Comportamento de memória, arrays e listas
 
 ### 85. Visão geral do capítulo
+
+### 86. Material de apoio do capítulo
+
+[Material de apoio](Recursos/pdf/10-memoria-arrays-e-listas.pdf)
+
+[Exercícios de fixação](Recursos/pdf/Exercicios5-vetores.pdf)
