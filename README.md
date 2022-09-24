@@ -226,6 +226,7 @@
     - [80. Gerando automaticamente construtores, getters e setters com Eclipse](#80-gerando-automaticamente-construtores-getters-e-setters-com-eclipse)
       - [Gerando construtor](#gerando-construtor)
       - [Gerando getters e setters](#gerando-getters-e-setters)
+    - [81. Modificadores de acesso](#81-modificadores-de-acesso)
 
 ## Links úteis
 
@@ -2864,3 +2865,14 @@ Coloque o cursor onde você deseja incluir os métodos e utilize um dos dois mé
   - ```Ctrl``` + ```3``` -> Digitar ```ggas``` (Generate Getters and Setters)
 
 [Exemplo 1](Workspace/aula080_Exemplo_001)
+
+### 81. Modificadores de acesso
+
+- [https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)
+- **private**: o membro só pode ser acessado na **própria classe**
+- **(nada)**: o membro só pode ser acessado nas classes do **mesmo pacote**
+- **protected**: o membro só pode ser acessado no **mesmo pacote**, bem como em **subclasses de pacotes diferentes**
+- **public**: o membro é acessado por todas as classes (a menos que ele resida em um módulo diferente que não exporte o pacote onde ele está)
+
+![Imagem 1](Recursos/images/aula81-img1.jpg)
+Fonte: [https://stackoverflow.com/questions/215497/what-is-the-difference-between-public-protected-package-private-and-private-in](https://stackoverflow.com/questions/215497/what-is-the-difference-between-public-protected-package-private-and-private-in)
