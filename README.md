@@ -229,6 +229,7 @@
     - [81. Modificadores de acesso](#81-modificadores-de-acesso)
     - [82. Exercício de fixação](#82-exercício-de-fixação)
     - [83. Correção do exercício de fixação - Parte 1](#83-correção-do-exercício-de-fixação---parte-1)
+    - [84. Correção do exercício de fixação - Parte 2](#84-correção-do-exercício-de-fixação---parte-2)
 
 ## Links úteis
 
@@ -2933,3 +2934,6 @@ Account 7801, Holder: Maria Brown, Balance: $ -3.00
 
 [Exercício 1 correção parte 1](Workspace/aula083_Exercicio_001)
 
+### 84. Correção do exercício de fixação - Parte 2
+
+[Exercício 1 correção parte 2](Workspace/aula083_Exercicio_001)
