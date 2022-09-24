@@ -223,12 +223,15 @@
     - [79. Encapsulamento](#79-encapsulamento)
       - [Regra geral básica](#regra-geral-básica)
       - [Exemplo de uso](#exemplo-de-uso-3)
+    - [80. Gerando automaticamente construtores, getters e setters com Eclipse](#80-gerando-automaticamente-construtores-getters-e-setters-com-eclipse)
+      - [Gerando construtor](#gerando-construtor)
+      - [Gerando getters e setters](#gerando-getters-e-setters)
 
 ## Links úteis
 
 [Atalhos do Eclipse](Eclipse-atalhos.md)
 
- [URI Online Judge](www.urionlinejudge.com.br)
+[URI Online Judge](www.urionlinejudge.com.br)
 
 ## Seção 1: Introdução
 
@@ -2839,3 +2842,25 @@ Proposta de melhoria do projeto do programa para ler os dados de um produto em e
 #### Exemplo de uso
 
 [Exemplo 1](Workspace/aula079_Exemplo_001)
+
+### 80. Gerando automaticamente construtores, getters e setters com Eclipse
+
+#### Gerando construtor
+
+Coloque o cursor onde você deseja incluir o construtor e utilize um dos dois métodos:
+
+- Método 1
+  - Botão direito -> Source -> Generate Constructor using Fields
+- Método 2
+  - ```Ctrl``` + ```3``` -> Digitar ```gcuf``` (Generate Constructor using Fields)
+
+#### Gerando getters e setters
+
+Coloque o cursor onde você deseja incluir os métodos e utilize um dos dois métodos:
+
+- Método 1
+  - Botão direito -> Source -> Generate Getters and Setters
+- Método 2
+  - ```Ctrl``` + ```3``` -> Digitar ```ggas``` (Generate Getters and Setters)
+
+[Exemplo 1](Workspace/aula080_Exemplo_001)
