@@ -220,6 +220,9 @@
       - [Usos comuns:](#usos-comuns-1)
     - [78. Sobrecarga](#78-sobrecarga)
       - [Proposta de melhoria](#proposta-de-melhoria-1)
+    - [79. Encapsulamento](#79-encapsulamento)
+      - [Regra geral básica](#regra-geral-básica)
+      - [Exemplo de uso](#exemplo-de-uso-3)
 
 ## Links úteis
 
@@ -2820,3 +2823,19 @@ Proposta de melhoria do projeto do programa para ler os dados de um produto em e
 - Vamos criar um construtor opcional, o qual recebe apenas o nome e o preço do produto. A quantidade em estoque deste novo produto, por padrão, deverá então ser iniciada com o valor zero.
 
 - **Nota**: é possível também inclouir um construtor padrão.
+
+### 79. Encapsulamento
+
+**Encapsulamento** é um princípio que consiste em esconder detalhes de implementação de uma classe, expondo apenas as operações seguras e que mantenham os objetos em um estado consistente.
+
+- **Regra de ouro**: o objeto deve sempre estar em um estado consistente, e a própria classe deve garantir isso.
+
+#### Regra geral básica
+
+- Um objeto **não** deve expor nenhum atributo (modificador de acesso deve ser ***private***)
+- O atributos devem ser acessados por meio do método *get* e *set*
+  - Padrão JavaBeans: [https://pt.wikipedia.org/wiki/JavaBeans](https://pt.wikipedia.org/wiki/JavaBeans)
+
+#### Exemplo de uso
+
+[Exemplo 1](Workspace/aula079_Exemplo_001)
