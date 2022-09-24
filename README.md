@@ -218,6 +218,8 @@
       - [Proposta de melhoria](#proposta-de-melhoria)
     - [77. Palavra this](#77-palavra-this)
       - [Usos comuns:](#usos-comuns-1)
+    - [78. Sobrecarga](#78-sobrecarga)
+      - [Proposta de melhoria](#proposta-de-melhoria-1)
 
 ## Links úteis
 
@@ -2806,3 +2808,15 @@ A palavra **this** é uma referência para o próprio objeto.
 
 - Diferenciar atributos de variáveis locais.
 - Passar o próprio objeto como argumento na chamada de um método ou construtor.
+
+### 78. Sobrecarga
+
+É um recurso que um aclasse possui de oferecer mais de uma operação com o mesmo nome, porém com diferentes listas de parâmetros.
+
+#### Proposta de melhoria
+
+Proposta de melhoria do projeto do programa para ler os dados de um produto em estoque:
+
+- Vamos criar um construtor opcional, o qual recebe apenas o nome e o preço do produto. A quantidade em estoque deste novo produto, por padrão, deverá então ser iniciada com o valor zero.
+
+- **Nota**: é possível também inclouir um construtor padrão.
