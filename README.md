@@ -233,6 +233,12 @@
   - [Seção 10: Comportamento de memória, arrays e listas](#seção-10-comportamento-de-memória-arrays-e-listas)
     - [85. Visão geral do capítulo](#85-visão-geral-do-capítulo)
     - [86. Material de apoio do capítulo](#86-material-de-apoio-do-capítulo)
+    - [87. Tipos referência vs. tipos valor](#87-tipos-referência-vs-tipos-valor)
+      - [Classes são tipos referência](#classes-são-tipos-referência)
+      - [Valor "null"](#valor-null)
+      - [Tipos primitivos são tipos valor](#tipos-primitivos-são-tipos-valor)
+      - [Valores padrão](#valores-padrão)
+      - [Tabela comparativa (Resumo)](#tabela-comparativa-resumo)
 
 ## Links úteis
 
@@ -2950,3 +2956,56 @@ Account 7801, Holder: Maria Brown, Balance: $ -3.00
 [Material de apoio](Recursos/pdf/10-memoria-arrays-e-listas.pdf)
 
 [Exercícios de fixação](Recursos/pdf/Exercicios5-vetores.pdf)
+
+### 87. Tipos referência vs. tipos valor
+
+#### Classes são tipos referência
+
+Em Java, variáveis cujo tipos são classes não devem ser entendidas como caixas, mas sim "*tentáculos*" ou "*ponteiros*" para caixas.
+
+![imagem 1](Recursos/images/aula87-img1.jpg)
+
+Conforme imagem, quando instanciamos um objeto, na **memória stack** é registrado apenas o ponteiro para o local da **memória heap** onde verdadeiramente os valores do objeto estão armazenados.
+
+É importante também entender que quando atribuímos um objeto para outro, na verdade estamos apenas passando o endereço de memória para onde o primeiro objeto estava apontando, desta forma, se alterarmos os dados, a partir de qualquer um dos objetos, esta alteração estará disponívle para qualquer um dos objetos.
+
+De forma simplificada, temos:
+
+![imagem 2](Recursos/images/aula87-img2.jpg)
+
+#### Valor "null"
+
+Tipos referência aceitam o valor "*null*", que indica que a variável não aponta para ninguém.
+
+![imagem 3](Recursos/images/aula87-img3.jpg)
+
+#### Tipos primitivos são tipos valor
+
+Em Java, tipos primitivos são tipo valor. Tipos valor são **caixas** e não ponteiros.
+
+Neste caso, quando atribuímos uma variável a outra, o que é transferido é o próprio valor.
+
+![imagem 4](Recursos/images/aula87-img4.jpg)
+
+Segue tabela com os 8 tipos primitivos da linguagem Java:
+
+![imagem 5](Recursos/images/aula87-img5.jpg)
+
+Variáveis de tipos primitivos precisam **obrigatoriamente** serem inicializadas para podermos imprimir na tela, caso contrário o compilador indicará um erro.
+
+#### Valores padrão
+
+Quando alocamos (*new*) qualquer tipo estruturado (*classe* ou *array*), são atribuídos valores padrão aos seus elementos:
+
+- Número: **0**
+- Bollean: **false**
+- char: **0** (*zero*)
+- objeto: **null**
+
+Exemplo:
+
+![imagem 6](Recursos/images/aula87-img6.jpg)
+
+#### Tabela comparativa (Resumo)
+
+![imagem 7](Recursos/images/aula87-img7.jpg)
