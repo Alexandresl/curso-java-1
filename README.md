@@ -243,6 +243,10 @@
       - [Garbage Collector](#garbage-collector)
       - [Desalocação por escopo](#desalocação-por-escopo)
       - [Resumo](#resumo)
+    - [89. Vetores - Parte 1](#89-vetores---parte-1)
+      - [Checklist](#checklist-1)
+      - [Vetores](#vetores)
+      - [Problema exemplo 1](#problema-exemplo-1)
 
 ## Links úteis
 
@@ -3034,3 +3038,45 @@ Conforme pode verificado no esquema abaixo. A variável *x* pertence ao escopo d
 
 - Objetos alocados dinamicamente, quando não possuem mais referência para eles, serão desalocados pelo *garbage collector*.
 - Variáveis locais são desalocadas imediatamente assim que seu escopo local sai de execução.
+
+### 89. Vetores - Parte 1
+
+#### Checklist
+
+- Revisão do conceito de vetor
+- Declaração e instanciação
+- Manipulação de vetor de elementos tipo valor (tipo primitivo)
+- Manipulação de vetor de elementos tipo referência (classe)
+- Acesso aos elementos
+- Propriedade *lenght*
+
+#### Vetores
+
+- Em programação, "**vetor**" é o nome dado a arranjos unidimensionais.
+
+- Arranjo (**array**) é uma estrutura de dados:
+  - Homogênea (dados do mesmo tipo)
+  - Ordenada (elementos acessados por meio de padrões)
+  - Alocada de uma vez só, em um bloco contíguo de memória
+
+- **Vantagens**
+  - Acesso imediato aos elementos pela sua posição
+- **Desvantagens**
+  - Tamanho fixo
+  - Dificuldade para se realizar inserções e deleções
+
+![Imagem 1](Recursos/images/aula89-img1.jpg)
+
+#### Problema exemplo 1
+
+Fazer um programa para ler um número inteiro N e a altura de N pessoas. Armazene as N alturas em um vetor. Em seguida, mostrar a altura média dessas pessoas.
+
+| Entrada | Saída                 |
+| ------- | --------------------- |
+| 3       | AVAREGE HEIGHT = 1.69 |
+| 1.72    |                       |
+| 1.56    |                       |
+| 1.80    |                       |
+
+[Problema exemplo 1](Workspace/aula084_Exemplo_001)
+
