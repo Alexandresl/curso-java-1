@@ -246,7 +246,11 @@
     - [89. Vetores - Parte 1](#89-vetores---parte-1)
       - [Checklist](#checklist-1)
       - [Vetores](#vetores)
+      - [Exemplo de uma declaração de vetor](#exemplo-de-uma-declaração-de-vetor)
       - [Problema exemplo 1](#problema-exemplo-1)
+    - [90. Vetores - Parte 2](#90-vetores---parte-2)
+      - [Problema exemplo 2](#problema-exemplo-2)
+      - [Atributo lenght](#atributo-lenght)
 
 ## Links úteis
 
@@ -3067,6 +3071,12 @@ Conforme pode verificado no esquema abaixo. A variável *x* pertence ao escopo d
 
 ![Imagem 1](Recursos/images/aula89-img1.jpg)
 
+#### Exemplo de uma declaração de vetor
+
+```java
+double[] vect = new double[3];
+```
+
 #### Problema exemplo 1
 
 Fazer um programa para ler um número inteiro N e a altura de N pessoas. Armazene as N alturas em um vetor. Em seguida, mostrar a altura média dessas pessoas.
@@ -3078,5 +3088,36 @@ Fazer um programa para ler um número inteiro N e a altura de N pessoas. Armazen
 | 1.56    |                       |
 | 1.80    |                       |
 
-[Problema exemplo 1](Workspace/aula084_Exemplo_001)
+[Problema exemplo 1]
 
+### 90. Vetores - Parte 2
+
+#### Problema exemplo 2
+
+Fazer um programa para ler um número inteiro N e os dados (nome e preço) de N Produtos. Armazene os N produtos em um vetor. em seguida, mostrar o preço médido dos produtos.
+
+| Entrada | Saída                  |
+| ------- | ---------------------- |
+| 3       | AVAREGE PRICE = 700.00 |
+| TV      |                        |
+| 900.00  |                        |
+| Fryer   |                        |
+| 400.00  |                        |
+| Stove   |                        |
+| 800.00  |                        |
+
+![Imagem 1](Recursos/images/aula90-img1.jpg)
+
+#### Atributo lenght
+
+Retorna o número de posições de um vetor.
+
+Exemplo:
+
+```java
+
+double[] vect = new double[8];
+
+System.out.print(vect.lenght); // 8
+
+```
