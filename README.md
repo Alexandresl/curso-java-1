@@ -239,6 +239,10 @@
       - [Tipos primitivos são tipos valor](#tipos-primitivos-são-tipos-valor)
       - [Valores padrão](#valores-padrão)
       - [Tabela comparativa (Resumo)](#tabela-comparativa-resumo)
+    - [88. Desalocação de memória - garbage collector e escopo local](#88-desalocação-de-memória---garbage-collector-e-escopo-local)
+      - [Garbage Collector](#garbage-collector)
+      - [Desalocação por escopo](#desalocação-por-escopo)
+      - [Resumo](#resumo)
 
 ## Links úteis
 
@@ -3009,3 +3013,24 @@ Exemplo:
 #### Tabela comparativa (Resumo)
 
 ![imagem 7](Recursos/images/aula87-img7.jpg)
+
+### 88. Desalocação de memória - garbage collector e escopo local
+
+#### Garbage Collector
+
+**Garbage collector** é um processo que automatiza o gerenciamento de memória de um programa em execução.
+
+O **garbage collector** monitora os objetos alocados dinamicamente pelo programa (na memória *heap*), desalocando aqueles que não estão mais sendo utilizados.
+
+![Imagem 1](Recursos/images/aula88-img1.jpg)
+
+#### Desalocação por escopo
+
+Conforme pode verificado no esquema abaixo. A variável *x* pertence ao escopo do método já a variável *y* pertence apenas ao escopo do *if*, assim após a execução do código que estiver dentro deste escopo, a variável será desalocada.
+
+![Imagem 2](Recursos/images/aula88-img2.jpg)
+
+#### Resumo
+
+- Objetos alocados dinamicamente, quando não possuem mais referência para eles, serão desalocados pelo *garbage collector*.
+- Variáveis locais são desalocadas imediatamente assim que seu escopo local sai de execução.
