@@ -272,6 +272,9 @@
       - [Unboxing](#unboxing)
       - [Exemplo de boxing e umboxing](#exemplo-de-boxing-e-umboxing)
       - [Wrapper classes](#wrapper-classes)
+    - [97. Laço for each](#97-laço-for-each)
+      - [Sintaxe](#sintaxe-5)
+      - [Exemplo](#exemplo-2)
 
 ## Links úteis
 
@@ -3527,4 +3530,33 @@ System.out.println(obj) // 20
 int y = obj * 2; // Unboxing - Não há necessidade de casting
 
 System.out.println(y) // 40
+```
+
+### 97. Laço for each
+
+Sintaxe opcional e simplificada para percorrer coleções.
+
+#### Sintaxe
+
+```java
+for (Tipo apelido : coleção) {
+  <comando 1>
+  <comando 2>
+}
+```
+
+#### Exemplo
+
+```java
+String[] vect = new String[] {"Maria", "Bob", "Alex"};
+
+for (int i = 0; i < vect.length; i++) {
+  System.out.println(vect[i]);
+}
+
+// O comando abaixo é equivalente ao do for anterior
+
+for (String name : vect) {
+  System.out.println(name);
+}
 ```
