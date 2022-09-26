@@ -267,6 +267,11 @@
     - [93. Correção do exercício alturas](#93-correção-do-exercício-alturas)
     - [94. Desafio sobre vetores (pensionato)](#94-desafio-sobre-vetores-pensionato)
     - [95. Correção do desafio sobre vetores (pensionato)](#95-correção-do-desafio-sobre-vetores-pensionato)
+    - [96. Boxing, umboxing e wrapper classes](#96-boxing-umboxing-e-wrapper-classes)
+      - [Boxing](#boxing)
+      - [Unboxing](#unboxing)
+      - [Exemplo de boxing e umboxing](#exemplo-de-boxing-e-umboxing)
+      - [Wrapper classes](#wrapper-classes)
 
 ## Links úteis
 
@@ -3476,3 +3481,50 @@ Busy rooms:
 ### 95. Correção do desafio sobre vetores (pensionato)
 
 [Exercício 1](Workspace/aula095_Exercicio_001)
+
+### 96. Boxing, umboxing e wrapper classes
+
+#### Boxing
+
+É o processo de conversão de um objeto tipo valor para um objeto tipo referência compatível.
+
+Exemplo:
+
+![Imagem 1](Recursos/images/aula96-img1.jpg)
+
+#### Unboxing
+
+É o processo de conversão de um objeto tipo referência para um objeto tipo valor compatível.
+
+Exemplo:
+
+![Imagem 2](Recursos/images/aula96-img2.jpg)
+
+#### Exemplo de boxing e umboxing
+
+[Exemplo 1](Workspace/aula096_Exemplo_001)
+
+#### Wrapper classes
+
+**Wrapper classes** são classes equivalentes aos tipos primitivos.
+
+O **Java** possuem as Wrapper classes para podermos realizar o **Boxing** e **unboxing** de forma natural.
+
+- Uso comum: campo de entidades em sistemas de informação (**importante**)
+  - Pois tipos referência (classes) aceitam valor *null* e usufruem dos recursos de OO.
+
+![Imagem 3](Recursos/images/aula96-img3.jpg)
+
+Exemplo:
+
+```java
+int x = 20
+
+Integer objt = x // Boxing
+
+System.out.println(obj) // 20
+
+int y = obj * 2; // Unboxing - Não há necessidade de casting
+
+System.out.println(y) // 40
+```
