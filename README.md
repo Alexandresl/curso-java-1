@@ -263,6 +263,7 @@
       - [Exercício 9 - Problema "mais_velho"](#exercício-9---problema-mais_velho)
       - [Exercício 10 - Problema "aprovados"](#exercício-10---problema-aprovados)
       - [Exercício 11 - Problema "dados_pessoas"](#exercício-11---problema-dados_pessoas)
+    - [92. Correção do exercício negativos](#92-correção-do-exercício-negativos)
 
 ## Links úteis
 
@@ -3428,3 +3429,7 @@ Numero de homens = 2
 ```
 
 [Exercício 11](Workspace/aula091_Exercício_011)
+
+### 92. Correção do exercício negativos
+
+[Correção exercicio 1](Workspace/aula092_Exercicio_001)
