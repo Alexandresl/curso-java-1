@@ -275,6 +275,9 @@
     - [97. Laço for each](#97-laço-for-each)
       - [Sintaxe](#sintaxe-5)
       - [Exemplo](#exemplo-2)
+    - [98. Listas - Parte 1](#98-listas---parte-1)
+      - [Checklist](#checklist-2)
+      - [Conceito](#conceito)
 
 ## Links úteis
 
@@ -3560,3 +3563,39 @@ for (String name : vect) {
   System.out.println(name);
 }
 ```
+
+[Exemplo 1](Workspace/aula097_Exemplo_001)
+
+### 98. Listas - Parte 1
+
+#### Checklist
+
+- Conceito de lista
+- Tipo List - Declaração, instanciação
+- Demonstração
+
+- Referência: [https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html)
+- Assuntos pendentes:
+  - interface
+  - generics
+  - predicados (lambda)
+
+#### Conceito
+
+- **Lista** é uma estrutura de dados:
+  - Homogênea (dados do mesmo tipo)
+  - Ordenada (elementos acessados por meior de posições)
+  - Inicia vazia, e seus elementos são alocados sob demanda
+  - Cada elemento ocupa um "*nó*" (ou nodo) da lista
+
+- Tipo (Interface): **List**
+
+- Classes que a implementam: **ArrayList**, **LinkedList**, etc.
+
+- Vantagens:
+  - Tamanho variável
+  - Facilidade para se realizar inserções e deleções
+- Desvantagens
+  - Acesso sequencial aos elementos (Algumas implementações otimizam este acesso)
+
+![Imagem 1](Recursos/images/aula98-img1.jpg)
