@@ -265,6 +265,7 @@
       - [Exercício 11 - Problema "dados_pessoas"](#exercício-11---problema-dados_pessoas)
     - [92. Correção do exercício negativos](#92-correção-do-exercício-negativos)
     - [93. Correção do exercício alturas](#93-correção-do-exercício-alturas)
+    - [94. Desafio sobre vetores (pensionato)](#94-desafio-sobre-vetores-pensionato)
 
 ## Links úteis
 
@@ -3438,3 +3439,35 @@ Numero de homens = 2
 ### 93. Correção do exercício alturas
 
 [Correção exercício 3](Workspace/aula093_Exercicio_001)
+
+### 94. Desafio sobre vetores (pensionato)
+
+A dona de um pensionato possui dez quartos para alugar para estudantes, sendo esses quartos identificados pelos números 0 a 9.
+
+Fazer um programa que inicie com todos os dez quartos vazios, e depois leia uma quantidade N representando o número de estudantes que vão alugar quartos (N pode ser de 1 a 10). Em seguida, registre o aluguel dos N estudantes. Para cada registro de aluguel, informar o nome e e-mail do estudante, bem como qual dos quartos ele escolheu (0 a 9). Suponha que seja escolhido um quarto vago. Ao final, seu programa deve imprimir um relatório de todas ocupações do pensionato, por ordem de quarto, conforme exemplo.
+
+```powershell
+How many rooms will be rented? 3
+
+Rent #1:
+Name: Maria Green
+Email: maria@gmail.com
+Room: 5
+
+Rent #2:
+Name: Marco Antonio
+Email: marco@gmail.com
+Room: 1
+
+Rent #3:
+Name: Alex Brown
+Email: alex@gmail.com
+Room: 8
+
+Busy rooms:
+1: Marco Antonio, marco@gmail.com
+5: Maria Green, maria@gmail.com
+8: Alex Brown, alex@gmail.com
+```
+
+[Exercício 1](Workspace/aula094_Exercicio_001)
