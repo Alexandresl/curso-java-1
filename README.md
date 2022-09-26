@@ -266,6 +266,7 @@
     - [92. Correção do exercício negativos](#92-correção-do-exercício-negativos)
     - [93. Correção do exercício alturas](#93-correção-do-exercício-alturas)
     - [94. Desafio sobre vetores (pensionato)](#94-desafio-sobre-vetores-pensionato)
+    - [95. Correção do desafio sobre vetores (pensionato)](#95-correção-do-desafio-sobre-vetores-pensionato)
 
 ## Links úteis
 
@@ -3471,3 +3472,7 @@ Busy rooms:
 ```
 
 [Exercício 1](Workspace/aula094_Exercicio_001)
+
+### 95. Correção do desafio sobre vetores (pensionato)
+
+[Exercício 1](Workspace/aula095_Exercicio_001)
