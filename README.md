@@ -264,6 +264,7 @@
       - [Exercício 10 - Problema "aprovados"](#exercício-10---problema-aprovados)
       - [Exercício 11 - Problema "dados_pessoas"](#exercício-11---problema-dados_pessoas)
     - [92. Correção do exercício negativos](#92-correção-do-exercício-negativos)
+    - [93. Correção do exercício alturas](#93-correção-do-exercício-alturas)
 
 ## Links úteis
 
@@ -3432,4 +3433,8 @@ Numero de homens = 2
 
 ### 92. Correção do exercício negativos
 
-[Correção exercicio 1](Workspace/aula092_Exercicio_001)
+[Correção exercício 1](Workspace/aula092_Exercicio_001)
+
+### 93. Correção do exercício alturas
+
+[Correção exercício 3](Workspace/aula093_Exercicio_001)
