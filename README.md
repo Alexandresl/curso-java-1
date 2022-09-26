@@ -276,8 +276,9 @@
       - [Sintaxe](#sintaxe-5)
       - [Exemplo](#exemplo-2)
     - [98. Listas - Parte 1](#98-listas---parte-1)
-      - [Checklist](#checklist-2)
       - [Conceito](#conceito)
+    - [99. Listas - Parte 2](#99-listas---parte-2)
+      - [Demonstração de operações com listas](#demonstração-de-operações-com-listas)
 
 ## Links úteis
 
@@ -3568,13 +3569,8 @@ for (String name : vect) {
 
 ### 98. Listas - Parte 1
 
-#### Checklist
-
-- Conceito de lista
-- Tipo List - Declaração, instanciação
-- Demonstração
-
 - Referência: [https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html)
+
 - Assuntos pendentes:
   - interface
   - generics
@@ -3599,3 +3595,17 @@ for (String name : vect) {
   - Acesso sequencial aos elementos (Algumas implementações otimizam este acesso)
 
 ![Imagem 1](Recursos/images/aula98-img1.jpg)
+
+### 99. Listas - Parte 2
+
+#### Demonstração de operações com listas
+
+- Tamanho da lista: ```size()```
+- Obter o elemento de uma posição: ```get(position)```
+- Inserir elemento na lista: ```add(obj)```, ```add(int, obj)```
+- Remover elementos da lista: ```remove(obj)```, ```remove(int)```, ```removeIf(Predicate)```
+- Encontrar posição de elemento: ```indexOf(obj)```, ``lastIndexOf(obj)``
+- Filtrar lista com base em predicado: ```List<Integer> result = list.stream().filter(x -> x > 4).collect(Collectors.toList());```
+- Encontrar primeira ocorrência com base em predicado: ```Integer result = list.stream().filter(x -> x > 4).findFirst().orElse(null);```
+
+[Exemplo 1](Workspace/aula099_Exemplo_001)
