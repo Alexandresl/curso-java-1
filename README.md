@@ -308,6 +308,7 @@
     - [133. Convertendo data-hora global para local](#133-convertendo-data-hora-global-para-local)
       - [Obtendo uma lista de todos os ZoneIds disponíveis](#obtendo-uma-lista-de-todos-os-zoneids-disponíveis)
       - [Convertendo data-hora para local](#convertendo-data-hora-para-local)
+    - [114. Cálculos com data-hora](#114-cálculos-com-data-hora)
 
 ## Links úteis
 
@@ -3779,6 +3780,8 @@ Parte 2 - Date e Calendar (Java 7) - Dois últimos vídeos
 
 #### Conceitos importantes
 
+- **Importante** - Os objetos de data hora instanciados são **imutáveis**.
+
 - **Data-[hora] local**:
   - ano-mês-dia-[hora] sem fuso horário
   - [hora] *opcional*
@@ -3996,10 +3999,6 @@ Resultado: [ZoneIds.md](ZoneIds.md)
 #### Convertendo data-hora para local
 
 ```java
-/**
-  * Link para a especificação do DateTimeFormatter
-  * https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html
-  */
 
   // Converter data-hora global para local
 
@@ -4029,3 +4028,43 @@ Resultado: [ZoneIds.md](ZoneIds.md)
 ```
 
 [Exemplo](Workspace/aula113_Exemplo_001)
+
+### 114. Cálculos com data-hora
+
+```java
+LocalDate d04 = LocalDate.parse("2022-07-20");
+LocalDateTime d05 = LocalDateTime.parse("2022-07-20T01:30:26");
+Instant d06 = Instant.parse("2022-07-20T01:30:26Z");
+
+LocalDate pastWeekLocalDate = d04.minusDays(7);
+LocalDate nextWeekLocalDate = d04.plusDays(7);
+
+LocalDateTime pastWeekLocalDateTime = d05.minusDays(7);
+LocalDateTime nextWeekLocalDateTime = d05.plusDays(7);
+
+Instant pastWeekInstant = d06.minus(7, ChronoUnit.DAYS);
+Instant nextWeekInstant = d06.plus(7, ChronoUnit.DAYS);
+
+System.out.println();
+System.out.println("Data-hora +/- tempo -> Data-hora");
+System.out.println("pastWeekLocalDate: " + pastWeekLocalDate); // pastWeekLocalDate: 2022-07-13
+System.out.println("nextWeekLocalDate: " + nextWeekLocalDate); // nextWeekLocalDate: 2022-07-27
+System.out.println("pastWeekLocalDateTime: " + pastWeekLocalDateTime); // pastWeekLocalDateTime: 2022-07-13T01:30:26
+System.out.println("pastWeekLocalDateTime: " + nextWeekLocalDateTime); // pastWeekLocalDateTime: 2022-07-27T01:30:26
+System.out.println("pastWeekInstant: " + pastWeekInstant); // pastWeekInstant: 2022-07-13T01:30:26Z
+System.out.println("nextWeekInstant: " + nextWeekInstant); // nextWeekInstant: 2022-07-27T01:30:26Z
+
+Duration t1 = Duration.between(pastWeekLocalDate.atStartOfDay(), d04.atStartOfDay());
+Duration t2 = Duration.between(pastWeekLocalDateTime, d05);
+Duration t3 = Duration.between(pastWeekInstant, d06);
+Duration t4 = Duration.between(d06, pastWeekInstant);
+
+System.out.println();
+System.out.println("Data-hora 1, Data-hora 2 -> Duração");
+System.out.println("t1 em dias: " + t1.toDays()); // t1 em dias: 7
+System.out.println("t2 em dias: " + t2.toDays()); // t2 em dias: 7
+System.out.println("t3 em dias: " + t3.toDays()); // t3 em dias: 7
+System.out.println("t4 em dias: " + t4.toDays()); // t4 em dias: -7
+```
+
+[Exemplo](Workspace/aula114_Exemplo_001)
