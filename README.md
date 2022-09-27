@@ -294,6 +294,9 @@
       - [GMT - Treenwich Mean Time](#gmt---treenwich-mean-time)
       - [Outros fusos horários são relativos ao GMT/UTC:](#outros-fusos-horários-são-relativos-ao-gmtutc)
       - [Muitas linguagens/tecnologias usam nomes para as timezones:](#muitas-linguagenstecnologias-usam-nomes-para-as-timezones)
+    - [109. Padrão ISO 8601](#109-padrão-iso-8601)
+      - [Data-[hora] local:](#data-hora-local)
+      - [Data-hora global:](#data-hora-global)
 
 ## Links úteis
 
@@ -3812,3 +3815,20 @@ Parte 2 - Date e Calendar (Java 7) - Dois últimos vídeos
 - "US/Pacific"
 - "America/Sao_paulo"
 - etc
+
+### 109. Padrão ISO 8601
+
+Este padrão especifica como você deve representar datas e horas no padrão texto.
+
+#### Data-[hora] local:
+
+- 2022-07-21
+- 2022-07-21T14:52
+- 2022-07-21T14:52:09
+- 2022-07-21T14:52:09.4073
+
+#### Data-hora global:
+
+- 2022-07-23T14:52:09Z
+- 2022-07-23T14:52:09.254935Z
+- 2022-07-23T14:52:09-03:00
