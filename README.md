@@ -310,6 +310,9 @@
       - [Convertendo data-hora para local](#convertendo-data-hora-para-local)
     - [114. Cálculos com data-hora](#114-cálculos-com-data-hora)
     - [115. Aviso: próximas duas aulas são sobre Date e Calendar](#115-aviso-próximas-duas-aulas-são-sobre-date-e-calendar)
+    - [116. Trabalhando com datas - Date](#116-trabalhando-com-datas---date)
+      - [SimpleDateFormat](#simpledateformat)
+      - [Padrão ISO 8601 e classe Instant](#padrão-iso-8601-e-classe-instant)
 
 ## Links úteis
 
@@ -4073,3 +4076,38 @@ System.out.println("t4 em dias: " + t4.toDays()); // t4 em dias: -7
 ### 115. Aviso: próximas duas aulas são sobre Date e Calendar
 
  conforme informado anteriormente, na introdução deste capítulo, as próximas duas aulas serão sobre os tipos Date e Calendar, que é o modelo antigo de data-hora usado pelo Java antes da versão 8. Deixei essas aulas aqui para vocês como referência opcional caso precisem trabalhar com esse modelo antigo em algum sistema legado em Java.
+
+### 116. Trabalhando com datas - Date
+
+O *Date* representa um Instante
+
+Pacote *java.util*
+
+[Documentação](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Date.html)
+
+Um objeto Date internamente armazena:
+
+- O número de milissegundos desde a meia noite do dia 1 de janeiro de 1970 GMT (UTC)
+  - **GMT** - *Greenwich Mean Time* (*time zone*)
+  - **UTC** - *Coordinated Universal time* (*time standard*)
+
+#### SimpleDateFormat
+
+Define formatos para conversão entre Date e String;
+
+Exemplos:
+
+- dd/MM/yyyy -> 23/07/2018
+- dd/MM/yyyy HH:mm:ss -> 23/07/2018 15:42:07
+
+[Documentação](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/text/SimpleDateFormat.html)
+
+#### Padrão ISO 8601 e classe Instant
+
+- Formato: yyyy-MM-ddTHH:mm:ssZ
+
+- Exemplo: "2018-06-25T15:42:07Z"
+
+- ```Date y3 = Date.from(Instant.parse("2018-06-25T15:42:07Z"));```
+
+[Exemplo](Workspace/aula116_Exemplo_001)
