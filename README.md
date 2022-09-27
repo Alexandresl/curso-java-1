@@ -282,6 +282,7 @@
     - [100. Exercício proposto](#100-exercício-proposto)
     - [101. Correção em vídeo do exercício proposto](#101-correção-em-vídeo-do-exercício-proposto)
     - [102. Matrizes](#102-matrizes)
+    - [103. Exercício resolvido](#103-exercício-resolvido)
 
 ## Links úteis
 
@@ -3697,3 +3698,18 @@ Em programação, **matriz** é o nome dado a arranjos (*arrays*) bidimensionais
   - Dificuldade para se realizar inserções e deleções
 
 ![Imagem 1](Recursos/images/aula102-img1.jpg)
+
+### 103. Exercício resolvido
+
+Fazer um programa para ler um número inteiro N e uma matriz de ordem N contendo números inteiros. Em seguida, mostrar a ediagonal principal e a quantidade de valores negativos da matriz.
+
+Exemplo:
+
+| Entrada | Saída                |
+| ------- | -------------------- |
+| 3       | Main diagonal:       |
+| 5 -3 10 | 5 8 -4                |
+| 15 8 2  | Negative numbers = 2 |
+| 7 9 -4  |                      |
+
+[Exercício 1](Workspace/aula103_Exercicio_001)
