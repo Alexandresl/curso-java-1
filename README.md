@@ -286,6 +286,7 @@
     - [104. Exercício proposto](#104-exercício-proposto)
   - [Seção 11: Tópicos especiais em Java: data-hora](#seção-11-tópicos-especiais-em-java-data-hora)
     - [105. Boas-vindas e avisos](#105-boas-vindas-e-avisos)
+    - [106. Material de apoio do capítulo](#106-material-de-apoio-do-capítulo)
 
 ## Links úteis
 
@@ -3746,3 +3747,10 @@ Down: 19
 Parte 1 - Trabalhando com data-hora (Java 8+)
 
 Parte 2 - Date e Calendar (Java 7) - Dois últimos vídeos
+
+### 106. Material de apoio do capítulo
+
+[Material Parte 1](Recursos/pdf/11-trabalhando-com-data-hora.pdf)
+
+[Material Parte 2](Recursos/pdf/11-date-calendar.pdf)
+
