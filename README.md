@@ -3771,7 +3771,7 @@ Parte 2 - Date e Calendar (Java 7) - Dois últimos vídeos
 - **Duração**:
   - Tempo decorrido entre duas-horas
 
-[Exemplo "Data-hora global"](Recursos/images/aula107-img1.jpg)
+![Exemplo "Data-hora global"](Recursos/images/aula107-img1.jpg)
 
 #### Quando usar?
 
