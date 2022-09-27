@@ -283,6 +283,7 @@
     - [101. Correção em vídeo do exercício proposto](#101-correção-em-vídeo-do-exercício-proposto)
     - [102. Matrizes](#102-matrizes)
     - [103. Exercício resolvido](#103-exercício-resolvido)
+    - [104. Exercício proposto](#104-exercício-proposto)
 
 ## Links úteis
 
@@ -3713,3 +3714,25 @@ Exemplo:
 | 7 9 -4  |                      |
 
 [Exercício 1](Workspace/aula103_Exercicio_001)
+
+### 104. Exercício proposto
+
+Fazer um programa para ler dois números inteiros M e N, e depois ler uma matris de M linhas por N colunas contendo números inteiros, podendo haver repetições. Em seguida, ler um número inteiro X que pertence à matriz. Para cada ocorrência de X, mostrar os valores à esquerda, acima, à direita e abaixo, de x, quando houver, conforme exemplo:
+
+```powershell
+3 4
+10 8 15 12
+21 11 23 8
+14 5 13 19
+8
+Position 0,1:
+Left: 10
+Right: 15
+Down: 11
+Position 1,3:
+Left: 23
+Up: 12
+Down: 19
+```
+
+[Exercício 1](Workspace/aula104_Exercicio_001)
