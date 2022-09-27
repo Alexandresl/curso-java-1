@@ -309,6 +309,7 @@
       - [Obtendo uma lista de todos os ZoneIds disponíveis](#obtendo-uma-lista-de-todos-os-zoneids-disponíveis)
       - [Convertendo data-hora para local](#convertendo-data-hora-para-local)
     - [114. Cálculos com data-hora](#114-cálculos-com-data-hora)
+    - [115. Aviso: próximas duas aulas são sobre Date e Calendar](#115-aviso-próximas-duas-aulas-são-sobre-date-e-calendar)
 
 ## Links úteis
 
@@ -4068,3 +4069,7 @@ System.out.println("t4 em dias: " + t4.toDays()); // t4 em dias: -7
 ```
 
 [Exemplo](Workspace/aula114_Exemplo_001)
+
+### 115. Aviso: próximas duas aulas são sobre Date e Calendar
+
+ conforme informado anteriormente, na introdução deste capítulo, as próximas duas aulas serão sobre os tipos Date e Calendar, que é o modelo antigo de data-hora usado pelo Java antes da versão 8. Deixei essas aulas aqui para vocês como referência opcional caso precisem trabalhar com esse modelo antigo em algum sistema legado em Java.
