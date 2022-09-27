@@ -281,6 +281,7 @@
       - [Demonstração de operações com listas](#demonstração-de-operações-com-listas)
     - [100. Exercício proposto](#100-exercício-proposto)
     - [101. Correção em vídeo do exercício proposto](#101-correção-em-vídeo-do-exercício-proposto)
+    - [102. Matrizes](#102-matrizes)
 
 ## Links úteis
 
@@ -3679,3 +3680,20 @@ List of employees:
 [Link Youtube](https://youtu.be/Xj-osdBe3TE)
 
 [Exercício corrigido](Workspace/aula101_Exercicio_001)
+
+### 102. Matrizes
+
+Em programação, **matriz** é o nome dado a arranjos (*arrays*) bidimensionais. É um "*vetor de vetores*".
+
+- Arranjo (array) é uma estrutura de dados:
+  - Homogênea (dados do mesmo tipo)
+  - Ordenada (elementos acessados por meio de posições)
+  - Alocada de uma vez só, em um bloco contíguo de memória
+
+- Vantagens:
+  - Acesso imediato aos elementos pela sua posição
+- Desvantagens:
+  - Tamanho fixo
+  - Dificuldade para se realizar inserções e deleções
+
+![Imagem 1](Recursos/images/aula102-img1.jpg)
