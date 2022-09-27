@@ -297,6 +297,9 @@
     - [109. Padrão ISO 8601](#109-padrão-iso-8601)
       - [Data-[hora] local:](#data-hora-local)
       - [Data-hora global:](#data-hora-global)
+    - [110. Operações importantes com data-hora](#110-operações-importantes-com-data-hora)
+      - [Instanciação](#instanciação-1)
+      - [Formatação](#formatação)
 
 ## Links úteis
 
@@ -3832,3 +3835,29 @@ Este padrão especifica como você deve representar datas e horas no padrão tex
 - 2022-07-23T14:52:09Z
 - 2022-07-23T14:52:09.254935Z
 - 2022-07-23T14:52:09-03:00
+
+### 110. Operações importantes com data-hora
+
+Segue as operações com dadas mais importantes que devemos ser capaz de realizar com Java.
+
+#### Instanciação
+
+- (agora) -> Data-hora
+- Texto ISO 8601 -> Data-hora
+- Texto formata customizado -> Data-hora
+- dia, mês, ano, [horário] -> Data-hora local
+
+#### Formatação
+
+- Data-hora -> Texto ISO 8601
+- data-hora -> Texto formata customizado
+
+- Converter data-hora global para local
+  - Data-hora global, timezone (sistema local) -> Data-hora local
+
+- Obter dados de uma data-hora local
+  - Data-hora local -> dia, mês, ano, horário
+
+- Cálculos com data-hora
+  - Data-hora +/- tempo -> Data-hora
+  - Data-hora 1, Data-hora 2 -> Duração
