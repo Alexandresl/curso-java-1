@@ -287,6 +287,9 @@
   - [Seção 11: Tópicos especiais em Java: data-hora](#seção-11-tópicos-especiais-em-java-data-hora)
     - [105. Boas-vindas e avisos](#105-boas-vindas-e-avisos)
     - [106. Material de apoio do capítulo](#106-material-de-apoio-do-capítulo)
+    - [107. Introdução a data-hora e duração](#107-introdução-a-data-hora-e-duração)
+      - [Conceitos importantes](#conceitos-importantes)
+      - [Quando usar?](#quando-usar)
 
 ## Links úteis
 
@@ -3754,3 +3757,34 @@ Parte 2 - Date e Calendar (Java 7) - Dois últimos vídeos
 
 [Material Parte 2](Recursos/pdf/11-date-calendar.pdf)
 
+### 107. Introdução a data-hora e duração
+
+#### Conceitos importantes
+
+- **Data-[hora] local**:
+  - ano-mês-dia-[hora] sem fuso horário
+  - [hora] *opcional*
+
+- **Data-hora global**:
+  - ano-mês-dia-hora com fuso horário
+
+- **Duração**:
+  - Tempo decorrido entre duas-horas
+
+[Exemplo "Data-hora global"](Recursos/images/aula107-img1.jpg)
+
+#### Quando usar?
+
+- **Data-[hora] local**:
+  - Quando o momento exato não interessa a pessoas de outro fuso horário.
+  - Uso comum: sistemas de região única, Excel.
+    - Data de nascimento: "15/06/2021"
+    - Data-hora da venda: "13/08/2022 às 15:32" (presumindo não interessar fuso horário)
+
+- **Data-hora global**:
+  - Quando o momento exato interessa a pessoas de outro fuso horário.
+  - Uso comum: sistemas multi-região, web.
+    - Quando será o sorteio? "21/08/2022 às 20h (horário de São Paulo)"
+    - Quando o comentário foi postado? "há 17 minutos"
+    - Quando foi realizada a venda? "13/08/2022 às 15:32 (horário de São Paulo)"
+    - Início e fim do evento? "21/08/2022 às 14h até 16h (horário de São Paulo)"
