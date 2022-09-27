@@ -284,6 +284,8 @@
     - [102. Matrizes](#102-matrizes)
     - [103. Exercício resolvido](#103-exercício-resolvido)
     - [104. Exercício proposto](#104-exercício-proposto)
+  - [Seção 11: Tópicos especiais em Java: data-hora](#seção-11-tópicos-especiais-em-java-data-hora)
+    - [105. Boas-vindas e avisos](#105-boas-vindas-e-avisos)
 
 ## Links úteis
 
@@ -3736,3 +3738,11 @@ Down: 19
 ```
 
 [Exercício 1](Workspace/aula104_Exercicio_001)
+
+## Seção 11: Tópicos especiais em Java: data-hora
+
+### 105. Boas-vindas e avisos
+
+Parte 1 - Trabalhando com data-hora (Java 8+)
+
+Parte 2 - Date e Calendar (Java 7) - Dois últimos vídeos
