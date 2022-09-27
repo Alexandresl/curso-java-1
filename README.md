@@ -280,6 +280,7 @@
     - [99. Listas - Parte 2](#99-listas---parte-2)
       - [Demonstração de operações com listas](#demonstração-de-operações-com-listas)
     - [100. Exercício proposto](#100-exercício-proposto)
+    - [101. Correção em vídeo do exercício proposto](#101-correção-em-vídeo-do-exercício-proposto)
 
 ## Links úteis
 
@@ -3671,4 +3672,10 @@ List of employees:
 536, Alex Grey, 3000.00
 ```
 
-[Exercício de fixação 1](Workspace/aula100_Exemplo_001)
+[Exercício de fixação 1](Workspace/aula100_Exercício_001)
+
+### 101. Correção em vídeo do exercício proposto
+
+[Link Youtube](https://youtu.be/Xj-osdBe3TE)
+
+[Exercício corrigido](Workspace/aula101_Exercicio_001)
