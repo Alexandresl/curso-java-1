@@ -290,6 +290,10 @@
     - [107. Introdução a data-hora e duração](#107-introdução-a-data-hora-e-duração)
       - [Conceitos importantes](#conceitos-importantes)
       - [Quando usar?](#quando-usar)
+    - [108. Entendendo timezone (fuso horário)](#108-entendendo-timezone-fuso-horário)
+      - [GMT - Treenwich Mean Time](#gmt---treenwich-mean-time)
+      - [Outros fusos horários são relativos ao GMT/UTC:](#outros-fusos-horários-são-relativos-ao-gmtutc)
+      - [Muitas linguagens/tecnologias usam nomes para as timezones:](#muitas-linguagenstecnologias-usam-nomes-para-as-timezones)
 
 ## Links úteis
 
@@ -3788,3 +3792,23 @@ Parte 2 - Date e Calendar (Java 7) - Dois últimos vídeos
     - Quando o comentário foi postado? "há 17 minutos"
     - Quando foi realizada a venda? "13/08/2022 às 15:32 (horário de São Paulo)"
     - Início e fim do evento? "21/08/2022 às 14h até 16h (horário de São Paulo)"
+
+### 108. Entendendo timezone (fuso horário)
+
+#### GMT - Treenwich Mean Time
+
+- Horário de Londres
+- Horário do padrão UTC - Coordinated Universal Time
+- Também chamado de "Z" time, ou *Zulu* time
+
+#### Outros fusos horários são relativos ao GMT/UTC:
+
+- São Paulo: GMT-3
+- Manaus: GMT-4
+- Portugal: GMT+1
+
+#### Muitas linguagens/tecnologias usam nomes para as timezones:
+
+- "US/Pacific"
+- "America/Sao_paulo"
+- etc
