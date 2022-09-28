@@ -318,6 +318,7 @@
       - [Obtendo uma unidade de tempo](#obtendo-uma-unidade-de-tempo)
   - [Seção 12: Bônus - nivelamento sobre Git e Github](#seção-12-bônus---nivelamento-sobre-git-e-github)
     - [118. Apresentação do bônus Git e Github](#118-apresentação-do-bônus-git-e-github)
+    - [119. Material de apoio do capítulo](#119-material-de-apoio-do-capítulo)
 
 ## Links úteis
 
@@ -4159,3 +4160,9 @@ System.out.println("Month: " + month); // Month: 6
 ## Seção 12: Bônus - nivelamento sobre Git e Github
 
 ### 118. Apresentação do bônus Git e Github
+
+### 119. Material de apoio do capítulo
+
+[Material de apoio](12-Recursos/pdf/12-Introdução-ao-Git-e-Github-(slides).pdf)
+
+[Resolvendo problemas comuns](Recursos/pdf/12-Resolvendo-problemas-comuns-(slides).pdf)
