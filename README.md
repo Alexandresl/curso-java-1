@@ -335,6 +335,9 @@
     - [128. Demo - clonar e modificar um projeto](#128-demo---clonar-e-modificar-um-projeto)
     - [129. Git log para verificar histórico de versões](#129-git-log-para-verificar-histórico-de-versões)
       - [Verificando o histórico de versões](#verificando-o-histórico-de-versões)
+    - [130. Entendendo git status e stage](#130-entendendo-git-status-e-stage)
+      - [git status](#git-status)
+      - [retirar arquivos do stage](#retirar-arquivos-do-stage)
 
 ## Links úteis
 
@@ -4309,3 +4312,25 @@ git push
 - listagme resumida:
 
 ```git log --oneline```
+
+### 130. Entendendo git status e stage
+
+#### git status
+
+Informa se há alterações para serem salvas, e se estas alterações já estão na área de *stage*.
+
+[Imagem 1](Recursos/images/aula130-img1.jpg)
+
+Conforme imagem, podemos ter três situações de arquivos:
+
+- Aparecerão em **vermelho**:
+  - **modified**: arquivos que já estão no repositório mas foram modificados e não estão na área de *stage*;
+  - **untracked**: arquivos que não estão no repositório e não estão na área de *stage*;
+  - **deleted**: arquivos que já estão no repositório porém foram deletados
+
+- Aparecerão em **verde**
+  - **staged**: arquivos que estão prontos na área de *stage* para serem salvos.
+
+#### retirar arquivos do stage
+
+```git reset```
