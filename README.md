@@ -316,6 +316,8 @@
     - [117. Manipulando um Date com Calendar](#117-manipulando-um-date-com-calendar)
       - [Somando uma unidade de tempo](#somando-uma-unidade-de-tempo)
       - [Obtendo uma unidade de tempo](#obtendo-uma-unidade-de-tempo)
+  - [Seção 12: Bônus - nivelamento sobre Git e Github](#seção-12-bônus---nivelamento-sobre-git-e-github)
+    - [118. Apresentação do bônus Git e Github](#118-apresentação-do-bônus-git-e-github)
 
 ## Links úteis
 
@@ -4153,3 +4155,7 @@ System.out.println("Month: " + month); // Month: 6
 ```
 
 [Exemplo 2](Workspace/aula117_Exemplo_002)
+
+## Seção 12: Bônus - nivelamento sobre Git e Github
+
+### 118. Apresentação do bônus Git e Github
