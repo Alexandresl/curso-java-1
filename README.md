@@ -348,6 +348,7 @@
     - [135. Removendo arquivos da área de stage](#135-removendo-arquivos-da-área-de-stage)
     - [136. Desfazendo modificações não salvas](#136-desfazendo-modificações-não-salvas)
     - [137. O que fazer quando abre o editor VIM](#137-o-que-fazer-quando-abre-o-editor-vim)
+    - [138. Deletando o último commit sem deletar modificações nos arquivos](#138-deletando-o-último-commit-sem-deletar-modificações-nos-arquivos)
 
 ## Links úteis
 
@@ -4460,4 +4461,12 @@ i
 :q!
 
 <ENTER>
+```
+
+### 138. Deletando o último commit sem deletar modificações nos arquivos
+
+```powershell
+git status
+
+git reset --soft HEAD~1
 ```
