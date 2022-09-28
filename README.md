@@ -4237,11 +4237,11 @@ Cada pessoa que trabalha no projeto pode fazer uma cópia do repositório para s
 
 ### 123. Configurando sua identificação
 
-```powersheel
+```powershell
 git config --global user.name "Seu nonme"
 git config --global user.email "Seu email de cadastro do Github"
 
-git config --list // lista as configurações
+git config --list # lista as configurações
 ```
 
 #### Alterar o branch padrão de master para main:
@@ -4326,7 +4326,7 @@ git push
 
 ```git log```
 
-- listagme resumida:
+- listagem resumida:
 
 ```git log --oneline```
 
@@ -4538,5 +4538,7 @@ git push -f <nome do remote> <nome do branch>
 ### 144. Como apontar o projeto para outro repositório remoto
 
 ```powershell
+gir remote -v # verifica qual é o servidor remoto
+
 git remote set-url origin git@github.com:seuusuario/seurepositorio.git
 ```
