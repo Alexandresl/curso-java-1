@@ -358,6 +358,12 @@
   - [Seção 13: Enumerações, composição](#seção-13-enumerações-composição)
     - [145. Visão geral do capítulo Enumerações e Composição](#145-visão-geral-do-capítulo-enumerações-e-composição)
     - [146. Material de apoio do capítulo](#146-material-de-apoio-do-capítulo)
+    - [147. Enumerações](#147-enumerações)
+      - [Checklist](#checklist-2)
+      - [Definição](#definição)
+      - [Exemplo](#exemplo-3)
+      - [Conversão de String para enum](#conversão-de-string-para-enum)
+      - [Representação UML](#representação-uml)
 
 ## Links úteis
 
@@ -4553,3 +4559,43 @@ git remote set-url origin git@github.com:seuusuario/seurepositorio.git
 ### 146. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/13-enumeracoes-composicao.pdf)
+
+### 147. Enumerações
+
+#### Checklist
+
+- Definição / discussão
+- Exemplo: estados de um pedido
+- Conversão de String para enum
+- Representação UML
+
+#### Definição
+
+**Enumerações** é um tipo especial que serve para especificar de forma literal um conjunto de constantes relacionadas.
+
+A palavra chave em Java para criação de enumeração é **enum**.
+
+- As vantagens do uso de enumerações
+  - Melhor semântica
+  - Código mais legível
+  - auxílio do compilador
+
+Referência: [https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Enum.html](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Enum.html)
+
+#### Exemplo
+
+- Ciclo de vida de um pedido
+
+![Exemplo - Ciclo de vida de um pedido](Recursos/images/aula147-img1.jpg)
+
+#### Conversão de String para enum
+
+```java
+OrderStatus os1 = OrderStatus.delivered;
+
+OrderStatus os2 = OrderStatus.valueOf("Delivered");
+```
+
+#### Representação UML
+
+![Representação UML](Recursos/images/aula147-img2.jpg)
