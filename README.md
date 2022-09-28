@@ -355,6 +355,8 @@
     - [142. Resolvendo pull com conflito](#142-resolvendo-pull-com-conflito)
     - [143. Como sobrescrever um histórico no Github](#143-como-sobrescrever-um-histórico-no-github)
     - [144. Como apontar o projeto para outro repositório remoto](#144-como-apontar-o-projeto-para-outro-repositório-remoto)
+  - [Seção 13: Enumerações, composição](#seção-13-enumerações-composição)
+    - [145. Visão geral do capítulo Enumerações e Composição](#145-visão-geral-do-capítulo-enumerações-e-composição)
 
 ## Links úteis
 
@@ -4542,3 +4544,7 @@ gir remote -v # verifica qual é o servidor remoto
 
 git remote set-url origin git@github.com:seuusuario/seurepositorio.git
 ```
+
+## Seção 13: Enumerações, composição
+
+### 145. Visão geral do capítulo Enumerações e Composição
