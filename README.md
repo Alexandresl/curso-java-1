@@ -324,6 +324,7 @@
       - [Github](#github)
     - [121. Repositório local e repositório remoto](#121-repositório-local-e-repositório-remoto)
     - [122. Instalação do Git no Windows](#122-instalação-do-git-no-windows)
+    - [123. Configurando sua identificação](#123-configurando-sua-identificação)
 
 ## Links úteis
 
@@ -4203,3 +4204,12 @@ Cada pessoa que trabalha no projeto pode fazer uma cópia do repositório para s
 ### 122. Instalação do Git no Windows
 
 [Link para download: https://git-scm.com/](https://git-scm.com/)
+
+### 123. Configurando sua identificação
+
+```powersheel
+git config --global user.name "Seu nonme"
+git config --global user.email "Seu email de cadastro do Github"
+
+git config --list // lista as configurações
+```
