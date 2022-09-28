@@ -326,6 +326,8 @@
     - [122. Instalação do Git no Windows](#122-instalação-do-git-no-windows)
     - [123. Configurando sua identificação](#123-configurando-sua-identificação)
     - [124. Mostrar arquivos ocultos e extensões](#124-mostrar-arquivos-ocultos-e-extensões)
+    - [125. Configurar chave SSH no Github](#125-configurar-chave-ssh-no-github)
+      - [Gerar uma chave SSH no seu computador](#gerar-uma-chave-ssh-no-seu-computador)
 
 ## Links úteis
 
@@ -4221,3 +4223,24 @@ Iniciar -> Opções do explorador de arquivos
 
 Desmarcar: "Ocultar as extensões dos tipos de arquivos conhecidos"
 Marcar: "Mostrar arquivos, pastas e unidades ocultas"
+
+### 125. Configurar chave SSH no Github
+
+**SSH** é um protocolo para comunicação de dados com segurança.
+
+O Github aboliu a autenticação somente com usuário e senha.
+
+A ideia básica é cadastrar previamente quais copmputadores podem acessar o Github em seu nome. Outros computadores não conseguem acessar.
+
+Para isso você deve:
+
+1. Gerar uma chave SSH no seu computador
+2. Cadastrar essa chave no seu Github
+
+#### Gerar uma chave SSH no seu computador
+
+Executar o comando no terminal: ```ssh-keygen -t ed25519 -C "your_email@example.com"```
+
+Acessar o arquivo ```id_rsa.pub``` na pasta ```.ssh``` na sua pasta pessoal do Windows e copia a chave contida nele.
+
+Acessar o site do Github.com -> Settings -> SSH and GPG keys -> Clicar em New SSH Key
