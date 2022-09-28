@@ -347,6 +347,7 @@
     - [134. Visão geral da segunda parte](#134-visão-geral-da-segunda-parte)
     - [135. Removendo arquivos da área de stage](#135-removendo-arquivos-da-área-de-stage)
     - [136. Desfazendo modificações não salvas](#136-desfazendo-modificações-não-salvas)
+    - [137. O que fazer quando abre o editor VIM](#137-o-que-fazer-quando-abre-o-editor-vim)
 
 ## Links úteis
 
@@ -4424,4 +4425,39 @@ git reset
 git clean -df
 
 git checkout -- .
+```
+
+### 137. O que fazer quando abre o editor VIM
+
+Estas ações podem abrir o editor VIM no terminal:
+
+- Fazer um commit sem mensagem
+- Fazer um merge de três vias
+
+Para fechar devemos:
+
+- Habilitar o modo de edição
+
+```powershell
+i
+```
+
+- Sair do VIM, salvando as alterações:
+
+```powershell
+<ESC>
+
+:wq
+
+<ENTER>
+```
+
+- Sair do VIM, destacartando as alterações
+
+```powershell
+<ESC>
+
+:q!
+
+<ENTER>
 ```
