@@ -350,6 +350,7 @@
     - [137. O que fazer quando abre o editor VIM](#137-o-que-fazer-quando-abre-o-editor-vim)
     - [138. Deletando o último commit sem deletar modificações nos arquivos](#138-deletando-o-último-commit-sem-deletar-modificações-nos-arquivos)
     - [139. Deletando commits e também modificações nos arquivos](#139-deletando-commits-e-também-modificações-nos-arquivos)
+    - [140. Como atualizar o repositório local em relação ao remoto](#140-como-atualizar-o-repositório-local-em-relação-ao-remoto)
 
 ## Links úteis
 
@@ -4490,4 +4491,12 @@ git reset --hard <código do commit>
 git status
 
 git reset --hard HEAD~1
+```
+
+### 140. Como atualizar o repositório local em relação ao remoto
+
+```powershell
+git status
+
+git pull <nome do remote> <nome do branch>
 ```
