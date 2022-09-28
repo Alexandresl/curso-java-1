@@ -328,6 +328,8 @@
     - [124. Mostrar arquivos ocultos e extensões](#124-mostrar-arquivos-ocultos-e-extensões)
     - [125. Configurar chave SSH no Github](#125-configurar-chave-ssh-no-github)
       - [Gerar uma chave SSH no seu computador](#gerar-uma-chave-ssh-no-seu-computador)
+    - [126. Salvando primeira versão de um projeto no Github](#126-salvando-primeira-versão-de-um-projeto-no-github)
+      - [Passo a passo: Salvar primeira versão de um projeto no Github](#passo-a-passo-salvar-primeira-versão-de-um-projeto-no-github)
 
 ## Links úteis
 
@@ -4244,3 +4246,23 @@ Executar o comando no terminal: ```ssh-keygen -t ed25519 -C "your_email@example.
 Acessar o arquivo ```id_rsa.pub``` na pasta ```.ssh``` na sua pasta pessoal do Windows e copia a chave contida nele.
 
 Acessar o site do Github.com -> Settings -> SSH and GPG keys -> Clicar em New SSH Key
+
+### 126. Salvando primeira versão de um projeto no Github
+
+#### Passo a passo: Salvar primeira versão de um projeto no Github
+
+Considerando que agora seu amtiente já ejstá todo configurado (usuári e email, fisualização de arquivos ocultos e chave SSH), sempre que você criar um novo projeto, os passos básicos serão estes:
+
+```powershell
+git init
+
+git add .
+
+git commit -m "Mensagem explicativa"
+
+git branch -M main
+
+git remote add origin git@github.com:seuusuario/seurepositorio.git
+
+git push -u origin main
+```
