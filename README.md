@@ -325,6 +325,7 @@
     - [121. Repositório local e repositório remoto](#121-repositório-local-e-repositório-remoto)
     - [122. Instalação do Git no Windows](#122-instalação-do-git-no-windows)
     - [123. Configurando sua identificação](#123-configurando-sua-identificação)
+    - [124. Mostrar arquivos ocultos e extensões](#124-mostrar-arquivos-ocultos-e-extensões)
 
 ## Links úteis
 
@@ -4213,3 +4214,10 @@ git config --global user.email "Seu email de cadastro do Github"
 
 git config --list // lista as configurações
 ```
+
+### 124. Mostrar arquivos ocultos e extensões
+
+Iniciar -> Opções do explorador de arquivos
+
+Desmarcar: "Ocultar as extensões dos tipos de arquivos conhecidos"
+Marcar: "Mostrar arquivos, pastas e unidades ocultas"
