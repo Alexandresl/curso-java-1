@@ -322,6 +322,7 @@
     - [120. Introdução ao Git e Github](#120-introdução-ao-git-e-github)
       - [Git](#git)
       - [Github](#github)
+    - [121. Repositório local e repositório remoto](#121-repositório-local-e-repositório-remoto)
 
 ## Links úteis
 
@@ -4187,3 +4188,13 @@ System.out.println("Month: " + month); // Month: 6
 - Maior serviço do mundo de hospedagem de projetos de código aberto
 - Modelo de cobrança: gratuíto para projetos de código aberto, pago para projetos privados
 - Alternativas: BitBucket, Gitlab, etc.
+
+### 121. Repositório local e repositório remoto
+
+Um projeto controlado pelo Git é chamado de **repositório** de versionamento.
+
+Tipicamente uma cópia "oficial" do repositório fica salvo em um **servidor** (*repositório remoto*)
+
+Cada pessoa que trabalha no projeto pode fazer uma cópia do repositório para seu computador (*repositório local*). A pessoa então faz suas alterações no projeto (novos commits) e depois salva as alterações no servidor.
+
+![Imagem 1 - Fluxo de trabalho com o Git](Recursos/images/aula121-img1.jpg)
