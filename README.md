@@ -338,6 +338,7 @@
     - [130. Entendendo git status e stage](#130-entendendo-git-status-e-stage)
       - [git status](#git-status)
       - [retirar arquivos do stage](#retirar-arquivos-do-stage)
+    - [131. Git diff e recurso source control do VS Code](#131-git-diff-e-recurso-source-control-do-vs-code)
 
 ## Links úteis
 
@@ -4334,3 +4335,9 @@ Conforme imagem, podemos ter três situações de arquivos:
 #### retirar arquivos do stage
 
 ```git reset```
+
+### 131. Git diff e recurso source control do VS Code
+
+**Git diff** é um comando que mostra a diferença entre arquivos modificados.
+
+**Dica**: utilizar o VS Code, que mostra graficamente as diferenças
