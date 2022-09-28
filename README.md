@@ -330,6 +330,7 @@
       - [Gerar uma chave SSH no seu computador](#gerar-uma-chave-ssh-no-seu-computador)
     - [126. Salvando primeira versão de um projeto no Github](#126-salvando-primeira-versão-de-um-projeto-no-github)
       - [Passo a passo: Salvar primeira versão de um projeto no Github](#passo-a-passo-salvar-primeira-versão-de-um-projeto-no-github)
+    - [127. Salvando um novo commit](#127-salvando-um-novo-commit)
 
 ## Links úteis
 
@@ -4265,4 +4266,16 @@ git branch -M main
 git remote add origin git@github.com:seuusuario/seurepositorio.git
 
 git push -u origin main
+```
+
+### 127. Salvando um novo commit
+
+```powershell
+git status
+
+git add .
+
+git commit -m "Mesnagem explicativa"
+
+git push
 ```
