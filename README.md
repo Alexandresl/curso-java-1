@@ -319,6 +319,9 @@
   - [Seção 12: Bônus - nivelamento sobre Git e Github](#seção-12-bônus---nivelamento-sobre-git-e-github)
     - [118. Apresentação do bônus Git e Github](#118-apresentação-do-bônus-git-e-github)
     - [119. Material de apoio do capítulo](#119-material-de-apoio-do-capítulo)
+    - [120. Introdução ao Git e Github](#120-introdução-ao-git-e-github)
+      - [Git](#git)
+      - [Github](#github)
 
 ## Links úteis
 
@@ -4166,3 +4169,21 @@ System.out.println("Month: " + month); // Month: 6
 [Material de apoio](12-Recursos/pdf/12-Introdução-ao-Git-e-Github-(slides).pdf)
 
 [Resolvendo problemas comuns](Recursos/pdf/12-Resolvendo-problemas-comuns-(slides).pdf)
+
+### 120. Introdução ao Git e Github
+
+#### Git
+
+**GIT é um sistema de versionamento**: Você controla as modificações de um projeto por meio de versões chamadas "commits".
+
+![Imagem 1 - Commits](Recursos/images/aula120-img1.jpg)
+
+#### Github
+
+**Github** é um serviço online de hospedagem de repositórios Git remotos.
+
+- Possui uma interface gráfica web: [github.com](https://github.com/)
+- É uma plataforma social (usuários, página de perfil, seguidores, colaboração, etc.). Dica: currículo
+- Maior serviço do mundo de hospedagem de projetos de código aberto
+- Modelo de cobrança: gratuíto para projetos de código aberto, pago para projetos privados
+- Alternativas: BitBucket, Gitlab, etc.
