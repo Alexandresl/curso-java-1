@@ -345,7 +345,7 @@
     - [133. Arquivo .gitignore](#133-arquivo-gitignore)
       - [Casos comuns de arquivos que não devem ser salvos pelo Git:](#casos-comuns-de-arquivos-que-não-devem-ser-salvos-pelo-git)
     - [134. Visão geral da segunda parte](#134-visão-geral-da-segunda-parte)
-    - [153. Removendo arquivos da área de stage](#153-removendo-arquivos-da-área-de-stage)
+    - [135. Removendo arquivos da área de stage](#135-removendo-arquivos-da-área-de-stage)
 
 ## Links úteis
 
@@ -4401,7 +4401,7 @@ Por exemplo, sistemas Mac podem gravar uma subpasta .ds_store na pasta do projet
 
 ### 134. Visão geral da segunda parte
 
-### 153. Removendo arquivos da área de stage
+### 135. Removendo arquivos da área de stage
 
 ```powershell
 git status
