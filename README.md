@@ -354,6 +354,7 @@
     - [141. Como resolver push rejeitado por históricos diferentes](#141-como-resolver-push-rejeitado-por-históricos-diferentes)
     - [142. Resolvendo pull com conflito](#142-resolvendo-pull-com-conflito)
     - [143. Como sobrescrever um histórico no Github](#143-como-sobrescrever-um-histórico-no-github)
+    - [144. Como apontar o projeto para outro repositório remoto](#144-como-apontar-o-projeto-para-outro-repositório-remoto)
 
 ## Links úteis
 
@@ -4532,4 +4533,10 @@ Para sobrescrever um histórico no Github, ou seja, realizar o push dos arquivos
 
 ```powershell
 git push -f <nome do remote> <nome do branch>
+```
+
+### 144. Como apontar o projeto para outro repositório remoto
+
+```powershell
+git remote set-url origin git@github.com:seuusuario/seurepositorio.git
 ```
