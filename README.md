@@ -357,6 +357,7 @@
     - [144. Como apontar o projeto para outro repositório remoto](#144-como-apontar-o-projeto-para-outro-repositório-remoto)
   - [Seção 13: Enumerações, composição](#seção-13-enumerações-composição)
     - [145. Visão geral do capítulo Enumerações e Composição](#145-visão-geral-do-capítulo-enumerações-e-composição)
+    - [146. Material de apoio do capítulo](#146-material-de-apoio-do-capítulo)
 
 ## Links úteis
 
@@ -4548,3 +4549,7 @@ git remote set-url origin git@github.com:seuusuario/seurepositorio.git
 ## Seção 13: Enumerações, composição
 
 ### 145. Visão geral do capítulo Enumerações e Composição
+
+### 146. Material de apoio do capítulo
+
+[Material de apoio](Recursos/pdf/13-enumeracoes-composicao.pdf)
