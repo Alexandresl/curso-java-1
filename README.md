@@ -339,6 +339,9 @@
       - [git status](#git-status)
       - [retirar arquivos do stage](#retirar-arquivos-do-stage)
     - [131. Git diff e recurso source control do VS Code](#131-git-diff-e-recurso-source-control-do-vs-code)
+    - [132. Git checkout](#132-git-checkout)
+      - [Código do commit, HEAD](#código-do-commit-head)
+      - [Importante](#importante)
 
 ## Links úteis
 
@@ -4341,3 +4344,27 @@ Conforme imagem, podemos ter três situações de arquivos:
 **Git diff** é um comando que mostra a diferença entre arquivos modificados.
 
 **Dica**: utilizar o VS Code, que mostra graficamente as diferenças
+
+### 132. Git checkout
+
+O **Git checkout** permite modificar temporariamente os arquivos do projeto ao estado de um dado commit ou branch.
+
+#### Código do commit, HEAD
+
+- Cada commit possui um código, que pode ser utilizado para referenciar o commit
+- O último commit do histórico do branch corrente também pode ser referenciado pela palavra **HEAD**
+- É possível referenciar um commit N versões antes do HEAD usando ~N, por exemplo:
+  - HEAD~1 (Penúltimo commit)
+  - HEAD~2 (Antepenúltimo commit)
+
+#### Importante
+
+Antes de fazer o checkout para voltar para HEAD, certifique-se de que não haja mudanças nos arquivos. Se você acidentalmente mudou alguma coisa, desfaça as modificações suando:
+
+```powershell
+git reset
+
+git clean -df
+
+git checkout -- .
+```
