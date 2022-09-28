@@ -344,6 +344,7 @@
       - [Importante](#importante)
     - [133. Arquivo .gitignore](#133-arquivo-gitignore)
       - [Casos comuns de arquivos que não devem ser salvos pelo Git:](#casos-comuns-de-arquivos-que-não-devem-ser-salvos-pelo-git)
+    - [134. Visão geral da segunda parte](#134-visão-geral-da-segunda-parte)
 
 ## Links úteis
 
@@ -4396,3 +4397,6 @@ IDE's podem salvar uma subpasta com arquivos de configuração na pasta do proje
 - Arquivos de configuração de seu sistema
 
 Por exemplo, sistemas Mac podem gravar uma subpasta .ds_store na pasta do projeto.
+
+### 134. Visão geral da segunda parte
+
