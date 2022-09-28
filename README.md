@@ -349,6 +349,7 @@
     - [136. Desfazendo modificações não salvas](#136-desfazendo-modificações-não-salvas)
     - [137. O que fazer quando abre o editor VIM](#137-o-que-fazer-quando-abre-o-editor-vim)
     - [138. Deletando o último commit sem deletar modificações nos arquivos](#138-deletando-o-último-commit-sem-deletar-modificações-nos-arquivos)
+    - [139. Deletando commits e também modificações nos arquivos](#139-deletando-commits-e-também-modificações-nos-arquivos)
 
 ## Links úteis
 
@@ -4469,4 +4470,24 @@ i
 git status
 
 git reset --soft HEAD~1
+```
+
+### 139. Deletando commits e também modificações nos arquivos
+
+**Atenção**: após a realização dos comandos abaixo, não é possível recuperar os commits deletados.
+
+- Voltar o projeto ao estado de um dado commit (deletar commits e alterações posteriores a esse commit)
+
+```powershell
+git status
+
+git reset --hard <código do commit>
+```
+
+- Voltar o projeto ao estado do penúltimo commit:
+
+```powershell
+git status
+
+git reset --hard HEAD~1
 ```
