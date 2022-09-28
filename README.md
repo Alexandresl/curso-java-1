@@ -351,6 +351,7 @@
     - [138. Deletando o último commit sem deletar modificações nos arquivos](#138-deletando-o-último-commit-sem-deletar-modificações-nos-arquivos)
     - [139. Deletando commits e também modificações nos arquivos](#139-deletando-commits-e-também-modificações-nos-arquivos)
     - [140. Como atualizar o repositório local em relação ao remoto](#140-como-atualizar-o-repositório-local-em-relação-ao-remoto)
+    - [141. Como resolver push rejeitado por históricos diferentes](#141-como-resolver-push-rejeitado-por-históricos-diferentes)
 
 ## Links úteis
 
@@ -4498,5 +4499,17 @@ git reset --hard HEAD~1
 ```powershell
 git status
 
+git pull <nome do remote> <nome do branch>
+```
+
+### 141. Como resolver push rejeitado por históricos diferentes
+
+Não é permitido enviar um push se seu repositório local está atraso em relação ao histórico do repositório remoto! Por exemplo:
+
+![Imagem 1](Recursos/images/aula141-img1.jpg)
+
+Neste caso, você tem que atualizar o repositório local:
+
+```powershell
 git pull <nome do remote> <nome do branch>
 ```
