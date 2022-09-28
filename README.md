@@ -342,6 +342,8 @@
     - [132. Git checkout](#132-git-checkout)
       - [Código do commit, HEAD](#código-do-commit-head)
       - [Importante](#importante)
+    - [133. Arquivo .gitignore](#133-arquivo-gitignore)
+      - [Casos comuns de arquivos que não devem ser salvos pelo Git:](#casos-comuns-de-arquivos-que-não-devem-ser-salvos-pelo-git)
 
 ## Links úteis
 
@@ -4368,3 +4370,29 @@ git clean -df
 
 git checkout -- .
 ```
+
+### 133. Arquivo .gitignore
+
+o **.gitignore** é um arquivo que indica o que **não** deve ser salvo pelo git.
+
+Geralmente o arquivo .gitignore fica salvo na pasta principal do repositório. Mas também é possível salvar outros arquivos *.gitignore* em subpastas do repositório, para indicar o que deve ser ignorado por cada subpasta.
+
+#### Casos comuns de arquivos que não devem ser salvos pelo Git:
+
+- Arquivos compilados
+
+Linguagens compiladas (C, C++, Java, C#, etc.) geram arquivos de código compilado para executar o programa 
+localmente.
+
+- Arquivvos de bibliotecas externas usadas no projeto
+
+Projetos reais utilizam bibliotecas externas (programas prontos disponíveis na Internet). Por exemplo, projetos 
+JavaScript com NPM tipicamente salvam uma subpasta "node_modules" na pasta do seu projeto
+
+- Arquivos de configuração de sua IDE
+
+IDE's podem salvar uma subpasta com arquivos de configuração na pasta do projeto (exemplo: .vscode).
+
+- Arquivos de configuração de seu sistema
+
+Por exemplo, sistemas Mac podem gravar uma subpasta .ds_store na pasta do projeto.
