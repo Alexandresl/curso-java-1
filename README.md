@@ -333,6 +333,8 @@
       - [Passo a passo: Salvar primeira versão de um projeto no Github](#passo-a-passo-salvar-primeira-versão-de-um-projeto-no-github)
     - [127. Salvando um novo commit](#127-salvando-um-novo-commit)
     - [128. Demo - clonar e modificar um projeto](#128-demo---clonar-e-modificar-um-projeto)
+    - [129. Git log para verificar histórico de versões](#129-git-log-para-verificar-histórico-de-versões)
+      - [Verificando o histórico de versões](#verificando-o-histórico-de-versões)
 
 ## Links úteis
 
@@ -4297,3 +4299,13 @@ git commit -m "Mensagem explicativa"
 
 git push
 ```
+
+### 129. Git log para verificar histórico de versões
+
+#### Verificando o histórico de versões
+
+```git log```
+
+- listagme resumida:
+
+```git log --oneline```
