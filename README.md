@@ -353,6 +353,7 @@
     - [140. Como atualizar o repositório local em relação ao remoto](#140-como-atualizar-o-repositório-local-em-relação-ao-remoto)
     - [141. Como resolver push rejeitado por históricos diferentes](#141-como-resolver-push-rejeitado-por-históricos-diferentes)
     - [142. Resolvendo pull com conflito](#142-resolvendo-pull-com-conflito)
+    - [143. Como sobrescrever um histórico no Github](#143-como-sobrescrever-um-histórico-no-github)
 
 ## Links úteis
 
@@ -4390,12 +4391,12 @@ Geralmente o arquivo .gitignore fica salvo na pasta principal do repositório. M
 
 - Arquivos compilados
 
-Linguagens compiladas (C, C++, Java, C#, etc.) geram arquivos de código compilado para executar o programa 
+Linguagens compiladas (C, C++, Java, C#, etc.) geram arquivos de código compilado para executar o programa
 localmente.
 
 - Arquivvos de bibliotecas externas usadas no projeto
 
-Projetos reais utilizam bibliotecas externas (programas prontos disponíveis na Internet). Por exemplo, projetos 
+Projetos reais utilizam bibliotecas externas (programas prontos disponíveis na Internet). Por exemplo, projetos
 JavaScript com NPM tipicamente salvam uma subpasta "node_modules" na pasta do seu projeto
 
 - Arquivos de configuração de sua IDE
@@ -4520,3 +4521,15 @@ git pull <nome do remote> <nome do branch>
 - Análise de código fonte
 - Faça as edições necessárias
 - faça um novo commit
+
+### 143. Como sobrescrever um histórico no Github
+
+**Atenção**: após a realização dos comandos abaixo, não é possível recuperar os commits deletados.
+
+Para sobrescrever um histórico no Github, ou seja, realizar o push dos arquivos locais sem resolver os conflitos com a versão remota:
+
+![Imagem de exemplo](Recursos/images/aula143-img1.jpg)
+
+```powershell
+git push -f <nome do remote> <nome do branch>
+```
