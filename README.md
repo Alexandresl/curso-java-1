@@ -323,6 +323,7 @@
       - [Git](#git)
       - [Github](#github)
     - [121. Repositório local e repositório remoto](#121-repositório-local-e-repositório-remoto)
+    - [122. Instalação do Git no Windows](#122-instalação-do-git-no-windows)
 
 ## Links úteis
 
@@ -4198,3 +4199,7 @@ Tipicamente uma cópia "oficial" do repositório fica salvo em um **servidor** (
 Cada pessoa que trabalha no projeto pode fazer uma cópia do repositório para seu computador (*repositório local*). A pessoa então faz suas alterações no projeto (novos commits) e depois salva as alterações no servidor.
 
 ![Imagem 1 - Fluxo de trabalho com o Git](Recursos/images/aula121-img1.jpg)
+
+### 122. Instalação do Git no Windows
+
+[Link para download: https://git-scm.com/](https://git-scm.com/)
