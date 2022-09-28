@@ -346,6 +346,7 @@
       - [Casos comuns de arquivos que não devem ser salvos pelo Git:](#casos-comuns-de-arquivos-que-não-devem-ser-salvos-pelo-git)
     - [134. Visão geral da segunda parte](#134-visão-geral-da-segunda-parte)
     - [135. Removendo arquivos da área de stage](#135-removendo-arquivos-da-área-de-stage)
+    - [136. Desfazendo modificações não salvas](#136-desfazendo-modificações-não-salvas)
 
 ## Links úteis
 
@@ -4403,8 +4404,24 @@ Por exemplo, sistemas Mac podem gravar uma subpasta .ds_store na pasta do projet
 
 ### 135. Removendo arquivos da área de stage
 
+Comando ```git reset``` remove arquivos que foram colocados na área de stage.
+
 ```powershell
 git status
 
 git reset
+```
+
+### 136. Desfazendo modificações não salvas
+
+Para desfazer modificações que ainda não estão salvas.
+
+```powershell
+git status
+
+git reset
+
+git clean -df
+
+git checkout -- .
 ```
