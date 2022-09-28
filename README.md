@@ -325,12 +325,14 @@
     - [121. Repositório local e repositório remoto](#121-repositório-local-e-repositório-remoto)
     - [122. Instalação do Git no Windows](#122-instalação-do-git-no-windows)
     - [123. Configurando sua identificação](#123-configurando-sua-identificação)
+      - [Alterar o branch padrão de master para main:](#alterar-o-branch-padrão-de-master-para-main)
     - [124. Mostrar arquivos ocultos e extensões](#124-mostrar-arquivos-ocultos-e-extensões)
     - [125. Configurar chave SSH no Github](#125-configurar-chave-ssh-no-github)
       - [Gerar uma chave SSH no seu computador](#gerar-uma-chave-ssh-no-seu-computador)
     - [126. Salvando primeira versão de um projeto no Github](#126-salvando-primeira-versão-de-um-projeto-no-github)
       - [Passo a passo: Salvar primeira versão de um projeto no Github](#passo-a-passo-salvar-primeira-versão-de-um-projeto-no-github)
     - [127. Salvando um novo commit](#127-salvando-um-novo-commit)
+    - [128. Demo - clonar e modificar um projeto](#128-demo---clonar-e-modificar-um-projeto)
 
 ## Links úteis
 
@@ -4220,6 +4222,10 @@ git config --global user.email "Seu email de cadastro do Github"
 git config --list // lista as configurações
 ```
 
+#### Alterar o branch padrão de master para main:
+
+```git config --global init.defaultBranch main```
+
 ### 124. Mostrar arquivos ocultos e extensões
 
 Iniciar -> Opções do explorador de arquivos
@@ -4276,6 +4282,18 @@ git status
 git add .
 
 git commit -m "Mesnagem explicativa"
+
+git push
+```
+
+### 128. Demo - clonar e modificar um projeto
+
+```powershell
+git clone git@github.com:seuusuario/seurepositorio.git
+
+git add .
+
+git commit -m "Mensagem explicativa"
 
 git push
 ```
