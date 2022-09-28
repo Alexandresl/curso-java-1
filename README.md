@@ -352,6 +352,7 @@
     - [139. Deletando commits e também modificações nos arquivos](#139-deletando-commits-e-também-modificações-nos-arquivos)
     - [140. Como atualizar o repositório local em relação ao remoto](#140-como-atualizar-o-repositório-local-em-relação-ao-remoto)
     - [141. Como resolver push rejeitado por históricos diferentes](#141-como-resolver-push-rejeitado-por-históricos-diferentes)
+    - [142. Resolvendo pull com conflito](#142-resolvendo-pull-com-conflito)
 
 ## Links úteis
 
@@ -4513,3 +4514,9 @@ Neste caso, você tem que atualizar o repositório local:
 ```powershell
 git pull <nome do remote> <nome do branch>
 ```
+
+### 142. Resolvendo pull com conflito
+
+- Análise de código fonte
+- Faça as edições necessárias
+- faça um novo commit
