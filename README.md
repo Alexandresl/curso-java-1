@@ -364,6 +364,8 @@
       - [Exemplo](#exemplo-3)
       - [Conversão de String para enum](#conversão-de-string-para-enum)
       - [Representação UML](#representação-uml)
+    - [148. Vamos falar um pouco sobre design](#148-vamos-falar-um-pouco-sobre-design)
+      - [Categorias de classes](#categorias-de-classes)
 
 ## Links úteis
 
@@ -4599,3 +4601,16 @@ OrderStatus os2 = OrderStatus.valueOf("Delivered");
 #### Representação UML
 
 ![Representação UML](Recursos/images/aula147-img2.jpg)
+
+### 148. Vamos falar um pouco sobre design
+
+#### Categorias de classes
+
+- Em um sistema orientado a objetos, demodo geral "*tudo*" é objeto.
+
+- Por questões de design tais como organização, flexibilidade, reuso, delegação, etc, há várias categorias de classes. Exemplos:
+  - Views
+  - Controllers
+  - Entities
+  - Services
+  - Repositories
