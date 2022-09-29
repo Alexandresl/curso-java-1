@@ -366,6 +366,8 @@
       - [Representação UML](#representação-uml)
     - [148. Vamos falar um pouco sobre design](#148-vamos-falar-um-pouco-sobre-design)
       - [Categorias de classes](#categorias-de-classes)
+    - [149. Composição](#149-composição)
+      - [Vantagens](#vantagens-1)
 
 ## Links úteis
 
@@ -4614,3 +4616,16 @@ OrderStatus os2 = OrderStatus.valueOf("Delivered");
   - Entities
   - Services
   - Repositories
+
+### 149. Composição
+
+**Composição** é um tipo de associação que permite que um objeto contenha outro. Assim os objetos envolvidos possuem uma relação "*tem-um*" ou "*tem-vários*".
+
+#### Vantagens
+
+- Organização: divisão de responsabilidades
+- Coesão
+- Flexibilidade
+- Reuso
+
+**Nota**: Embora o símbolo **UML** para composição (*todo-parte*) seja o **diamente preto**, neste contexto estamos chamando de composição qualquer associação tipo "*tem-um*" e "*tem-vários*".
