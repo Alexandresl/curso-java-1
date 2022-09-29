@@ -369,6 +369,7 @@
     - [149. Composição](#149-composição)
       - [Vantagens](#vantagens-1)
     - [150. Exercício resolvido 1 - Parte 1](#150-exercício-resolvido-1---parte-1)
+    - [151. Exercício resolvido 1 - Parte 2](#151-exercício-resolvido-1---parte-2)
 
 ## Links úteis
 
@@ -4662,3 +4663,9 @@ Name: Alex
 Department: Design
 Income for 08/2018: 3000.00
 ```
+
+### 151. Exercício resolvido 1 - Parte 2
+
+[Versão 1 - Utilizando Date e Calendar](Workspace/aula150_Exemplo_001)
+
+[Versão 2 - Utilizando LocalDate](Workspace/aula150_Exemplo_001_v2)
