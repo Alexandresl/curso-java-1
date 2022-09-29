@@ -368,6 +368,7 @@
       - [Categorias de classes](#categorias-de-classes)
     - [149. Composição](#149-composição)
       - [Vantagens](#vantagens-1)
+    - [150. Exercício resolvido 1 - Parte 1](#150-exercício-resolvido-1---parte-1)
 
 ## Links úteis
 
@@ -4629,3 +4630,35 @@ OrderStatus os2 = OrderStatus.valueOf("Delivered");
 - Reuso
 
 **Nota**: Embora o símbolo **UML** para composição (*todo-parte*) seja o **diamente preto**, neste contexto estamos chamando de composição qualquer associação tipo "*tem-um*" e "*tem-vários*".
+
+### 150. Exercício resolvido 1 - Parte 1
+
+Ler os dados de um trabalhador com **N** contratos (N fornecido pelo usuário). Depois, solicitar do uauário um mês e mostrar qual foi o salário do funcionário nesse mês, conforme exemplo (próxima página).
+
+![Diagrama UML](Recursos/images/aula149-img1.jpg)
+
+```powershell
+Enter department/`s name: Design
+Enter worker data:
+Name: Alex
+Level: MID_LEVEL
+Base salary: 1200.00
+How many contracts to this worker? 3
+Enter contract #1 data:
+Date (DD/MM/YYYY): 20/08/2018
+Value per hour: 50.00
+Duration (hours): 20
+Enter contract #2 data:
+Date (DD/MM/YYYY): 13/06/2018
+Value per hour: 30.00
+Duration (hours): 18
+Enter contract #3 data:
+Date (DD/MM/YYYY): 25/08/2018
+Value per hour: 80.00
+Duration (hours): 10
+
+Enter month and year to calculate income (MM/YYYY): 08/2018
+Name: Alex
+Department: Design
+Income for 08/2018: 3000.00
+```
