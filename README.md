@@ -370,6 +370,8 @@
       - [Vantagens](#vantagens-1)
     - [150. Exercício resolvido 1 - Parte 1](#150-exercício-resolvido-1---parte-1)
     - [151. Exercício resolvido 1 - Parte 2](#151-exercício-resolvido-1---parte-2)
+    - [152. Exercício resolvido 2 (demo StringBuilder)](#152-exercício-resolvido-2-demo-stringbuilder)
+      - [StringBuilder](#stringbuilder)
 
 ## Links úteis
 
@@ -4351,7 +4353,7 @@ git push
 
 Informa se há alterações para serem salvas, e se estas alterações já estão na área de *stage*.
 
-[Imagem 1](Recursos/images/aula130-img1.jpg)
+![Imagem 1](Recursos/images/aula130-img1.jpg)
 
 Conforme imagem, podemos ter três situações de arquivos:
 
@@ -4669,3 +4671,51 @@ Income for 08/2018: 3000.00
 [Versão 1 - Utilizando Date e Calendar](Workspace/aula150_Exemplo_001)
 
 [Versão 2 - Utilizando LocalDate](Workspace/aula150_Exemplo_001_v2)
+
+### 152. Exercício resolvido 2 (demo StringBuilder)
+
+Instancie manualmente (hard code) os objetos mostrados abaixo e mostre-os na tela do terminal conforme exemplo:
+
+- Diagrama de classes
+
+![Imagem 1 - UML](Recursos/images/aula152-img1.jpg)
+
+```powershell
+Traveling to New Zealand
+12 Likes - 21/06/2018 13:05:44
+Im going to visit this wonderful country!
+Comments:
+Have a nice trip
+Wow thats awesome!
+
+Good night guys
+5 Likes - 28/07/2018 23:14:19
+See you tomorrow
+Comments:
+Good night
+May the Force be with you
+```
+
+[Exercício resolvido](Workspace/aula152_Exemplo_001)
+
+#### StringBuilder
+
+O *StringBuilder* serve para concatenar uma quantidade maior de texto de forma otimizada. Segue exemplo de uso:
+
+```java
+@Override
+public String toString() {
+
+  StringBuilder sb = new StringBuilder();
+
+  sb.append(title + "\n");
+  sb.append(likes + " Likes - " + moment.format(dtf) + "\n");
+  sb.append(content + "\n");
+  sb.append("Comments:\n");
+  for (Comment c : comments) {
+    sb.append(c.getText() + "\n");
+  }
+
+  return sb.toString();
+}
+```
