@@ -40,46 +40,45 @@
       - [JVM - Java Virtual Machine](#jvm---java-virtual-machine)
     - [14. Estrutura de uma aplicação Java](#14-estrutura-de-uma-aplicação-java)
     - [15. Instalando o Java JDK](#15-instalando-o-java-jdk)
-    - [16. Instalando o Java JDK](#16-instalando-o-java-jdk)
-    - [17. Instalando o Eclipse](#17-instalando-o-eclipse)
-    - [18. Primeiro programa em Java no Eclipse](#18-primeiro-programa-em-java-no-eclipse)
+    - [16. Instalando o Eclipse](#16-instalando-o-eclipse)
+    - [17. Primeiro programa em Java no Eclipse](#17-primeiro-programa-em-java-no-eclipse)
       - [Primeiros passos](#primeiros-passos)
   - [Seção 4: Estrutura sequencial](#seção-4-estrutura-sequencial)
-    - [19. Visão geral do capítulo](#19-visão-geral-do-capítulo)
-    - [20. Material de apoio do capítulo](#20-material-de-apoio-do-capítulo)
-    - [21. Expressões aritméticas](#21-expressões-aritméticas)
+    - [18. Visão geral do capítulo](#18-visão-geral-do-capítulo)
+    - [19. Material de apoio do capítulo](#19-material-de-apoio-do-capítulo)
+    - [20. Expressões aritméticas](#20-expressões-aritméticas)
       - [Operadores Aritméticos](#operadores-aritméticos)
       - [Ordem de prescedência](#ordem-de-prescedência)
       - [Exemplos](#exemplos)
-    - [22. Variáveis e tipos básicos em Java](#22-variáveis-e-tipos-básicos-em-java)
+    - [21. Variáveis e tipos básicos em Java](#21-variáveis-e-tipos-básicos-em-java)
       - [Tipos primitivos em Java](#tipos-primitivos-em-java)
       - [Nome de variáveis](#nome-de-variáveis)
-    - [23. As três operações básicas de programação](#23-as-três-operações-básicas-de-programação)
+    - [22. As três operações básicas de programação](#22-as-três-operações-básicas-de-programação)
       - [Entrada de dados](#entrada-de-dados)
       - [Processamento de dados](#processamento-de-dados)
       - [Saída de dados](#saída-de-dados)
-    - [24. Saída de dados em Java](#24-saída-de-dados-em-java)
+    - [23. Saída de dados em Java](#23-saída-de-dados-em-java)
       - [Para escrevermos um texto qualquer](#para-escrevermos-um-texto-qualquer)
       - [Para escrever o conteúdo de uma variável com ponto flutuante](#para-escrever-o-conteúdo-de-uma-variável-com-ponto-flutuante)
       - [Para concatenar vários elementos em um mesmo comando de escrita Sem formatação](#para-concatenar-vários-elementos-em-um-mesmo-comando-de-escrita-sem-formatação)
       - [Para concatenar vários elementos em um mesmo comando de escrita Com formatação](#para-concatenar-vários-elementos-em-um-mesmo-comando-de-escrita-com-formatação)
       - [Para concatenar vários elementos em um mesmo comando de escrita com diferentes tipos de variáveis](#para-concatenar-vários-elementos-em-um-mesmo-comando-de-escrita-com-diferentes-tipos-de-variáveis)
-    - [25. Processamento de dados em Java, Casting](#25-processamento-de-dados-em-java-casting)
+    - [24. Processamento de dados em Java, Casting](#24-processamento-de-dados-em-java-casting)
       - [Regra de execução](#regra-de-execução)
-    - [26. Entrada de dados em Java - Parte 1](#26-entrada-de-dados-em-java---parte-1)
+    - [25. Entrada de dados em Java - Parte 1](#25-entrada-de-dados-em-java---parte-1)
       - [Scanner](#scanner)
       - [Para ler uma palavra](#para-ler-uma-palavra)
       - [Para ler um número inteiro](#para-ler-um-número-inteiro)
       - [Para ler um número com ponto flutuante](#para-ler-um-número-com-ponto-flutuante)
       - [Para ler um caractere](#para-ler-um-caractere)
     - [Para ler vários dados na mesma linha](#para-ler-vários-dados-na-mesma-linha)
-    - [27. Entrada de dados em Java - Parte 2](#27-entrada-de-dados-em-java---parte-2)
+    - [26. Entrada de dados em Java - Parte 2](#26-entrada-de-dados-em-java---parte-2)
       - [Para ler um texto até a quebra de linha](#para-ler-um-texto-até-a-quebra-de-linha)
     - [Quebra de linha pendente](#quebra-de-linha-pendente)
-    - [28. Funções matemáticas em Java](#28-funções-matemáticas-em-java)
+    - [27. Funções matemáticas em Java](#27-funções-matemáticas-em-java)
       - [Algumas funções matemáticas em Java](#algumas-funções-matemáticas-em-java)
-    - [29. Aviso: exercícios para iniciantes PARTE 1](#29-aviso-exercícios-para-iniciantes-parte-1)
-    - [30. Exercícios para iniciantes - PARTE 1](#30-exercícios-para-iniciantes---parte-1)
+    - [28. Aviso: exercícios para iniciantes PARTE 1](#28-aviso-exercícios-para-iniciantes-parte-1)
+    - [29. Exercícios para iniciantes - PARTE 1](#29-exercícios-para-iniciantes---parte-1)
       - [Exercício resolvido 1](#exercício-resolvido-1)
       - [Exercício 01](#exercício-01)
       - [Exercício 02](#exercício-02)
@@ -88,22 +87,22 @@
       - [Exercício 05](#exercício-05)
       - [Exercício 06](#exercício-06)
   - [Seção 5: Estrutura condicional](#seção-5-estrutura-condicional)
-    - [31. Visão geral do capítulo](#31-visão-geral-do-capítulo)
-    - [32. Material de apoio do capítulo](#32-material-de-apoio-do-capítulo)
-    - [33. Expressões comparativas](#33-expressões-comparativas)
+    - [30. Visão geral do capítulo](#30-visão-geral-do-capítulo)
+    - [31. Material de apoio do capítulo](#31-material-de-apoio-do-capítulo)
+    - [32. Expressões comparativas](#32-expressões-comparativas)
       - [Operadores comparativos](#operadores-comparativos)
       - [Exemplos de expressões comparativas](#exemplos-de-expressões-comparativas)
-    - [34. Expressões lógicas](#34-expressões-lógicas)
+    - [33. Expressões lógicas](#33-expressões-lógicas)
       - [Operadores lógicos](#operadores-lógicos)
       - [Operador E](#operador-e)
       - [Operador OU](#operador-ou)
       - [Operador NÃO](#operador-não)
-    - [35. strutura condicional (if - else)](#35-strutura-condicional-if---else)
+    - [34. strutura condicional (if - else)](#34-strutura-condicional-if---else)
       - [Sintaxe simples](#sintaxe-simples)
       - [Sintaxe composta](#sintaxe-composta)
       - [Sintaxe para múltiplas possibilidades](#sintaxe-para-múltiplas-possibilidades)
-    - [36. AVISO: exercícios para iniciantes PARTE 2](#36-aviso-exercícios-para-iniciantes-parte-2)
-    - [37. Exercícios para Iniciantes](#37-exercícios-para-iniciantes)
+    - [35. AVISO: exercícios para iniciantes PARTE 2](#35-aviso-exercícios-para-iniciantes-parte-2)
+    - [36. Exercícios para Iniciantes](#36-exercícios-para-iniciantes)
       - [Exercício resolvido 1](#exercício-resolvido-1-1)
       - [Exercício resolvido 2](#exercício-resolvido-2)
       - [Exercício resolvido 3](#exercício-resolvido-3)
@@ -115,25 +114,25 @@
       - [Exercício 6](#exercício-6)
       - [Exercício 7](#exercício-7)
       - [Exercício 8](#exercício-8)
-    - [38. Sintaxe opcional - Operadores de atribuição cumulativa](#38-sintaxe-opcional---operadores-de-atribuição-cumulativa)
+    - [37. Sintaxe opcional - Operadores de atribuição cumulativa](#37-sintaxe-opcional---operadores-de-atribuição-cumulativa)
       - [Operadores de atribuição cumulativos](#operadores-de-atribuição-cumulativos)
-    - [39. Sintaxe opcional - switch-case](#39-sintaxe-opcional---switch-case)
+    - [38. Sintaxe opcional - switch-case](#38-sintaxe-opcional---switch-case)
       - [Sintaxe:](#sintaxe)
-    - [40. Expressões condicionais ternárias](#40-expressões-condicionais-ternárias)
+    - [39. Expressões condicionais ternárias](#39-expressões-condicionais-ternárias)
       - [Sintaxe](#sintaxe-1)
       - [Exemplos](#exemplos-1)
-    - [41. Escopo e inicialização](#41-escopo-e-inicialização)
+    - [40. Escopo e inicialização](#40-escopo-e-inicialização)
   - [Seção 6: Estruturas repetitivas](#seção-6-estruturas-repetitivas)
-    - [42. Visão geral do capítulo](#42-visão-geral-do-capítulo)
-    - [43. Material de apoio do capítulo](#43-material-de-apoio-do-capítulo)
-    - [44. Como utilizar o DEBUG no Eclipse (execução passo a passo)](#44-como-utilizar-o-debug-no-eclipse-execução-passo-a-passo)
-    - [45. Estrutura repetitiva enquanto (while)](#45-estrutura-repetitiva-enquanto-while)
+    - [41. Visão geral do capítulo](#41-visão-geral-do-capítulo)
+    - [42. Material de apoio do capítulo](#42-material-de-apoio-do-capítulo)
+    - [43. Como utilizar o DEBUG no Eclipse (execução passo a passo)](#43-como-utilizar-o-debug-no-eclipse-execução-passo-a-passo)
+    - [44. Estrutura repetitiva enquanto (while)](#44-estrutura-repetitiva-enquanto-while)
       - [Sintaxe](#sintaxe-2)
       - [Exemplo de uso](#exemplo-de-uso)
-    - [46. Teste de mesa com estrutura repetitiva enquanto](#46-teste-de-mesa-com-estrutura-repetitiva-enquanto)
-    - [47. Exercícios de teste de mesa com while](#47-exercícios-de-teste-de-mesa-com-while)
-    - [48. AVISO: exercícios para iniciantes PARTE 3](#48-aviso-exercícios-para-iniciantes-parte-3)
-    - [49. Exercícios para Inicantes - PARTE 3](#49-exercícios-para-inicantes---parte-3)
+    - [45. Teste de mesa com estrutura repetitiva enquanto](#45-teste-de-mesa-com-estrutura-repetitiva-enquanto)
+    - [46. Exercícios de teste de mesa com while](#46-exercícios-de-teste-de-mesa-com-while)
+    - [47. AVISO: exercícios para iniciantes PARTE 3](#47-aviso-exercícios-para-iniciantes-parte-3)
+    - [48. Exercícios para Inicantes - PARTE 3](#48-exercícios-para-inicantes---parte-3)
       - [Exercício resolvido 1](#exercício-resolvido-1-2)
         - [Entrada](#entrada)
         - [Saída](#saída)
@@ -141,13 +140,13 @@
       - [Exercício 1](#exercício-1-1)
       - [Exercício 2](#exercício-2-1)
       - [Exercício 3](#exercício-3-1)
-    - [50. Estrutura repetitiva "para" (for)](#50-estrutura-repetitiva-para-for)
+    - [49. Estrutura repetitiva "para" (for)](#49-estrutura-repetitiva-para-for)
       - [Sintaxe](#sintaxe-3)
       - [Exemplo](#exemplo)
-    - [51. Teste de mesa com estrutura repetitiva para](#51-teste-de-mesa-com-estrutura-repetitiva-para)
-    - [52. Exercícios de testes de mesa com for](#52-exercícios-de-testes-de-mesa-com-for)
-    - [53. AVISO: exercícios para iniciiantes PARTE 4](#53-aviso-exercícios-para-iniciiantes-parte-4)
-    - [54. Exercícios para iniciantes PARTE 4](#54-exercícios-para-iniciantes-parte-4)
+    - [50. Teste de mesa com estrutura repetitiva para](#50-teste-de-mesa-com-estrutura-repetitiva-para)
+    - [51. Exercícios de testes de mesa com for](#51-exercícios-de-testes-de-mesa-com-for)
+    - [52. AVISO: exercícios para iniciiantes PARTE 4](#52-aviso-exercícios-para-iniciiantes-parte-4)
+    - [53. Exercícios para iniciantes PARTE 4](#53-exercícios-para-iniciantes-parte-4)
       - [Exercício resolvido 01](#exercício-resolvido-01)
         - [Entrada](#entrada-1)
         - [Saída](#saída-1)
@@ -161,97 +160,97 @@
       - [Exercício 5](#exercício-5-1)
       - [Exercício 6](#exercício-6-1)
       - [Exercício 7](#exercício-7-1)
-    - [55. Estrutura repetitiva faça-enquanto (do-while)](#55-estrutura-repetitiva-faça-enquanto-do-while)
+    - [54. Estrutura repetitiva faça-enquanto (do-while)](#54-estrutura-repetitiva-faça-enquanto-do-while)
       - [Sintaxe](#sintaxe-4)
       - [Exemplo de uso](#exemplo-de-uso-1)
   - [Seção 7: Outros tópicos básicos sobre Java](#seção-7-outros-tópicos-básicos-sobre-java)
-    - [56. Material de apoio do capítulo](#56-material-de-apoio-do-capítulo)
-    - [57. Restrições e convenções para nomes](#57-restrições-e-convenções-para-nomes)
+    - [55. Material de apoio do capítulo](#55-material-de-apoio-do-capítulo)
+    - [56. Restrições e convenções para nomes](#56-restrições-e-convenções-para-nomes)
       - [Restrições para nomes de variáveis](#restrições-para-nomes-de-variáveis)
       - [Convenções](#convenções)
-    - [58. Operadores bitwise](#58-operadores-bitwise)
+    - [57. Operadores bitwise](#57-operadores-bitwise)
       - [Tabela verdade](#tabela-verdade)
       - [Exemplos](#exemplos-2)
-    - [59. Funções interessantes para String](#59-funções-interessantes-para-string)
+    - [58. Funções interessantes para String](#58-funções-interessantes-para-string)
       - [Checklist](#checklist)
       - [Exemplos](#exemplos-3)
-    - [60. Comentários em Java (básico)](#60-comentários-em-java-básico)
+    - [59. Comentários em Java (básico)](#59-comentários-em-java-básico)
       - [Comentário de linha](#comentário-de-linha)
       - [Comentário de bloco](#comentário-de-bloco)
-    - [61. Funções (sintaxe)](#61-funções-sintaxe)
+    - [60. Funções (sintaxe)](#60-funções-sintaxe)
       - [Exemplo](#exemplo-1)
   - [Seção 8: Introdução à Programação Orientada a Objetos](#seção-8-introdução-à-programação-orientada-a-objetos)
-    - [62. Visão geral do capítulo](#62-visão-geral-do-capítulo)
-    - [63. Material de apoio do capítulo](#63-material-de-apoio-do-capítulo)
-    - [64. Resolvendo um problema sem orientação a objetos](#64-resolvendo-um-problema-sem-orientação-a-objetos)
-    - [65. Criando uma classe com três atributos para representar melhor o triângulo](#65-criando-uma-classe-com-três-atributos-para-representar-melhor-o-triângulo)
+    - [61. Visão geral do capítulo](#61-visão-geral-do-capítulo)
+    - [62. Material de apoio do capítulo](#62-material-de-apoio-do-capítulo)
+    - [63. Resolvendo um problema sem orientação a objetos](#63-resolvendo-um-problema-sem-orientação-a-objetos)
+    - [64. Criando uma classe com três atributos para representar melhor o triângulo](#64-criando-uma-classe-com-três-atributos-para-representar-melhor-o-triângulo)
       - [Discussão](#discussão)
       - [classe](#classe)
       - [Instanciação](#instanciação)
-    - [66. Criando um método para obtermos os benefícios de reaproveitamento e delegação.](#66-criando-um-método-para-obtermos-os-benefícios-de-reaproveitamento-e-delegação)
+    - [65. Criando um método para obtermos os benefícios de reaproveitamento e delegação.](#65-criando-um-método-para-obtermos-os-benefícios-de-reaproveitamento-e-delegação)
       - [Discussão](#discussão-1)
       - [Projeto da classe (UML)](#projeto-da-classe-uml)
       - [Benefícios](#benefícios)
-    - [67. Começando a resolver um segundo problema exemplo](#67-começando-a-resolver-um-segundo-problema-exemplo)
-    - [68. Object e toString](#68-object-e-tostring)
+    - [66. Começando a resolver um segundo problema exemplo](#66-começando-a-resolver-um-segundo-problema-exemplo)
+    - [67. Object e toString](#67-object-e-tostring)
       - [Discussão](#discussão-2)
-    - [69. Finalizando o programa](#69-finalizando-o-programa)
-    - [70. Exercícios de fixação](#70-exercícios-de-fixação)
+    - [68. Finalizando o programa](#68-finalizando-o-programa)
+    - [69. Exercícios de fixação](#69-exercícios-de-fixação)
       - [Exercício 1](#exercício-1-3)
       - [Exercício 2](#exercício-2-3)
       - [Exercício 3](#exercício-3-3)
-    - [71. Membros estáticos - Parte 1](#71-membros-estáticos---parte-1)
+    - [70. Membros estáticos - Parte 1](#70-membros-estáticos---parte-1)
       - [Exemplo de uso](#exemplo-de-uso-2)
       - [Faremos a solução em 3 versões:](#faremos-a-solução-em-3-versões)
       - [Versão 1 - Métodos na própria classe do programa](#versão-1---métodos-na-própria-classe-do-programa)
       - [Versão 2 - Classe Calculator com membros de instância](#versão-2---classe-calculator-com-membros-de-instância)
-    - [72. Membros estáticos - Parte 2](#72-membros-estáticos---parte-2)
+    - [71. Membros estáticos - Parte 2](#71-membros-estáticos---parte-2)
       - [Discussão](#discussão-3)
       - [Versão 3 - Classe Calculator com método estático](#versão-3---classe-calculator-com-método-estático)
-    - [73. Exercício de fixação](#73-exercício-de-fixação)
+    - [72. Exercício de fixação](#72-exercício-de-fixação)
   - [Seção 9: Construtores, palavra this, sobrecarga, encapsulamento](#seção-9-construtores-palavra-this-sobrecarga-encapsulamento)
-    - [74. Visão geral do capítulo](#74-visão-geral-do-capítulo)
-    - [75. Material de apoio do capítulo](#75-material-de-apoio-do-capítulo)
-    - [76. Construtores](#76-construtores)
+    - [73. Visão geral do capítulo](#73-visão-geral-do-capítulo)
+    - [74. Material de apoio do capítulo](#74-material-de-apoio-do-capítulo)
+    - [75. Construtores](#75-construtores)
       - [Usos comuns:](#usos-comuns)
       - [Problema exemplo](#problema-exemplo)
       - [Proposta de melhoria](#proposta-de-melhoria)
-    - [77. Palavra this](#77-palavra-this)
+    - [76. Palavra this](#76-palavra-this)
       - [Usos comuns:](#usos-comuns-1)
-    - [78. Sobrecarga](#78-sobrecarga)
+    - [77. Sobrecarga](#77-sobrecarga)
       - [Proposta de melhoria](#proposta-de-melhoria-1)
-    - [79. Encapsulamento](#79-encapsulamento)
+    - [78. Encapsulamento](#78-encapsulamento)
       - [Regra geral básica](#regra-geral-básica)
       - [Exemplo de uso](#exemplo-de-uso-3)
-    - [80. Gerando automaticamente construtores, getters e setters com Eclipse](#80-gerando-automaticamente-construtores-getters-e-setters-com-eclipse)
+    - [79. Gerando automaticamente construtores, getters e setters com Eclipse](#79-gerando-automaticamente-construtores-getters-e-setters-com-eclipse)
       - [Gerando construtor](#gerando-construtor)
       - [Gerando getters e setters](#gerando-getters-e-setters)
-    - [81. Modificadores de acesso](#81-modificadores-de-acesso)
-    - [82. Exercício de fixação](#82-exercício-de-fixação)
-    - [83. Correção do exercício de fixação - Parte 1](#83-correção-do-exercício-de-fixação---parte-1)
-    - [84. Correção do exercício de fixação - Parte 2](#84-correção-do-exercício-de-fixação---parte-2)
+    - [80. Modificadores de acesso](#80-modificadores-de-acesso)
+    - [81. Exercício de fixação](#81-exercício-de-fixação)
+    - [82. Correção do exercício de fixação - Parte 1](#82-correção-do-exercício-de-fixação---parte-1)
+    - [83. Correção do exercício de fixação - Parte 2](#83-correção-do-exercício-de-fixação---parte-2)
   - [Seção 10: Comportamento de memória, arrays e listas](#seção-10-comportamento-de-memória-arrays-e-listas)
-    - [85. Visão geral do capítulo](#85-visão-geral-do-capítulo)
-    - [86. Material de apoio do capítulo](#86-material-de-apoio-do-capítulo)
-    - [87. Tipos referência vs. tipos valor](#87-tipos-referência-vs-tipos-valor)
+    - [84. Visão geral do capítulo](#84-visão-geral-do-capítulo)
+    - [85. Material de apoio do capítulo](#85-material-de-apoio-do-capítulo)
+    - [86. Tipos referência vs. tipos valor](#86-tipos-referência-vs-tipos-valor)
       - [Classes são tipos referência](#classes-são-tipos-referência)
       - [Valor "null"](#valor-null)
       - [Tipos primitivos são tipos valor](#tipos-primitivos-são-tipos-valor)
       - [Valores padrão](#valores-padrão)
       - [Tabela comparativa (Resumo)](#tabela-comparativa-resumo)
-    - [88. Desalocação de memória - garbage collector e escopo local](#88-desalocação-de-memória---garbage-collector-e-escopo-local)
+    - [87. Desalocação de memória - garbage collector e escopo local](#87-desalocação-de-memória---garbage-collector-e-escopo-local)
       - [Garbage Collector](#garbage-collector)
       - [Desalocação por escopo](#desalocação-por-escopo)
       - [Resumo](#resumo)
-    - [89. Vetores - Parte 1](#89-vetores---parte-1)
+    - [88. Vetores - Parte 1](#88-vetores---parte-1)
       - [Checklist](#checklist-1)
       - [Vetores](#vetores)
       - [Exemplo de uma declaração de vetor](#exemplo-de-uma-declaração-de-vetor)
       - [Problema exemplo 1](#problema-exemplo-1)
-    - [90. Vetores - Parte 2](#90-vetores---parte-2)
+    - [89. Vetores - Parte 2](#89-vetores---parte-2)
       - [Problema exemplo 2](#problema-exemplo-2)
       - [Atributo lenght](#atributo-lenght)
-    - [91. Exercícios de fixação sobre vetores](#91-exercícios-de-fixação-sobre-vetores)
+    - [90. Exercícios de fixação sobre vetores](#90-exercícios-de-fixação-sobre-vetores)
       - [Exercício 1 - Problema "negativos"](#exercício-1---problema-negativos)
       - [Exercício 2 - Problema "soma_vetor"](#exercício-2---problema-soma_vetor)
       - [Exercício 3 - Problema "alturas"](#exercício-3---problema-alturas)
@@ -263,123 +262,122 @@
       - [Exercício 9 - Problema "mais_velho"](#exercício-9---problema-mais_velho)
       - [Exercício 10 - Problema "aprovados"](#exercício-10---problema-aprovados)
       - [Exercício 11 - Problema "dados_pessoas"](#exercício-11---problema-dados_pessoas)
-    - [92. Correção do exercício negativos](#92-correção-do-exercício-negativos)
-    - [93. Correção do exercício alturas](#93-correção-do-exercício-alturas)
-    - [94. Desafio sobre vetores (pensionato)](#94-desafio-sobre-vetores-pensionato)
-    - [95. Correção do desafio sobre vetores (pensionato)](#95-correção-do-desafio-sobre-vetores-pensionato)
-    - [96. Boxing, umboxing e wrapper classes](#96-boxing-umboxing-e-wrapper-classes)
+    - [91. Correção do exercício negativos](#91-correção-do-exercício-negativos)
+    - [92. Correção do exercício alturas](#92-correção-do-exercício-alturas)
+    - [93. Desafio sobre vetores (pensionato)](#93-desafio-sobre-vetores-pensionato)
+    - [94. Correção do desafio sobre vetores (pensionato)](#94-correção-do-desafio-sobre-vetores-pensionato)
+    - [95. Boxing, umboxing e wrapper classes](#95-boxing-umboxing-e-wrapper-classes)
       - [Boxing](#boxing)
       - [Unboxing](#unboxing)
       - [Exemplo de boxing e umboxing](#exemplo-de-boxing-e-umboxing)
       - [Wrapper classes](#wrapper-classes)
-    - [97. Laço for each](#97-laço-for-each)
+    - [96. Laço for each](#96-laço-for-each)
       - [Sintaxe](#sintaxe-5)
       - [Exemplo](#exemplo-2)
-    - [98. Listas - Parte 1](#98-listas---parte-1)
+    - [97. Listas - Parte 1](#97-listas---parte-1)
       - [Conceito](#conceito)
-    - [99. Listas - Parte 2](#99-listas---parte-2)
+    - [98. Listas - Parte 2](#98-listas---parte-2)
       - [Demonstração de operações com listas](#demonstração-de-operações-com-listas)
-    - [100. Exercício proposto](#100-exercício-proposto)
-    - [101. Correção em vídeo do exercício proposto](#101-correção-em-vídeo-do-exercício-proposto)
-    - [102. Matrizes](#102-matrizes)
-    - [103. Exercício resolvido](#103-exercício-resolvido)
-    - [104. Exercício proposto](#104-exercício-proposto)
+    - [99. Exercício proposto](#99-exercício-proposto)
+    - [100. Correção em vídeo do exercício proposto](#100-correção-em-vídeo-do-exercício-proposto)
+    - [101. Matrizes](#101-matrizes)
+    - [102. Exercício resolvido](#102-exercício-resolvido)
+    - [103. Exercício proposto](#103-exercício-proposto)
   - [Seção 11: Tópicos especiais em Java: data-hora](#seção-11-tópicos-especiais-em-java-data-hora)
-    - [105. Boas-vindas e avisos](#105-boas-vindas-e-avisos)
-    - [106. Material de apoio do capítulo](#106-material-de-apoio-do-capítulo)
-    - [107. Introdução a data-hora e duração](#107-introdução-a-data-hora-e-duração)
+    - [104. Boas-vindas e avisos](#104-boas-vindas-e-avisos)
+    - [105. Material de apoio do capítulo](#105-material-de-apoio-do-capítulo)
+    - [106. Introdução a data-hora e duração](#106-introdução-a-data-hora-e-duração)
       - [Conceitos importantes](#conceitos-importantes)
       - [Quando usar?](#quando-usar)
-    - [108. Entendendo timezone (fuso horário)](#108-entendendo-timezone-fuso-horário)
+    - [107. Entendendo timezone (fuso horário)](#107-entendendo-timezone-fuso-horário)
       - [GMT - Treenwich Mean Time](#gmt---treenwich-mean-time)
       - [Outros fusos horários são relativos ao GMT/UTC:](#outros-fusos-horários-são-relativos-ao-gmtutc)
       - [Muitas linguagens/tecnologias usam nomes para as timezones:](#muitas-linguagenstecnologias-usam-nomes-para-as-timezones)
-    - [109. Padrão ISO 8601](#109-padrão-iso-8601)
+    - [108. Padrão ISO 8601](#108-padrão-iso-8601)
       - [Data-[hora] local:](#data-hora-local)
       - [Data-hora global:](#data-hora-global)
-    - [110. Operações importantes com data-hora](#110-operações-importantes-com-data-hora)
+    - [109. Operações importantes com data-hora](#109-operações-importantes-com-data-hora)
       - [Instanciação](#instanciação-1)
       - [Formatação](#formatação)
-    - [111. Instanciando data-hora em Java](#111-instanciando-data-hora-em-java)
+    - [110. Instanciando data-hora em Java](#110-instanciando-data-hora-em-java)
       - [Principais tipos Java (versão 8+)](#principais-tipos-java-versão-8)
       - [Instanciação](#instanciação-2)
-    - [112. Convertendo data-hora para texto](#112-convertendo-data-hora-para-texto)
+    - [111. Convertendo data-hora para texto](#111-convertendo-data-hora-para-texto)
       - [Formatação](#formatação-1)
-    - [113. Convertendo data-hora global para local](#113-convertendo-data-hora-global-para-local)
+    - [112. Convertendo data-hora global para local](#112-convertendo-data-hora-global-para-local)
       - [Obtendo uma lista de todos os ZoneIds disponíveis](#obtendo-uma-lista-de-todos-os-zoneids-disponíveis)
       - [Convertendo data-hora para local](#convertendo-data-hora-para-local)
-    - [114. Cálculos com data-hora](#114-cálculos-com-data-hora)
-    - [115. Aviso: próximas duas aulas são sobre Date e Calendar](#115-aviso-próximas-duas-aulas-são-sobre-date-e-calendar)
-    - [116. Trabalhando com datas - Date](#116-trabalhando-com-datas---date)
+    - [113. Cálculos com data-hora](#113-cálculos-com-data-hora)
+    - [114. Aviso: próximas duas aulas são sobre Date e Calendar](#114-aviso-próximas-duas-aulas-são-sobre-date-e-calendar)
+    - [115. Trabalhando com datas - Date](#115-trabalhando-com-datas---date)
       - [SimpleDateFormat](#simpledateformat)
       - [Padrão ISO 8601 e classe Instant](#padrão-iso-8601-e-classe-instant)
-    - [117. Manipulando um Date com Calendar](#117-manipulando-um-date-com-calendar)
+    - [116. Manipulando um Date com Calendar](#116-manipulando-um-date-com-calendar)
       - [Somando uma unidade de tempo](#somando-uma-unidade-de-tempo)
       - [Obtendo uma unidade de tempo](#obtendo-uma-unidade-de-tempo)
   - [Seção 12: Bônus - nivelamento sobre Git e Github](#seção-12-bônus---nivelamento-sobre-git-e-github)
-    - [118. Apresentação do bônus Git e Github](#118-apresentação-do-bônus-git-e-github)
-    - [119. Material de apoio do capítulo](#119-material-de-apoio-do-capítulo)
-    - [120. Introdução ao Git e Github](#120-introdução-ao-git-e-github)
+    - [117. Apresentação do bônus Git e Github](#117-apresentação-do-bônus-git-e-github)
+    - [118. Material de apoio do capítulo](#118-material-de-apoio-do-capítulo)
+    - [119. Introdução ao Git e Github](#119-introdução-ao-git-e-github)
       - [Git](#git)
       - [Github](#github)
-    - [121. Repositório local e repositório remoto](#121-repositório-local-e-repositório-remoto)
-    - [122. Instalação do Git no Windows](#122-instalação-do-git-no-windows)
-    - [123. Configurando sua identificação](#123-configurando-sua-identificação)
+    - [120. Repositório local e repositório remoto](#120-repositório-local-e-repositório-remoto)
+    - [121. Instalação do Git no Windows](#121-instalação-do-git-no-windows)
+    - [122. Configurando sua identificação](#122-configurando-sua-identificação)
       - [Alterar o branch padrão de master para main:](#alterar-o-branch-padrão-de-master-para-main)
-    - [124. Mostrar arquivos ocultos e extensões](#124-mostrar-arquivos-ocultos-e-extensões)
-    - [125. Configurar chave SSH no Github](#125-configurar-chave-ssh-no-github)
+    - [123. Mostrar arquivos ocultos e extensões](#123-mostrar-arquivos-ocultos-e-extensões)
+    - [124. Configurar chave SSH no Github](#124-configurar-chave-ssh-no-github)
       - [Gerar uma chave SSH no seu computador](#gerar-uma-chave-ssh-no-seu-computador)
-    - [126. Salvando primeira versão de um projeto no Github](#126-salvando-primeira-versão-de-um-projeto-no-github)
+    - [125. Salvando primeira versão de um projeto no Github](#125-salvando-primeira-versão-de-um-projeto-no-github)
       - [Passo a passo: Salvar primeira versão de um projeto no Github](#passo-a-passo-salvar-primeira-versão-de-um-projeto-no-github)
-    - [127. Salvando um novo commit](#127-salvando-um-novo-commit)
-    - [128. Demo - clonar e modificar um projeto](#128-demo---clonar-e-modificar-um-projeto)
-    - [129. Git log para verificar histórico de versões](#129-git-log-para-verificar-histórico-de-versões)
+    - [126. Salvando um novo commit](#126-salvando-um-novo-commit)
+    - [127. Demo - clonar e modificar um projeto](#127-demo---clonar-e-modificar-um-projeto)
+    - [128. Git log para verificar histórico de versões](#128-git-log-para-verificar-histórico-de-versões)
       - [Verificando o histórico de versões](#verificando-o-histórico-de-versões)
-    - [130. Entendendo git status e stage](#130-entendendo-git-status-e-stage)
+    - [129. Entendendo git status e stage](#129-entendendo-git-status-e-stage)
       - [git status](#git-status)
       - [retirar arquivos do stage](#retirar-arquivos-do-stage)
-    - [131. Git diff e recurso source control do VS Code](#131-git-diff-e-recurso-source-control-do-vs-code)
-    - [132. Git checkout](#132-git-checkout)
+    - [130. Git diff e recurso source control do VS Code](#130-git-diff-e-recurso-source-control-do-vs-code)
+    - [131. Git checkout](#131-git-checkout)
       - [Código do commit, HEAD](#código-do-commit-head)
       - [Importante](#importante)
-    - [133. Arquivo .gitignore](#133-arquivo-gitignore)
+    - [132. Arquivo .gitignore](#132-arquivo-gitignore)
       - [Casos comuns de arquivos que não devem ser salvos pelo Git:](#casos-comuns-de-arquivos-que-não-devem-ser-salvos-pelo-git)
-    - [134. Visão geral da segunda parte](#134-visão-geral-da-segunda-parte)
-    - [135. Removendo arquivos da área de stage](#135-removendo-arquivos-da-área-de-stage)
-    - [136. Desfazendo modificações não salvas](#136-desfazendo-modificações-não-salvas)
-    - [137. O que fazer quando abre o editor VIM](#137-o-que-fazer-quando-abre-o-editor-vim)
-    - [138. Deletando o último commit sem deletar modificações nos arquivos](#138-deletando-o-último-commit-sem-deletar-modificações-nos-arquivos)
-    - [139. Deletando commits e também modificações nos arquivos](#139-deletando-commits-e-também-modificações-nos-arquivos)
-    - [140. Como atualizar o repositório local em relação ao remoto](#140-como-atualizar-o-repositório-local-em-relação-ao-remoto)
-    - [141. Como resolver push rejeitado por históricos diferentes](#141-como-resolver-push-rejeitado-por-históricos-diferentes)
-    - [142. Resolvendo pull com conflito](#142-resolvendo-pull-com-conflito)
-    - [143. Como sobrescrever um histórico no Github](#143-como-sobrescrever-um-histórico-no-github)
-    - [144. Como apontar o projeto para outro repositório remoto](#144-como-apontar-o-projeto-para-outro-repositório-remoto)
+    - [133. Visão geral da segunda parte](#133-visão-geral-da-segunda-parte)
+    - [134. Removendo arquivos da área de stage](#134-removendo-arquivos-da-área-de-stage)
+    - [135. Desfazendo modificações não salvas](#135-desfazendo-modificações-não-salvas)
+    - [136. O que fazer quando abre o editor VIM](#136-o-que-fazer-quando-abre-o-editor-vim)
+    - [137. Deletando o último commit sem deletar modificações nos arquivos](#137-deletando-o-último-commit-sem-deletar-modificações-nos-arquivos)
+    - [138. Deletando commits e também modificações nos arquivos](#138-deletando-commits-e-também-modificações-nos-arquivos)
+    - [139. Como atualizar o repositório local em relação ao remoto](#139-como-atualizar-o-repositório-local-em-relação-ao-remoto)
+    - [140. Como resolver push rejeitado por históricos diferentes](#140-como-resolver-push-rejeitado-por-históricos-diferentes)
+    - [141. Resolvendo pull com conflito](#141-resolvendo-pull-com-conflito)
+    - [142. Como sobrescrever um histórico no Github](#142-como-sobrescrever-um-histórico-no-github)
+    - [143. Como apontar o projeto para outro repositório remoto](#143-como-apontar-o-projeto-para-outro-repositório-remoto)
   - [Seção 13: Enumerações, composição](#seção-13-enumerações-composição)
-    - [145. Visão geral do capítulo Enumerações e Composição](#145-visão-geral-do-capítulo-enumerações-e-composição)
-    - [146. Material de apoio do capítulo](#146-material-de-apoio-do-capítulo)
-    - [147. Enumerações](#147-enumerações)
+    - [144. Visão geral do capítulo Enumerações e Composição](#144-visão-geral-do-capítulo-enumerações-e-composição)
+    - [145. Material de apoio do capítulo](#145-material-de-apoio-do-capítulo)
+    - [146. Enumerações](#146-enumerações)
       - [Checklist](#checklist-2)
       - [Definição](#definição)
       - [Exemplo](#exemplo-3)
       - [Conversão de String para enum](#conversão-de-string-para-enum)
       - [Representação UML](#representação-uml)
-    - [148. Vamos falar um pouco sobre design](#148-vamos-falar-um-pouco-sobre-design)
+    - [147. Vamos falar um pouco sobre design](#147-vamos-falar-um-pouco-sobre-design)
       - [Categorias de classes](#categorias-de-classes)
-    - [149. Composição](#149-composição)
+    - [148. Composição](#148-composição)
       - [Vantagens](#vantagens-1)
-    - [150. Exercício resolvido 1 - Parte 1](#150-exercício-resolvido-1---parte-1)
-    - [151. Exercício resolvido 1 - Parte 2](#151-exercício-resolvido-1---parte-2)
-    - [152. Exercício resolvido 2 (demo StringBuilder)](#152-exercício-resolvido-2-demo-stringbuilder)
+    - [149. Exercício resolvido 1 - Parte 1](#149-exercício-resolvido-1---parte-1)
+    - [150. Exercício resolvido 1 - Parte 2](#150-exercício-resolvido-1---parte-2)
+    - [151. Exercício resolvido 2 (demo StringBuilder)](#151-exercício-resolvido-2-demo-stringbuilder)
       - [StringBuilder](#stringbuilder)
-    - [153. Exercício de fixação](#153-exercício-de-fixação)
+    - [152. Exercício de fixação](#152-exercício-de-fixação)
       - [Diagrama de classes](#diagrama-de-classes)
       - [Diagrama de objetos](#diagrama-de-objetos)
       - [Exemplo](#exemplo-4)
-    - [154. Correção em vídeo do exercício de fixação](#154-correção-em-vídeo-do-exercício-de-fixação)
+    - [153. Correção em vídeo do exercício de fixação](#153-correção-em-vídeo-do-exercício-de-fixação)
   - [Seção 14: Herança e polimorfismo](#seção-14-herança-e-polimorfismo)
-    - [154. Visão geral do capítulo Herança e polimorfismo](#154-visão-geral-do-capítulo-herança-e-polimorfismo)
-      - [Atenção:](#atenção)
+    - [154. Visão geral do capítulo Herança Se polimorfismo](#154-visão-geral-do-capítulo-herança-se-polimorfismo)
 
 ## Links úteis
 
@@ -667,8 +665,6 @@
 
 Mac: [https://github.com/devsuperior/sds2/tree/master/instalacao/mac#java-11-on-macos](https://github.com/devsuperior/sds2/tree/master/instalacao/mac#java-11-on-macos)
 
-### 16. Instalando o Java JDK
-
 [Link da distribuição Zulu](https://www.azul.com/downloads/?package=jdk)
 
 - Configuração das variáveis de ambiente do sistema
@@ -677,11 +673,11 @@ Mac: [https://github.com/devsuperior/sds2/tree/master/instalacao/mac#java-11-on-
     - Path: incluir o caminho - C:\Program Files\Java\jdk... (pasta da versão instalada)/bin
 - Para verificar se a configuração ocorreu com sucesso, basta testar no terminal o comando: ```java version```
 
-### 17. Instalando o Eclipse
+### 16. Instalando o Eclipse
 
 Link do download: [https://www.eclipse.org/downloads/packages/](https://www.eclipse.org/downloads/packages/)
 
-### 18. Primeiro programa em Java no Eclipse
+### 17. Primeiro programa em Java no Eclipse
 
 #### Primeiros passos
 
@@ -703,13 +699,13 @@ Link do download: [https://www.eclipse.org/downloads/packages/](https://www.ecli
 
 ## Seção 4: Estrutura sequencial
 
-### 19. Visão geral do capítulo
+### 18. Visão geral do capítulo
 
-### 20. Material de apoio do capítulo
+### 19. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/04-estrutura-sequencial.pdf)
 
-### 21. Expressões aritméticas
+### 20. Expressões aritméticas
 
 - **Expressões aritméticas** são aquelas que quando calculadas retornam um valor numérico. Exemplo: *4 + 5 = 9*
 
@@ -740,7 +736,7 @@ Link do download: [https://www.eclipse.org/downloads/packages/](https://www.ecli
 | 60 / (3 + 2) * 4   | 48        |
 | 60 / ((3 + 2) * 4) | 3         |
 
-### 22. Variáveis e tipos básicos em Java
+### 21. Variáveis e tipos básicos em Java
 
 - Um programa de computador em execução lida com dados. Estes dados são armazenados em variáveis.
 - **Variáveis** em programação é uma porção de memória (RAM) utilizada para armazenar dados durante a execução dos programas.
@@ -790,7 +786,7 @@ char sexo = 'F';
 | int salário;               | int salario;             |
 | int salário do funcionário | int salarioDoFuncionario |
 
-### 23. As três operações básicas de programação
+### 22. As três operações básicas de programação
 
 - Um programa de computador é capaz de realizar essencialmente três operações:
   - Entrada de dados
@@ -816,7 +812,7 @@ char sexo = 'F';
 - Um exemplo de **dispositivo de saída** é o monitor do computador.
 - A operação de **saída de dados** também é conhecida como **escrita**.
 
-### 24. Saída de dados em Java
+### 23. Saída de dados em Java
 
 #### Para escrevermos um texto qualquer
 
@@ -890,7 +886,7 @@ System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
 
 [Exercício 1](workspace/aula024_Exercicio_001/)
 
-### 25. Processamento de dados em Java, Casting
+### 24. Processamento de dados em Java, Casting
 
 - O processamento de dados em Java é feito por meio do comando de atribuição.
 - Sintaxe: ```<variavel> = <expressão>;```.
@@ -982,7 +978,7 @@ System.out.println(b); // 5
 
 [Exemplo 5](Workspace/aula025_Exemplo_005)
 
-### 26. Entrada de dados em Java - Parte 1
+### 25. Entrada de dados em Java - Parte 1
 
 - A entrada de dados é quando um usuário informa dados para um programa por meio de um dispositivo de entrada. Os dados são inseridos dentro de variáveis.
 
@@ -1090,7 +1086,7 @@ sc.close();
 
 [Exemplo 5](Workspace/aula026_Exemplo_005)
 
-### 27. Entrada de dados em Java - Parte 2
+### 26. Entrada de dados em Java - Parte 2
 
 #### Para ler um texto até a quebra de linha
 
@@ -1149,7 +1145,7 @@ sc.close();
 
 [Exempl 2](Workspace/aula027_Exemplo_002)
 
-### 28. Funções matemáticas em Java
+### 27. Funções matemáticas em Java
 
 #### Algumas funções matemáticas em Java
 
@@ -1189,7 +1185,9 @@ System.out.println("O valor absoluto de " + y + " = " + A); // O valor absoluto 
 System.out.println("O valor absoludo de " + z + " = " + B); // O valor absoludo de -5.0 = 5.0
 ```
 
-### 29. Aviso: exercícios para iniciantes PARTE 1
+[Exemplo 1](Workspace/aula028_Exemplo_001)
+
+### 28. Aviso: exercícios para iniciantes PARTE 1
 
 Até o momento nós aprendemos no curso a estrutura sequencial, ou seja:
 
@@ -1199,7 +1197,7 @@ Até o momento nós aprendemos no curso a estrutura sequencial, ou seja:
 
 Agora serão apresentados exercícios para praticar os tópicos apresentados.
 
-### 30. Exercícios para iniciantes - PARTE 1
+### 29. Exercícios para iniciantes - PARTE 1
 
 [Exercícios 1](Recursos/pdf/Exercicios1-estrutura-sequencial.pdf)
 
@@ -1389,13 +1387,13 @@ area = base x altura
 
 ## Seção 5: Estrutura condicional
 
-### 31. Visão geral do capítulo
+### 30. Visão geral do capítulo
 
-### 32. Material de apoio do capítulo
+### 31. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/05-estrutura-condicional.pdf)
 
-### 33. Expressões comparativas
+### 32. Expressões comparativas
 
 As expressões comparativas são utilizadas para comparar valores e seu resultado e um valor booleano, ou seja, verdadeiro ou falso. Exemplo:
 
@@ -1423,7 +1421,7 @@ As expressões comparativas são utilizadas para comparar valores e seu resultad
 | 10 <= 30  | Verdadeiro |
 | x != 2    | Verdadeiro |
 
-### 34. Expressões lógicas
+### 33. Expressões lógicas
 
 Assim como as expressões comparativas, as expressões lógicas resultam em um valor booleano, ou seja, verdadeiro ou falso.
 
@@ -1472,7 +1470,7 @@ O operador não inverte a condição.
 | V   | F   |
 | F   | V   |
 
-### 35. strutura condicional (if - else)
+### 34. strutura condicional (if - else)
 
 **Estrutura condicional** é uma **Estrutura de controle** que permite definir que um certo **bloco de comandos** somente será executado dependendo de uma **condição**.
 
@@ -1576,9 +1574,9 @@ if (horas < 12) {
 sc.close();
 ```
 
-### 36. AVISO: exercícios para iniciantes PARTE 2
+### 35. AVISO: exercícios para iniciantes PARTE 2
 
-### 37. Exercícios para Iniciantes
+### 36. Exercícios para Iniciantes
 
 [Exercícios 2](Recursos/pdf/Exercicios2-estrutura-condicional.pdf)
 
@@ -1793,7 +1791,7 @@ O valor deve ser impresso com duas casas decimais.
 
 [Exercício 8](Workspace/aula37_Exercicio_008)
 
-### 38. Sintaxe opcional - Operadores de atribuição cumulativa
+### 37. Sintaxe opcional - Operadores de atribuição cumulativa
 
 #### Operadores de atribuição cumulativos
 
@@ -1835,7 +1833,7 @@ sc.close();
 
 [Exemplo 1](Workspace/aula38_Exemplo_001)
 
-### 39. Sintaxe opcional - switch-case
+### 38. Sintaxe opcional - switch-case
 
 A estrutura **switch**-**case** é utilizada quando se tem várias opções de fluxo a serem tratadas com base no valor de uma variável, ao invés de várias estruturas **if**-**else** encadeadas, é preferível utilizar a estrutura **switch**-**case**.
 
@@ -1914,7 +1912,7 @@ System.out.println("Dia da semana: " + dia);
 sc.close();
 ```
 
-### 40. Expressões condicionais ternárias
+### 39. Expressões condicionais ternárias
 
 É uma estrutura opcional ao *if*-*else* quando se deseja decidir um **valor** com base em uma condição.
 
@@ -1935,7 +1933,7 @@ desconto = (preco < 20.0) ? preco * 0.1 : preco * 0.05;
 System.out.println("O desconto é de: " + desconto);
 ```
 
-### 41. Escopo e inicialização
+### 40. Escopo e inicialização
 
 - **Escopo de uma variável**: é a região do programa onde a variável é válida, ou seja, onde ela pode ser referenciada.
 - Uma variável não pode ser usada se não for iniciada.
@@ -1957,13 +1955,13 @@ sc.close();
 
 ## Seção 6: Estruturas repetitivas
 
-### 42. Visão geral do capítulo
+### 41. Visão geral do capítulo
 
-### 43. Material de apoio do capítulo
+### 42. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/06-estruturas-repetitivas.pdf)
 
-### 44. Como utilizar o DEBUG no Eclipse (execução passo a passo)
+### 43. Como utilizar o DEBUG no Eclipse (execução passo a passo)
 
 - Para marcar uma linha de *breakpoint*:
   - *Run* -> *Toggle Breakpoint*
@@ -1974,7 +1972,7 @@ sc.close();
 - Para interromper o *debug*:
   - *Stop*
 
-### 45. Estrutura repetitiva enquanto (while)
+### 44. Estrutura repetitiva enquanto (while)
 
 A estrutura repetitiva **while** (enquanto) é uma **estrutura de controle** que *repete* um bloco de coamandos enquanto uma condição for verdadeira. É utilizada quando **não** se sabe previamente a quantidade de repetições que será realizada.
 
@@ -2022,13 +2020,13 @@ System.out.println(soma);
 sc.close();
 ```
 
-### 46. Teste de mesa com estrutura repetitiva enquanto
+### 45. Teste de mesa com estrutura repetitiva enquanto
 
-### 47. Exercícios de teste de mesa com while
+### 46. Exercícios de teste de mesa com while
 
-### 48. AVISO: exercícios para iniciantes PARTE 3
+### 47. AVISO: exercícios para iniciantes PARTE 3
 
-### 49. Exercícios para Inicantes - PARTE 3
+### 48. Exercícios para Inicantes - PARTE 3
 
 [Exercícios 3](Recursos/pdf/Exercicios3-estrutura-while.pdf)
 
@@ -2122,7 +2120,7 @@ Exemplo:
 
 [Exercício 3](Workspace/aula049_Exercicio_003)
 
-### 50. Estrutura repetitiva "para" (for)
+### 49. Estrutura repetitiva "para" (for)
 
 É uma **estrutura de controle** que **repete** um bloco de comandos **para** um certo **intervalo de valores**.
 
@@ -2152,13 +2150,13 @@ Fazer um programa que lê um valor inteiro N e depois N números inteiros. Ao fi
 
 [Exemplo](Workspace/aula050_Exemplo_001)
 
-### 51. Teste de mesa com estrutura repetitiva para
+### 50. Teste de mesa com estrutura repetitiva para
 
-### 52. Exercícios de testes de mesa com for
+### 51. Exercícios de testes de mesa com for
 
-### 53. AVISO: exercícios para iniciiantes PARTE 4
+### 52. AVISO: exercícios para iniciiantes PARTE 4
 
-### 54. Exercícios para iniciantes PARTE 4
+### 53. Exercícios para iniciantes PARTE 4
 
 [Exercícios 4](Recursos/pdf/Exercicios4-estrutura-for.pdf)
 
@@ -2343,7 +2341,7 @@ Exemplo:
 
 [Exercício 7](Workspace/aula054_Exercicio_007)
 
-### 55. Estrutura repetitiva faça-enquanto (do-while)
+### 54. Estrutura repetitiva faça-enquanto (do-while)
 
 É uma **estrutura de controle** que repete um bloco de comandos enquanto uma condição for verdadeira. contudo, diferente da estrutura *while*, a instrução *do-while* é executada ao menos um vez e sua condição é verificada no final.
 
@@ -2402,11 +2400,11 @@ sc.close();
 
 ## Seção 7: Outros tópicos básicos sobre Java
 
-### 56. Material de apoio do capítulo
+### 55. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/07-outros-topicos-basicos.pdf)
 
-### 57. Restrições e convenções para nomes
+### 56. Restrições e convenções para nomes
 
 #### Restrições para nomes de variáveis
 
@@ -2434,7 +2432,7 @@ Exemplos:
 - **Pascal Case**:  *ProductService*
   - classes
 
-### 58. Operadores bitwise
+### 57. Operadores bitwise
 
 **Operadores bitwise** são aqueles que realizam operações lógicas bit a bit em valores.
 
@@ -2502,7 +2500,7 @@ sc.close();
 
 [Exemplo 2](Workspace/aula058_Exemplo_002)
 
-### 59. Funções interessantes para String
+### 58. Funções interessantes para String
 
 #### Checklist
 
@@ -2556,7 +2554,7 @@ System.out.println(word2); // apple
 System.out.println(word3); // lemon
 ```
 
-### 60. Comentários em Java (básico)
+### 59. Comentários em Java (básico)
 
 #### Comentário de linha
 
@@ -2577,7 +2575,7 @@ System.out.println(word3); // lemon
  */
 ```
 
-### 61. Funções (sintaxe)
+### 60. Funções (sintaxe)
 
 - Representam um processamente que possui um significado.
   - Math.sqrt(double)
@@ -2609,13 +2607,13 @@ higher = 8
 
 ## Seção 8: Introdução à Programação Orientada a Objetos
 
-### 62. Visão geral do capítulo
+### 61. Visão geral do capítulo
 
-### 63. Material de apoio do capítulo
+### 62. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/08-classes-atributos-membros-staticos.pdf)
 
-### 64. Resolvendo um problema sem orientação a objetos
+### 63. Resolvendo um problema sem orientação a objetos
 
 Fazer um programa para ler as medidas dos lados de dois triângulos X e Y (suponha medidas válidas). Em seguida, mostrar o valor das áreas dos dois triângulos e dizer qual dos dois triângulos possuí a maior área.
 
@@ -2641,7 +2639,7 @@ Larger area: Y
 
 [Exemplo 1](Workspace/aula064_Exemplo_001)
 
-### 65. Criando uma classe com três atributos para representar melhor o triângulo
+### 64. Criando uma classe com três atributos para representar melhor o triângulo
 
 #### Discussão
 
@@ -2684,7 +2682,7 @@ Conforme pode ser visto na imagem abaixo, quando declaramos a variável *x* e *y
 
 [Exemplo 1](Workspace/aula065_Exemplo_001)
 
-### 66. Criando um método para obtermos os benefícios de reaproveitamento e delegação.
+### 65. Criando um método para obtermos os benefícios de reaproveitamento e delegação.
 
 #### Discussão
 
@@ -2711,7 +2709,7 @@ Quais são os benefícios de se calcular a área de um triângulo por meio de um
 
 [Exemplo 1](Workspace/aula066_Exemplo_001)
 
-### 67. Começando a resolver um segundo problema exemplo
+### 66. Começando a resolver um segundo problema exemplo
 
 Fazer um programa para ler os dados de um produto em estoque (nome, preço e quantidade no estoque). Em seguida:
 
@@ -2744,7 +2742,7 @@ Updated data: TV, $ 900.00, 12 units, Total: $ 10800.00
 
 [Exemplo 1](Workspace/aula067_Exemplo_001)
 
-### 68. Object e toString
+### 67. Object e toString
 
 #### Discussão
 
@@ -2757,11 +2755,11 @@ Updated data: TV, $ 900.00, 12 units, Total: $ 10800.00
 
 [Exemplo 1](Workspace/aula068_Exemplo_001)
 
-### 69. Finalizando o programa
+### 68. Finalizando o programa
 
 [Exemplo 1](Workspace/aula069_Exemplo_001)
 
-### 70. Exercícios de fixação
+### 69. Exercícios de fixação
 
 #### Exercício 1
 
@@ -2828,7 +2826,7 @@ Exemplo:
 
 [Resposta dos exercícios](Recursos/pdf/08-correcao-exercicios-fixacao.pdf)
 
-### 71. Membros estáticos - Parte 1
+### 70. Membros estáticos - Parte 1
 
 Também chamados de **membros de classe** (*em oposição a membros de instância*), são membros que fazem sentido independentemente de objeto. Não precisam de objeto para serem chamados. São chamados a partir do próprio nome da classe.
 
@@ -2866,7 +2864,7 @@ PI value: 3.14
 
 [Exemplo 2](Workspace/aula071_Exemplo_002)
 
-### 72. Membros estáticos - Parte 2
+### 71. Membros estáticos - Parte 2
 
 #### Discussão
 
@@ -2880,7 +2878,7 @@ Como exemplo, caso intanciemos duas calculadoras, os valores de suas operações
 
 [Exemplo 1](Workspace/aula072_Exemplo_001)
 
-### 73. Exercício de fixação
+### 72. Exercício de fixação
 
 Faça um programa para lere a cotação do dólar, e depois um valor em dólares a ser comprado por uma pessoa em reais. Informar quantos reais a pessoa vai pagar pelos dólares, considerando ainda que a pessoa terá que pagar 6% de IOF sobre o valor em dólar. Criar uma classe **CurrencyConverter** para ser responsável pelos cálculos.
 
@@ -2896,13 +2894,13 @@ Amount to be paid in reais = 657.20
 
 ## Seção 9: Construtores, palavra this, sobrecarga, encapsulamento
 
-### 74. Visão geral do capítulo
+### 73. Visão geral do capítulo
 
-### 75. Material de apoio do capítulo
+### 74. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/09-construtores-this-sobrecarga-encapsulamento.pdf)
 
-### 76. Construtores
+### 75. Construtores
 
 **Construtor** é uma operação especial da classe, que executa no momento da instanciação do objeto.
 
@@ -2960,7 +2958,7 @@ Com o intuíto de evitar a existência de produtos sem nome e sem preço, é pos
 
 [Exemplo 1](Workspace/aula076_Exemplo_001)
 
-### 77. Palavra this
+### 76. Palavra this
 
 A palavra **this** é uma referência para o próprio objeto.
 
@@ -2969,7 +2967,7 @@ A palavra **this** é uma referência para o próprio objeto.
 - Diferenciar atributos de variáveis locais.
 - Passar o próprio objeto como argumento na chamada de um método ou construtor.
 
-### 78. Sobrecarga
+### 77. Sobrecarga
 
 É um recurso que um aclasse possui de oferecer mais de uma operação com o mesmo nome, porém com diferentes listas de parâmetros.
 
@@ -2981,7 +2979,7 @@ Proposta de melhoria do projeto do programa para ler os dados de um produto em e
 
 - **Nota**: é possível também inclouir um construtor padrão.
 
-### 79. Encapsulamento
+### 78. Encapsulamento
 
 **Encapsulamento** é um princípio que consiste em esconder detalhes de implementação de uma classe, expondo apenas as operações seguras e que mantenham os objetos em um estado consistente.
 
@@ -2997,7 +2995,7 @@ Proposta de melhoria do projeto do programa para ler os dados de um produto em e
 
 [Exemplo 1](Workspace/aula079_Exemplo_001)
 
-### 80. Gerando automaticamente construtores, getters e setters com Eclipse
+### 79. Gerando automaticamente construtores, getters e setters com Eclipse
 
 #### Gerando construtor
 
@@ -3019,7 +3017,7 @@ Coloque o cursor onde você deseja incluir os métodos e utilize um dos dois mé
 
 [Exemplo 1](Workspace/aula080_Exemplo_001)
 
-### 81. Modificadores de acesso
+### 80. Modificadores de acesso
 
 - [https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)
 - **private**: o membro só pode ser acessado na **própria classe**
@@ -3031,7 +3029,7 @@ Coloque o cursor onde você deseja incluir os métodos e utilize um dos dois mé
 
 Fonte: [https://stackoverflow.com/questions/215497/what-is-the-difference-between-public-protected-package-private-and-private-in](https://stackoverflow.com/questions/215497/what-is-the-difference-between-public-protected-package-private-and-private-in)
 
-### 82. Exercício de fixação
+### 81. Exercício de fixação
 
 Em um banco, para se cadastrar uma conta bancária, é necessário informar o número da conta, o nome do titular da conta, e o valor de depósito inicial que o titular depositou ao abrir a conta. Este valor de depósito inicial, entratanto, é opcional, ou seja: se o titular não tiver dinheiro a depositar no momento de abrir sua conta, o depósito inicial não será feito e o saldo inicial da conta será, naturalmente, zero.
 
@@ -3080,25 +3078,25 @@ Account 7801, Holder: Maria Brown, Balance: $ -3.00
 
 [Exercício 1](Workspace/aula082_Exercicio_001)
 
-### 83. Correção do exercício de fixação - Parte 1
+### 82. Correção do exercício de fixação - Parte 1
 
 [Exercício 1 correção parte 1](Workspace/aula083_Exercicio_001)
 
-### 84. Correção do exercício de fixação - Parte 2
+### 83. Correção do exercício de fixação - Parte 2
 
 [Exercício 1 correção parte 2](Workspace/aula083_Exercicio_001)
 
 ## Seção 10: Comportamento de memória, arrays e listas
 
-### 85. Visão geral do capítulo
+### 84. Visão geral do capítulo
 
-### 86. Material de apoio do capítulo
+### 85. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/10-memoria-arrays-e-listas.pdf)
 
 [Exercícios de fixação](Recursos/pdf/Exercicios5-vetores.pdf)
 
-### 87. Tipos referência vs. tipos valor
+### 86. Tipos referência vs. tipos valor
 
 #### Classes são tipos referência
 
@@ -3151,7 +3149,7 @@ Exemplo:
 
 ![imagem 7](Recursos/images/aula87-img7.jpg)
 
-### 88. Desalocação de memória - garbage collector e escopo local
+### 87. Desalocação de memória - garbage collector e escopo local
 
 #### Garbage Collector
 
@@ -3172,7 +3170,7 @@ Conforme pode verificado no esquema abaixo. A variável *x* pertence ao escopo d
 - Objetos alocados dinamicamente, quando não possuem mais referência para eles, serão desalocados pelo *garbage collector*.
 - Variáveis locais são desalocadas imediatamente assim que seu escopo local sai de execução.
 
-### 89. Vetores - Parte 1
+### 88. Vetores - Parte 1
 
 #### Checklist
 
@@ -3219,7 +3217,7 @@ Fazer um programa para ler um número inteiro N e a altura de N pessoas. Armazen
 
 [Problema exemplo 1]
 
-### 90. Vetores - Parte 2
+### 89. Vetores - Parte 2
 
 #### Problema exemplo 2
 
@@ -3251,7 +3249,7 @@ System.out.print(vect.lenght); // 8
 
 ```
 
-### 91. Exercícios de fixação sobre vetores
+### 90. Exercícios de fixação sobre vetores
 
 #### Exercício 1 - Problema "negativos"
 
@@ -3546,15 +3544,15 @@ Numero de homens = 2
 
 [Exercício 11](Workspace/aula091_Exercício_011)
 
-### 92. Correção do exercício negativos
+### 91. Correção do exercício negativos
 
 [Correção exercício 1](Workspace/aula092_Exercicio_001)
 
-### 93. Correção do exercício alturas
+### 92. Correção do exercício alturas
 
 [Correção exercício 3](Workspace/aula093_Exercicio_001)
 
-### 94. Desafio sobre vetores (pensionato)
+### 93. Desafio sobre vetores (pensionato)
 
 A dona de um pensionato possui dez quartos para alugar para estudantes, sendo esses quartos identificados pelos números 0 a 9.
 
@@ -3586,11 +3584,11 @@ Busy rooms:
 
 [Exercício 1](Workspace/aula094_Exercicio_001)
 
-### 95. Correção do desafio sobre vetores (pensionato)
+### 94. Correção do desafio sobre vetores (pensionato)
 
 [Exercício 1](Workspace/aula095_Exercicio_001)
 
-### 96. Boxing, umboxing e wrapper classes
+### 95. Boxing, umboxing e wrapper classes
 
 #### Boxing
 
@@ -3637,7 +3635,7 @@ int y = obj * 2; // Unboxing - Não há necessidade de casting
 System.out.println(y) // 40
 ```
 
-### 97. Laço for each
+### 96. Laço for each
 
 Sintaxe opcional e simplificada para percorrer coleções.
 
@@ -3668,7 +3666,7 @@ for (String name : vect) {
 
 [Exemplo 1](Workspace/aula097_Exemplo_001)
 
-### 98. Listas - Parte 1
+### 97. Listas - Parte 1
 
 - Referência: [https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html)
 
@@ -3697,7 +3695,7 @@ for (String name : vect) {
 
 ![Imagem 1](Recursos/images/aula98-img1.jpg)
 
-### 99. Listas - Parte 2
+### 98. Listas - Parte 2
 
 #### Demonstração de operações com listas
 
@@ -3711,7 +3709,7 @@ for (String name : vect) {
 
 [Exemplo 1](Workspace/aula099_Exemplo_001)
 
-### 100. Exercício proposto
+### 99. Exercício proposto
 
 Fazer um programa para ler um número inteiro N e depois os dados (id, nome e salário) de N funcionários. Não deve haver repetição de id.
 
@@ -3773,13 +3771,13 @@ List of employees:
 
 [Exercício de fixação 1](Workspace/aula100_Exercício_001)
 
-### 101. Correção em vídeo do exercício proposto
+### 100. Correção em vídeo do exercício proposto
 
 [Link Youtube](https://youtu.be/Xj-osdBe3TE)
 
 [Exercício corrigido](Workspace/aula101_Exercicio_001)
 
-### 102. Matrizes
+### 101. Matrizes
 
 Em programação, **matriz** é o nome dado a arranjos (*arrays*) bidimensionais. É um "*vetor de vetores*".
 
@@ -3796,7 +3794,7 @@ Em programação, **matriz** é o nome dado a arranjos (*arrays*) bidimensionais
 
 ![Imagem 1](Recursos/images/aula102-img1.jpg)
 
-### 103. Exercício resolvido
+### 102. Exercício resolvido
 
 Fazer um programa para ler um número inteiro N e uma matriz de ordem N contendo números inteiros. Em seguida, mostrar a ediagonal principal e a quantidade de valores negativos da matriz.
 
@@ -3811,7 +3809,7 @@ Exemplo:
 
 [Exercício 1](Workspace/aula103_Exercicio_001)
 
-### 104. Exercício proposto
+### 103. Exercício proposto
 
 Fazer um programa para ler dois números inteiros M e N, e depois ler uma matris de M linhas por N colunas contendo números inteiros, podendo haver repetições. Em seguida, ler um número inteiro X que pertence à matriz. Para cada ocorrência de X, mostrar os valores à esquerda, acima, à direita e abaixo, de x, quando houver, conforme exemplo:
 
@@ -3835,19 +3833,19 @@ Down: 19
 
 ## Seção 11: Tópicos especiais em Java: data-hora
 
-### 105. Boas-vindas e avisos
+### 104. Boas-vindas e avisos
 
 Parte 1 - Trabalhando com data-hora (Java 8+)
 
 Parte 2 - Date e Calendar (Java 7) - Dois últimos vídeos
 
-### 106. Material de apoio do capítulo
+### 105. Material de apoio do capítulo
 
 [Material Parte 1](Recursos/pdf/11-trabalhando-com-data-hora.pdf)
 
 [Material Parte 2](Recursos/pdf/11-date-calendar.pdf)
 
-### 107. Introdução a data-hora e duração
+### 106. Introdução a data-hora e duração
 
 #### Conceitos importantes
 
@@ -3881,7 +3879,7 @@ Parte 2 - Date e Calendar (Java 7) - Dois últimos vídeos
     - Quando foi realizada a venda? "13/08/2022 às 15:32 (horário de São Paulo)"
     - Início e fim do evento? "21/08/2022 às 14h até 16h (horário de São Paulo)"
 
-### 108. Entendendo timezone (fuso horário)
+### 107. Entendendo timezone (fuso horário)
 
 #### GMT - Treenwich Mean Time
 
@@ -3901,7 +3899,7 @@ Parte 2 - Date e Calendar (Java 7) - Dois últimos vídeos
 - "America/Sao_paulo"
 - etc
 
-### 109. Padrão ISO 8601
+### 108. Padrão ISO 8601
 
 Este padrão especifica como você deve representar datas e horas no padrão texto.
 
@@ -3918,7 +3916,7 @@ Este padrão especifica como você deve representar datas e horas no padrão tex
 - 2022-07-23T14:52:09.254935Z
 - 2022-07-23T14:52:09-03:00
 
-### 110. Operações importantes com data-hora
+### 109. Operações importantes com data-hora
 
 Segue as operações com dadas mais importantes que devemos ser capaz de realizar com Java.
 
@@ -3944,7 +3942,7 @@ Segue as operações com dadas mais importantes que devemos ser capaz de realiza
   - Data-hora +/- tempo -> Data-hora
   - Data-hora 1, Data-hora 2 -> Duração
 
-### 111. Instanciando data-hora em Java
+### 110. Instanciando data-hora em Java
 
 #### Principais tipos Java (versão 8+)
 
@@ -4018,7 +4016,7 @@ System.out.println("d11 = " + d11); // d11 = 2022-07-20T01:30
 
 [Exemplo](Workspace/aula111_Exemplo_001)
 
-### 112. Convertendo data-hora para texto
+### 111. Convertendo data-hora para texto
 
 #### Formatação
 
@@ -4055,7 +4053,7 @@ System.out.println("d11 = " + d11); // d11 = 2022-07-20T01:30
 
 [Exemplo](Workspace/aula112_Exemplo_001)
 
-### 113. Convertendo data-hora global para local
+### 112. Convertendo data-hora global para local
 
 #### Obtendo uma lista de todos os ZoneIds disponíveis
 
@@ -4100,7 +4098,7 @@ Resultado: [ZoneIds.md](ZoneIds.md)
 
 [Exemplo](Workspace/aula113_Exemplo_001)
 
-### 114. Cálculos com data-hora
+### 113. Cálculos com data-hora
 
 ```java
 LocalDate d04 = LocalDate.parse("2022-07-20");
@@ -4140,11 +4138,11 @@ System.out.println("t4 em dias: " + t4.toDays()); // t4 em dias: -7
 
 [Exemplo](Workspace/aula114_Exemplo_001)
 
-### 115. Aviso: próximas duas aulas são sobre Date e Calendar
+### 114. Aviso: próximas duas aulas são sobre Date e Calendar
 
  conforme informado anteriormente, na introdução deste capítulo, as próximas duas aulas serão sobre os tipos Date e Calendar, que é o modelo antigo de data-hora usado pelo Java antes da versão 8. Deixei essas aulas aqui para vocês como referência opcional caso precisem trabalhar com esse modelo antigo em algum sistema legado em Java.
 
-### 116. Trabalhando com datas - Date
+### 115. Trabalhando com datas - Date
 
 O *Date* representa um Instante
 
@@ -4179,7 +4177,7 @@ Exemplos:
 
 [Exemplo](Workspace/aula116_Exemplo_001)
 
-### 117. Manipulando um Date com Calendar
+### 116. Manipulando um Date com Calendar
 
 #### Somando uma unidade de tempo
 
@@ -4220,15 +4218,15 @@ System.out.println("Month: " + month); // Month: 6
 
 ## Seção 12: Bônus - nivelamento sobre Git e Github
 
-### 118. Apresentação do bônus Git e Github
+### 117. Apresentação do bônus Git e Github
 
-### 119. Material de apoio do capítulo
+### 118. Material de apoio do capítulo
 
 [Material de apoio](12-Recursos/pdf/12-Introdução-ao-Git-e-Github-(slides).pdf)
 
 [Resolvendo problemas comuns](Recursos/pdf/12-Resolvendo-problemas-comuns-(slides).pdf)
 
-### 120. Introdução ao Git e Github
+### 119. Introdução ao Git e Github
 
 #### Git
 
@@ -4246,7 +4244,7 @@ System.out.println("Month: " + month); // Month: 6
 - Modelo de cobrança: gratuíto para projetos de código aberto, pago para projetos privados
 - Alternativas: BitBucket, Gitlab, etc.
 
-### 121. Repositório local e repositório remoto
+### 120. Repositório local e repositório remoto
 
 Um projeto controlado pelo Git é chamado de **repositório** de versionamento.
 
@@ -4256,11 +4254,11 @@ Cada pessoa que trabalha no projeto pode fazer uma cópia do repositório para s
 
 ![Imagem 1 - Fluxo de trabalho com o Git](Recursos/images/aula121-img1.jpg)
 
-### 122. Instalação do Git no Windows
+### 121. Instalação do Git no Windows
 
 [Link para download: https://git-scm.com/](https://git-scm.com/)
 
-### 123. Configurando sua identificação
+### 122. Configurando sua identificação
 
 ```powershell
 git config --global user.name "Seu nonme"
@@ -4273,14 +4271,14 @@ git config --list # lista as configurações
 
 ```git config --global init.defaultBranch main```
 
-### 124. Mostrar arquivos ocultos e extensões
+### 123. Mostrar arquivos ocultos e extensões
 
 Iniciar -> Opções do explorador de arquivos
 
 Desmarcar: "Ocultar as extensões dos tipos de arquivos conhecidos"
 Marcar: "Mostrar arquivos, pastas e unidades ocultas"
 
-### 125. Configurar chave SSH no Github
+### 124. Configurar chave SSH no Github
 
 **SSH** é um protocolo para comunicação de dados com segurança.
 
@@ -4301,7 +4299,7 @@ Acessar o arquivo ```id_rsa.pub``` na pasta ```.ssh``` na sua pasta pessoal do W
 
 Acessar o site do Github.com -> Settings -> SSH and GPG keys -> Clicar em New SSH Key
 
-### 126. Salvando primeira versão de um projeto no Github
+### 125. Salvando primeira versão de um projeto no Github
 
 #### Passo a passo: Salvar primeira versão de um projeto no Github
 
@@ -4321,7 +4319,7 @@ git remote add origin git@github.com:seuusuario/seurepositorio.git
 git push -u origin main
 ```
 
-### 127. Salvando um novo commit
+### 126. Salvando um novo commit
 
 ```powershell
 git status
@@ -4333,7 +4331,7 @@ git commit -m "Mesnagem explicativa"
 git push
 ```
 
-### 128. Demo - clonar e modificar um projeto
+### 127. Demo - clonar e modificar um projeto
 
 ```powershell
 git clone git@github.com:seuusuario/seurepositorio.git
@@ -4345,7 +4343,7 @@ git commit -m "Mensagem explicativa"
 git push
 ```
 
-### 129. Git log para verificar histórico de versões
+### 128. Git log para verificar histórico de versões
 
 #### Verificando o histórico de versões
 
@@ -4355,7 +4353,7 @@ git push
 
 ```git log --oneline```
 
-### 130. Entendendo git status e stage
+### 129. Entendendo git status e stage
 
 #### git status
 
@@ -4377,13 +4375,13 @@ Conforme imagem, podemos ter três situações de arquivos:
 
 ```git reset```
 
-### 131. Git diff e recurso source control do VS Code
+### 130. Git diff e recurso source control do VS Code
 
 **Git diff** é um comando que mostra a diferença entre arquivos modificados.
 
 **Dica**: utilizar o VS Code, que mostra graficamente as diferenças
 
-### 132. Git checkout
+### 131. Git checkout
 
 O **Git checkout** permite modificar temporariamente os arquivos do projeto ao estado de um dado commit ou branch.
 
@@ -4407,7 +4405,7 @@ git clean -df
 git checkout -- .
 ```
 
-### 133. Arquivo .gitignore
+### 132. Arquivo .gitignore
 
 o **.gitignore** é um arquivo que indica o que **não** deve ser salvo pelo git.
 
@@ -4433,9 +4431,9 @@ IDE's podem salvar uma subpasta com arquivos de configuração na pasta do proje
 
 Por exemplo, sistemas Mac podem gravar uma subpasta .ds_store na pasta do projeto.
 
-### 134. Visão geral da segunda parte
+### 133. Visão geral da segunda parte
 
-### 135. Removendo arquivos da área de stage
+### 134. Removendo arquivos da área de stage
 
 Comando ```git reset``` remove arquivos que foram colocados na área de stage.
 
@@ -4445,7 +4443,7 @@ git status
 git reset
 ```
 
-### 136. Desfazendo modificações não salvas
+### 135. Desfazendo modificações não salvas
 
 Para desfazer modificações que ainda não estão salvas.
 
@@ -4459,7 +4457,7 @@ git clean -df
 git checkout -- .
 ```
 
-### 137. O que fazer quando abre o editor VIM
+### 136. O que fazer quando abre o editor VIM
 
 Estas ações podem abrir o editor VIM no terminal:
 
@@ -4494,7 +4492,7 @@ i
 <ENTER>
 ```
 
-### 138. Deletando o último commit sem deletar modificações nos arquivos
+### 137. Deletando o último commit sem deletar modificações nos arquivos
 
 ```powershell
 git status
@@ -4502,7 +4500,7 @@ git status
 git reset --soft HEAD~1
 ```
 
-### 139. Deletando commits e também modificações nos arquivos
+### 138. Deletando commits e também modificações nos arquivos
 
 **Atenção**: após a realização dos comandos abaixo, não é possível recuperar os commits deletados.
 
@@ -4522,7 +4520,7 @@ git status
 git reset --hard HEAD~1
 ```
 
-### 140. Como atualizar o repositório local em relação ao remoto
+### 139. Como atualizar o repositório local em relação ao remoto
 
 ```powershell
 git status
@@ -4530,7 +4528,7 @@ git status
 git pull <nome do remote> <nome do branch>
 ```
 
-### 141. Como resolver push rejeitado por históricos diferentes
+### 140. Como resolver push rejeitado por históricos diferentes
 
 Não é permitido enviar um push se seu repositório local está atraso em relação ao histórico do repositório remoto! Por exemplo:
 
@@ -4542,13 +4540,13 @@ Neste caso, você tem que atualizar o repositório local:
 git pull <nome do remote> <nome do branch>
 ```
 
-### 142. Resolvendo pull com conflito
+### 141. Resolvendo pull com conflito
 
 - Análise de código fonte
 - Faça as edições necessárias
 - faça um novo commit
 
-### 143. Como sobrescrever um histórico no Github
+### 142. Como sobrescrever um histórico no Github
 
 **Atenção**: após a realização dos comandos abaixo, não é possível recuperar os commits deletados.
 
@@ -4560,7 +4558,7 @@ Para sobrescrever um histórico no Github, ou seja, realizar o push dos arquivos
 git push -f <nome do remote> <nome do branch>
 ```
 
-### 144. Como apontar o projeto para outro repositório remoto
+### 143. Como apontar o projeto para outro repositório remoto
 
 ```powershell
 gir remote -v # verifica qual é o servidor remoto
@@ -4570,13 +4568,13 @@ git remote set-url origin git@github.com:seuusuario/seurepositorio.git
 
 ## Seção 13: Enumerações, composição
 
-### 145. Visão geral do capítulo Enumerações e Composição
+### 144. Visão geral do capítulo Enumerações e Composição
 
-### 146. Material de apoio do capítulo
+### 145. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/13-enumeracoes-composicao.pdf)
 
-### 147. Enumerações
+### 146. Enumerações
 
 #### Checklist
 
@@ -4616,7 +4614,7 @@ OrderStatus os2 = OrderStatus.valueOf("Delivered");
 
 ![Representação UML](Recursos/images/aula147-img2.jpg)
 
-### 148. Vamos falar um pouco sobre design
+### 147. Vamos falar um pouco sobre design
 
 #### Categorias de classes
 
@@ -4629,7 +4627,7 @@ OrderStatus os2 = OrderStatus.valueOf("Delivered");
   - Services
   - Repositories
 
-### 149. Composição
+### 148. Composição
 
 **Composição** é um tipo de associação que permite que um objeto contenha outro. Assim os objetos envolvidos possuem uma relação "*tem-um*" ou "*tem-vários*".
 
@@ -4642,7 +4640,7 @@ OrderStatus os2 = OrderStatus.valueOf("Delivered");
 
 **Nota**: Embora o símbolo **UML** para composição (*todo-parte*) seja o **diamente preto**, neste contexto estamos chamando de composição qualquer associação tipo "*tem-um*" e "*tem-vários*".
 
-### 150. Exercício resolvido 1 - Parte 1
+### 149. Exercício resolvido 1 - Parte 1
 
 Ler os dados de um trabalhador com **N** contratos (N fornecido pelo usuário). Depois, solicitar do uauário um mês e mostrar qual foi o salário do funcionário nesse mês, conforme exemplo (próxima página).
 
@@ -4674,13 +4672,13 @@ Department: Design
 Income for 08/2018: 3000.00
 ```
 
-### 151. Exercício resolvido 1 - Parte 2
+### 150. Exercício resolvido 1 - Parte 2
 
 [Versão 1 - Utilizando Date e Calendar](Workspace/aula150_Exemplo_001)
 
 [Versão 2 - Utilizando LocalDate](Workspace/aula150_Exemplo_001_v2)
 
-### 152. Exercício resolvido 2 (demo StringBuilder)
+### 151. Exercício resolvido 2 (demo StringBuilder)
 
 Instancie manualmente (hard code) os objetos mostrados abaixo e mostre-os na tela do terminal conforme exemplo:
 
@@ -4728,7 +4726,7 @@ public String toString() {
 }
 ```
 
-### 153. Exercício de fixação
+### 152. Exercício de fixação
 
 Ler os dados de um pedido com N itens (N fornecido pelo usuário). Depois,  mostrar um sumário do pedido conforme exemplo. Nota: o instante do pedido deve ser o instante do sistema.
 
@@ -4771,7 +4769,7 @@ Total price: $1080.00
 
 [Exercício de fixação](Workspace/aula153_Exercicio_001)
 
-### 154. Correção em vídeo do exercício de fixação
+### 153. Correção em vídeo do exercício de fixação
 
 [Link do youtube](https://www.youtube.com/watch?v=gj80JEqk5ms)
 
@@ -4779,8 +4777,4 @@ Total price: $1080.00
 
 ## Seção 14: Herança e polimorfismo
 
-### 154. Visão geral do capítulo Herança e polimorfismo
-
-#### Atenção:
-
-Numeração da aula foi alterada para contemplar a alteração ocorrida na plataforma.
+### 154. Visão geral do capítulo Herança Se polimorfismo
