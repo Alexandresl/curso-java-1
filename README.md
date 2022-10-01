@@ -305,7 +305,7 @@
       - [Instanciação](#instanciação-2)
     - [112. Convertendo data-hora para texto](#112-convertendo-data-hora-para-texto)
       - [Formatação](#formatação-1)
-    - [133. Convertendo data-hora global para local](#133-convertendo-data-hora-global-para-local)
+    - [113. Convertendo data-hora global para local](#113-convertendo-data-hora-global-para-local)
       - [Obtendo uma lista de todos os ZoneIds disponíveis](#obtendo-uma-lista-de-todos-os-zoneids-disponíveis)
       - [Convertendo data-hora para local](#convertendo-data-hora-para-local)
     - [114. Cálculos com data-hora](#114-cálculos-com-data-hora)
@@ -372,6 +372,10 @@
     - [151. Exercício resolvido 1 - Parte 2](#151-exercício-resolvido-1---parte-2)
     - [152. Exercício resolvido 2 (demo StringBuilder)](#152-exercício-resolvido-2-demo-stringbuilder)
       - [StringBuilder](#stringbuilder)
+    - [153. Exercício de fixação](#153-exercício-de-fixação)
+      - [Diagrama de classes](#diagrama-de-classes)
+      - [Diagrama de objetos](#diagrama-de-objetos)
+      - [Exemplo](#exemplo-4)
 
 ## Links úteis
 
@@ -4047,7 +4051,7 @@ System.out.println("d11 = " + d11); // d11 = 2022-07-20T01:30
 
 [Exemplo](Workspace/aula112_Exemplo_001)
 
-### 133. Convertendo data-hora global para local
+### 113. Convertendo data-hora global para local
 
 #### Obtendo uma lista de todos os ZoneIds disponíveis
 
@@ -4700,7 +4704,7 @@ May the Force be with you
 
 #### StringBuilder
 
-O *StringBuilder* serve para concatenar uma quantidade maior de texto de forma otimizada. Segue exemplo de uso:
+A classe *StringBuilder* serve para concatenar uma quantidade maior de texto de forma otimizada. Segue exemplo de uso:
 
 ```java
 @Override
@@ -4719,3 +4723,46 @@ public String toString() {
   return sb.toString();
 }
 ```
+
+### 153. Exercício de fixação
+
+Ler os dados de um pedido com N itens (N fornecido pelo usuário). Depois,  mostrar um sumário do pedido conforme exemplo. Nota: o instante do pedido deve ser o instante do sistema.
+
+#### Diagrama de classes
+
+![Imagem 1 - Diagrama de classes](Recursos/images/aula153-img1.jpg)
+
+#### Diagrama de objetos
+
+![Imagem 2 - Diagrama de objetos](Recursos/images/aula153-img2.jpg)
+
+#### Exemplo
+
+```powershell
+Enter cliente data:
+Name: Alex Green
+Email: alex@gmail.com
+Birth date (DD/MM/YYYY): 15/03/1985
+Enter order data:
+Status: PROCESSING
+How many items to this order? 2
+Enter #1 item data:
+Product name: TV
+Product price: 1000.00
+Quantity: 1
+Enter #2 item data:
+Product name: Mouse
+Product price: 40.00
+Quantity: 2
+
+ORDER SUMMARY:
+Order moment: 20/04/2018 11:25:09
+Order status: PROCESSING
+Client: Alex Green (15/03/1985) - alex@gmail.com
+Order items:
+TV, $1000.00, Quantity: 1, Subtotal: $1000.00
+Mouse, $40.00, Quantity: 2, Subtotal: $80.00
+Total price: $1080.00
+```
+
+[Exercício de fixação](Workspace/aula153_Exemplo_001)
