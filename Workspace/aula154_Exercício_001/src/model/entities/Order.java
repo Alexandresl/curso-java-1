@@ -1,11 +1,11 @@
-package entities;
+package model.entities;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-import entities.enums.OrderStatus;
+import model.enums.OrderStatus;
 
 public class Order {
 	
@@ -20,10 +20,10 @@ public class Order {
 	public Order() {
 	}
 
-	public Order(LocalDateTime moment, OrderStatus status, Client cliente) {
+	public Order(LocalDateTime moment, OrderStatus status, Client client) {
 		this.moment = moment;
 		this.status = status;
-		this.client = cliente;
+		this.client = client;
 	}
 
 	public LocalDateTime getMoment() {
@@ -42,16 +42,12 @@ public class Order {
 		this.status = status;
 	}
 
-	public Client getCliente() {
+	public Client getClient() {
 		return client;
 	}
 
-	public void setCliente(Client cliente) {
-		this.client = cliente;
-	}
-
-	public List<OrderItem> getItems() {
-		return items;
+	public void setClient(Client client) {
+		this.client = client;
 	}
 	
 	public void addItem(OrderItem item) {
@@ -63,10 +59,10 @@ public class Order {
 	}
 	
 	public Double total() {
-		Double total = 0.0;
+		double total = 0.0;
 		
-		for (OrderItem i : items) {
-			total += i.subTotal();
+		for (OrderItem oi : items) {
+			total += oi.subTotal();
 		}
 		
 		return total;
@@ -87,5 +83,5 @@ public class Order {
 		
 		return sb.toString();
 	}
-	
+
 }

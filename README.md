@@ -376,6 +376,7 @@
       - [Diagrama de classes](#diagrama-de-classes)
       - [Diagrama de objetos](#diagrama-de-objetos)
       - [Exemplo](#exemplo-4)
+    - [154. Correção em vídeo do exercício de fixação](#154-correção-em-vídeo-do-exercício-de-fixação)
 
 ## Links úteis
 
@@ -4765,4 +4766,10 @@ Mouse, $40.00, Quantity: 2, Subtotal: $80.00
 Total price: $1080.00
 ```
 
-[Exercício de fixação](Workspace/aula153_Exemplo_001)
+[Exercício de fixação](Workspace/aula153_Exercicio_001)
+
+### 154. Correção em vídeo do exercício de fixação
+
+[Link do youtube](https://www.youtube.com/watch?v=gj80JEqk5ms)
+
+[Exercício corrigido](Workspace/aula154_Exercício_001)
