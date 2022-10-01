@@ -377,6 +377,9 @@
       - [Diagrama de objetos](#diagrama-de-objetos)
       - [Exemplo](#exemplo-4)
     - [154. Correção em vídeo do exercício de fixação](#154-correção-em-vídeo-do-exercício-de-fixação)
+  - [Seção 14: Herança e polimorfismo](#seção-14-herança-e-polimorfismo)
+    - [154. Visão geral do capítulo Herança e polimorfismo](#154-visão-geral-do-capítulo-herança-e-polimorfismo)
+      - [Atenção:](#atenção)
 
 ## Links úteis
 
@@ -4773,3 +4776,11 @@ Total price: $1080.00
 [Link do youtube](https://www.youtube.com/watch?v=gj80JEqk5ms)
 
 [Exercício corrigido](Workspace/aula154_Exercício_001)
+
+## Seção 14: Herança e polimorfismo
+
+### 154. Visão geral do capítulo Herança e polimorfismo
+
+#### Atenção:
+
+Numeração da aula foi alterada para contemplar a alteração ocorrida na plataforma.
