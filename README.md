@@ -378,6 +378,7 @@
     - [153. Correção em vídeo do exercício de fixação](#153-correção-em-vídeo-do-exercício-de-fixação)
   - [Seção 14: Herança e polimorfismo](#seção-14-herança-e-polimorfismo)
     - [154. Visão geral do capítulo Herança Se polimorfismo](#154-visão-geral-do-capítulo-herança-se-polimorfismo)
+    - [155. Material de apoio do capítulo](#155-material-de-apoio-do-capítulo)
 
 ## Links úteis
 
@@ -4778,3 +4779,7 @@ Total price: $1080.00
 ## Seção 14: Herança e polimorfismo
 
 ### 154. Visão geral do capítulo Herança Se polimorfismo
+
+### 155. Material de apoio do capítulo
+
+[Material de apoio](Recursos/pdf/14-heranca-e-polimorfismo.pdf)
