@@ -386,6 +386,10 @@
       - [Definições importantes](#definições-importantes)
     - [157. Upcasting e downcasting](#157-upcasting-e-downcasting)
       - [Exemplo de uso](#exemplo-de-uso-6)
+    - [158. Sobreposição, palavra super e anotação @Override](#158-sobreposição-palavra-super-e-anotação-override)
+      - [Sobreposição ou sobrescrita](#sobreposição-ou-sobrescrita)
+      - [Exemplo de uso](#exemplo-de-uso-7)
+      - [Palavra super](#palavra-super)
 
 ## Links úteis
 
@@ -4863,3 +4867,55 @@ Para conseguirmos acessar, temos que modificar os atributos *balance* com o modi
 
 ![Imagem 1](Recursos/images/aula157-img1.jpg)
 
+[Exemplo 1](Workspace/aula157_Exemplo_001)
+
+### 158. Sobreposição, palavra super e anotação @Override
+
+#### Sobreposição ou sobrescrita
+
+É a implementação de um método de uma superclasse na subclasse.
+
+É fortemente recomendável usar a anotação @Override em um método sobrescrito.
+
+- Vantagens
+  - Facilita a leitura e compreensão do código
+  - Avisamos ao compilador (boa prática)
+
+#### Exemplo de uso
+
+Suponha que a operação de saque possui uma taxa no valor de 5.0. Entretanto, se a conta for do tipo poupança, esta taxa não deve ser cobrada.
+
+Como resolver isso?
+
+Resposta: sobrescrevendo o método **withdraw** na subclasse **SavingsAccount**.
+
+```java
+// Método withdraw na classe Account
+public void withdraw(Double amount) {
+  balance -= amount + 5.0;
+}
+
+// Método withdraw sobrescrito na classe SavingsAccount
+@Override
+public void withdraw(Double amount) {
+  balance -= amount;
+}
+```
+
+[Exemplo 1](Workspace/aula158_Exemplo_001)
+
+#### Palavra super
+
+É possível chamar a implementação da superclasse usando a palavra **super**.
+
+Exemplo: suponha que, na classe BusinessAcount, a regra para saque seja realizar o saque normalmente da superclasse, e descontar mais 2.0.
+
+```java
+@Override
+public void withdraw(Double amount) {
+  super.withdraw(amount);
+  balance -= 2.0;
+}
+```
+
+**Atenção**: é recomendável também a utilização do *super* nos construtores das subclasses para o aproveitamento da lógica da superclasse.
