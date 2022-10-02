@@ -379,6 +379,11 @@
   - [Seção 14: Herança e polimorfismo](#seção-14-herança-e-polimorfismo)
     - [154. Visão geral do capítulo Herança Se polimorfismo](#154-visão-geral-do-capítulo-herança-se-polimorfismo)
     - [155. Material de apoio do capítulo](#155-material-de-apoio-do-capítulo)
+    - [156. Herança](#156-herança)
+      - [Exemplo de uso](#exemplo-de-uso-4)
+      - [Modificador de acesso protected](#modificador-de-acesso-protected)
+      - [Exemplo de uso](#exemplo-de-uso-5)
+      - [Definições importantes](#definições-importantes)
 
 ## Links úteis
 
@@ -4783,3 +4788,60 @@ Total price: $1080.00
 ### 155. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/14-heranca-e-polimorfismo.pdf)
+
+### 156. Herança
+
+**Herança** é um tipo de associação que permite que uma classe herde **todos** os dados e comportamentos de outra.
+
+- Vantagens
+  - Reuso
+  - Polimorfismo
+
+- Sintaxe: ```class A extends B```
+
+#### Exemplo de uso
+
+Suponha um negócio de banco que possui uma conta comum e uma conta para empresas, sendo que a conta para empresa possui todos os membros da conta comum, mais um limite de empréstimo e uma operação para realizar emprestimo.
+
+[Imagem 1](Recursos/images/aula156-img1.jpg)
+
+Neste caso, considerando que a classe **BusinessAccount** possui todos os atributos e métodos da **Account**, apenas com alguns recursos extras, ao invés de criarmos duas clases, faremos com que a classe **businessAccount** herde da classe **account** os dados e comportamentso em comum.
+
+[Imagem 2](Recursos/images/aula156-img2.jpg)
+
+[Exemplo](Workspace/aula156_Exemplo_001)
+
+#### Modificador de acesso protected
+
+![Imagem 3](Recursos/images/aula156-img3.jpg)
+
+O modificador de acesso *Protected* permite que o atributo seja acessado:
+
+- Em diferentes classes do mesmo pacote;
+- Em diferentes pacotes havendo relação de herança.
+
+#### Exemplo de uso
+
+Ainda em relação ao exemplo de uso anterior, suponha que, para realizar um empréstimo, é descontada uma taxa no valor de 10.00.
+
+isso resultaria em um erro:
+
+```java
+public void loan(double amount) {
+  if (amount <= loanlimite) {
+    balance += amount - 10; // Atributos privados, Não acessamos na subclasse.
+  }
+}
+```
+
+Para conseguirmos acessar, temos que modificar os atributos *balance* com o modificador *protected*
+
+[Exemplo](Workspace/aula156_Exemplo_001)
+
+#### Definições importantes
+
+- Relação "*é-um*"
+- Generalização/especialização
+- superclasse (classe base) / subclasse (classe derivada)
+- Herança / extensão
+- Herança é uma associação entre classes (e não entre objetos)
