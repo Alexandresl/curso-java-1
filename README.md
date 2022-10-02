@@ -384,6 +384,8 @@
       - [Modificador de acesso protected](#modificador-de-acesso-protected)
       - [Exemplo de uso](#exemplo-de-uso-5)
       - [Definições importantes](#definições-importantes)
+    - [157. Upcasting e downcasting](#157-upcasting-e-downcasting)
+      - [Exemplo de uso](#exemplo-de-uso-6)
 
 ## Links úteis
 
@@ -4845,3 +4847,19 @@ Para conseguirmos acessar, temos que modificar os atributos *balance* com o modi
 - superclasse (classe base) / subclasse (classe derivada)
 - Herança / extensão
 - Herança é uma associação entre classes (e não entre objetos)
+
+### 157. Upcasting e downcasting
+
+- **Upcasting**
+  - *Casting* da subclasse para a superclasse
+  - Uso comum: **polimorfismo**
+
+- **Downcasting**
+  - *Casting* da superclasse para a subclasse
+  - palavra *instanceOf*
+  - Uso comum: métodos que recebem prâmetros genéricos (ex. **equals**)
+
+#### Exemplo de uso
+
+![Imagem 1](Recursos/images/aula157-img1.jpg)
+
