@@ -390,6 +390,10 @@
       - [Sobreposição ou sobrescrita](#sobreposição-ou-sobrescrita)
       - [Exemplo de uso](#exemplo-de-uso-7)
       - [Palavra super](#palavra-super)
+    - [159. Classes e métodos final](#159-classes-e-métodos-final)
+      - [Exemplo de uso - Classe final](#exemplo-de-uso---classe-final)
+      - [Exemplo de uso - Método final](#exemplo-de-uso---método-final)
+      - [Motivos para utilização](#motivos-para-utilização)
 
 ## Links úteis
 
@@ -4919,3 +4923,33 @@ public void withdraw(Double amount) {
 ```
 
 **Atenção**: é recomendável também a utilização do *super* nos construtores das subclasses para o aproveitamento da lógica da superclasse.
+
+### 159. Classes e métodos final
+
+- Palavra chave: **final**
+- **Classe**: evita que a classe seja herdada
+  - Exemplo: ```public final class SavingsAccount {```
+- **Método**: evita que o método seja sobreposto
+
+#### Exemplo de uso - Classe final
+
+Suponha que você queira evitar que sejam cliadas subclasses de **SavingsAccount**. Ao transforma-la em uma classe final, garantimos que não poderá ser criada uma subclasse desta classe.
+
+![Imagem 1 - Classe Final](Recursos/images/aula159-img1.jpg)
+
+#### Exemplo de uso - Método final
+
+Suponha que você não queira que o método *withdraw* de SavingsAccount seja sobreposto. Para isso basta transforma-lo em um método final:
+
+```java
+public final void withdraw(Double amount) {
+  balance -= amount;
+}
+```
+
+#### Motivos para utilização
+
+- **Segurança**: dependendo das regras do negócio, às vezes é desejável garantir que uma classe não seja herdada, ou quue um método não seja sobreposto.
+  - Geralmente convém acrescentar **final** em métodos sobrepostos, pois sobreposições múltiplas podem ser uma porta de entrada para inconsistências.
+- **Performance**: atributo de tipo de uma classe final são analisados de forma mais rápida em tempo de execução
+  - Exemplo clássico: *String*
