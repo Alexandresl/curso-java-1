@@ -394,6 +394,10 @@
       - [Exemplo de uso - Classe final](#exemplo-de-uso---classe-final)
       - [Exemplo de uso - Método final](#exemplo-de-uso---método-final)
       - [Motivos para utilização](#motivos-para-utilização)
+    - [160. Introdução ao polimorfismo](#160-introdução-ao-polimorfismo)
+      - [Pilares da Programação Orientada a Objetos (OOP)](#pilares-da-programação-orientada-a-objetos-oop)
+      - [Polimorfismo](#polimorfismo)
+      - [Importante entender](#importante-entender)
 
 ## Links úteis
 
@@ -4953,3 +4957,37 @@ public final void withdraw(Double amount) {
   - Geralmente convém acrescentar **final** em métodos sobrepostos, pois sobreposições múltiplas podem ser uma porta de entrada para inconsistências.
 - **Performance**: atributo de tipo de uma classe final são analisados de forma mais rápida em tempo de execução
   - Exemplo clássico: *String*
+
+### 160. Introdução ao polimorfismo
+
+#### Pilares da Programação Orientada a Objetos (OOP)
+
+- Encapsulamento
+- Herança
+- Polimorfismo
+
+#### Polimorfismo
+
+Em *Programação Orientada a Objetos*, **polimorfismo** é um recurso que permite que variáveis de um mesmo tipo mais genérico possam apontar para objetos de tipos específicos diferentes, tendo assim comportamentos diferentes conforme cada tipo específico
+
+Exemplo:
+
+![Imagem 1 - Exemplo de Polimorfismo](Recursos/images/aula160-img1.jpg)
+
+```java
+Account x = new Account(1020, "Alex", 1000.0);
+Account y = new SavingsAccount(1023, "Maria", 1000.0, 0.01);
+
+x.withdraw(50.0);
+y.withdraw(50.00);
+
+System.out.println(x.getBalance()); // 945.0
+System.out.println(y.getBalance()); // 950.0
+```
+
+[Exemplo 1](Workspace/aula160_Exemplo_001)
+
+#### Importante entender
+
+- A associação do tipo específico com o tipo genérico é feita em tempo de execução (*upcasting*)
+- O compilador não sabe para qual tipo específico a chamada do método *withdraw* está sendo feita (Ele só sabe que são duas variáveis do tipo *Account*)
