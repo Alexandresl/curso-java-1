@@ -406,6 +406,7 @@
     - [162. Exercício de fixação](#162-exercício-de-fixação)
       - [Projeto UML](#projeto-uml-1)
       - [Exemplo do programa](#exemplo-do-programa-1)
+      - [Resposta do exercício](#resposta-do-exercício)
 
 ## Links úteis
 
@@ -5084,3 +5085,7 @@ Tablet $ 280.00 (Customs fee: $ 20.00)
 Notebook $ 1100.00
 Iphone (used) $ 400.00 (Manufacture date: 15/03/2017)
 ```
+
+#### Resposta do exercício
+
+[Resolução do exercício](Workspace/aula162_Exercício_001)
