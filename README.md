@@ -410,6 +410,8 @@
     - [163. Classes abstratas](#163-classes-abstratas)
       - [Exemplo de uso](#exemplo-de-uso-8)
       - [Questionamento](#questionamento)
+    - [164. Métodos abstrados](#164-métodos-abstrados)
+      - [Exemplo de uso](#exemplo-de-uso-9)
 
 ## Links úteis
 
@@ -5126,3 +5128,40 @@ Resposta:
 - Suponha que você queira totalizar os saldos de todas as contas ou depositar 10.00 em todas as contas, estas operações tornam-se simples com o aproveitamento do polimorfismo.
 
 [Demonstração](Workspace/aula163_Exemplo_001)
+
+### 164. Métodos abstrados
+
+**Métodos abstrados** são aqueles que não possuem implementação.
+
+Estes métodos são utilizados quando a classe é genérica demais para conter sua implementação.
+
+Se uma classe possuir pelo menos um método abstrato, então esta classe também é abstrata.
+
+**Notação UML**: *itálico*
+
+#### Exemplo de uso
+
+Fazer um programa para ler os dados de N figuras (N fornecido pelo usuário), e depois mostrar as áreas desta figuras na mesma ordem em que foram digitadas.
+
+- Diagrama UML
+
+![Diagrama UML](Recursos/images/aula164-img1.jpg)
+
+- Exemplo do programa
+
+```powershell
+Enter the number of shapes: 2
+Shape #1 data:
+Rectangle or Circle (r/c)? r
+Color (BLACK/BLUE/RED): BLACK
+Width: 4.0
+Height: 5.0
+Shape #2 data:
+Rectangle or Circle (r/c)? c
+Color (BLACK/BLUE/RED): RED
+Radius: 3.0
+
+SHAPE AREAS:
+20.00
+28.27
+```
