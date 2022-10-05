@@ -407,6 +407,9 @@
       - [Projeto UML](#projeto-uml-1)
       - [Exemplo do programa](#exemplo-do-programa-1)
       - [Resposta do exercício](#resposta-do-exercício)
+    - [163. Classes abstratas](#163-classes-abstratas)
+      - [Exemplo de uso](#exemplo-de-uso-8)
+      - [Questionamento](#questionamento)
 
 ## Links úteis
 
@@ -5089,3 +5092,37 @@ Iphone (used) $ 400.00 (Manufacture date: 15/03/2017)
 #### Resposta do exercício
 
 [Resolução do exercício](Workspace/aula162_Exercício_001)
+
+### 163. Classes abstratas
+
+**Classes abstratas** são classes que não podem ser instanciadas
+
+É uma forma de garantir herança total: somente subclasses não abstratas podem ser instanciadas, mas nunca a superclasse abstrata.
+
+#### Exemplo de uso
+
+Suponha que em um negócio relacionado a banco, apenas contas poupança e contas para empresas são permitidas. Não existe conta comum.
+
+Para garantir que contas comuns não possam ser instanciadas, basta acrescentarmos a palavra "*abstract*" na declaração de classe.
+
+```java
+public abstract class Account() {
+  (...)
+}
+```
+
+Em UML, as classes abstratas aparecem com o título em itálico:
+
+![Diagrama UML](Recursos/images/aula163-img1.jpg)
+
+#### Questionamento
+
+Se a classe **Account** não pode ser instanciada, por que simplesmente não criar somente **SavingsAccount** e **BusinessAccount**?
+
+Resposta:
+
+- Reuso
+- Polimorfismo: a superclasse genérica nos permite tratar de forma fácil e uniforme todos os tipos de conta, inclusive com polimorfismo se for o caso (como fizemos nos últimos exercícios). Por exemplo, você pode colocar todos os tipos de contas em uma mesma coleção.
+- Suponha que você queira totalizar os saldos de todas as contas ou depositar 10.00 em todas as contas, estas operações tornam-se simples com o aproveitamento do polimorfismo.
+
+[Demonstração](Workspace/aula163_Exemplo_001)
