@@ -403,6 +403,9 @@
       - [Exemplo do programa](#exemplo-do-programa)
       - [Exemplo dos objetos em memória](#exemplo-dos-objetos-em-memória)
       - [Exercício resolvido](#exercício-resolvido)
+    - [162. Exercício de fixação](#162-exercício-de-fixação)
+      - [Projeto UML](#projeto-uml-1)
+      - [Exemplo do programa](#exemplo-do-programa-1)
 
 ## Links úteis
 
@@ -5044,3 +5047,40 @@ Maria - $ 1200.00
 #### Exercício resolvido
 
 [Exercício resolvido](Workspace/aula161_Exercicio_001)
+
+### 162. Exercício de fixação
+
+Fazer um programa para ler os dados de N produtos (N fornecido pelo usuário). Ao final, mostrar a etiqueta de proço de cada produto na mesma ordem em que foram digitados.
+
+Todo o produto possui nome e preço. Produtos importados possuem uma taxa de alfândega, e produtos usados possuem data de fabricação. Estes dados específicos devem ser acrescentados na etiqueta de preço conforme exemplo abaixo. Para produtos importados, a taxa de alfândega deve ser acrescentada ao preço final do produto.
+
+Favor implementar o programa conforme projeto a seguir.
+
+#### Projeto UML
+
+![Imagem 1 - Diagrama UML](Recursos/images/aula162-img1.jpg)
+
+#### Exemplo do programa
+
+```powershell
+Enter the number of products: 3
+Product #1 data:
+Common, used or imported (c/u/i)? i
+Name: Tablet
+Price: 260.00
+Customs fee: 20.00
+Product #2 data:
+Common, used or imported (c/u/i)? c
+Name: Notebook
+Price: 1100.00
+Product #3 data:
+Common, used or imported (c/u/i)? u
+Name: Iphone
+Price: 400.00
+Manufacture date (DD/MM/YYYY): 15/03/2017
+
+PRICE TAGS:
+Tablet $ 280.00 (Customs fee: $ 20.00)
+Notebook $ 1100.00
+Iphone (used) $ 400.00 (Manufacture date: 15/03/2017)
+```
