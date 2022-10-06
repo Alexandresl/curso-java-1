@@ -434,6 +434,7 @@
     - [173. Criando exceções personalizadas](#173-criando-exceções-personalizadas)
       - [Sugestão para organização dos pacotes para o model](#sugestão-para-organização-dos-pacotes-para-o-model)
       - [Problema exemplo](#problema-exemplo-1)
+    - [174. Primeira solução - muito ruim](#174-primeira-solução---muito-ruim)
 
 ## Links úteis
 
@@ -5461,3 +5462,7 @@ Check-in date (dd/MM/yyyy): 24/09/2020
 Check-out date (dd/MM/yyyy): 22/09/2020
 Error in reservation: Check-out date must be after check-in date
 ```
+
+### 174. Primeira solução - muito ruim
+
+[Primeira solução](Workspace/aula174_Exemplo_001)
