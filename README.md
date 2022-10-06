@@ -432,7 +432,8 @@
       - [Sintaxe](#sintaxe-7)
       - [Exemplo de uso](#exemplo-de-uso-11)
     - [173. Criando exceções personalizadas](#173-criando-exceções-personalizadas)
-      - [Sugestão para organização dos pacotes](#sugestão-para-organização-dos-pacotes)
+      - [Sugestão para organização dos pacotes para o model](#sugestão-para-organização-dos-pacotes-para-o-model)
+      - [Problema exemplo](#problema-exemplo-1)
 
 ## Links úteis
 
@@ -5403,6 +5404,60 @@ try {
 
 ### 173. Criando exceções personalizadas
 
-#### Sugestão para organização dos pacotes
+#### Sugestão para organização dos pacotes para o model
 
-![Sugestão pacotes](Recursos/images/aula173-img1.jpg)
+![Sugestão de pacotes para o Model](Recursos/images/aula173-img1.jpg)
+
+#### Problema exemplo
+
+Fazer um programa para ler os dados de uma reserva de hotel (número de quarto, data de entrada e data de saída) e mostrar os dados da reserva, inclusive sua duração em dias. Em seguida, ler novas datas de entrada e saída, atualizar a reserva, e mostrar novamente a reserva com os dados atualizados. O programa não deve aceitar dados inválidos para a reserva, conforme as seguintes regras:
+
+- Alterações de reserva só podem ocorrer para datas futuras
+- A data de saída deve ser maior que a data de entrada
+
+![Model da classe](Recursos/images/aula173-img2.jpg)
+
+**Exemplos**:
+
+```powershell
+Room number: 8021
+Check-in date (dd/MM/yyyy): 23/09/2019
+Check-out date (dd/MM/yyyy): 26/09/2019
+Reservation: Room 8021, check-in: 23/09/2019, check-out: 26/09/2019, 3 nights
+
+Enter data to update the reservation:
+Check-in date (dd/MM/yyyy): 24/09/2019
+Check-out date (dd/MM/yyyy): 29/09/2019
+Reservation: Room 8021, check-in: 24/09/2019, check-out: 29/09/2019, 5 nights
+```
+
+```powershell
+Room number: 8021
+Check-in date (dd/MM/yyyy): 23/09/2019
+Check-out date (dd/MM/yyyy): 21/09/2019
+Error in reservation: Check-out date must be after check-in date
+```
+
+```powershell
+Room number: 8021
+Check-in date (dd/MM/yyyy): 23/09/2019
+Check-out date (dd/MM/yyyy): 26/09/2019
+Reservation: Room 8021, check-in: 23/09/2019, check-out: 26/09/2019, 3 nights
+
+Enter data to update the reservation:
+Check-in date (dd/MM/yyyy): 24/09/2015
+Check-out date (dd/MM/yyyy): 29/09/2015
+Error in reservation: Reservation dates for update must be future dates
+```
+
+```powershell
+Room number: 8021
+Check-in date (dd/MM/yyyy): 23/09/2019
+Check-out date (dd/MM/yyyy): 26/09/2019
+Reservation: Room 8021, check-in: 23/09/2019, check-out: 26/09/2019, 3 nights
+
+Enter data to update the reservation:
+Check-in date (dd/MM/yyyy): 24/09/2020
+Check-out date (dd/MM/yyyy): 22/09/2020
+Error in reservation: Check-out date must be after check-in date
+```
