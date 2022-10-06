@@ -421,6 +421,9 @@
   - [Seção 15: Tratamento de exceções](#seção-15-tratamento-de-exceções)
     - [167. Visão geral do capítulo Tratamento de Exceções](#167-visão-geral-do-capítulo-tratamento-de-exceções)
     - [168. Material de apoio do capítulo](#168-material-de-apoio-do-capítulo)
+    - [169. Discussão inicial sobre exceções](#169-discussão-inicial-sobre-exceções)
+      - [Hierarquia de exceções do Java](#hierarquia-de-exceções-do-java)
+      - [Por que exceções?](#por-que-exceções)
 
 ## Links úteis
 
@@ -5240,3 +5243,29 @@ TOTAL TAXES: $ 97000.00
 ### 168. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/15-tratamento-de-excecoes.pdf)
+
+### 169. Discussão inicial sobre exceções
+
+Uma **exceção** é qualquer condição de erro ou comportamento inseperado encontrado por um programa **em execução**
+
+Em **Java**, uma exceção é um objeto herado da classe:
+
+- **java.lang.Exception** - O compilador obriga a tratar ou propagar
+- **java.lang.RuntimeException** - O compilador não obriga a tratar ou propagar
+
+Quando é lançada, uma exceção é propagada na pilha de chamadas de métodos em execução, até que seja capturada (tratada) ou o programa seja encerrado.
+
+#### Hierarquia de exceções do Java
+
+[Documentação da Oracle](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/package-tree.html)
+
+![Árvore de pacotes](Recursos/images/aula169-img1.jpg)
+
+#### Por que exceções?
+
+- O modelo de tratamento de exceções permite que erros sejam tratados de forma consistente e flexível, usando boas práticas
+
+- Vantagens
+  - Delega a lógica do erro para a classe responsável por conhecer as regras que cpodem ocasionar o erro;
+  - Trata de forma organizada (inclusive hierarquicamente) exceções de tipos diferentes;
+  - A exceção pode carregar dados quaisquer.
