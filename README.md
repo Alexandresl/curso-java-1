@@ -5165,3 +5165,7 @@ SHAPE AREAS:
 20.00
 28.27
 ```
+
+#### Exercício resolvido
+
+[Exercício resolvido](Workspace\aula164_Exemplo_001)
