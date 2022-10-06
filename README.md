@@ -417,6 +417,7 @@
       - [Diagrama UML](#diagrama-uml)
       - [Exemplo do programa](#exemplo-do-programa-2)
       - [Implementação](#implementação)
+    - [166. Correção em vídeo do exercício de fixação](#166-correção-em-vídeo-do-exercício-de-fixação)
 
 ## Links úteis
 
@@ -5224,3 +5225,7 @@ TOTAL TAXES: $ 97000.00
 #### Implementação
 
 [Exercício resolvido](Workspace/aula165_Exercicio_001)
+
+### 166. Correção em vídeo do exercício de fixação
+
+[Link Youtube](https://www.youtube.com/watch?v=eDsS3JM5iXw)
