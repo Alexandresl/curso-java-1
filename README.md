@@ -418,6 +418,8 @@
       - [Exemplo do programa](#exemplo-do-programa-2)
       - [Implementação](#implementação)
     - [166. Correção em vídeo do exercício de fixação](#166-correção-em-vídeo-do-exercício-de-fixação)
+  - [Seção 15: Tratamento de exceções](#seção-15-tratamento-de-exceções)
+    - [167. Visão geral do capítulo Tratamento de Exceções](#167-visão-geral-do-capítulo-tratamento-de-exceções)
 
 ## Links úteis
 
@@ -5229,3 +5231,7 @@ TOTAL TAXES: $ 97000.00
 ### 166. Correção em vídeo do exercício de fixação
 
 [Link Youtube](https://www.youtube.com/watch?v=eDsS3JM5iXw)
+
+## Seção 15: Tratamento de exceções
+
+### 167. Visão geral do capítulo Tratamento de Exceções
