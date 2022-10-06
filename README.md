@@ -420,6 +420,7 @@
     - [166. Correção em vídeo do exercício de fixação](#166-correção-em-vídeo-do-exercício-de-fixação)
   - [Seção 15: Tratamento de exceções](#seção-15-tratamento-de-exceções)
     - [167. Visão geral do capítulo Tratamento de Exceções](#167-visão-geral-do-capítulo-tratamento-de-exceções)
+    - [168. Material de apoio do capítulo](#168-material-de-apoio-do-capítulo)
 
 ## Links úteis
 
@@ -5235,3 +5236,7 @@ TOTAL TAXES: $ 97000.00
 ## Seção 15: Tratamento de exceções
 
 ### 167. Visão geral do capítulo Tratamento de Exceções
+
+### 168. Material de apoio do capítulo
+
+[Material de apoio](Recursos/pdf/15-tratamento-de-excecoes.pdf)
