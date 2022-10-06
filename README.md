@@ -431,6 +431,8 @@
     - [172. Bloco finally](#172-bloco-finally)
       - [Sintaxe](#sintaxe-7)
       - [Exemplo de uso](#exemplo-de-uso-11)
+    - [173. Criando exceções personalizadas](#173-criando-exceções-personalizadas)
+      - [Sugestão para organização dos pacotes](#sugestão-para-organização-dos-pacotes)
 
 ## Links úteis
 
@@ -5398,3 +5400,9 @@ try {
 #### Exemplo de uso
 
 [Exemplo com finally](Workspace/aula172_Exemplo_001)
+
+### 173. Criando exceções personalizadas
+
+#### Sugestão para organização dos pacotes
+
+![Sugestão pacotes](Recursos/images/aula173-img1.jpg)
