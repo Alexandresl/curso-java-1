@@ -424,6 +424,9 @@
     - [169. Discussão inicial sobre exceções](#169-discussão-inicial-sobre-exceções)
       - [Hierarquia de exceções do Java](#hierarquia-de-exceções-do-java)
       - [Por que exceções?](#por-que-exceções)
+    - [170. Estrutura try-catch](#170-estrutura-try-catch)
+      - [Sintaxe](#sintaxe-6)
+      - [Exemplo de uso](#exemplo-de-uso-10)
 
 ## Links úteis
 
@@ -5269,3 +5272,90 @@ Quando é lançada, uma exceção é propagada na pilha de chamadas de métodos 
   - Delega a lógica do erro para a classe responsável por conhecer as regras que cpodem ocasionar o erro;
   - Trata de forma organizada (inclusive hierarquicamente) exceções de tipos diferentes;
   - A exceção pode carregar dados quaisquer.
+
+### 170. Estrutura try-catch
+
+Esta estrutura possui dois blocos de códigos:
+
+- Bloco **try**
+  - Contém o código que representa a execução normal do trecho de código que **pode** acarretar em uma exceção
+
+- Bloco **catch**
+  - Contém o código a ser executado caso uma exceção ocorra
+  - Deve ser especificado o tipo da exceção a ser tratada (upcasting é permitido)
+
+#### Sintaxe
+
+```java
+try {
+
+} catch (ExceptionType e) {
+
+} catch (ExceptionType e) {
+
+} catch (ExceptionType e) {
+
+}
+```
+
+#### Exemplo de uso
+
+```java
+public class Program {
+
+  public static void main(String[] args) {
+
+    Scanner sc = new Scanner(System.in);
+    
+    String[] vect = sc.nextLine().split(" ");
+    int position = sc.nextInt();
+    System.out.println(vect[position]);
+    
+    sc.close();
+
+  }
+
+}
+```
+
+O trecho anterior pode gerar duas exceções dependendo da ação do usuário:
+
+- Caso o usuário digite uma letra ao invés de um número - **InputMismatchException**;
+- Caso o usuário digite um índice que não existe no vetor - **ArrayIndexOutOfBoundsException**;
+
+Ambos os casos podem ser capturados e tratados com o **try-catch** conforme exemplo a seguir:
+
+```java
+public class Program {
+
+  public static void main(String[] args) {
+
+    Scanner sc = new Scanner(System.in);
+    
+    try {
+
+      String[] vect = sc.nextLine().split(" ");
+      int position = sc.nextInt();
+      System.out.println(vect[position]);
+
+    } catch (ArrayIndexOutOfBoundsException e) {
+
+      System.out.println("Invalid position!");
+
+    } catch (InputMismatchException e) {
+
+      System.out.println("Input error!");
+
+    }
+    
+    
+    
+    System.out.println("End of program");
+    
+    sc.close();
+
+  }
+
+}
+```
+
