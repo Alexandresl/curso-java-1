@@ -427,6 +427,7 @@
     - [170. Estrutura try-catch](#170-estrutura-try-catch)
       - [Sintaxe](#sintaxe-6)
       - [Exemplo de uso](#exemplo-de-uso-10)
+    - [171. Pilha de chamadas de métodos (stack trace)](#171-pilha-de-chamadas-de-métodos-stack-trace)
 
 ## Links úteis
 
@@ -5360,3 +5361,9 @@ public class Program {
 ```
 
 [Exemplo](Workspace/aula170_Exemplo_001)
+
+### 171. Pilha de chamadas de métodos (stack trace)
+
+Exemplo de como é possível rastrear o local onde a exceção foi gerada com o uso do ```e.printStackTrace();``` dentro do bloco *catch*.
+
+[Exemplo](Workspace/aula171_Exemplo_001)
