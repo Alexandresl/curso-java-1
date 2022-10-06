@@ -428,6 +428,9 @@
       - [Sintaxe](#sintaxe-6)
       - [Exemplo de uso](#exemplo-de-uso-10)
     - [171. Pilha de chamadas de métodos (stack trace)](#171-pilha-de-chamadas-de-métodos-stack-trace)
+    - [172. Bloco finally](#172-bloco-finally)
+      - [Sintaxe](#sintaxe-7)
+      - [Exemplo de uso](#exemplo-de-uso-11)
 
 ## Links úteis
 
@@ -5367,3 +5370,31 @@ public class Program {
 Exemplo de como é possível rastrear o local onde a exceção foi gerada com o uso do ```e.printStackTrace();``` dentro do bloco *catch*.
 
 [Exemplo](Workspace/aula171_Exemplo_001)
+
+### 172. Bloco finally
+
+O block **finally** contém o código a ser executado independente de ter ocorrido ou não uma exceção.
+
+Exemplo: fechar um arquivo, conexão de banco de dados, ou outro recurso específico do processamento.
+
+#### Sintaxe
+
+```java
+try {
+
+  (...)
+
+} catch (exceptionType e) {
+
+  (...)
+
+} finally {
+  
+  (...)
+
+}
+```
+
+#### Exemplo de uso
+
+[Exemplo com finally](Workspace/aula172_Exemplo_001)
