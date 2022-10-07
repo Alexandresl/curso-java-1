@@ -5589,4 +5589,3 @@ Withdraw error: Not enough balance
 [Material de apoio](Recursos/pdf/16-projeto-sistema-xadrez.pdf)
 
 ### 181. Criando projeto e repositório Git
-
