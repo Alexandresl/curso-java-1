@@ -447,6 +447,8 @@
       - [Projeto do sistema](#projeto-do-sistema)
     - [180. Material de apoio do capítulo](#180-material-de-apoio-do-capítulo)
     - [181. Criando projeto e repositório Git](#181-criando-projeto-e-repositório-git)
+    - [182. Primeira classe - Position](#182-primeira-classe---position)
+      - [Comit da aula anterior](#comit-da-aula-anterior)
 
 ## Links úteis
 
@@ -5589,3 +5591,9 @@ Withdraw error: Not enough balance
 [Material de apoio](Recursos/pdf/16-projeto-sistema-xadrez.pdf)
 
 ### 181. Criando projeto e repositório Git
+
+### 182. Primeira classe - Position
+
+#### Comit da aula anterior
+
+[Código: 9e92ccbe7f59496345a93fdc75ad70bc11703dfa](https://github.com/Alexandresl/curso-java-1/tree/9e92ccbe7f59496345a93fdc75ad70bc11703dfa)
