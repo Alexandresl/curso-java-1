@@ -441,6 +441,7 @@
     - [177. Exercício de fixação](#177-exercício-de-fixação)
       - [Exemplos de execução:](#exemplos-de-execução)
       - [Resolução](#resolução)
+    - [178. Correção do exercício de fixação](#178-correção-do-exercício-de-fixação)
 
 ## Links úteis
 
@@ -5563,3 +5564,7 @@ Withdraw error: Not enough balance
 #### Resolução
 
 [Exercício resolvido](Workspace/aula177_Exemplo_001)
+
+### 178. Correção do exercício de fixação
+
+[link do youtube](177. Exercício de fixação)
