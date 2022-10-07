@@ -437,7 +437,10 @@
     - [174. Primeira solução - muito ruim](#174-primeira-solução---muito-ruim)
     - [175. Segunda solução - ruim](#175-segunda-solução---ruim)
     - [176. Terceira solução - boa](#176-terceira-solução---boa)
-    - [Resumo](#resumo-1)
+      - [Resumo](#resumo-1)
+    - [177. Exercício de fixação](#177-exercício-de-fixação)
+      - [Exemplos de execução:](#exemplos-de-execução)
+      - [Resolução](#resolução)
 
 ## Links úteis
 
@@ -5491,7 +5494,7 @@ Nesta solução, usaremos o tratamento de exceções.
 
 [Terceira solução](Workspace/aula176_Exemplo_001)
 
-### Resumo
+#### Resumo
 
 - Cláusula **throws**: propaga a exceção ao invés de trata-la
 - Cláusula **throws**: Lança a exceção, interrompendo a execução do método
@@ -5504,3 +5507,59 @@ Nesta solução, usaremos o tratamento de exceções.
   - Possibilidade de auxílio do compilador (*exception*)
   - Código mais simples. Não há aninhamento de condicionais: a qualquer momento que uma exceção for disparada, a execução é interrompida e cai no bloco catch correspondente.
   - É possível capturar inclusive outras exceções de sistema
+
+### 177. Exercício de fixação
+
+Fazer um programa para ler os dados de uma conta bancária e depois realizar um saque nesta conta bancária, mostrando o novo saldo. Um saque não pode ocorrer ou se não houver saldo na connta, ou se o valor do saque for superior ao limite de saque da conta. Implemente a conta bancária conforme projeto abaixo:
+
+![Classe Account](Recursos/images/aula177-img1.jpg)
+
+#### Exemplos de execução:
+
+```powershell
+Enter account data
+Number: 8021
+Holder: Bob Brown
+Initial balance: 500.00
+Withdraw limit: 300.00
+
+Enter amount for withdraw: 100.00
+New balance: 400.00
+```
+
+```powershell
+Enter account data
+Number: 8021
+Holder: Bob Brown
+Initial balance: 500.00
+Withdraw limit: 300.00
+
+Enter amount for withdraw: 400.00
+Withdraw error: The amount exceeds withdraw limit
+```
+
+```powershell
+Enter account data
+Number: 8021
+Holder: Bob Brown
+Initial balance: 500.00
+Withdraw limit: 300.00
+
+Enter amount for withdraw: 800.00
+Withdraw error: The amount exceeds withdraw limit
+```
+
+```powershell
+Enter account data
+Number: 8021
+Holder: Bob Brown
+Initial balance: 200.00
+Withdraw limit: 300.00
+
+Enter amount for withdraw: 250.00
+Withdraw error: Not enough balance
+```
+
+#### Resolução
+
+[Exercício resolvido](Workspace/aula177_Exemplo_001)
