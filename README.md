@@ -444,7 +444,9 @@
     - [178. Correção do exercício de fixação](#178-correção-do-exercício-de-fixação)
   - [Seção 16: Projeto: Sistema jogo de xadrez](#seção-16-projeto-sistema-jogo-de-xadrez)
     - [179. Visão geral do capítulo Sistema Jogo de Xadrez](#179-visão-geral-do-capítulo-sistema-jogo-de-xadrez)
+      - [Projeto do sistema](#projeto-do-sistema)
     - [180. Material de apoio do capítulo](#180-material-de-apoio-do-capítulo)
+    - [181. Criando projeto e repositório Git](#181-criando-projeto-e-repositório-git)
 
 ## Links úteis
 
@@ -5576,6 +5578,15 @@ Withdraw error: Not enough balance
 
 ### 179. Visão geral do capítulo Sistema Jogo de Xadrez
 
+- **Objetivo geral**: Aplicar os cenhecimentos aprendidos até o momento no curso para a construção de um projeto.
+
+#### Projeto do sistema
+
+![Projeto do sistema - UML](Recursos/images/aula179-img1.jpg)
+
 ### 180. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/16-projeto-sistema-xadrez.pdf)
+
+### 181. Criando projeto e repositório Git
+
