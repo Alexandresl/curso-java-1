@@ -437,6 +437,7 @@
     - [174. Primeira solução - muito ruim](#174-primeira-solução---muito-ruim)
     - [175. Segunda solução - ruim](#175-segunda-solução---ruim)
     - [176. Terceira solução - boa](#176-terceira-solução---boa)
+    - [Resumo](#resumo-1)
 
 ## Links úteis
 
@@ -5489,3 +5490,17 @@ Nesta solução, a lógica de validação é delegada para a classe reserva, con
 Nesta solução, usaremos o tratamento de exceções.
 
 [Terceira solução](Workspace/aula176_Exemplo_001)
+
+### Resumo
+
+- Cláusula **throws**: propaga a exceção ao invés de trata-la
+- Cláusula **throws**: Lança a exceção, interrompendo a execução do método
+- **Exception**: Compilador obriga a tratar ou propagar
+- **RuntimeException**: Compilador não obriga
+- O modelo de tratamento de exceções permite que erros sejam tratados de forma consistente e flexível, usando boas práticas
+- Vantagens
+  - Lógica delegada
+  - Construtores podem ter tratamento de exceções
+  - Possibilidade de auxílio do compilador (*exception*)
+  - Código mais simples. Não há aninhamento de condicionais: a qualquer momento que uma exceção for disparada, a execução é interrompida e cai no bloco catch correspondente.
+  - É possível capturar inclusive outras exceções de sistema
