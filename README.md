@@ -446,6 +446,7 @@
     - [179. Visão geral do capítulo Sistema Jogo de Xadrez](#179-visão-geral-do-capítulo-sistema-jogo-de-xadrez)
       - [Objetivo geral](#objetivo-geral)
       - [Design do sistema (UML)](#design-do-sistema-uml)
+    - [180. Material de apoio do capítulo](#180-material-de-apoio-do-capítulo)
 <<<<<<< HEAD
       - [Objetivo geral](#objetivo-geral)
       - [Design do sistema (UML)](#design-do-sistema-uml)
@@ -5601,3 +5602,7 @@ Aplicar os conhecimentos apreendidos até o momento no curso para a construção
 #### Design do sistema (UML)
 
 ![Diagrama UML](Recursos/images/aula179-img1.jpg)
+
+### 180. Material de apoio do capítulo
+
+[Material de apoio](Recursos/pdf/16-projeto-sistema-xadrez.pdf)
