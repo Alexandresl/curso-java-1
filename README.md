@@ -436,6 +436,7 @@
       - [Problema exemplo](#problema-exemplo-1)
     - [174. Primeira solução - muito ruim](#174-primeira-solução---muito-ruim)
     - [175. Segunda solução - ruim](#175-segunda-solução---ruim)
+    - [176. Terceira solução - boa](#176-terceira-solução---boa)
 
 ## Links úteis
 
@@ -5482,3 +5483,9 @@ Nesta solução, a lógica de validação é delegada para a classe reserva, con
 - A lógica fica estruturada em condicionais aninhadas.
 
 [Segunda solução](Workspace/aula175_Exemplo_001)
+
+### 176. Terceira solução - boa
+
+Nesta solução, usaremos o tratamento de exceções.
+
+[Terceira solução](Workspace/aula176_Exemplo_001)
