@@ -446,9 +446,12 @@
     - [179. Visão geral do capítulo Sistema Jogo de Xadrez](#179-visão-geral-do-capítulo-sistema-jogo-de-xadrez)
       - [Objetivo geral](#objetivo-geral)
       - [Design do sistema (UML)](#design-do-sistema-uml)
+      - [Link do projeto](#link-do-projeto)
     - [180. Material de apoio do capítulo](#180-material-de-apoio-do-capítulo)
     - [181. Criando projeto e repositório Git](#181-criando-projeto-e-repositório-git)
       - [Checklist:](#checklist-3)
+    - [182. Primeira classe - Position](#182-primeira-classe---position)
+      - [Checklist](#checklist-4)
 <<<<<<< HEAD
       - [Objetivo geral](#objetivo-geral)
       - [Design do sistema (UML)](#design-do-sistema-uml)
@@ -5605,6 +5608,12 @@ Aplicar os conhecimentos apreendidos até o momento no curso para a construção
 
 ![Diagrama UML](Recursos/images/aula179-img1.jpg)
 
+#### Link do projeto
+
+Este projeto estará em uma versão única no link abaixo, porém serão realizados commits a cada nova aula possibilitando acompanhar a atualização do projeto.
+
+[Chess System](Workspace/aula181_Chess_System)
+
 ### 180. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/16-projeto-sistema-xadrez.pdf)
@@ -5622,3 +5631,14 @@ Aplicar os conhecimentos apreendidos até o momento no curso para a construção
   - ```git add .```
   - ```git commit -m "Project created"```
   - ```git push -u origin master```
+
+### 182. Primeira classe - Position
+
+#### Checklist
+
+- Class Position [public]
+- **OOP Topics**:
+  - Encapsulation
+  - Constructors
+  - toString (Object / Overriding)
+
