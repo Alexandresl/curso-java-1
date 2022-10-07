@@ -442,6 +442,10 @@
       - [Exemplos de execução:](#exemplos-de-execução)
       - [Resolução](#resolução)
     - [178. Correção do exercício de fixação](#178-correção-do-exercício-de-fixação)
+  - [Seção 16: Projeto: Sistema jogo de xadrez](#seção-16-projeto-sistema-jogo-de-xadrez)
+    - [179. Visão geral do capítulo Sistema Jogo de Xadrez](#179-visão-geral-do-capítulo-sistema-jogo-de-xadrez)
+      - [Objetivo geral](#objetivo-geral)
+      - [Design do sistema (UML)](#design-do-sistema-uml)
 
 ## Links úteis
 
@@ -5568,3 +5572,15 @@ Withdraw error: Not enough balance
 ### 178. Correção do exercício de fixação
 
 [link do youtube](177. Exercício de fixação)
+
+## Seção 16: Projeto: Sistema jogo de xadrez
+
+### 179. Visão geral do capítulo Sistema Jogo de Xadrez
+
+#### Objetivo geral
+
+Aplicar os conhecimentos apreendidos até o momento no curso para a construção de um projeto
+
+#### Design do sistema (UML)
+
+![Diagrama UML](Recursos/images/aula179-img1.jpg)
