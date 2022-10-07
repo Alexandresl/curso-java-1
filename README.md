@@ -447,6 +447,8 @@
       - [Objetivo geral](#objetivo-geral)
       - [Design do sistema (UML)](#design-do-sistema-uml)
     - [180. Material de apoio do capítulo](#180-material-de-apoio-do-capítulo)
+    - [181. Criando projeto e repositório Git](#181-criando-projeto-e-repositório-git)
+      - [Checklist:](#checklist-3)
 <<<<<<< HEAD
       - [Objetivo geral](#objetivo-geral)
       - [Design do sistema (UML)](#design-do-sistema-uml)
@@ -5606,3 +5608,17 @@ Aplicar os conhecimentos apreendidos até o momento no curso para a construção
 ### 180. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/16-projeto-sistema-xadrez.pdf)
+
+### 181. Criando projeto e repositório Git
+
+#### Checklist:
+
+- Github: create a new project
+  - **Note**: choose **.gitignore** for type as Java
+- Open a terminal in project folder, and perform the following commands:
+  - ```git init```
+  - ```git remote add origin https://github.com/acenelio/chess-system-java.git```
+  - ```git pull origin master```
+  - ```git add .```
+  - ```git commit -m "Project created"```
+  - ```git push -u origin master```
