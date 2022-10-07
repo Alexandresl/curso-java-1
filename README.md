@@ -444,6 +444,7 @@
     - [178. Correção do exercício de fixação](#178-correção-do-exercício-de-fixação)
   - [Seção 16: Projeto: Sistema jogo de xadrez](#seção-16-projeto-sistema-jogo-de-xadrez)
     - [179. Visão geral do capítulo Sistema Jogo de Xadrez](#179-visão-geral-do-capítulo-sistema-jogo-de-xadrez)
+    - [180. Material de apoio do capítulo](#180-material-de-apoio-do-capítulo)
 
 ## Links úteis
 
@@ -5574,3 +5575,7 @@ Withdraw error: Not enough balance
 ## Seção 16: Projeto: Sistema jogo de xadrez
 
 ### 179. Visão geral do capítulo Sistema Jogo de Xadrez
+
+### 180. Material de apoio do capítulo
+
+[Material de apoio](Recursos/pdf/16-projeto-sistema-xadrez.pdf)
