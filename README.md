@@ -450,6 +450,9 @@
     - [182. Primeira classe - Position](#182-primeira-classe---position)
       - [Comit da aula anterior](#comit-da-aula-anterior)
       - [Checklist:](#checklist-3)
+    - [183. Começando a implementar Board e Piece](#183-começando-a-implementar-board-e-piece)
+      - [Comit da aula anterior](#comit-da-aula-anterior-1)
+      - [Checklist:](#checklist-4)
 
 ## Links úteis
 
@@ -5606,3 +5609,18 @@ Withdraw error: Not enough balance
   - Encapsulation
   - Constructors
   - toString (Object / overriding)
+
+### 183. Começando a implementar Board e Piece
+
+#### Comit da aula anterior
+
+[Código: 524e0248b0fefba6f5006fd005b5a8f935c75ef8](https://github.com/Alexandresl/curso-java-1/tree/524e0248b0fefba6f5006fd005b5a8f935c75ef8)
+
+#### Checklist:
+
+- Classes Piece, Board [public]
+- **OOP Topics**
+  - Associations
+  - Encapsulamento / Access Modifiers
+- **Data Structures Topics**
+  - Matrix
