@@ -435,6 +435,7 @@
       - [Sugestão para organização dos pacotes para o model](#sugestão-para-organização-dos-pacotes-para-o-model)
       - [Problema exemplo](#problema-exemplo-1)
     - [174. Primeira solução - muito ruim](#174-primeira-solução---muito-ruim)
+    - [175. Segunda solução - ruim](#175-segunda-solução---ruim)
 
 ## Links úteis
 
@@ -5465,4 +5466,19 @@ Error in reservation: Check-out date must be after check-in date
 
 ### 174. Primeira solução - muito ruim
 
+Nesta solução, a lógica de validação estão todas no programa principal, sem delegar a classe *reserva*.
+
 [Primeira solução](Workspace/aula174_Exemplo_001)
+
+### 175. Segunda solução - ruim
+
+Nesta solução, a lógica de validação é delegada para a classe reserva, contudo o método retorna uma String com o erro.
+
+- A semântica da operação é prejudicada
+  - retornar *String* não tem nada a ver com a atualização da reserva
+  - E se a operação tivesse que retornar uma String?
+- Ainda não é possível tratar exceções em construtores
+- Ainda não há auxílio do compilador: o programador deve "*lembrar*" de verificar se houve erro.
+- A lógica fica estruturada em condicionais aninhadas.
+
+[Segunda solução](Workspace/aula175_Exemplo_001)
