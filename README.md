@@ -453,6 +453,9 @@
     - [183. Começando a implementar Board e Piece](#183-começando-a-implementar-board-e-piece)
       - [Comit da aula anterior](#comit-da-aula-anterior-1)
       - [Checklist:](#checklist-4)
+    - [184. Camada Chess e imprimindo o tabuleiro](#184-camada-chess-e-imprimindo-o-tabuleiro)
+      - [Comit da aula anterior](#comit-da-aula-anterior-2)
+      - [Checklist](#checklist-5)
 
 ## Links úteis
 
@@ -5622,5 +5625,40 @@ Withdraw error: Not enough balance
 - **OOP Topics**
   - Associations
   - Encapsulamento / Access Modifiers
+- **Data Structures Topics**
+  - Matrix
+
+### 184. Camada Chess e imprimindo o tabuleiro
+
+#### Comit da aula anterior
+
+[Código: 12752585887c1cc0e2f71f033c0ceac14ea5f4d8](https://github.com/Alexandresl/curso-java-1/tree/12752585887c1cc0e2f71f033c0ceac14ea5f4d8)
+
+#### Checklist
+
+```powershell
+8 - - - - - - - -
+7 - - - - - - - -
+6 - - - - - - - -
+5 - - - - - - - -
+4 - - - - - - - -
+3 - - - - - - - -
+2 - - - - - - - -
+1 - - - - - - - -
+  a b c d e f g h
+  ```
+
+- Methods: Board.Piece(row, column) and Board.Piece(position)
+- Enum Chess.Color
+- Class Chess.ChessPiece [public]
+- Class Chess.ChassMatch [public]
+- Class ChessConsole.UI
+- **OOP Topics**
+  - Enumerations
+  - Encapsulation / Access Modifiers
+  - Inheritance
+  - Downcasting
+  - Static members
+  - Layers pattern
 - **Data Structures Topics**
   - Matrix
