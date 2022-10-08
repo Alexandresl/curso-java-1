@@ -460,6 +460,8 @@
       - [Checklist](#checklist-7)
     - [186. BoardException e programação defensiva](#186-boardexception-e-programação-defensiva)
       - [Checklist](#checklist-8)
+    - [187. ChessException e ChessPosition](#187-chessexception-e-chessposition)
+      - [Checklist](#checklist-9)
 
 ## Links úteis
 
@@ -2917,6 +2919,8 @@ Também chamados de **membros de classe** (*em oposição a membros de instânci
   - Declaração de constantes
 
 Um classe que possuí somente membros estáticos, pode ser uma classe estática também. Esta classe não poderá ser instanciada.
+
+Em um diagrama UML, as classes estáticas são representadas com um *underline*.
 
 #### Exemplo de uso
 
@@ -5697,3 +5701,18 @@ Este projeto estará em uma versão única no link abaixo, porém serão realiza
 - **OOP Topics**
   - Exceptions
   - Constructors (a String must be informed to the exception)
+
+### 187. ChessException e ChessPosition
+
+#### Checklist
+
+- Class ChessException [public]
+- Class chessPosition [public]
+- Refactor ChessMatch.InitialSetup
+- **OOP Topics**
+  - Exceptions
+  - Encapsulation
+  - Constructors (a string must be informed to the exception)
+  - Overriding
+  - Static members
+  - Layers pattern
