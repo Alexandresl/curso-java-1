@@ -454,23 +454,6 @@
       - [Checklist](#checklist-4)
     - [183. Começando a implementar Board e Piece](#183-começando-a-implementar-board-e-piece)
       - [Checklist](#checklist-5)
-<<<<<<< HEAD
-      - [Objetivo geral](#objetivo-geral)
-      - [Design do sistema (UML)](#design-do-sistema-uml)
-=======
-      - [Projeto do sistema](#projeto-do-sistema)
-    - [180. Material de apoio do capítulo](#180-material-de-apoio-do-capítulo)
-    - [181. Criando projeto e repositório Git](#181-criando-projeto-e-repositório-git)
-    - [182. Primeira classe - Position](#182-primeira-classe---position)
-      - [Comit da aula anterior](#comit-da-aula-anterior)
-      - [Checklist:](#checklist-3)
-    - [183. Começando a implementar Board e Piece](#183-começando-a-implementar-board-e-piece)
-      - [Comit da aula anterior](#comit-da-aula-anterior-1)
-      - [Checklist:](#checklist-4)
-    - [184. Camada Chess e imprimindo o tabuleiro](#184-camada-chess-e-imprimindo-o-tabuleiro)
-      - [Comit da aula anterior](#comit-da-aula-anterior-2)
-      - [Checklist](#checklist-5)
->>>>>>> daf8ff0b425bc42150175ca8d044bb8c4d9dd579
 
 ## Links úteis
 
