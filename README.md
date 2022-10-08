@@ -458,6 +458,8 @@
       - [Checklist](#checklist-6)
     - [185. Colocando peças no tabuleiro](#185-colocando-peças-no-tabuleiro)
       - [Checklist](#checklist-7)
+    - [186. BoardException e programação defensiva](#186-boardexception-e-programação-defensiva)
+      - [Checklist](#checklist-8)
 
 ## Links úteis
 
@@ -5684,3 +5686,14 @@ Este projeto estará em uma versão única no link abaixo, porém serão realiza
   - inheritance
   - Overriding
   - Polymorphism (toString)
+
+### 186. BoardException e programação defensiva
+
+#### Checklist
+
+- Class BoardException [public]
+- Methods: Board.PositionExists, Board.ThereIsAPlace
+- Implement defensive programming in Board Methods
+- **OOP Topics**
+  - Exceptions
+  - Constructors (a String must be informed to the exception)
