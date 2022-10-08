@@ -456,6 +456,8 @@
       - [Checklist](#checklist-5)
     - [184. Camada Chess e imprimindo o tabuleiro](#184-camada-chess-e-imprimindo-o-tabuleiro)
       - [Checklist](#checklist-6)
+    - [185. Colocando peças no tabuleiro](#185-colocando-peças-no-tabuleiro)
+      - [Checklist](#checklist-7)
 
 ## Links úteis
 
@@ -5670,3 +5672,15 @@ Este projeto estará em uma versão única no link abaixo, porém serão realiza
   - Layers pattern
 - **Data Structures Topics**
   - Matrix
+
+### 185. Colocando peças no tabuleiro
+
+#### Checklist
+
+- Method: Board.PlacePiece(peice, position)
+- Classes: Rock, Kink [public]
+- Method: ChessMatch.initialSetup
+- **OOP Topics:**
+  - inheritance
+  - Overriding
+  - Polymorphism (toString)
