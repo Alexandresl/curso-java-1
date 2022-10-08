@@ -452,6 +452,8 @@
       - [Checklist:](#checklist-3)
     - [182. Primeira classe - Position](#182-primeira-classe---position)
       - [Checklist](#checklist-4)
+    - [183. Começando a implementar Board e Piece](#183-começando-a-implementar-board-e-piece)
+      - [Checklist](#checklist-5)
 <<<<<<< HEAD
       - [Objetivo geral](#objetivo-geral)
       - [Design do sistema (UML)](#design-do-sistema-uml)
@@ -5642,3 +5644,13 @@ Este projeto estará em uma versão única no link abaixo, porém serão realiza
   - Constructors
   - toString (Object / Overriding)
 
+### 183. Começando a implementar Board e Piece
+
+#### Checklist
+
+- Classes Piece, Board [public]
+- **OOP Topics**
+  - Associations
+  - Encapsulation / Access Modifiers
+- **Data Structures Topics**
+  - Matrix
