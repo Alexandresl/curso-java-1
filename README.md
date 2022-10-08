@@ -454,6 +454,8 @@
       - [Checklist](#checklist-4)
     - [183. Começando a implementar Board e Piece](#183-começando-a-implementar-board-e-piece)
       - [Checklist](#checklist-5)
+    - [184. Camada Chess e imprimindo o tabuleiro](#184-camada-chess-e-imprimindo-o-tabuleiro)
+      - [Checklist](#checklist-6)
 
 ## Links úteis
 
@@ -5635,5 +5637,36 @@ Este projeto estará em uma versão única no link abaixo, porém serão realiza
 - **OOP Topics**
   - Associations
   - Encapsulation / Access Modifiers
+- **Data Structures Topics**
+  - Matrix
+
+### 184. Camada Chess e imprimindo o tabuleiro
+
+```java
+8 - - - - - - - -
+7 - - - - - - - -
+6 - - - - - - - -
+5 - - - - - - - -
+4 - - - - - - - -
+3 - - - - - - - -
+2 - - - - - - - -
+1 - - - - - - - -
+  a b c d e f g h
+```
+
+#### Checklist
+
+- Methods: Board.Piece(row, column) and Board.Piece(position)
+- Enum Chess.Color
+- Class Chess.ChessPiece [public]
+- Class Chess.ChassMatch [public]
+- Class ChessConsole.UI
+- **OOP Topics**
+  - Enumerations
+  - Encapsulation / Access Modifiers
+  - Inheritance
+  - Downcasting
+  - Static members
+  - Layers pattern
 - **Data Structures Topics**
   - Matrix
