@@ -462,6 +462,9 @@
       - [Checklist](#checklist-8)
     - [187. ChessException e ChessPosition](#187-chessexception-e-chessposition)
       - [Checklist](#checklist-9)
+    - [188. Pequena melhoria na impressão do tabuleiro](#188-pequena-melhoria-na-impressão-do-tabuleiro)
+      - [Color in terminal](#color-in-terminal)
+      - [Checklist](#checklist-10)
 
 ## Links úteis
 
@@ -5716,3 +5719,16 @@ Este projeto estará em uma versão única no link abaixo, porém serão realiza
   - Overriding
   - Static members
   - Layers pattern
+
+### 188. Pequena melhoria na impressão do tabuleiro
+
+#### Color in terminal
+
+Windows: git bash
+Mac: Google "osx terminal color"
+
+#### Checklist
+
+- Place more pieces on the board
+- Distinguish piece colors in UI PrintPiece method
+
