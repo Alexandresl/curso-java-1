@@ -479,6 +479,8 @@
       - [Checklist](#checklist-15)
     - [194. Implementando os movimentos possíveis do Rei](#194-implementando-os-movimentos-possíveis-do-rei)
       - [Checklist](#checklist-16)
+    - [195. Trocando de jogador a cada turno](#195-trocando-de-jogador-a-cada-turno)
+      - [Checklist](#checklist-17)
 
 ## Links úteis
 
@@ -5831,3 +5833,17 @@ public static void clearScreen() {
 - **OOP Topics**:
   - Encapsulation
   - Polymorphism
+
+### 195. Trocando de jogador a cada turno
+
+#### Checklist
+
+- Class ChessMatch:
+  - Properties Turn, CurrentPlayer [private set]
+  - Method NextTurn [private]
+  - Update PerformChessMove
+  - Update ValidadeSourcePosition
+- Method UI.PrintMatch
+- **OOP Topics**:
+  - Encapsulation
+  - Exceptions
