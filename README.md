@@ -482,6 +482,9 @@
     - [195. Trocando de jogador a cada turno](#195-trocando-de-jogador-a-cada-turno)
       - [Checklist](#checklist-17)
     - [196. Manipulando peças capturadas](#196-manipulando-peças-capturadas)
+    - [197. Lógica de xeque - PARTE 1](#197-lógica-de-xeque---parte-1)
+      - [Rules](#rules)
+      - [Checklist](#checklist-18)
 
 ## Links úteis
 
@@ -5863,3 +5866,22 @@ public static void clearScreen() {
   - Constructors
 - **Data Structures Topics**:
   - List
+
+### 197. Lógica de xeque - PARTE 1
+
+#### Rules
+
+- Check means your king is under threat by at least one opponet piece
+- You can't put yourself in check
+
+#### Checklist
+
+- Property ChessPiece.ChessPosition [get]
+- Class ChessMatch:
+  - Method UndoMove
+  - Property Check [private set]
+  - Method Opponent [private]
+  - Method King(color) [private]
+  - Method TestCheck
+  - Update PerformChessMove
+- Update UI.PrintMatch
