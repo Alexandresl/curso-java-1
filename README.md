@@ -465,6 +465,8 @@
     - [188. Pequena melhoria na impressão do tabuleiro](#188-pequena-melhoria-na-impressão-do-tabuleiro)
       - [Color in terminal](#color-in-terminal)
       - [Checklist](#checklist-10)
+    - [189. Movendo peças](#189-movendo-peças)
+      - [Checklist](#checklist-11)
 
 ## Links úteis
 
@@ -5731,4 +5733,18 @@ Mac: Google "osx terminal color"
 
 - Place more pieces on the board
 - Distinguish piece colors in UI PrintPiece method
+
+### 189. Movendo peças
+
+#### Checklist
+
+- Method Board.RemovePiece
+- Method UI.ReadChessPosition
+- Method ChessMatch.PerformChessMove
+  - Method ChessMatch.MakeMove
+  - Method ChessMatch.ValidadeSourcePosition
+- Write basic logic on Program.cs
+- **OOP Topics**
+  - Exceptions
+  - Encapsulation
 
