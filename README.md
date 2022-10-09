@@ -467,6 +467,9 @@
       - [Checklist](#checklist-10)
     - [189. Movendo peças](#189-movendo-peças)
       - [Checklist](#checklist-11)
+    - [190. Tratando exceções e limpando a tela](#190-tratando-exceções-e-limpando-a-tela)
+      - [Clear screen using Java](#clear-screen-using-java)
+      - [Checklist](#checklist-12)
 
 ## Links úteis
 
@@ -5733,6 +5736,7 @@ Mac: Google "osx terminal color"
 
 - Place more pieces on the board
 - Distinguish piece colors in UI PrintPiece method
+- Referência para inclusão das cores: [link](https://stackoverflow.com/questions/5762491/how-to-print-color-in-console-using-system-out-println)
 
 ### 189. Movendo peças
 
@@ -5748,3 +5752,20 @@ Mac: Google "osx terminal color"
   - Exceptions
   - Encapsulation
 
+### 190. Tratando exceções e limpando a tela
+
+#### Clear screen using Java
+
+Referência: [link](https://stackoverflow.com/questions/2979383/how-to-clear-the-console)
+
+```java
+public static void clearScreen() {
+  System.out.print("\033[H\033[2J"); 
+  System.out.flush();
+}
+```
+
+#### Checklist
+
+- ChessException
+- InputMismatchException
