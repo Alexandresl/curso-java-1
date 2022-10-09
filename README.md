@@ -481,6 +481,7 @@
       - [Checklist](#checklist-16)
     - [195. Trocando de jogador a cada turno](#195-trocando-de-jogador-a-cada-turno)
       - [Checklist](#checklist-17)
+    - [196. Manipulando peças capturadas](#196-manipulando-peças-capturadas)
 
 ## Links úteis
 
@@ -5847,3 +5848,18 @@ public static void clearScreen() {
 - **OOP Topics**:
   - Encapsulation
   - Exceptions
+
+### 196. Manipulando peças capturadas
+
+- Method UI.PrintCapturedPieces
+- Update UI.PrintMatch
+- Update Program logic
+- Lists in ChessMatch: _piecesOnTheBoard, _capturedPieces
+  - Update PlaceNewPiece
+  - Update constructor
+  - Update MakeMove
+- **OOP Topics**:
+  - Encapsulation
+  - Constructors
+- **Data Structures Topics**:
+  - List
