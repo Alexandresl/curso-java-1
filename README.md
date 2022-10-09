@@ -470,6 +470,8 @@
     - [190. Tratando exceções e limpando a tela](#190-tratando-exceções-e-limpando-a-tela)
       - [Clear screen using Java](#clear-screen-using-java)
       - [Checklist](#checklist-12)
+    - [191. Movimentos possíveis de uma peça](#191-movimentos-possíveis-de-uma-peça)
+      - [Checklist](#checklist-13)
 
 ## Links úteis
 
@@ -5769,3 +5771,19 @@ public static void clearScreen() {
 
 - ChessException
 - InputMismatchException
+
+### 191. Movimentos possíveis de uma peça
+
+![Demonstração](Recursos/images/aula191-img1.jpg)
+
+#### Checklist
+
+- Methods in Piece:
+  - PossibleMoves [abstract]
+  - PossibleMove
+  - IsThereAnyPossibleMove
+- Basic PossibleMove implementation for Rook and King
+- Update ChessMatch.ValidadeSourcePosition
+- **OOP Topics**:
+  - Abstract method / class
+  - Exceptions
