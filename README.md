@@ -477,6 +477,8 @@
       - [Checklist](#checklist-14)
     - [193. Imprimindo os movimentos possíveis](#193-imprimindo-os-movimentos-possíveis)
       - [Checklist](#checklist-15)
+    - [194. Implementando os movimentos possíveis do Rei](#194-implementando-os-movimentos-possíveis-do-rei)
+      - [Checklist](#checklist-16)
 
 ## Links úteis
 
@@ -5819,3 +5821,13 @@ public static void clearScreen() {
 - Refactor main program logic
 - **OOP Topics**:
   - Overloading
+
+### 194. Implementando os movimentos possíveis do Rei
+
+#### Checklist
+
+- Method King.CanMove(position) [private]
+- Implement King.PossibleMoves
+- **OOP Topics**:
+  - Encapsulation
+  - Polymorphism
