@@ -464,6 +464,7 @@
       - [Checklist](#checklist-9)
     - [188. Pequena melhoria na impressão do tabuleiro](#188-pequena-melhoria-na-impressão-do-tabuleiro)
       - [Color in terminal](#color-in-terminal)
+      - [Executando programa no terminal](#executando-programa-no-terminal)
       - [Checklist](#checklist-10)
     - [189. Movendo peças](#189-movendo-peças)
       - [Checklist](#checklist-11)
@@ -474,6 +475,8 @@
       - [Checklist](#checklist-13)
     - [192. Implementando movimentos possíveis da Torre](#192-implementando-movimentos-possíveis-da-torre)
       - [Checklist](#checklist-14)
+    - [193. Imprimindo os movimentos possíveis](#193-imprimindo-os-movimentos-possíveis)
+      - [Checklist](#checklist-15)
 
 ## Links úteis
 
@@ -5736,6 +5739,11 @@ Este projeto estará em uma versão única no link abaixo, porém serão realiza
 Windows: git bash
 Mac: Google "osx terminal color"
 
+#### Executando programa no terminal
+
+- Acessar a pasta **bin** na pasta do projeto. Exemplo: ```cd Projetos\curso-java-1\Workspace\aula181_Chess_System\bin```
+- Digitar o comando: ```java application/Program```
+
 #### Checklist
 
 - Place more pieces on the board
@@ -5801,3 +5809,13 @@ public static void clearScreen() {
   - Polymorphism
   - Encapsulation / access modifiers [protected]
   - Exceptions
+
+### 193. Imprimindo os movimentos possíveis
+
+#### Checklist
+
+- Method ChessMatch.PossibleMoves
+- Method UI.PrintBoard [overload]
+- Refactor main program logic
+- **OOP Topics**:
+  - Overloading
