@@ -472,6 +472,8 @@
       - [Checklist](#checklist-12)
     - [191. Movimentos possíveis de uma peça](#191-movimentos-possíveis-de-uma-peça)
       - [Checklist](#checklist-13)
+    - [192. Implementando movimentos possíveis da Torre](#192-implementando-movimentos-possíveis-da-torre)
+      - [Checklist](#checklist-14)
 
 ## Links úteis
 
@@ -5786,4 +5788,16 @@ public static void clearScreen() {
 - Update ChessMatch.ValidadeSourcePosition
 - **OOP Topics**:
   - Abstract method / class
+  - Exceptions
+
+### 192. Implementando movimentos possíveis da Torre
+
+#### Checklist
+
+- Method ChessPiece.IsThereOpponentPiece(position) [protected]
+- Implement Rook.PossibleMoves
+- Method ChessMatch.ValidateTargetPosition
+- **OOP Topics**:
+  - Polymorphism
+  - Encapsulation / access modifiers [protected]
   - Exceptions
