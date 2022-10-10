@@ -485,6 +485,7 @@
     - [197. Lógica de xeque - PARTE 1](#197-lógica-de-xeque---parte-1)
       - [Rules](#rules)
       - [Checklist](#checklist-18)
+    - [198. Lógica de xeque - PARTE 2](#198-lógica-de-xeque---parte-2)
 
 ## Links úteis
 
@@ -5885,3 +5886,6 @@ public static void clearScreen() {
   - Method TestCheck
   - Update PerformChessMove
 - Update UI.PrintMatch
+
+### 198. Lógica de xeque - PARTE 2
+
