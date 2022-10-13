@@ -488,6 +488,8 @@
     - [198. Lógica de xeque - PARTE 2](#198-lógica-de-xeque---parte-2)
     - [199. Lógica do xequemate](#199-lógica-do-xequemate)
       - [Checklist](#checklist-19)
+    - [200. Contagem de movimentos das peças](#200-contagem-de-movimentos-das-peças)
+      - [Checklist](#checklist-20)
 
 ## Links úteis
 
@@ -5902,3 +5904,16 @@ public static void clearScreen() {
 - Update UI.PrintMatch
 - Update Program logic
 
+### 200. Contagem de movimentos das peças
+
+#### Checklist
+
+- Class ChessPiece:
+  - Property MoveCount [private set]
+  - Method IncreaseMoveCount [internal]
+  - Method DecreaseMoveCount [internal]
+- Class ChessMatch:
+  - Update MakeMove
+  - Update UndoMove
+- **OOP Topics**:
+  - Encapsulation
