@@ -486,6 +486,8 @@
       - [Rules](#rules)
       - [Checklist](#checklist-18)
     - [198. Lógica de xeque - PARTE 2](#198-lógica-de-xeque---parte-2)
+    - [199. Lógica do xequemate](#199-lógica-do-xequemate)
+      - [Checklist](#checklist-19)
 
 ## Links úteis
 
@@ -5888,4 +5890,15 @@ public static void clearScreen() {
 - Update UI.PrintMatch
 
 ### 198. Lógica de xeque - PARTE 2
+
+### 199. Lógica do xequemate
+
+#### Checklist
+
+- Class ChessMatch:
+  - Property Checkmate [private set]
+  - Method TestCheckmate [private]
+  - Update PerformChessMove
+- Update UI.PrintMatch
+- Update Program logic
 
