@@ -494,6 +494,8 @@
       - [Checklist](#checklist-21)
     - [202. Bispo](#202-bispo)
       - [Checklist](#checklist-22)
+    - [203. Cavalo](#203-cavalo)
+      - [Checklist](#checklist-23)
 
 ## Links úteis
 
@@ -5938,6 +5940,17 @@ public static void clearScreen() {
 #### Checklist
 
 - Class Bishop
+- Update ChessMatch.InitialSetup
+- **OOP Topics**:
+  - Encapsulation
+  - Inheritance
+  - Polymorphism
+
+### 203. Cavalo
+
+#### Checklist
+
+- Class Knight
 - Update ChessMatch.InitialSetup
 - **OOP Topics**:
   - Encapsulation
