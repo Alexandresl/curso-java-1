@@ -492,6 +492,8 @@
       - [Checklist](#checklist-20)
     - [201. Peão](#201-peão)
       - [Checklist](#checklist-21)
+    - [202. Bispo](#202-bispo)
+      - [Checklist](#checklist-22)
 
 ## Links úteis
 
@@ -5926,7 +5928,18 @@ public static void clearScreen() {
 
 - Class Pawn
 - Update ChessMatch.InitialSetup
-- OOP Topics:
+- **OOP Topics**:
+  - Encapsulation
+  - Inheritance
+  - Polymorphism
+
+### 202. Bispo
+
+#### Checklist
+
+- Class Bishop
+- Update ChessMatch.InitialSetup
+- **OOP Topics**:
   - Encapsulation
   - Inheritance
   - Polymorphism
