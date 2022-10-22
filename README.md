@@ -496,6 +496,8 @@
       - [Checklist](#checklist-22)
     - [203. Cavalo](#203-cavalo)
       - [Checklist](#checklist-23)
+    - [204. Rainha](#204-rainha)
+      - [Checklist](#checklist-24)
 
 ## Links úteis
 
@@ -5951,6 +5953,17 @@ public static void clearScreen() {
 #### Checklist
 
 - Class Knight
+- Update ChessMatch.InitialSetup
+- **OOP Topics**:
+  - Encapsulation
+  - Inheritance
+  - Polymorphism
+
+### 204. Rainha
+
+#### Checklist
+
+- Class Queen
 - Update ChessMatch.InitialSetup
 - **OOP Topics**:
   - Encapsulation
