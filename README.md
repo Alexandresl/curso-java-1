@@ -507,6 +507,7 @@
     - [209. Jotada especial promoção](#209-jotada-especial-promoção)
       - [Checklist](#checklist-27)
     - [210. Atualização de compliance](#210-atualização-de-compliance)
+    - [211. Dando um tratamento melhor para a promoção](#211-dando-um-tratamento-melhor-para-a-promoção)
 
 ## Links úteis
 
@@ -6013,3 +6014,5 @@ public static void clearScreen() {
 - Update Program logic
 
 ### 210. Atualização de compliance
+
+### 211. Dando um tratamento melhor para a promoção
