@@ -506,6 +506,7 @@
     - [208. Jogada especial en passant - PARTE 2](#208-jogada-especial-en-passant---parte-2)
     - [209. Jotada especial promoção](#209-jotada-especial-promoção)
       - [Checklist](#checklist-27)
+    - [210. Atualização de compliance](#210-atualização-de-compliance)
 
 ## Links úteis
 
@@ -6009,4 +6010,6 @@ public static void clearScreen() {
 - Property ChessMatch.Promoted
 - Update ChessMatch.PerformChessMove
 - Method ChessMatch.ReplacePromotedPiece
-- Update Program logi
+- Update Program logic
+
+### 210. Atualização de compliance
