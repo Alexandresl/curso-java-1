@@ -504,6 +504,8 @@
     - [207. Jogada especial en passant - PARTE 1](#207-jogada-especial-en-passant---parte-1)
       - [Checklist](#checklist-26)
     - [208. Jogada especial en passant - PARTE 2](#208-jogada-especial-en-passant---parte-2)
+    - [209. Jotada especial promoção](#209-jotada-especial-promoção)
+      - [Checklist](#checklist-27)
 
 ## Links úteis
 
@@ -5999,3 +6001,12 @@ public static void clearScreen() {
 - Update ChessMatch.InitialSetup
 
 ### 208. Jogada especial en passant - PARTE 2
+
+### 209. Jotada especial promoção
+
+#### Checklist
+
+- Property ChessMatch.Promoted
+- Update ChessMatch.PerformChessMove
+- Method ChessMatch.ReplacePromotedPiece
+- Update Program logi
