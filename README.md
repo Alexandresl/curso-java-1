@@ -501,8 +501,9 @@
     - [205. Jogada especial Roque - PARTE 1](#205-jogada-especial-roque---parte-1)
       - [Checklist](#checklist-25)
     - [206. Jogada especial Roque - PARTE 2](#206-jogada-especial-roque---parte-2)
-    - [207. Jogda special en passant - PARTE 1](#207-jogda-special-en-passant---parte-1)
+    - [207. Jogada especial en passant - PARTE 1](#207-jogada-especial-en-passant---parte-1)
       - [Checklist](#checklist-26)
+    - [208. Jogada especial en passant - PARTE 2](#208-jogada-especial-en-passant---parte-2)
 
 ## Links úteis
 
@@ -5985,7 +5986,7 @@ public static void clearScreen() {
 
 ### 206. Jogada especial Roque - PARTE 2
 
-### 207. Jogda special en passant - PARTE 1
+### 207. Jogada especial en passant - PARTE 1
 
 #### Checklist
 
@@ -5996,3 +5997,5 @@ public static void clearScreen() {
 - Update ChessMatch.MakeMove
 - Update ChessMatch.UndoMove
 - Update ChessMatch.InitialSetup
+
+### 208. Jogada especial en passant - PARTE 2
