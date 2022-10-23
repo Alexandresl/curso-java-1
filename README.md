@@ -501,6 +501,8 @@
     - [205. Jogada especial Roque - PARTE 1](#205-jogada-especial-roque---parte-1)
       - [Checklist](#checklist-25)
     - [206. Jogada especial Roque - PARTE 2](#206-jogada-especial-roque---parte-2)
+    - [207. Jogda special en passant - PARTE 1](#207-jogda-special-en-passant---parte-1)
+      - [Checklist](#checklist-26)
 
 ## Links úteis
 
@@ -5982,3 +5984,15 @@ public static void clearScreen() {
 - Update ChessMatch.UndoMove
 
 ### 206. Jogada especial Roque - PARTE 2
+
+### 207. Jogda special en passant - PARTE 1
+
+#### Checklist
+
+- Register a pawn which can be captured by en passant on next turn
+  - Property ChessMatch.EnPassantVulnerable
+  - Update ChessMatch.PerformChessMove
+- Update Pawn.PossibleMoves
+- Update ChessMatch.MakeMove
+- Update ChessMatch.UndoMove
+- Update ChessMatch.InitialSetup
