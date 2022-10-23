@@ -500,6 +500,7 @@
       - [Checklist](#checklist-24)
     - [205. Jogada especial Roque - PARTE 1](#205-jogada-especial-roque---parte-1)
       - [Checklist](#checklist-25)
+    - [206. Jogada especial Roque - PARTE 2](#206-jogada-especial-roque---parte-2)
 
 ## Links úteis
 
@@ -5979,3 +5980,5 @@ public static void clearScreen() {
 - Update King
 - Update ChessMatch.MakeMove
 - Update ChessMatch.UndoMove
+
+### 206. Jogada especial Roque - PARTE 2
