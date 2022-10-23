@@ -498,6 +498,8 @@
       - [Checklist](#checklist-23)
     - [204. Rainha](#204-rainha)
       - [Checklist](#checklist-24)
+    - [205. Jogada especial Roque - PARTE 1](#205-jogada-especial-roque---parte-1)
+      - [Checklist](#checklist-25)
 
 ## Links úteis
 
@@ -5969,3 +5971,11 @@ public static void clearScreen() {
   - Encapsulation
   - Inheritance
   - Polymorphism
+
+### 205. Jogada especial Roque - PARTE 1
+
+#### Checklist
+
+- Update King
+- Update ChessMatch.MakeMove
+- Update ChessMatch.UndoMove
