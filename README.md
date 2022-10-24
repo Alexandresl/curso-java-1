@@ -510,6 +510,7 @@
     - [211. Dando um tratamento melhor para a promoção](#211-dando-um-tratamento-melhor-para-a-promoção)
   - [Seção 17: Trabalhando com arquivos](#seção-17-trabalhando-com-arquivos)
     - [212. Visão geral do capítulo trabalhando com arquivos](#212-visão-geral-do-capítulo-trabalhando-com-arquivos)
+    - [213. Material de apoio do capítulo](#213-material-de-apoio-do-capítulo)
 
 ## Links úteis
 
@@ -6022,3 +6023,7 @@ public static void clearScreen() {
 ## Seção 17: Trabalhando com arquivos
 
 ### 212. Visão geral do capítulo trabalhando com arquivos
+
+### 213. Material de apoio do capítulo
+
+[Material de apoio](Recursos/pdf/17-arquivos.pdf)
