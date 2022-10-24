@@ -508,6 +508,8 @@
       - [Checklist](#checklist-27)
     - [210. Atualização de compliance](#210-atualização-de-compliance)
     - [211. Dando um tratamento melhor para a promoção](#211-dando-um-tratamento-melhor-para-a-promoção)
+  - [Seção 17: Trabalhando com arquivos](#seção-17-trabalhando-com-arquivos)
+    - [212. Visão geral do capítulo trabalhando com arquivos](#212-visão-geral-do-capítulo-trabalhando-com-arquivos)
 
 ## Links úteis
 
@@ -6016,3 +6018,7 @@ public static void clearScreen() {
 ### 210. Atualização de compliance
 
 ### 211. Dando um tratamento melhor para a promoção
+
+## Seção 17: Trabalhando com arquivos
+
+### 212. Visão geral do capítulo trabalhando com arquivos
