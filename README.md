@@ -511,6 +511,8 @@
   - [Seção 17: Trabalhando com arquivos](#seção-17-trabalhando-com-arquivos)
     - [212. Visão geral do capítulo trabalhando com arquivos](#212-visão-geral-do-capítulo-trabalhando-com-arquivos)
     - [213. Material de apoio do capítulo](#213-material-de-apoio-do-capítulo)
+    - [214. Lendo arquivo texto com clesses File e Scanner](#214-lendo-arquivo-texto-com-clesses-file-e-scanner)
+      - [Classes](#classes)
 
 ## Links úteis
 
@@ -6027,3 +6029,15 @@ public static void clearScreen() {
 ### 213. Material de apoio do capítulo
 
 [Material de apoio](Recursos/pdf/17-arquivos.pdf)
+
+### 214. Lendo arquivo texto com clesses File e Scanner
+
+#### Classes
+
+- File - Representação abstrata de um arquivo e seu caminho. [Documentação](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/File.html)
+
+- Scanner - Leitor de texto. [Documentação](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Scanner.html)
+
+- IOException (Exception). [Documentação](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/IOException.html)
+
+[Exemplo 1](Workspace/aula214_Exemplo_001)
