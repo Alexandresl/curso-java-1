@@ -515,6 +515,7 @@
       - [Classes](#classes)
     - [215. FileReader e BufferedReader](#215-filereader-e-bufferedreader)
       - [Classes](#classes-1)
+    - [216. Bloco try-with-resources](#216-bloco-try-with-resources)
 
 ## Links úteis
 
@@ -6055,3 +6056,12 @@ public static void clearScreen() {
 - Diferenças entre as classes FileReader e BufferedReader. [Link](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/BufferedReader.html)
 
 [Exemplo 1](Workspace/aula215_Exemplo_001)
+
+### 216. Bloco try-with-resources
+
+- É um bloco *try* que declara um ou mais recursos, e garante que esses recursos serão fechados ao final do bloco.
+- Este recurso está disponível do Java 7 em diante.
+
+- [Documentação](https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html)
+
+[Exemplo 1](Workspace/aula216_Exemplo_002)
