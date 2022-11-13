@@ -513,6 +513,8 @@
     - [213. Material de apoio do capítulo](#213-material-de-apoio-do-capítulo)
     - [214. Lendo arquivo texto com clesses File e Scanner](#214-lendo-arquivo-texto-com-clesses-file-e-scanner)
       - [Classes](#classes)
+    - [215. FileReader e BufferedReader](#215-filereader-e-bufferedreader)
+      - [Classes](#classes-1)
 
 ## Links úteis
 
@@ -6041,3 +6043,15 @@ public static void clearScreen() {
 - IOException (Exception). [Documentação](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/IOException.html)
 
 [Exemplo 1](Workspace/aula214_Exemplo_001)
+
+### 215. FileReader e BufferedReader
+
+#### Classes
+
+- FileReader (stream de leitura de caracteres a partir de arquivos). [Documentação](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/FileReader.html)
+  
+- BufferedReader (mais rápidos). [Documentação](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/BufferedReader.html)
+
+- Diferenças entre as classes FileReader e BufferedReader. [Link](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/BufferedReader.html)
+
+[Exemplo 1](Workspace/aula215_Exemplo_001)

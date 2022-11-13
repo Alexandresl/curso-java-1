@@ -1,7 +1,5 @@
 package model.entities;
 
-import java.util.zip.DataFormatException;
-
 import model.exceptions.DomainException;
 
 public class Account {
