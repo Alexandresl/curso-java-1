@@ -516,6 +516,8 @@
     - [215. FileReader e BufferedReader](#215-filereader-e-bufferedreader)
       - [Classes](#classes-1)
     - [216. Bloco try-with-resources](#216-bloco-try-with-resources)
+    - [217. FileWriter e BufferedWriter](#217-filewriter-e-bufferedwriter)
+      - [Classes](#classes-2)
 
 ## Links úteis
 
@@ -6065,3 +6067,15 @@ public static void clearScreen() {
 - [Documentação](https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html)
 
 [Exemplo 1](Workspace/aula216_Exemplo_002)
+
+### 217. FileWriter e BufferedWriter
+
+#### Classes
+
+- FileWriter (stream de esc rita de caracteres em arquivos). [Documentação](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/FileWriter.html)
+  - Cria / recria o arquivo: ```new FileWriuter(path)```
+  - Acrescenta ao arquivo existente: ```new FileWriter(path, true)```
+
+- BufferedWriter (mais rápido). [Documentação](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/BufferedWriter.html)
+
+[Exemplo 1](Workspace/aula217_Exemplo_001)
