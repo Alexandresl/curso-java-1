@@ -519,6 +519,7 @@
     - [217. FileWriter e BufferedWriter](#217-filewriter-e-bufferedwriter)
       - [Classes](#classes-2)
     - [218. Manipulando pastas com File](#218-manipulando-pastas-com-file)
+    - [219. Informações do caminho do arquivo](#219-informações-do-caminho-do-arquivo)
 
 ## Links úteis
 
@@ -6084,3 +6085,7 @@ public static void clearScreen() {
 ### 218. Manipulando pastas com File
 
 [Exemplo 1](Workspace/aula218_Exemplo_001)
+
+### 219. Informações do caminho do arquivo
+
+[Exemplo 1](Workspace/aula219_Exemplo_001)
