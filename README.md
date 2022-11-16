@@ -518,6 +518,7 @@
     - [216. Bloco try-with-resources](#216-bloco-try-with-resources)
     - [217. FileWriter e BufferedWriter](#217-filewriter-e-bufferedwriter)
       - [Classes](#classes-2)
+    - [218. Manipulando pastas com File](#218-manipulando-pastas-com-file)
 
 ## Links úteis
 
@@ -6079,3 +6080,7 @@ public static void clearScreen() {
 - BufferedWriter (mais rápido). [Documentação](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/BufferedWriter.html)
 
 [Exemplo 1](Workspace/aula217_Exemplo_001)
+
+### 218. Manipulando pastas com File
+
+[Exemplo 1](Workspace/aula218_Exemplo_001)
